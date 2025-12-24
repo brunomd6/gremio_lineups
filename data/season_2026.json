@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "team": "Grêmio Foot-Ball Porto Alegrense",
+    "season": 2026
+  },
+
+  "roster": [
+    { "id": "grando", "nome": "Gabriel Grando", "numero": 12, "pos": "GK" },
+    { "id": "volpi", "nome": "Tiago Volpi", "numero": 1, "pos": "GK" },
+    { "id": "jorge", "nome": "Jorge", "numero": 31, "pos": "GK" },
+
+    { "id": "wagner", "nome": "Wagner Leonardo", "numero": 3, "pos": "CB" },
+    { "id": "noriega", "nome": "Erick Noriega", "numero": 19, "pos": "CB" },
+    { "id": "gustavo", "nome": "Gustavo Martins", "numero": 53, "pos": "CB" },
+    { "id": "balbuena", "nome": "Fabián Balbuena", "numero": 13, "pos": "CB" },
+    { "id": "ely", "nome": "Rodrigo Ely", "numero": 5, "pos": "CB" },
+    { "id": "jemerson", "nome": "Jemerson", "numero": 21, "pos": "CB" },
+    { "id": "kannemann", "nome": "Walter Kannemann", "numero": 4, "pos": "CB" },
+    { "id": "viery", "nome": "Viery", "numero": 44, "pos": "CB" },
+
+    { "id": "marlon", "nome": "Marlon", "numero": 23, "pos": "LB" },
+    { "id": "esteves", "nome": "Lucas Esteves", "numero": 25, "pos": "LB" },
+    { "id": "mayk", "nome": "Mayk", "numero": 0, "pos": "LB" },
+    { "id": "enzo", "nome": "Enzo", "numero": 30, "pos": "LB" },
+
+    { "id": "joaopedro", "nome": "João Pedro", "numero": 18, "pos": "RB" },
+    { "id": "joaolucas", "nome": "João Lucas", "numero": 2, "pos": "RB" },
+    { "id": "marcosrocha", "nome": "Marcos Rocha", "numero": 14, "pos": "RB" },
+
+    { "id": "villasanti", "nome": "Mathías Villasanti", "numero": 20, "pos": "DM" },
+    { "id": "arthur", "nome": "Arthur", "numero": 29, "pos": "DM" },
+    { "id": "cuellar", "nome": "Gustavo Cuéllar", "numero": 6, "pos": "DM" },
+    { "id": "camilo", "nome": "Camilo", "numero": 15, "pos": "DM" },
+    { "id": "dodi", "nome": "Dodi", "numero": 17, "pos": "DM" },
+    
+    { "id": "edenilson", "nome": "Edenílson", "numero": 8, "pos": "CM" },
+
+    { "id": "cristaldo", "nome": "Franco Cristaldo", "numero": 10, "pos": "AM" }
+    { "id": "monsalve", "nome": "Miguel Monsalve", "numero": 11, "pos": "AM" },
+    { "id": "riquelme", "nome": "Riquelme", "numero": 65, "pos": "AM" },
+    { "id": "mec", "nome": "Gabriel Mec", "numero": 37, "pos": "AM" },
+
+    { "id": "amuzu", "nome": "Francis Amuzu", "numero": 9, "pos": "LW" },
+    { "id": "aravena", "nome": "Alexander Aravena", "numero": 16, "pos": "LW" },
+    { "id": "willian", "nome": "Willian", "numero": 88, "pos": "LW" },
+
+    { "id": "pavon", "nome": "Cristian Pavón", "numero": 7, "pos": "RW" },
+
+    { "id": "carlosvinicius", "nome": "Carlos Vinícius", "numero": 95, "pos": "CF" },
+    { "id": "andrehenrique", "nome": "André Henrique", "numero": 77, "pos": "CF" },
+    { "id": "braithwaite", "nome": "Martin Braithwaite", "numero": 22, "pos": "CF" },    
+  ],
+
+  "matches": [
+    {
+      "id": "2026-01-11-gauchao-juventude",
+      "date": "2026-01-11",
+      "competition": "Gauchão",
+      "opponent": "Juventude",
+      "formation": "4-2-3-1",
+
+      "lineup": [
+        { "player": "marchesin", "x": 50, "y": 5 },
+        { "player": "geromel",   "x": 60, "y": 25 },
+        { "player": "kannemann", "x": 40, "y": 25 },
+        { "player": "villasanti","x": 50, "y": 50 }
+      ]
+    }
+  ]
+}
