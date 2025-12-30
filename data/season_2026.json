@@ -35,7 +35,7 @@
     
     { "id": "edenilson", "nome": "Edenílson", "numero": 8, "pos": "CM" },
 
-    { "id": "cristaldo", "nome": "Franco Cristaldo", "numero": 10, "pos": "AM" }
+    { "id": "cristaldo", "nome": "Franco Cristaldo", "numero": 10, "pos": "AM" },
     { "id": "monsalve", "nome": "Miguel Monsalve", "numero": 11, "pos": "AM" },
     { "id": "riquelme", "nome": "Riquelme", "numero": 65, "pos": "AM" },
     { "id": "mec", "nome": "Gabriel Mec", "numero": 37, "pos": "AM" },
@@ -48,7 +48,7 @@
 
     { "id": "carlosvinicius", "nome": "Carlos Vinícius", "numero": 95, "pos": "CF" },
     { "id": "andrehenrique", "nome": "André Henrique", "numero": 77, "pos": "CF" },
-    { "id": "braithwaite", "nome": "Martin Braithwaite", "numero": 22, "pos": "CF" },    
+    { "id": "braithwaite", "nome": "Martin Braithwaite", "numero": 22, "pos": "CF" }   
   ],
 
   "matches": [

@@ -1,68 +1,149 @@
-const players = [
-  { nome: "Marchesín", x: 50, y: 10 },
-  { nome: "Geromel", x: 60, y: 30 },
-  { nome: "Kannemann", x: 40, y: 30 },
-  { nome: "Villasanti", x: 50, y: 55 },
-  { nome: "Cristaldo", x: 50, y: 80 }
-];
+/* =========================================================
+   Globals
+   ========================================================= */
 
+let seasonData = null;
+let currentLineup = [];
 const svg = document.getElementById("pitch");
 
-players.forEach(p => {
+/* =========================================================
+   DOM Ready
+   ========================================================= */
+
+document.addEventListener("DOMContentLoaded", () => {
+  console.log("Editor loaded");
+  console.log("Roster element:", document.getElementById("rosterList"));
+
+  loadSeasonData();
+});
+
+/* =========================================================
+   Load JSON
+   ========================================================= */
+
+async function loadSeasonData() {
+  try {
+    const response = await fetch("../data/season_2026.json");
+    seasonData = await response.json();
+
+    console.log("Season data loaded:", seasonData);
+
+    renderRoster(seasonData.roster);
+  } catch (err) {
+    console.error("Failed to load season JSON:", err);
+  }
+}
+
+/* =========================================================
+   Roster (available players)
+   ========================================================= */
+
+function renderRoster(roster) {
+  const rosterEl = document.getElementById("rosterList");
+  rosterEl.innerHTML = "";
+
+  roster.forEach(player => {
+    const div = document.createElement("div");
+    div.className = "roster-player";
+    div.textContent = `${player.numero} — ${player.nome}`;
+    div.dataset.playerId = player.id;
+
+    div.addEventListener("click", () => {
+      addPlayerToPitch(player);
+    });
+
+    rosterEl.appendChild(div);
+  });
+}
+
+/* =========================================================
+   Pitch / Players
+   ========================================================= */
+
+function addPlayerToPitch(player) {
+  const instance = {
+    id: player.id,
+    nome: player.nome,
+    x: 50,
+    y: 75
+  };
+
+  currentLineup.push(instance);
+  drawPlayer(instance);
+}
+
+function drawPlayer(player) {
   const g = document.createElementNS("http://www.w3.org/2000/svg", "g");
   g.classList.add("player");
 
   const c = document.createElementNS("http://www.w3.org/2000/svg", "circle");
-  c.setAttribute("cx", p.x);
-  c.setAttribute("cy", p.y);
   c.setAttribute("r", 3);
   c.setAttribute("fill", "white");
 
   const t = document.createElementNS("http://www.w3.org/2000/svg", "text");
-  t.setAttribute("x", p.x);
-  t.setAttribute("y", p.y + 5);
   t.setAttribute("font-size", "3");
   t.setAttribute("text-anchor", "middle");
-  t.textContent = p.nome;
+  t.setAttribute("fill", "white");
+  t.textContent = player.nome;
 
   g.appendChild(c);
   g.appendChild(t);
   svg.appendChild(g);
 
-  enableDrag(g, p);
-});
+  updatePlayerPosition(g, player);
+  enableDrag(g, player);
+}
+
+function updatePlayerPosition(el, player) {
+  el.children[0].setAttribute("cx", player.x);
+  el.children[0].setAttribute("cy", player.y);
+  el.children[1].setAttribute("x", player.x);
+  el.children[1].setAttribute("y", player.y + 5);
+}
+
+/* =========================================================
+   Dragging
+   ========================================================= */
 
 function enableDrag(el, player) {
   let dragging = false;
 
-  el.addEventListener("mousedown", e => dragging = true);
+  el.addEventListener("mousedown", e => {
+    dragging = true;
+    e.stopPropagation();
+  });
+
   svg.addEventListener("mousemove", e => {
     if (!dragging) return;
 
     const pt = svg.createSVGPoint();
     pt.x = e.clientX;
     pt.y = e.clientY;
+
     const svgPt = pt.matrixTransform(svg.getScreenCTM().inverse());
 
     player.x = Math.max(0, Math.min(100, svgPt.x));
     player.y = Math.max(0, Math.min(150, svgPt.y));
 
-    el.children[0].setAttribute("cx", player.x);
-    el.children[0].setAttribute("cy", player.y);
-    el.children[1].setAttribute("x", player.x);
-    el.children[1].setAttribute("y", player.y + 5);
+    updatePlayerPosition(el, player);
   });
 
-  window.addEventListener("mouseup", () => dragging = false);
+  window.addEventListener("mouseup", () => {
+    dragging = false;
+  });
 }
 
-function exportYAML() {
-  let yaml = "jogadores:\n";
-  players.forEach(p => {
-    yaml += `  - nome: ${p.nome}\n`;
-    yaml += `    x: ${p.x.toFixed(1)}\n`;
-    yaml += `    y: ${p.y.toFixed(1)}\n`;
-  });
+/* =========================================================
+   Export lineup as JSON (optional)
+   ========================================================= */
 
-  document.getElementById("output").value = yaml;
+function exportLineup() {
+  const data = currentLineup.map(p => ({
+    player: p.id,
+    x: Number(p.x.toFixed(1)),
+    y: Number(p.y.toFixed(1))
+  }));
+
+  document.getElementById("output").value =
+    JSON.stringify(data, null, 2);
 }

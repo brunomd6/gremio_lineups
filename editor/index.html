@@ -3,54 +3,75 @@
 <head>
   <meta charset="UTF-8" />
   <title>Grêmio Lineup Editor</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      background: #111;
-      color: #eee;
-      display: flex;
-      gap: 20px;
-    }
 
-    svg {
-      background: #1f7a1f;
-      border: 2px solid #ccc;
-    }
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    .player {
-      cursor: grab;
-    }
-
-    textarea {
-      width: 350px;
-      height: 600px;
-      background: #222;
-      color: #0f0;
-      font-family: monospace;
-    }
-
-    button {
-      padding: 10px;
-      margin-top: 10px;
-      width: 100%;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
-<svg id="pitch" width="400" height="600" viewBox="0 0 100 150">
-  <!-- Pitch lines -->
-  <rect x="0" y="0" width="100" height="150" fill="none" stroke="white"/>
-  <line x1="0" y1="75" x2="100" y2="75" stroke="white"/>
-  <circle cx="50" cy="75" r="9.15" fill="none" stroke="white"/>
-</svg>
+  <header>
+    <h1>Grêmio Lineup Editor — 2026</h1>
+  </header>
 
-<div>
-  <h3>YAML Output</h3>
-  <textarea id="output"></textarea>
-  <button onclick="exportYAML()">Export YAML</button>
-</div>
+  <main class="layout">
 
-<script src="editor.js"></script>
+    <!-- Pitch -->
+    <section class="pitch-container">
+      <svg id="pitch"
+           viewBox="0 0 100 150"
+           width="450"
+           height="675"
+           role="img"
+           aria-label="Football pitch">
+
+        <!-- Grass -->
+        <rect x="0" y="0" width="100" height="150" fill="#1f7a1f"/>
+
+        <!-- Halfway line -->
+        <line x1="0" y1="75" x2="100" y2="75"
+              stroke="white" stroke-width="0.5"/>
+
+        <!-- Center circle -->
+        <circle cx="50" cy="75" r="9.15"
+                stroke="white" stroke-width="0.5" fill="none"/>
+
+        <!-- Center spot -->
+        <circle cx="50" cy="75" r="0.5" fill="white"/>
+
+      </svg>
+    </section>
+
+    <!-- Controls -->
+    <section class="controls">
+
+      <div class="control-group">
+        <label for="matchSelect">Match</label>
+        <select id="matchSelect"></select>
+      </div>
+
+      <div class="control-group">
+        <h3>Available players</h3>
+        <ul id="rosterList" class="roster"></ul>
+      </div>
+
+      <div class="control-group">
+        <button id="exportBtn">Export JSON</button>
+      </div>
+
+      <div class="control-group">
+        <label for="output">Updated season JSON</label>
+        <textarea id="output"
+                  rows="22"
+                  spellcheck="false"
+                  placeholder="Click “Export JSON” to see updated data here"></textarea>
+      </div>
+
+    </section>
+
+  </main>
+
+  <script src="editor.js"></script>
 </body>
 </html>

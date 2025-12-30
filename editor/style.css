@@ -1,0 +1,139 @@
+/* ================================
+   Global
+   ================================ */
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #f3f3f3;
+  color: #222;
+}
+
+/* ================================
+   Header
+   ================================ */
+
+header {
+  padding: 1rem 1.5rem;
+  background: #0b2d5c;
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+/* ================================
+   Layout
+   ================================ */
+
+.layout {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  align-items: flex-start;
+}
+
+.pitch-container {
+  flex: 0 0 auto;
+}
+
+/* ================================
+   Controls panel
+   ================================ */
+
+.controls {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.control-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.control-group h3 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* ================================
+   Inputs
+   ================================ */
+
+select,
+button,
+textarea {
+  font-family: inherit;
+  font-size: 0.9rem;
+}
+
+select,
+textarea {
+  padding: 0.4rem;
+}
+
+button {
+  padding: 0.5rem 0.8rem;
+  cursor: pointer;
+  background: #0b2d5c;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+button:hover {
+  background: #133b7a;
+}
+
+textarea {
+  resize: vertical;
+  font-family: monospace;
+}
+
+/* ================================
+   Roster list
+   ================================ */
+
+.roster {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 300px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ccc;
+}
+
+.roster li {
+  padding: 0.45rem 0.6rem;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.roster li:last-child {
+  border-bottom: none;
+}
+
+.roster li:hover {
+  background: #e6f0ff;
+}
+
+/* ================================
+   Players on pitch
+   ================================ */
+
+.player {
+  cursor: grab;
+}
+
+.player:active {
+  cursor: grabbing;
+}
