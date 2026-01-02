@@ -1,0 +1,43 @@
+data: 2026-01-11
+competicao: Gauchão
+adversario: Juventude
+formacao: 4-2-3-1
+
+campo:
+  orientacao: ataque-para-cima
+
+jogadores:
+  - nome: Marchesín
+    pos: GOL
+    x: 50
+    y: 5
+
+  - nome: João Pedro
+    pos: LD
+    x: 80
+    y: 25
+
+  - nome: Geromel
+    pos: ZAG
+    x: 60
+    y: 25
+
+  - nome: Kannemann
+    pos: ZAG
+    x: 40
+    y: 25
+
+  - nome: Reinaldo
+    pos: LE
+    x: 20
+    y: 25
+
+  - nome: Villasanti
+    pos: VOL
+    x: 55
+    y: 45
+
+  - nome: Pepê
+    pos: VOL
+    x: 45
+    y: 45
