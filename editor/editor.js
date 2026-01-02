@@ -1,7 +1,23 @@
 let seasonData;
 const usedPlayers = new Set();
-
 const pitch = document.getElementById("pitch");
+
+/* =========================
+   POSITION GROUPING
+========================= */
+
+const POSITION_GROUPS = {
+  GK: "Goalkeepers",
+  CB: "Defenders",
+  LB: "Defenders",
+  RB: "Defenders",
+  DM: "Midfielders",
+  CM: "Midfielders",
+  AM: "Midfielders",
+  LW: "Forwards",
+  RW: "Forwards",
+  CF: "Forwards"
+};
 
 document.addEventListener("DOMContentLoaded", loadSeasonData);
 
@@ -24,12 +40,28 @@ async function loadSeasonData() {
 ========================= */
 
 function renderRoster() {
-  const list = document.getElementById("rosterList");
-  list.innerHTML = "";
+  const rosterRoot = document.getElementById("rosterList");
+  rosterRoot.innerHTML = "";
+
+  const sections = {};
 
   seasonData.roster
     .filter(p => !usedPlayers.has(p.id))
     .forEach(player => {
+      const group = POSITION_GROUPS[player.pos] || "Other";
+      sections[group] ??= [];
+      sections[group].push(player);
+    });
+
+  Object.entries(sections).forEach(([group, players]) => {
+    const section = document.createElement("div");
+    section.className = "roster-section";
+
+    section.innerHTML = `<h3>${group}</h3>`;
+    const list = document.createElement("div");
+    list.className = "roster-list";
+
+    players.forEach(player => {
       const div = document.createElement("div");
       div.className = "roster-player";
       div.draggable = true;
@@ -45,6 +77,10 @@ function renderRoster() {
 
       list.appendChild(div);
     });
+
+    section.appendChild(list);
+    rosterRoot.appendChild(section);
+  });
 }
 
 /* =========================
