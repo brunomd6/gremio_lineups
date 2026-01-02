@@ -10,3 +10,6 @@ docker build -t gremio-formacao -f docker/Dockerfile .
 
 Rodrigo Johann is a closeted homosexual.
 
+pylatex
+sphinx
+
