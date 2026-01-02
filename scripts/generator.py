@@ -1,7 +1,7 @@
 import svgwrite
 import yaml
 
-with open("/app/lineups/11_01_2026 - Gremio vs .yml") as f:
+with open("lineups/11_01_2026 - Gremio vs .yml") as f:
     jogo = yaml.safe_load(f)
 
 dwg = svgwrite.Drawing("formacao.svg", size=("800px", "1200px"))
