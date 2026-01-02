@@ -1,4 +1,6 @@
 let seasonData;
+const usedPlayers = new Set();
+
 const pitch = document.getElementById("pitch");
 
 document.addEventListener("DOMContentLoaded", loadSeasonData);
@@ -11,7 +13,7 @@ async function loadSeasonData() {
   try {
     const res = await fetch("../data/season_2026.json");
     seasonData = await res.json();
-    renderRoster(seasonData.roster);
+    renderRoster();
   } catch (e) {
     console.error("Failed to load season JSON:", e);
   }
@@ -21,26 +23,28 @@ async function loadSeasonData() {
    ROSTER PANEL
 ========================= */
 
-function renderRoster(roster) {
+function renderRoster() {
   const list = document.getElementById("rosterList");
   list.innerHTML = "";
 
-  roster.forEach(player => {
-    const div = document.createElement("div");
-    div.className = "roster-player";
-    div.draggable = true;
+  seasonData.roster
+    .filter(p => !usedPlayers.has(p.id))
+    .forEach(player => {
+      const div = document.createElement("div");
+      div.className = "roster-player";
+      div.draggable = true;
 
-    div.innerHTML = `
-      <div class="shirt"></div>
-      <div>${player.nome}</div>
-    `;
+      div.innerHTML = `
+        <div class="shirt"></div>
+        <div>${player.nome}</div>
+      `;
 
-    div.addEventListener("dragstart", e => {
-      e.dataTransfer.setData("playerId", player.id);
+      div.addEventListener("dragstart", e => {
+        e.dataTransfer.setData("playerId", player.id);
+      });
+
+      list.appendChild(div);
     });
-
-    list.appendChild(div);
-  });
 }
 
 /* =========================
@@ -53,6 +57,8 @@ pitch.addEventListener("drop", e => {
   e.preventDefault();
 
   const playerId = e.dataTransfer.getData("playerId");
+  if (usedPlayers.has(playerId)) return;
+
   const player = seasonData.roster.find(p => p.id === playerId);
   if (!player) return;
 
@@ -62,6 +68,9 @@ pitch.addEventListener("drop", e => {
   const svgPt = pt.matrixTransform(pitch.getScreenCTM().inverse());
 
   createPlayerOnPitch(player, svgPt.x, svgPt.y);
+
+  usedPlayers.add(playerId);
+  renderRoster();
 });
 
 /* =========================
@@ -71,6 +80,7 @@ pitch.addEventListener("drop", e => {
 function createPlayerOnPitch(player, x, y) {
   const g = document.createElementNS("http://www.w3.org/2000/svg", "g");
   g.classList.add("player");
+  g.dataset.playerId = player.id;
 
   const c = document.createElementNS("http://www.w3.org/2000/svg", "circle");
   c.setAttribute("r", 3);
