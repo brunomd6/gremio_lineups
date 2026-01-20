@@ -1,60 +1,41 @@
-\documentclass{article}%
-\usepackage[T1]{fontenc}%
-\usepackage[utf8]{inputenc}%
-\usepackage{lmodern}%
-\usepackage{textcomp}%
-\usepackage{lastpage}%
-%
-\usepackage{graphicx}%
-\usepackage[percent]{overpic}%
-%
-\begin{document}%
-\normalsize%
-\section*{Grêmio 2026 — Lineups}%
-\subsection*{%
-Gauchão — 2026\{{-}\}01\{{-}\}10 — vs Avenida%
-}%
+\documentclass[11pt]{article}
+\usepackage[margin=1.5cm]{geometry}
+\usepackage{tikz}
+\usepackage{graphicx}
+\graphicspath{{../assets/}}
+\usepackage{fontspec}
+\setmainfont{Latin Modern Roman}
+\pagestyle{empty}
+\graphicspath{{../assets/}}
+\newcommand{\teamjersey}{}
 
+\newcommand{\player}[4]{%
+  \begin{scope}[shift={(#1,#2)}]
+    \node at (0,0) {\includegraphics[width=1.2cm]{\teamjersey}};
+    \node[font=\small\bfseries] at (0,0.9) {#3};
+    \node[font=\footnotesize] at (0,-0.9) {#4};
+  \end{scope}
+}
+
+\begin{document}
+\section*{Gauchão — Avenida (2026-01-10)}
+\textit{Estádio dos Eucaliptos · Formation 4-2-3-1}
+\vspace{0.5cm}
+\renewcommand{\teamjersey}{../assets/camisa/costas1.png}
 \begin{center}
-\begin{overpic}[width=0.8\textwidth]{../assets/pitch/pitch.png}
-%
-\put(50,5){\circle*{3}}%
-\put(70,30){\circle*{3}}%
-\put(60,25){\circle*{3}}%
-\put(40,25){\circle*{3}}%
-\put(30,30){\circle*{3}}%
-\put(60,50){\circle*{3}}%
-\put(40,50){\circle*{3}}%
-\put(50,65){\circle*{3}}%
-\put(65,75){\circle*{3}}%
-\put(25,75){\circle*{3}}%
-\put(50,85){\circle*{3}}%
-
-\end{overpic}
+\begin{tikzpicture}[x=0.1cm,y=0.1cm]
+\node at (50,75) {\includegraphics[width=10cm]{pitch/pitch.png}};
+\player{50}{145}{Gabriel Grando}{12}
+\player{70}{120}{Marcos Rocha}{14}
+\player{60}{125}{Gustavo Martins}{53}
+\player{40}{125}{Wagner Leonardo}{3}
+\player{30}{120}{Marlon}{23}
+\player{60}{100}{Arthur}{29}
+\player{40}{100}{Thiaguinho}{39}
+\player{50}{85}{Franco Cristaldo}{10}
+\player{65}{75}{Roger}{47}
+\player{25}{75}{Francis Amuzu}{9}
+\player{50}{65}{Carlos Vinícius}{95}
+\end{tikzpicture}
 \end{center}
-%
-\newpage%
-\subsection*{%
-Gauchão — 2026\{{-}\}01\{{-}\}14 — vs São José%
-}%
-
-\begin{center}
-\begin{overpic}[width=0.8\textwidth]{../assets/pitch/pitch.png}
-%
-\put(50,5){\circle*{3}}%
-\put(70,30){\circle*{3}}%
-\put(60,25){\circle*{3}}%
-\put(40,25){\circle*{3}}%
-\put(30,30){\circle*{3}}%
-\put(60,50){\circle*{3}}%
-\put(40,50){\circle*{3}}%
-\put(50,65){\circle*{3}}%
-\put(65,75){\circle*{3}}%
-\put(25,75){\circle*{3}}%
-\put(50,85){\circle*{3}}%
-
-\end{overpic}
-\end{center}
-%
-\newpage%
 \end{document}

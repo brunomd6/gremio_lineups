@@ -7,9 +7,9 @@
   "roster": [
     { "id": "grando", "nome": "Gabriel Grando", "numero": 12, "pos": "GK", "nacionalidade": "Brasil" },
     { "id": "volpi", "nome": "Tiago Volpi", "numero": 1, "pos": "GK", "nacionalidade": "Brasil" },
-    { "id": "weverton", "nome": "Weverton", "numero": 0, "pos": "GK", "nacionalidade": "Brasil"  },
-    { "id": "thiagobeltrame", "nome": "Thiago Beltrame", "numero": 0, "pos": "GK", "nacionalidade": "Brasil/Itália"  },
-    { "id": "gabrielmenegon", "nome": "Gabriel Menegon", "numero": 0, "pos": "GK", "nacionalidade": "Brasil"  },
+    { "id": "weverton", "nome": "Weverton", "numero": null, "pos": "GK", "nacionalidade": "Brasil"  },
+    { "id": "thiagobeltrame", "nome": "Thiago Beltrame", "numero": null, "pos": "GK", "nacionalidade": "Brasil/Itália"  },
+    { "id": "gabrielmenegon", "nome": "Gabriel Menegon", "numero": null, "pos": "GK", "nacionalidade": "Brasil"  },
 
     { "id": "wagner", "nome": "Wagner Leonardo", "numero": 3, "pos": "CB", "nacionalidade": "Brasil"  },
     { "id": "noriega", "nome": "Erick Noriega", "numero": 19, "pos": "CB", "nacionalidade": "Peru"  },
@@ -19,7 +19,7 @@
     { "id": "jemerson", "nome": "Jemerson", "numero": 21, "pos": "CB", "nacionalidade": "Brasil/Polônia" },
     { "id": "kannemann", "nome": "Walter Kannemann", "numero": 4, "pos": "CB", "nacionalidade": "Argentina/Itália"  },
     { "id": "viery", "nome": "Viery", "numero": 44, "pos": "CB", "nacionalidade": "Brasil"  },
-    { "id": "luiseduardo", "nome": "Luís Eduardo", "numero": 0, "pos": "CB", "nacionalidade": "Brasil"  },
+    { "id": "luiseduardo", "nome": "Luís Eduardo", "numero": null, "pos": "CB", "nacionalidade": "Brasil"  },
 
     { "id": "marlon", "nome": "Marlon", "numero": 23, "pos": "LB", "nacionalidade": "Brasil"  },
     { "id": "esteves", "nome": "Lucas Esteves", "numero": 25, "pos": "LB", "nacionalidade": "Brasil"  },
@@ -44,7 +44,7 @@
 
     { "id": "amuzu", "nome": "Francis Amuzu", "numero": 9, "pos": "LW", "nacionalidade": "gana/belgica" },
     { "id": "aravena", "nome": "Alexander Aravena", "numero": 16, "pos": "LW", "nacionalidade": "chile" },
-    { "id": "enamorado", "nome": "José Enamorado", "numero": 0, "pos": "LW", "nacionalidade": "colombia" },
+    { "id": "enamorado", "nome": "José Enamorado", "numero": null, "pos": "LW", "nacionalidade": "colombia" },
 
     { "id": "pavon", "nome": "Cristian Pavón", "numero": 7, "pos": "RW", "nacionalidade": "Argentina/Itália" },
     { "id": "tete", "nome": "Tetê", "numero": 21, "pos": "RW", "nacionalidade": "brasil" },
@@ -63,6 +63,7 @@
       "opponent": "Avenida",
       "formation": "4-2-3-1",
       "stadium": "Estádio dos Eucaliptos",
+      "jersey": "camisa/costas1.png",
 
       "lineup": [
         { "player": "grando", "x": 50, "y": 5 },

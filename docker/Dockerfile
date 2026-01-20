@@ -4,10 +4,13 @@ FROM python:3.12-slim
 RUN apt-get update && apt-get install -y \
     texlive-latex-base \
     texlive-latex-recommended \
-    texlive-latex-extra \
+    texlive-luatex \
     texlive-fonts-recommended \
+    texlive-fonts-extra \
+    texlive-latex-extra \
     latexmk \
-    && rm -rf /var/lib/apt/lists/*
+    && rm -rf /var/lib/apt/lists/* \
+    && luaotfload-tool -u
 
 # Set workdir
 WORKDIR /app
