@@ -1,5 +1,6 @@
 let seasonData;
 const usedPlayers = new Set();
+
 const pitch = document.getElementById("pitch");
 
 /* =========================
@@ -29,10 +30,28 @@ async function loadSeasonData() {
   try {
     const res = await fetch("../data/season_2026.json");
     seasonData = await res.json();
+
     renderRoster();
+    renderCalendar();
   } catch (e) {
     console.error("Failed to load season JSON:", e);
   }
+}
+
+/* =========================
+   CALENDAR
+========================= */
+
+function renderCalendar() {
+  const list = document.getElementById("matchList");
+  list.innerHTML = "";
+
+  seasonData.matches.forEach(match => {
+    const div = document.createElement("div");
+    div.className = "match-item";
+    div.textContent = `${match.date} – ${match.competition} vs ${match.opponent}`;
+    list.appendChild(div);
+  });
 }
 
 /* =========================

@@ -1,8 +1,12 @@
+* {
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+}
+
 body {
   margin: 0;
   background: #111;
-  color: white;
-  font-family: sans-serif;
+  color: #eee;
 }
 
 #app {
@@ -10,84 +14,91 @@ body {
   height: 100vh;
 }
 
-/* ===== ROSTER ===== */
+/* ===== Sidebar ===== */
 
-#roster {
-  width: 280px;
-  background: #1b1b1b;
+#sidebar {
+  width: 320px;
+  background: #1c1c1c;
   padding: 10px;
   overflow-y: auto;
+  border-right: 2px solid #333;
 }
 
-#roster h2 {
-  margin-top: 0;
+section {
+  margin-bottom: 20px;
 }
+
+h2, h3 {
+  margin: 8px 0;
+}
+
+/* ===== Calendar ===== */
+
+#matchList {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.match-item {
+  padding: 6px;
+  background: #2a2a2a;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* ===== Roster ===== */
 
 .roster-section {
-  margin-bottom: 16px;
-}
-
-.roster-section h3 {
-  margin: 6px 0;
-  font-size: 14px;
-  border-bottom: 1px solid #444;
-  padding-bottom: 2px;
+  margin-bottom: 12px;
 }
 
 .roster-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 6px;
 }
 
 .roster-player {
-  width: 70px;
+  width: 80px;
   text-align: center;
   cursor: grab;
 }
 
 .shirt {
-  width: 40px;
-  height: 40px;
-  background: #00a3ff;
-  border-radius: 6px 6px 12px 12px;
-  margin: 0 auto 4px;
+  width: 32px;
+  height: 32px;
+  margin: auto;
+  background: white;
+  border-radius: 6px;
 }
 
-/* ===== FIELD ===== */
+/* ===== Pitch ===== */
 
-#field {
+#pitch-container {
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#pitch-wrapper {
-  position: relative;
-  width: 420px;
-}
-
-#pitch-img {
-  width: 100%;
-  display: block;
-}
-
 #pitch {
-  position: absolute;
-  inset: 0;
+  width: 100%;
+  height: 100%;
+  max-width: 700px;
+  max-height: 100vh;
+  background: black;
 }
 
-/* ===== PLAYERS ===== */
+/* ===== Players on pitch ===== */
 
 .player circle {
   fill: white;
-  cursor: move;
 }
 
 .player text {
   fill: white;
-  font-size: 3px;
+  font-size: 4px;
   text-anchor: middle;
   pointer-events: none;
 }

@@ -7,7 +7,9 @@
   "roster": [
     { "id": "grando", "nome": "Gabriel Grando", "numero": 12, "pos": "GK" },
     { "id": "volpi", "nome": "Tiago Volpi", "numero": 1, "pos": "GK" },
-    { "id": "jorge", "nome": "Jorge", "numero": 31, "pos": "GK" },
+    { "id": "weverton", "nome": "Weverton", "numero": 0, "pos": "GK" },
+    { "id": "thiagobeltrame", "nome": "Thiago Beltrame", "numero": 0, "pos": "GK" },
+    { "id": "gabrielmenegon", "nome": "Gabriel Menegon", "numero": 0, "pos": "GK" },
 
     { "id": "wagner", "nome": "Wagner Leonardo", "numero": 3, "pos": "CB" },
     { "id": "noriega", "nome": "Erick Noriega", "numero": 19, "pos": "CB" },
@@ -17,14 +19,13 @@
     { "id": "jemerson", "nome": "Jemerson", "numero": 21, "pos": "CB" },
     { "id": "kannemann", "nome": "Walter Kannemann", "numero": 4, "pos": "CB" },
     { "id": "viery", "nome": "Viery", "numero": 44, "pos": "CB" },
+    { "id": "luiseduardo", "nome": "Luís Eduardo", "numero": 0, "pos": "CB" },
 
     { "id": "marlon", "nome": "Marlon", "numero": 23, "pos": "LB" },
     { "id": "esteves", "nome": "Lucas Esteves", "numero": 25, "pos": "LB" },
-    { "id": "mayk", "nome": "Mayk", "numero": 0, "pos": "LB" },
-    { "id": "enzo", "nome": "Enzo", "numero": 30, "pos": "LB" },
+    { "id": "caiopaulista", "nome": "Caio Paulista", "numero": 38, "pos": "LB" },
 
     { "id": "joaopedro", "nome": "João Pedro", "numero": 18, "pos": "RB" },
-    { "id": "joaolucas", "nome": "João Lucas", "numero": 2, "pos": "RB" },
     { "id": "marcosrocha", "nome": "Marcos Rocha", "numero": 14, "pos": "RB" },
 
     { "id": "villasanti", "nome": "Mathías Villasanti", "numero": 20, "pos": "DM" },
@@ -32,19 +33,23 @@
     { "id": "cuellar", "nome": "Gustavo Cuéllar", "numero": 6, "pos": "DM" },
     { "id": "camilo", "nome": "Camilo", "numero": 15, "pos": "DM" },
     { "id": "dodi", "nome": "Dodi", "numero": 17, "pos": "DM" },
-    
+    { "id": "thiaguinho", "nome": "Thiaguinho", "numero": 39, "pos": "DM"},
+
     { "id": "edenilson", "nome": "Edenílson", "numero": 8, "pos": "CM" },
 
     { "id": "cristaldo", "nome": "Franco Cristaldo", "numero": 10, "pos": "AM" },
     { "id": "monsalve", "nome": "Miguel Monsalve", "numero": 11, "pos": "AM" },
     { "id": "riquelme", "nome": "Riquelme", "numero": 65, "pos": "AM" },
     { "id": "mec", "nome": "Gabriel Mec", "numero": 37, "pos": "AM" },
+    { "id": "willian", "nome": "Willian", "numero": 88, "pos": "AM" },
 
     { "id": "amuzu", "nome": "Francis Amuzu", "numero": 9, "pos": "LW" },
     { "id": "aravena", "nome": "Alexander Aravena", "numero": 16, "pos": "LW" },
-    { "id": "willian", "nome": "Willian", "numero": 88, "pos": "LW" },
+    { "id": "enamorado", "nome": "José Enamorado", "numero": 0, "pos": "LW" },
 
     { "id": "pavon", "nome": "Cristian Pavón", "numero": 7, "pos": "RW" },
+    { "id": "tete", "nome": "Tetê", "numero": 21, "pos": "RW" },
+    { "id": "roger", "nome": "Roger", "numero": 47, "pos": "RW" },
 
     { "id": "carlosvinicius", "nome": "Carlos Vinícius", "numero": 95, "pos": "CF" },
     { "id": "andrehenrique", "nome": "André Henrique", "numero": 77, "pos": "CF" },
@@ -53,24 +58,48 @@
 
   "matches": [
     {
-      "id": "2026-01-11-gauchao-juventude",
-      "date": "2026-01-11",
+      "id": "2026-01-10-gauchao-avenida",
+      "date": "2026-01-10",
       "competition": "Gauchão",
-      "opponent": "Juventude",
+      "opponent": "Avenida",
       "formation": "4-2-3-1",
+      "stadium": "Estádio dos Eucaliptos",
 
       "lineup": [
         { "player": "grando", "x": 50, "y": 5 },
         { "player": "marcosrocha", "x": 70, "y": 30 },
-        { "player": "balbuena",   "x": 60, "y": 25 },
+        { "player": "gustavo",   "x": 60, "y": 25 },
         { "player": "wagner", "x": 40, "y": 25 },
         { "player": "marlon","x": 30, "y": 30 },
-        { "player": "arthur", "x": 40, "y": 50},
-        { "player": "cuellar", "x": 60, "y": 50},
+        { "player": "arthur", "x": 60, "y": 50},
+        { "player": "thiaguinho", "x": 40, "y": 50},
         { "player": "cristaldo", "x": 50, "y": 65},
-        { "player": "pavon", "x": 65, "y":  75},
+        { "player": "roger", "x": 65, "y":  75},
         { "player": "amuzu", "x": 25, "y":  75},
         { "player": "carlosvinicius", "x": 50, "y": 85}
+      ]
+    },
+
+    {
+      "id": "2026-01-14-gauchao-avenida",
+      "date": "2026-01-14",
+      "competition": "Gauchão",
+      "opponent": "São José",
+      "formation": "4-2-3-1",
+      "stadium": "Arena do Grêmio",
+
+      "lineup": [
+        { "player": "volpi", "x": 50, "y": 5 },
+        { "player": "joaopedro", "x": 70, "y": 30 },
+        { "player": "noriega",   "x": 60, "y": 25 },
+        { "player": "kannemann", "x": 40, "y": 25 },
+        { "player": "viery","x": 30, "y": 30 },
+        { "player": "cuellar", "x": 60, "y": 50},
+        { "player": "dodi", "x": 40, "y": 50},
+        { "player": "willian", "x": 50, "y": 65},
+        { "player": "aravena", "x": 65, "y":  75},
+        { "player": "mec", "x": 25, "y":  75},
+        { "player": "andrehenrique", "x": 50, "y": 85}
       ]
     }
   ]
