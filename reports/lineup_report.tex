@@ -2,18 +2,27 @@
 \usepackage[margin=1.5cm]{geometry}
 \usepackage{tikz}
 \usepackage{graphicx}
-\graphicspath{{../assets/}}
+\usepackage{tabularx}
 \usepackage{fontspec}
+\graphicspath{{../assets/}}
 \setmainfont{Latin Modern Roman}
 \pagestyle{empty}
-\graphicspath{{../assets/}}
 \newcommand{\teamjersey}{}
 
 \newcommand{\player}[4]{%
   \begin{scope}[shift={(#1,#2)}]
-    \node at (0,0) {\includegraphics[width=1.2cm]{\teamjersey}};
-    \node[font=\small\bfseries] at (0,0.9) {#3};
-    \node[font=\footnotesize] at (0,-0.9) {#4};
+
+    \node[anchor=center, inner sep=0] (shirt) at (0,0)
+      {\includegraphics[width=1.2cm]{\teamjersey}};
+      
+    % Name above shirt
+    \node[font=\small\bfseries, anchor=south]
+      at ([yshift=-2pt]shirt.north) {#3};
+      
+    % Number below shirt
+    \node[font=\footnotesize, anchor=north]
+      at ([yshift=2pt]shirt.south) {#4};
+
   \end{scope}
 }
 
@@ -23,19 +32,534 @@
 \vspace{0.5cm}
 \renewcommand{\teamjersey}{../assets/camisa/costas1.png}
 \begin{center}
-\begin{tikzpicture}[x=0.1cm,y=0.1cm]
-\node at (50,75) {\includegraphics[width=10cm]{pitch/pitch.png}};
-\player{50}{145}{Gabriel Grando}{12}
-\player{70}{120}{Marcos Rocha}{14}
-\player{60}{125}{Gustavo Martins}{53}
-\player{40}{125}{Wagner Leonardo}{3}
-\player{30}{120}{Marlon}{23}
-\player{60}{100}{Arthur}{29}
-\player{40}{100}{Thiaguinho}{39}
-\player{50}{85}{Franco Cristaldo}{10}
-\player{65}{75}{Roger}{47}
-\player{25}{75}{Francis Amuzu}{9}
-\player{50}{65}{Carlos Vinícius}{95}
+\begin{tikzpicture}
+\node[anchor=south west, inner sep=0] (pitch) at (0,0) {\includegraphics[width=12cm]{pitch/pitch.png}};
+\begin{scope}[x={(pitch.south east)}, y={(pitch.north west)}]
+\player{0.5}{0.11}{G. Grando}{12}
+\player{0.85}{0.3}{Marcos Rocha}{14}
+\player{0.65}{0.25}{G. Martins}{53}
+\player{0.35}{0.25}{Wagner L.}{3}
+\player{0.15}{0.3}{Marlon}{23}
+\player{0.6}{0.45}{Arthur}{29}
+\player{0.4}{0.45}{Tiaguinho}{39}
+\player{0.5}{0.6}{Cristaldo}{10}
+\player{0.8}{0.7}{Roger}{47}
+\player{0.2}{0.7}{Amuzu}{9}
+\player{0.5}{0.82}{C. Vinícius}{95}
+\end{scope}
 \end{tikzpicture}
 \end{center}
+\vspace{0.5cm}
+\begin{center}
+\begin{tabular}{ll}
+\textbf{Referee:} & Eduardo Fernandes Bastos \\
+\textbf{Assistant 1:} & Otavio Legramanti \\
+\textbf{Assistant 2:} & Paulo Ivan de Ávila da Silva \\
+\textbf{VAR:} & Jean Pierre Gonçalves Lima \\
+\end{tabular}
+\end{center}
+\vspace{0.5cm}
+\textbf{Bench:}
+\vspace{0.2cm}
+\begin{center}
+\begin{tabular}{cccccc}
+1 Volpi & 13 Balbuena & 4 Kannemann & 6 Cuéllar & 7 Pavón & 8 Edenílson \\
+16 Aravena & 17 Dodi & 18 João Pedro & 44 Viery & 65 Riquelme & 88 Willian \\
+\end{tabular}
+\end{center}
+\newpage
+\section*{Gauchão — São José (2026-01-14)}
+\textit{Arena do Grêmio · Formation 4-2-3-1}
+\vspace{0.5cm}
+\renewcommand{\teamjersey}{../assets/camisa/costas1.png}
+\begin{center}
+\begin{tikzpicture}
+\node[anchor=south west, inner sep=0] (pitch) at (0,0) {\includegraphics[width=12cm]{pitch/pitch.png}};
+\begin{scope}[x={(pitch.south east)}, y={(pitch.north west)}]
+\player{0.5}{0.11}{Volpi}{1}
+\player{0.85}{0.3}{João Pedro}{18}
+\player{0.65}{0.25}{Noriega}{19}
+\player{0.35}{0.25}{Kannemann}{4}
+\player{0.15}{0.3}{Viery}{44}
+\player{0.6}{0.45}{Cuéllar}{6}
+\player{0.4}{0.45}{Dodi}{17}
+\player{0.5}{0.6}{Willian}{88}
+\player{0.8}{0.75}{Aravena}{16}
+\player{0.2}{0.75}{Gabriel Mec}{37}
+\player{0.5}{0.82}{André H.}{77}
+\end{scope}
+\end{tikzpicture}
+\end{center}
+\vspace{0.5cm}
+\begin{center}
+\begin{tabular}{ll}
+\textbf{Referee:} & Elias da Silva Elyseu \\
+\textbf{Assistant 1:} & Michael Stanislau \\
+\textbf{Assistant 2:} & Jeissyevan Freitag Gonçalves \\
+\textbf{VAR:} & Anderson Da Silveira Farias \\
+\end{tabular}
+\end{center}
+\vspace{0.5cm}
+\textbf{Bench:}
+\vspace{0.2cm}
+\begin{center}
+\begin{tabular}{cccccc}
+12 G. Grando & 3 Wagner L. & 8 Edenílson & 9 Amuzu & 10 Cristaldo & 14 Marcos Rocha \\
+38 Caio Paulista &  Jefinho &  Luís Eduardo & 47 Roger & 95 C. Vinícius \\
+\end{tabular}
+\end{center}
+\newpage
+\section*{Gauchão — São Luiz (2026-01-17)}
+\textit{Arena do Grêmio · Formation 4-2-3-1}
+\vspace{0.5cm}
+\renewcommand{\teamjersey}{../assets/camisa/costas1.png}
+\begin{center}
+\begin{tikzpicture}
+\node[anchor=south west, inner sep=0] (pitch) at (0,0) {\includegraphics[width=12cm]{pitch/pitch.png}};
+\begin{scope}[x={(pitch.south east)}, y={(pitch.north west)}]
+\player{0.5}{0.11}{G. Grando}{12}
+\player{0.85}{0.3}{Marcos Rocha}{14}
+\player{0.65}{0.25}{G. Martins}{53}
+\player{0.35}{0.25}{Wagner L.}{3}
+\player{0.15}{0.3}{Caio Paulista}{38}
+\player{0.6}{0.45}{Tiaguinho}{39}
+\player{0.4}{0.45}{Arthur}{29}
+\player{0.5}{0.6}{Cristaldo}{10}
+\player{0.8}{0.7}{Tetê}{21}
+\player{0.2}{0.7}{Amuzu}{9}
+\player{0.5}{0.82}{C. Vinícius}{95}
+\end{scope}
+\end{tikzpicture}
+\end{center}
+\vspace{0.5cm}
+\begin{center}
+\begin{tabular}{ll}
+\textbf{Referee:} & Rafael Rodrigo Klein \\
+\textbf{Assistant 1:} & Maira Mastella Moreira \\
+\textbf{Assistant 2:} & Fábulo Oliveira Diniz \\
+\textbf{VAR:} & Rodrigo Brand da Silva \\
+\end{tabular}
+\end{center}
+\vspace{0.5cm}
+\textbf{Bench:}
+\vspace{0.2cm}
+\begin{center}
+\begin{tabular}{cccccc}
+12 G. Grando & 8 Edenílson & 17 Dodi & 18 João Pedro & 19 Noriega & 38 Caio Paulista \\
+ Jefinho &  Luís Eduardo & 47 Roger & 77 André H. & 88 Willian & 99 Enamorado \\
+\end{tabular}
+\end{center}
+\newpage
+\section*{Gauchão — Guarany de Bagé (2026-01-21)}
+\textit{Arena do Grêmio · Formation 4-2-3-1}
+\vspace{0.5cm}
+\renewcommand{\teamjersey}{../assets/camisa/costas1.png}
+\begin{center}
+\begin{tikzpicture}
+\node[anchor=south west, inner sep=0] (pitch) at (0,0) {\includegraphics[width=12cm]{pitch/pitch.png}};
+\begin{scope}[x={(pitch.south east)}, y={(pitch.north west)}]
+\player{0.5}{0.11}{Weverton}{1}
+\player{0.85}{0.3}{João Pedro}{18}
+\player{0.65}{0.25}{Luís Eduardo}{None}
+\player{0.35}{0.25}{Viery}{44}
+\player{0.15}{0.3}{Caio Paulista}{38}
+\player{0.6}{0.45}{Edenílson}{8}
+\player{0.4}{0.45}{Dodi}{17}
+\player{0.5}{0.6}{Willian}{88}
+\player{0.8}{0.7}{Roger}{47}
+\player{0.2}{0.7}{Enamorado}{99}
+\player{0.5}{0.82}{André H.}{77}
+\end{scope}
+\end{tikzpicture}
+\end{center}
+\vspace{0.5cm}
+\begin{center}
+\begin{tabular}{ll}
+\textbf{Referee:} & Rodrigo Brand da Silva \\
+\textbf{Assistant 1:} & Luiz Paulo Duarte Rodrigues \\
+\textbf{Assistant 2:} & Douglas Israel Paulo Vidarte \\
+\textbf{VAR:} & Érico Andrade de Carvalho \\
+\end{tabular}
+\end{center}
+\vspace{0.5cm}
+\textbf{Bench:}
+\vspace{0.2cm}
+\begin{center}
+\begin{tabular}{cccccc}
+12 G. Grando & 3 Wagner L. & 6 Cuéllar & 14 Marcos Rocha & 16 Aravena & 19 Noriega \\
+23 Marlon & 37 Gabriel Mec &  Jefinho & 65 Riquelme & 95 C. Vinícius \\
+\end{tabular}
+\end{center}
+\newpage
+\section*{Gauchão — Internacional (2026-01-25)}
+\textit{Arena do Grêmio · Formation 4-2-3-1}
+\vspace{0.5cm}
+\renewcommand{\teamjersey}{../assets/camisa/costas1.png}
+\begin{center}
+\begin{tikzpicture}
+\node[anchor=south west, inner sep=0] (pitch) at (0,0) {\includegraphics[width=12cm]{pitch/pitch.png}};
+\begin{scope}[x={(pitch.south east)}, y={(pitch.north west)}]
+\player{0.5}{0.11}{Weverton}{1}
+\player{0.85}{0.3}{Marcos Rocha}{14}
+\player{0.65}{0.25}{Noriega}{19}
+\player{0.35}{0.25}{Wagner L.}{3}
+\player{0.15}{0.3}{Marlon}{23}
+\player{0.6}{0.45}{Arthur}{29}
+\player{0.4}{0.45}{Tiaguinho}{39}
+\player{0.5}{0.6}{Cristaldo}{10}
+\player{0.8}{0.7}{Tetê}{21}
+\player{0.2}{0.7}{Amuzu}{9}
+\player{0.5}{0.82}{C. Vinícius}{95}
+\end{scope}
+\end{tikzpicture}
+\end{center}
+\vspace{0.5cm}
+\begin{center}
+\begin{tabular}{ll}
+\textbf{Referee:} & Lucas Guimarães Rechatiko Horn \\
+\textbf{Assistant 1:} & Tiago Augusto Kappes Diel \\
+\textbf{Assistant 2:} & Michael Stanislau \\
+\textbf{VAR:} & Jean Pierre Gonçalves Lima \\
+\end{tabular}
+\end{center}
+\vspace{0.5cm}
+\textbf{Bench:}
+\vspace{0.2cm}
+\begin{center}
+\begin{tabular}{cccccc}
+12 G. Grando & 8 Edenílson & 17 Dodi & 18 João Pedro & 37 Gabriel Mec & 38 Caio Paulista \\
+44 Viery & 47 Roger & 77 André H. & 88 Willian & 99 Enamorado \\
+\end{tabular}
+\end{center}
+\newpage
+\section*{Brasileirão — Fluminense (2026-01-28)}
+\textit{Estádio do Maracanã · Formation 4-2-3-1}
+\vspace{0.5cm}
+\renewcommand{\teamjersey}{../assets/camisa/costas1.png}
+\begin{center}
+\begin{tikzpicture}
+\node[anchor=south west, inner sep=0] (pitch) at (0,0) {\includegraphics[width=12cm]{pitch/pitch.png}};
+\begin{scope}[x={(pitch.south east)}, y={(pitch.north west)}]
+\player{0.5}{0.11}{Weverton}{1}
+\player{0.85}{0.3}{João Pedro}{18}
+\player{0.35}{0.25}{Wagner L.}{3}
+\player{0.15}{0.3}{Marlon}{23}
+\player{0.6}{0.45}{Arthur}{29}
+\player{0.8}{0.7}{Tetê}{21}
+\player{0.2}{0.7}{Amuzu}{9}
+\player{0.5}{0.82}{C. Vinícius}{95}
+\end{scope}
+\end{tikzpicture}
+\end{center}
+\vspace{0.5cm}
+\begin{center}
+\begin{tabular}{ll}
+\textbf{Referee:} &  \\
+\textbf{Assistant 1:} &  \\
+\textbf{Assistant 2:} &  \\
+\textbf{VAR:} &  \\
+\end{tabular}
+\end{center}
+\newpage
+\section*{Gauchão — Juventude (2026-01-31)}
+\textit{Estádio Alfredo Jaconi · Formation 4-2-3-1}
+\vspace{0.5cm}
+\renewcommand{\teamjersey}{../assets/camisa/costas1.png}
+\begin{center}
+\begin{tikzpicture}
+\node[anchor=south west, inner sep=0] (pitch) at (0,0) {\includegraphics[width=12cm]{pitch/pitch.png}};
+\begin{scope}[x={(pitch.south east)}, y={(pitch.north west)}]
+\player{0.5}{0.11}{G. Grando}{12}
+\player{0.85}{0.3}{Marcos Rocha}{14}
+\player{0.65}{0.25}{Balbuena}{13}
+\player{0.35}{0.25}{Viery}{44}
+\player{0.15}{0.3}{Caio Paulista}{38}
+\player{0.6}{0.45}{Noriega}{19}
+\player{0.4}{0.45}{Tiaguinho}{39}
+\player{0.5}{0.6}{Willian}{88}
+\player{0.8}{0.7}{Roger}{47}
+\player{0.2}{0.7}{Pavón}{7}
+\player{0.5}{0.82}{André H.}{77}
+\end{scope}
+\end{tikzpicture}
+\end{center}
+\vspace{0.5cm}
+\begin{center}
+\begin{tabular}{ll}
+\textbf{Referee:} & Eduardo Fernandes Bastos \\
+\textbf{Assistant 1:} & Jorge Eduardo Bernardi \\
+\textbf{Assistant 2:} & Maurício Coelho Silva Penna \\
+\textbf{VAR:} & Rodrigo Brand da Silva \\
+\end{tabular}
+\end{center}
+\vspace{0.5cm}
+\textbf{Bench:}
+\vspace{0.2cm}
+\begin{center}
+\begin{tabular}{cccccc}
+1 Weverton & 6 Cuéllar & 9 Amuzu & 10 Cristaldo & 11 Monsalve & 16 Aravena \\
+17 Dodi & 23 Marlon & 29 Arthur & 37 Gabriel Mec &  Luís Eduardo & 95 C. Vinícius \\
+\end{tabular}
+\end{center}
+\newpage
+\section*{Brasileirão — Botafogo (2026-02-04)}
+\textit{Arena do Grêmio · Formation 4-2-3-1}
+\vspace{0.5cm}
+\renewcommand{\teamjersey}{../assets/camisa/costas1.png}
+\begin{center}
+\begin{tikzpicture}
+\node[anchor=south west, inner sep=0] (pitch) at (0,0) {\includegraphics[width=12cm]{pitch/pitch.png}};
+\begin{scope}[x={(pitch.south east)}, y={(pitch.north west)}]
+\player{0.5}{0.11}{Weverton}{1}
+\player{0.85}{0.3}{João Pedro}{18}
+\player{0.65}{0.25}{Balbuena}{13}
+\player{0.35}{0.25}{Wagner L.}{3}
+\player{0.15}{0.3}{Marlon}{23}
+\player{0.6}{0.45}{Arthur}{29}
+\player{0.4}{0.45}{Noriega}{19}
+\player{0.5}{0.6}{Monsalve}{11}
+\player{0.8}{0.7}{Tetê}{21}
+\player{0.2}{0.7}{Pavón}{7}
+\player{0.5}{0.82}{C. Vinícius}{95}
+\end{scope}
+\end{tikzpicture}
+\end{center}
+\vspace{0.5cm}
+\begin{center}
+\begin{tabular}{ll}
+\textbf{Referee:} &  \\
+\textbf{Assistant 1:} &  \\
+\textbf{Assistant 2:} &  \\
+\textbf{VAR:} &  \\
+\end{tabular}
+\end{center}
+\newpage
+\section*{Gauchão — Novo Hamburgo (2026-02-08)}
+\textit{Arena do Grêmio · Formation 4-2-3-1}
+\vspace{0.5cm}
+\renewcommand{\teamjersey}{../assets/camisa/costas1.png}
+\begin{center}
+\begin{tikzpicture}
+\node[anchor=south west, inner sep=0] (pitch) at (0,0) {\includegraphics[width=12cm]{pitch/pitch.png}};
+\begin{scope}[x={(pitch.south east)}, y={(pitch.north west)}]
+\player{0.5}{0.11}{Weverton}{1}
+\player{0.85}{0.3}{Marcos Rocha}{14}
+\player{0.65}{0.25}{G. Martins}{53}
+\player{0.35}{0.25}{Wagner L.}{3}
+\player{0.15}{0.3}{Caio Paulista}{38}
+\player{0.6}{0.45}{Edenílson}{8}
+\player{0.4}{0.45}{Noriega}{19}
+\player{0.5}{0.6}{Willian}{88}
+\player{0.8}{0.7}{Roger}{47}
+\player{0.2}{0.7}{Amuzu}{9}
+\player{0.5}{0.82}{C. Vinícius}{95}
+\end{scope}
+\end{tikzpicture}
+\end{center}
+\vspace{0.5cm}
+\begin{center}
+\begin{tabular}{ll}
+\textbf{Referee:} & Rafael Rodrigo Klein \\
+\textbf{Assistant 1:} & Rafael da Silva Alves \\
+\textbf{Assistant 2:} & Estefani Adriati Estrela da Rosa \\
+\textbf{VAR:} & Daniel Nobre Bins \\
+\end{tabular}
+\end{center}
+\vspace{0.5cm}
+\textbf{Bench:}
+\vspace{0.2cm}
+\begin{center}
+\begin{tabular}{cccccc}
+12 G. Grando & 4 Kannemann & 10 Cristaldo & 16 Aravena & 17 Dodi & 23 Marlon \\
+37 Gabriel Mec &  Jefinho & 44 Viery & 77 André H. & 99 Enamorado \\
+\end{tabular}
+\end{center}
+\newpage
+\section*{Brasileirão — São Paulo (2026-02-11)}
+\textit{Estádio do Morumbi · Formation 4-2-3-1}
+\vspace{0.5cm}
+\renewcommand{\teamjersey}{../assets/camisa/costas1.png}
+\begin{center}
+\begin{tikzpicture}
+\node[anchor=south west, inner sep=0] (pitch) at (0,0) {\includegraphics[width=12cm]{pitch/pitch.png}};
+\begin{scope}[x={(pitch.south east)}, y={(pitch.north west)}]
+\player{0.5}{0.11}{Weverton}{1}
+\player{0.85}{0.3}{João Pedro}{18}
+\player{0.65}{0.25}{Balbuena}{13}
+\player{0.35}{0.25}{Wagner L.}{3}
+\player{0.15}{0.3}{Marlon}{23}
+\player{0.6}{0.45}{Noriega}{19}
+\player{0.4}{0.45}{Arthur}{29}
+\player{0.5}{0.6}{Edenílson}{8}
+\player{0.8}{0.7}{Tetê}{21}
+\player{0.2}{0.7}{Amuzu}{9}
+\player{0.5}{0.82}{C. Vinícius}{95}
+\end{scope}
+\end{tikzpicture}
+\end{center}
+\vspace{0.5cm}
+\begin{center}
+\begin{tabular}{ll}
+\textbf{Referee:} &  \\
+\textbf{Assistant 1:} &  \\
+\textbf{Assistant 2:} &  \\
+\textbf{VAR:} &  \\
+\end{tabular}
+\end{center}
+\newpage
+\section*{Gauchão — Juventude (2026-02-15)}
+\textit{Arena do Grêmio · Formation 4-2-3-1}
+\vspace{0.5cm}
+\renewcommand{\teamjersey}{../assets/camisa/costas1.png}
+\begin{center}
+\begin{tikzpicture}
+\node[anchor=south west, inner sep=0] (pitch) at (0,0) {\includegraphics[width=12cm]{pitch/pitch.png}};
+\begin{scope}[x={(pitch.south east)}, y={(pitch.north west)}]
+\player{0.5}{0.11}{Weverton}{1}
+\player{0.85}{0.3}{João Pedro}{18}
+\player{0.65}{0.25}{Balbuena}{13}
+\player{0.35}{0.25}{Viery}{44}
+\player{0.15}{0.3}{Marlon}{23}
+\player{0.6}{0.45}{Dodi}{17}
+\player{0.4}{0.45}{Arthur}{29}
+\player{0.5}{0.6}{Willian}{88}
+\player{0.8}{0.7}{Tetê}{21}
+\player{0.2}{0.7}{Pavón}{7}
+\player{0.5}{0.82}{C. Vinícius}{95}
+\end{scope}
+\end{tikzpicture}
+\end{center}
+\vspace{0.5cm}
+\begin{center}
+\begin{tabular}{ll}
+\textbf{Referee:} & Wagner Silveira Echevarria \\
+\textbf{Assistant 1:} & Juarez de Mello Júnior \\
+\textbf{Assistant 2:} & Otávio Legramanti \\
+\textbf{VAR:} & Marcello Ignacio Domingues Neto \\
+\end{tabular}
+\end{center}
+\vspace{0.5cm}
+\textbf{Bench:}
+\vspace{0.2cm}
+\begin{center}
+\begin{tabular}{cccccc}
+12 G. Grando & 4 Kannemann & 6 Cuéllar & 10 Cristaldo & 14 Marcos Rocha & 37 Gabriel Mec \\
+38 Caio Paulista &  Jefinho & 77 André H. & 99 Enamorado \\
+\end{tabular}
+\end{center}
+\newpage
+\section*{Gauchão — Juventude (2026-02-22)}
+\textit{Estádio Alfredo Jaconi · Formation 4-2-3-1}
+\vspace{0.5cm}
+\renewcommand{\teamjersey}{../assets/camisa/costas1.png}
+\begin{center}
+\begin{tikzpicture}
+\node[anchor=south west, inner sep=0] (pitch) at (0,0) {\includegraphics[width=12cm]{pitch/pitch.png}};
+\begin{scope}[x={(pitch.south east)}, y={(pitch.north west)}]
+\player{0.5}{0.11}{Weverton}{1}
+\player{0.85}{0.3}{João Pedro}{18}
+\player{0.65}{0.25}{Balbuena}{13}
+\player{0.35}{0.25}{Viery}{44}
+\player{0.15}{0.3}{Marlon}{23}
+\player{0.68}{0.52}{Dodi}{17}
+\player{0.5}{0.42}{Noriega}{19}
+\player{0.32}{0.52}{Arthur}{29}
+\player{0.8}{0.7}{Pavón}{7}
+\player{0.2}{0.7}{Amuzu}{9}
+\player{0.5}{0.82}{C. Vinícius}{95}
+\end{scope}
+\end{tikzpicture}
+\end{center}
+\vspace{0.5cm}
+\begin{center}
+\begin{tabular}{ll}
+\textbf{Referee:} & Rafael Rodrigo Klein \\
+\textbf{Assistant 1:} & Jorge Eduardo Bernardi \\
+\textbf{Assistant 2:} & Fagner Bueno Cortes \\
+\textbf{VAR:} & Jean Pierre Gonçalves Lima \\
+\end{tabular}
+\end{center}
+\vspace{0.5cm}
+\textbf{Bench:}
+\vspace{0.2cm}
+\begin{center}
+\begin{tabular}{cccccc}
+12 G. Grando & 3 Wagner L. & 4 Kannemann & 14 Marcos Rocha & 37 Gabriel Mec & 38 Caio Paulista \\
+ Jefinho & 65 Riquelme & 77 André H. & 99 Enamorado \\
+\end{tabular}
+\end{center}
+\newpage
+\section*{Brasileirão — Atlético MG (2026-02-25)}
+\textit{Arena do Grêmio · Formation 4-2-3-1}
+\vspace{0.5cm}
+\renewcommand{\teamjersey}{../assets/camisa/costas1.png}
+\begin{center}
+\begin{tikzpicture}
+\node[anchor=south west, inner sep=0] (pitch) at (0,0) {\includegraphics[width=12cm]{pitch/pitch.png}};
+\begin{scope}[x={(pitch.south east)}, y={(pitch.north west)}]
+\player{0.5}{0.11}{Weverton}{1}
+\player{0.85}{0.3}{Pavón}{7}
+\player{0.65}{0.25}{G. Martins}{53}
+\player{0.35}{0.25}{Viery}{44}
+\player{0.15}{0.3}{Marlon}{23}
+\player{0.6}{0.45}{Nardoni}{5}
+\player{0.4}{0.45}{Noriega}{19}
+\player{0.5}{0.6}{Gabriel Mec}{37}
+\player{0.8}{0.7}{Enamorado}{99}
+\player{0.2}{0.7}{Amuzu}{9}
+\player{0.5}{0.82}{C. Vinícius}{95}
+\end{scope}
+\end{tikzpicture}
+\end{center}
+\vspace{0.5cm}
+\begin{center}
+\begin{tabular}{ll}
+\textbf{Referee:} &  \\
+\textbf{Assistant 1:} &  \\
+\textbf{Assistant 2:} &  \\
+\textbf{VAR:} &  \\
+\end{tabular}
+\end{center}
+\newpage
+\section*{Brasileirão — Internacional (2026-03-01)}
+\textit{Arena do Grêmio · Formation 4-2-3-1}
+\vspace{0.5cm}
+\renewcommand{\teamjersey}{../assets/camisa/costas1.png}
+\begin{center}
+\begin{tikzpicture}
+\node[anchor=south west, inner sep=0] (pitch) at (0,0) {\includegraphics[width=12cm]{pitch/pitch.png}};
+\begin{scope}[x={(pitch.south east)}, y={(pitch.north west)}]
+\player{0.5}{0.11}{Weverton}{1}
+\player{0.85}{0.3}{Pavón}{7}
+\player{0.65}{0.25}{G. Martins}{53}
+\player{0.35}{0.25}{Viery}{44}
+\player{0.15}{0.3}{Marlon}{23}
+\player{0.6}{0.45}{Arthur}{29}
+\player{0.4}{0.45}{Noriega}{19}
+\player{0.5}{0.6}{Monsalve}{11}
+\player{0.8}{0.7}{Enamorado}{99}
+\player{0.2}{0.7}{Amuzu}{9}
+\player{0.5}{0.82}{C. Vinícius}{95}
+\end{scope}
+\end{tikzpicture}
+\end{center}
+\vspace{0.5cm}
+\begin{center}
+\begin{tabular}{ll}
+\textbf{Referee:} & Anderson Daronco \\
+\textbf{Assistant 1:} & Rafael da Silva Alves \\
+\textbf{Assistant 2:} & Michael Stanislau \\
+\textbf{VAR:} & Daniel Nobre Bins \\
+\end{tabular}
+\end{center}
+\vspace{0.5cm}
+\textbf{Bench:}
+\vspace{0.2cm}
+\begin{center}
+\begin{tabular}{cccccc}
+12 G. Grando & 3 Wagner L. & 4 Kannemann & 88 Willian & 14 Marcos Rocha & 17 Dodi \\
+21 Tetê & 37 Gabriel Mec & 38 Caio Paulista & 47 Roger & 77 André H. \\
+\end{tabular}
+\end{center}
+\newpage
 \end{document}

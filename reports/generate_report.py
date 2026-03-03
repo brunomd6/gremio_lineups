@@ -20,8 +20,8 @@ with open(DATA_FILE, "r", encoding="utf-8") as f:
 
 roster = {p["id"]: p for p in season["roster"]}
 
-# Choose match (for now: first one)
-match = season["matches"][0]
+# Choose match
+match = season["matches"]
 
 # =========================
 # LATEX HELPERS
@@ -44,13 +44,12 @@ lines.append(r"\documentclass[11pt]{article}")
 lines.append(r"\usepackage[margin=1.5cm]{geometry}")
 lines.append(r"\usepackage{tikz}")
 lines.append(r"\usepackage{graphicx}")
-lines.append(r"\graphicspath{{../assets/}}")
+lines.append(r"\usepackage{tabularx}")
 lines.append(r"\usepackage{fontspec}")
+
+lines.append(r"\graphicspath{{../assets/}}")
 lines.append(r"\setmainfont{Latin Modern Roman}")
 lines.append(r"\pagestyle{empty}")
-
-# 🔑 Assets live in ../assets relative to /app/reports
-lines.append(r"\graphicspath{{../assets/}}")
 
 lines.append(r"\newcommand{\teamjersey}{}")
 
@@ -58,66 +57,119 @@ lines.append(r"\newcommand{\teamjersey}{}")
 lines.append(r"""
 \newcommand{\player}[4]{%
   \begin{scope}[shift={(#1,#2)}]
-    \node at (0,0) {\includegraphics[width=1.2cm]{\teamjersey}};
-    \node[font=\small\bfseries] at (0,0.9) {#3};
-    \node[font=\footnotesize] at (0,-0.9) {#4};
+
+    \node[anchor=center, inner sep=0] (shirt) at (0,0)
+      {\includegraphics[width=1.2cm]{\teamjersey}};
+      
+    % Name above shirt
+    \node[font=\small\bfseries, anchor=south]
+      at ([yshift=-2pt]shirt.north) {#3};
+      
+    % Number below shirt
+    \node[font=\footnotesize, anchor=north]
+      at ([yshift=2pt]shirt.south) {#4};
+
   \end{scope}
 }
 """)
 
+matches = season["matches"]
+
 lines.append(r"\begin{document}")
 
-# =========================
-# TITLE
-# =========================
+for match in matches:
 
-title = f"{match['competition']} — {match['opponent']} ({match['date']})"
-subtitle = f"{match['stadium']} · Formation {match['formation']}"
+    competition = match.get("competition", "Unknown Competition")
+    opponent = match.get("opponent", "Unknown Opponent")
+    date = match.get("date", "Unknown Date")
 
-lines.append(rf"\section*{{{latex_escape(title)}}}")
-lines.append(rf"\textit{{{latex_escape(subtitle)}}}")
-lines.append(r"\vspace{0.5cm}")
+    title = f"{competition} — {opponent} ({date})"
+    subtitle = f"{match['stadium']} · Formation {match['formation']}"
 
-# =========================
-# JERSEY
-# =========================
+    lines.append(rf"\section*{{{latex_escape(title)}}}")
+    lines.append(rf"\textit{{{latex_escape(subtitle)}}}")
+    lines.append(r"\vspace{0.5cm}")
 
-raw_jersey = match.get("jersey", "camisa/costas1.png")
+    raw_jersey = match.get("jersey", "camisa/costas1.png")
+    jersey_path = Path("../assets") / raw_jersey.lstrip("/").replace("\\", "/")
+    lines.append(rf"\renewcommand{{\teamjersey}}{{{jersey_path.as_posix()}}}")
 
-# Force jersey path to be relative to /app/reports
-jersey_path = Path("../assets") / raw_jersey.lstrip("/").replace("\\", "/")
-
-lines.append(rf"\renewcommand{{\teamjersey}}{{{jersey_path.as_posix()}}}")
-
-
-
-# =========================
-# PITCH + PLAYERS
-# =========================
-
-lines.append(r"\begin{center}")
-lines.append(r"\begin{tikzpicture}[x=0.1cm,y=0.1cm]")
-
-# NOTE: no "assets/" prefix anymore
-lines.append(r"\node at (50,75) {\includegraphics[width=10cm]{pitch/pitch.png}};")
-
-for slot in match["lineup"]:
-    player = roster[slot["player"]]
-
-    x = slot["x"]
-    y = 150 - slot["y"]  # invert Y for TikZ
-
-    name = latex_escape(player["nome"])
-    number = player["numero"]
+    lines.append(r"\begin{center}")
+    lines.append(r"\begin{tikzpicture}")
 
     lines.append(
-        rf"\player{{{x}}}{{{y}}}{{{name}}}{{{number}}}"
+        r"\node[anchor=south west, inner sep=0] (pitch) at (0,0) "
+        r"{\includegraphics[width=12cm]{pitch/pitch.png}};"
     )
 
-lines.append(r"\end{tikzpicture}")
-lines.append(r"\end{center}")
+    lines.append(
+        r"\begin{scope}[x={(pitch.south east)}, y={(pitch.north west)}]"
+    )
+
+    for slot in match["lineup"]:
+        player = roster[slot["player"]]
+
+        x = slot["x"] / 100
+        y = slot["y"] / 100
+
+        name = latex_escape(player["nome"])
+        number = player["numero"]
+
+        lines.append(
+            rf"\player{{{x}}}{{{y}}}{{{name}}}{{{number}}}"
+        )
+
+    lines.append(r"\end{scope}")
+    lines.append(r"\end{tikzpicture}")
+    lines.append(r"\end{center}")
+
+    officials = match.get("officials", {})
+
+    if officials:
+        lines.append(r"\vspace{0.5cm}")
+        lines.append(r"\begin{center}")
+        lines.append(r"\begin{tabular}{ll}")
+        lines.append(r"\textbf{Referee:} & " + latex_escape(officials.get("referee", "-")) + r" \\")
+        lines.append(r"\textbf{Assistant 1:} & " + latex_escape(officials.get("assistant1", "-")) + r" \\")
+        lines.append(r"\textbf{Assistant 2:} & " + latex_escape(officials.get("assistant2", "-")) + r" \\")
+        lines.append(r"\textbf{VAR:} & " + latex_escape(officials.get("var", "-")) + r" \\")
+        lines.append(r"\end{tabular}")
+        lines.append(r"\end{center}")
+
+    bench_ids = match.get("bench", [])
+
+    if bench_ids:
+        lines.append(r"\vspace{0.5cm}")
+        lines.append(r"\textbf{Bench:}")
+        lines.append(r"\vspace{0.2cm}")
+        lines.append(r"\begin{center}")
+        lines.append(r"\begin{tabular}{cccccc}")
+
+        row = []
+        for i, pid in enumerate(bench_ids):
+            player = roster.get(pid)
+            if not player:
+                continue
+
+            name = latex_escape(player["nome"])
+            number = player["numero"] if player["numero"] else ""
+
+            row.append(f"{number} {name}")
+
+            if len(row) == 6:
+                lines.append(" & ".join(row) + r" \\")
+                row = []
+
+        if row:
+            lines.append(" & ".join(row) + r" \\")
+
+        lines.append(r"\end{tabular}")
+        lines.append(r"\end{center}")
+
+    lines.append(r"\newpage")   # 👈 one formation per page
 
 lines.append(r"\end{document}")
+
 
 # =========================
 # WRITE FILE

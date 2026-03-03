@@ -5,54 +5,53 @@
   },
 
   "roster": [
-    { "id": "grando", "nome": "Gabriel Grando", "numero": 12, "pos": "GK", "nacionalidade": "Brasil" },
-    { "id": "volpi", "nome": "Tiago Volpi", "numero": 1, "pos": "GK", "nacionalidade": "Brasil" },
-    { "id": "weverton", "nome": "Weverton", "numero": null, "pos": "GK", "nacionalidade": "Brasil"  },
-    { "id": "thiagobeltrame", "nome": "Thiago Beltrame", "numero": null, "pos": "GK", "nacionalidade": "Brasil/Itália"  },
-    { "id": "gabrielmenegon", "nome": "Gabriel Menegon", "numero": null, "pos": "GK", "nacionalidade": "Brasil"  },
+    { "id": "grando", "nome": "G. Grando", "nome_completo": "Gabriel Grando", "numero": 12, "pos": "GK", "nacionalidade": "Brasil" },
+    { "id": "volpi", "nome": "Volpi", "nome_completo": "Tiago Volpi", "numero": 1, "pos": "GK", "nacionalidade": "Brasil" },
+    { "id": "weverton", "nome": "Weverton", "nome_completo": "Weverton", "numero": 1, "pos": "GK", "nacionalidade": "Brasil"  },
+    { "id": "thiagobeltrame", "nome": "Thiago Beltrame", "nome_completo": "Thiago Beltrame", "numero": null, "pos": "GK", "nacionalidade": "Brasil/Itália"  },
+    { "id": "gabrielmenegon", "nome": "Gabriel Menegon", "nome_completo": "Gabriel Menegon", "numero": null, "pos": "GK", "nacionalidade": "Brasil"  },
 
-    { "id": "wagner", "nome": "Wagner Leonardo", "numero": 3, "pos": "CB", "nacionalidade": "Brasil"  },
-    { "id": "noriega", "nome": "Erick Noriega", "numero": 19, "pos": "CB", "nacionalidade": "Peru"  },
-    { "id": "gustavo", "nome": "Gustavo Martins", "numero": 53, "pos": "CB", "nacionalidade": "Brasil"},
-    { "id": "balbuena", "nome": "Fabián Balbuena", "numero": 13, "pos": "CB", "nacionalidade": "Paraguai"},
-    { "id": "ely", "nome": "Rodrigo Ely", "numero": 5, "pos": "CB", "nacionalidade": "Brasil/Itália"  },
-    { "id": "jemerson", "nome": "Jemerson", "numero": 21, "pos": "CB", "nacionalidade": "Brasil/Polônia" },
-    { "id": "kannemann", "nome": "Walter Kannemann", "numero": 4, "pos": "CB", "nacionalidade": "Argentina/Itália"  },
-    { "id": "viery", "nome": "Viery", "numero": 44, "pos": "CB", "nacionalidade": "Brasil"  },
-    { "id": "luiseduardo", "nome": "Luís Eduardo", "numero": null, "pos": "CB", "nacionalidade": "Brasil"  },
+    { "id": "wagner", "nome": "Wagner L.", "nome_completo": "Wagner Leonardo", "numero": 3, "pos": "CB", "nacionalidade": "Brasil"  },
+    { "id": "noriega", "nome": "Noriega", "nome_completo": "Erick Noriega", "numero": 19, "pos": "CB", "nacionalidade": "Peru"  },
+    { "id": "gustavo", "nome": "G. Martins", "nome_completo": "Gustavo Martins", "numero": 53, "pos": "CB", "nacionalidade": "Brasil"},
+    { "id": "balbuena", "nome": "Balbuena", "nome_completo": "Fabián Balbuena", "numero": 13, "pos": "CB", "nacionalidade": "Paraguai"},
+    { "id": "kannemann", "nome": "Kannemann", "nome_completo": "Walter Kannemann", "numero": 4, "pos": "CB", "nacionalidade": "Argentina/Itália"  },
+    { "id": "viery", "nome": "Viery", "nome_completo": "Viery", "numero": 44, "pos": "CB", "nacionalidade": "Brasil"  },
+    { "id": "luiseduardo", "nome": "Luís Eduardo", "nome_completo": "Luís Eduardo", "numero": null, "pos": "CB", "nacionalidade": "Brasil"  },
 
-    { "id": "marlon", "nome": "Marlon", "numero": 23, "pos": "LB", "nacionalidade": "Brasil"  },
-    { "id": "esteves", "nome": "Lucas Esteves", "numero": 25, "pos": "LB", "nacionalidade": "Brasil"  },
-    { "id": "caiopaulista", "nome": "Caio Paulista", "numero": 38, "pos": "LB", "nacionalidade": "Brasil"  },
+    { "id": "marlon", "nome": "Marlon", "nome_completo": "Marlon", "numero": 23, "pos": "LB", "nacionalidade": "Brasil"  },
+    { "id": "caiopaulista", "nome": "Caio Paulista", "nome_completo": "Caio Paulista", "numero": 38, "pos": "LB", "nacionalidade": "Brasil"  },
 
-    { "id": "joaopedro", "nome": "João Pedro", "numero": 18, "pos": "RB", "nacionalidade": "Brasil"  },
-    { "id": "marcosrocha", "nome": "Marcos Rocha", "numero": 14, "pos": "RB", "nacionalidade": "Brasil" },
+    { "id": "joaopedro", "nome": "João Pedro", "nome_completo": "João Pedro", "numero": 18, "pos": "RB", "nacionalidade": "Brasil"  },
+    { "id": "marcosrocha", "nome": "Marcos Rocha", "nome_completo": "Marcos Rocha", "numero": 14, "pos": "RB", "nacionalidade": "Brasil" },
 
-    { "id": "villasanti", "nome": "Mathías Villasanti", "numero": 20, "pos": "DM", "nacionalidade": "Paraguai"  },
-    { "id": "arthur", "nome": "Arthur", "numero": 29, "pos": "DM", "nacionalidade": "Brasil"  },
-    { "id": "cuellar", "nome": "Gustavo Cuéllar", "numero": 6, "pos": "DM", "nacionalidade": "Equador"  },
-    { "id": "dodi", "nome": "Dodi", "numero": 17, "pos": "DM", "nacionalidade": "Brasil"},
-    { "id": "thiaguinho", "nome": "Thiaguinho", "numero": 39, "pos": "DM", "nacionalidade": "Brasil"},
+    { "id": "villasanti", "nome": "Villasanti", "nome_completo": "Mathías Villasanti", "numero": 20, "pos": "DM", "nacionalidade": "Paraguai"  },
+    { "id": "arthur", "nome": "Arthur", "nome_completo": "Arthur Melo", "numero": 29, "pos": "DM", "nacionalidade": "Brasil"  },
+    { "id": "cuellar", "nome": "Cuéllar", "nome_completo": "Gustavo Cuéllar", "numero": 6, "pos": "DM", "nacionalidade": "Equador"  },
+    { "id": "dodi", "nome": "Dodi", "nome_completo": "Dodi", "numero": 17, "pos": "DM", "nacionalidade": "Brasil"},
+    { "id": "thiaguinho", "nome": "Tiaguinho", "nome_completo": "Tiago", "numero": 39, "pos": "DM", "nacionalidade": "Brasil"},
+    { "id": "nardoni", "nome": "Nardoni", "nome_completo": "Juan Nardoni", "numero": 5, "pos": "DM", "nacionalidade": "Argentina"},
+    { "id": "jefinho", "nome": "Jefinho", "nome_completo": "Jeferson Forneck", "numero": null, "pos": "DM", "nacionalidade": "Brasil"},
 
-    { "id": "edenilson", "nome": "Edenílson", "numero": 8, "pos": "CM", "nacionalidade": "Brasil" },
+    { "id": "edenilson", "nome": "Edenílson", "nome_completo": "Edenílson", "numero": 8, "pos": "CM", "nacionalidade": "Brasil" },
 
-    { "id": "cristaldo", "nome": "Franco Cristaldo", "numero": 10, "pos": "AM", "nacionalidade": "Argentina/Paraguai" },
-    { "id": "monsalve", "nome": "Miguel Monsalve", "numero": 11, "pos": "AM", "nacionalidade": "colombia" },
-    { "id": "riquelme", "nome": "Riquelme", "numero": 65, "pos": "AM", "nacionalidade": "Brasil" },
-    { "id": "mec", "nome": "Gabriel Mec", "numero": 37, "pos": "AM", "nacionalidade": "Brasil" },
-    { "id": "willian", "nome": "Willian", "numero": 88, "pos": "AM", "nacionalidade": "Brasil" },
+    { "id": "cristaldo", "nome": "Cristaldo", "nome_completo": "Franco Cristaldo", "numero": 10, "pos": "AM", "nacionalidade": "Argentina/Paraguai" },
+    { "id": "monsalve", "nome": "Monsalve", "nome_completo": "Miguel Monsalve", "numero": 11, "pos": "AM", "nacionalidade": "colombia" },
+    { "id": "riquelme", "nome": "Riquelme", "nome_completo": "Riquelme", "numero": 65, "pos": "AM", "nacionalidade": "Brasil" },
+    { "id": "mec", "nome": "Gabriel Mec", "nome_completo": "Gabriel Mec", "numero": 37, "pos": "AM", "nacionalidade": "Brasil" },
+    { "id": "willian", "nome": "Willian", "nome_completo": "Willian", "numero": 88, "pos": "AM", "nacionalidade": "Brasil" },
 
-    { "id": "amuzu", "nome": "Francis Amuzu", "numero": 9, "pos": "LW", "nacionalidade": "gana/belgica" },
-    { "id": "aravena", "nome": "Alexander Aravena", "numero": 16, "pos": "LW", "nacionalidade": "chile" },
-    { "id": "enamorado", "nome": "José Enamorado", "numero": null, "pos": "LW", "nacionalidade": "colombia" },
+    { "id": "amuzu", "nome": "Amuzu", "nome_completo": "Francis Amuzu", "numero": 9, "pos": "LW", "nacionalidade": "gana/belgica" },
+    { "id": "aravena", "nome": "Aravena", "nome_completo": "Alexander Aravena", "numero": 16, "pos": "LW", "nacionalidade": "chile" },
+    { "id": "enamorado", "nome": "Enamorado", "nome_completo": "José Enamorado", "numero": 99, "pos": "LW", "nacionalidade": "colombia" },
 
-    { "id": "pavon", "nome": "Cristian Pavón", "numero": 7, "pos": "RW", "nacionalidade": "Argentina/Itália" },
-    { "id": "tete", "nome": "Tetê", "numero": 21, "pos": "RW", "nacionalidade": "brasil" },
-    { "id": "roger", "nome": "Roger", "numero": 47, "pos": "RW", "nacionalidade": "Brasil" },
+    { "id": "pavon", "nome": "Pavón", "nome_completo": "Cristian Pavón", "numero": 7, "pos": "RW", "nacionalidade": "Argentina/Itália" },
+    { "id": "tete", "nome": "Tetê", "nome_completo": "Tetê", "numero": 21, "pos": "RW", "nacionalidade": "brasil" },
+    { "id": "roger", "nome": "Roger", "nome_completo": "Roger", "numero": 47, "pos": "RW", "nacionalidade": "Brasil" },
 
-    { "id": "carlosvinicius", "nome": "Carlos Vinícius", "numero": 95, "pos": "CF", "nacionalidade": "Brasil" },
-    { "id": "andrehenrique", "nome": "André Henrique", "numero": 77, "pos": "CF", "nacionalidade": "Brasil" },
-    { "id": "braithwaite", "nome": "Martin Braithwaite", "numero": 22, "pos": "CF", "nacionalidade": "dinamarca/guiana" }   
+    { "id": "carlosvinicius", "nome": "C. Vinícius", "nome_completo": "Carlos Vinícius", "numero": 95, "pos": "CF", "nacionalidade": "Brasil" },
+    { "id": "andrehenrique", "nome": "André H.", "nome_completo": "André Henrique", "numero": 77, "pos": "CF", "nacionalidade": "Brasil" },
+    { "id": "braithwaite", "nome": "Braithwaite", "nome_completo": "Martin Braithwaite", "numero": 22, "pos": "CF", "nacionalidade": "dinamarca/guiana" }   
   ],
 
   "matches": [
@@ -64,42 +63,561 @@
       "formation": "4-2-3-1",
       "stadium": "Estádio dos Eucaliptos",
       "jersey": "camisa/costas1.png",
+      "goals_for": 4,
+      "goals_against": 0,
+
+      "officials": {
+      "referee": "Eduardo Fernandes Bastos",
+      "assistant1": "Otavio Legramanti",
+      "assistant2": "Paulo Ivan de Ávila da Silva",
+      "assistant3": "Erico Andrade de Carvalho",
+      "var": "Jean Pierre Gonçalves Lima",
+      "avar": "André da Silva Bittencourt",
+      "var_observer": "Daniel Aloysius Soder"
+      },
 
       "lineup": [
-        { "player": "grando", "x": 50, "y": 5 },
-        { "player": "marcosrocha", "x": 70, "y": 30 },
-        { "player": "gustavo",   "x": 60, "y": 25 },
-        { "player": "wagner", "x": 40, "y": 25 },
-        { "player": "marlon","x": 30, "y": 30 },
-        { "player": "arthur", "x": 60, "y": 50},
-        { "player": "thiaguinho", "x": 40, "y": 50},
-        { "player": "cristaldo", "x": 50, "y": 65},
-        { "player": "roger", "x": 65, "y":  75},
-        { "player": "amuzu", "x": 25, "y":  75},
-        { "player": "carlosvinicius", "x": 50, "y": 85}
+        { "player": "grando", "x": 50, "y": 11 },
+        { "player": "marcosrocha", "x": 85, "y": 30 },
+        { "player": "gustavo",   "x": 65, "y": 25 },
+        { "player": "wagner", "x": 35, "y": 25 },
+        { "player": "marlon","x": 15, "y": 30 },
+        { "player": "arthur", "x": 60, "y": 45},
+        { "player": "thiaguinho", "x": 40, "y": 45},
+        { "player": "cristaldo", "x": 50, "y": 60},
+        { "player": "roger", "x": 80, "y":  70},
+        { "player": "amuzu", "x": 20, "y":  70},
+        { "player": "carlosvinicius", "x": 50, "y": 82}
+      ],
+
+      "bench": [
+        "volpi", "balbuena", "kannemann", "cuellar", "pavon", "edenilson", "aravena", "dodi", "joaopedro", "viery", "riquelme", "willian"
       ]
     },
 
     {
-      "id": "2026-01-14-gauchao-avenida",
+      "id": "2026-01-14-gauchao-sao-jose",
       "date": "2026-01-14",
       "competition": "Gauchão",
       "opponent": "São José",
       "formation": "4-2-3-1",
       "stadium": "Arena do Grêmio",
+      "goals_for": 0,
+      "goals_against": 1,
+
+      "officials": {
+      "referee": "Elias da Silva Elyseu",
+      "assistant1": "Michael Stanislau",
+      "assistant2": "Jeissyevan Freitag Gonçalves",
+      "assistant3": "Marcelo Oswald Bitelbron",
+      "var": "Anderson Da Silveira Farias",
+      "avar": "Lucio Beiersdorf Flor",
+      "var_observer": "Julio Cesar Rodrigues dos Santos"
+      },
 
       "lineup": [
-        { "player": "volpi", "x": 50, "y": 5 },
-        { "player": "joaopedro", "x": 70, "y": 30 },
-        { "player": "noriega",   "x": 60, "y": 25 },
-        { "player": "kannemann", "x": 40, "y": 25 },
-        { "player": "viery","x": 30, "y": 30 },
-        { "player": "cuellar", "x": 60, "y": 50},
-        { "player": "dodi", "x": 40, "y": 50},
-        { "player": "willian", "x": 50, "y": 65},
-        { "player": "aravena", "x": 65, "y":  75},
-        { "player": "mec", "x": 25, "y":  75},
-        { "player": "andrehenrique", "x": 50, "y": 85}
+        { "player": "volpi", "x": 50, "y": 11 },
+        { "player": "joaopedro", "x": 85, "y": 30 },
+        { "player": "noriega",   "x": 65, "y": 25 },
+        { "player": "kannemann", "x": 35, "y": 25 },
+        { "player": "viery","x": 15, "y": 30 },
+        { "player": "cuellar", "x": 60, "y": 45},
+        { "player": "dodi", "x": 40, "y": 45},
+        { "player": "willian", "x": 50, "y": 60},
+        { "player": "aravena", "x": 80, "y":  75},
+        { "player": "mec", "x": 20, "y":  75},
+        { "player": "andrehenrique", "x": 50, "y": 82}
+      ],
+
+      "bench": [
+        "grando", "wagner", "edenilson", "amuzu", "cristaldo", "marcosrocha", "caiopaulista", "tiaguinho", "jefinho", "luiseduardo", "roger", "carlosvinicius"
+      ]
+    },
+
+    {
+      "id": "2026-01-17-gauchao-sao-luiz",
+      "date": "2026-01-17",
+      "competition": "Gauchão",
+      "opponent": "São Luiz",
+      "formation": "4-2-3-1",
+      "stadium": "Arena do Grêmio",
+      "goals_for": 5,
+      "goals_against": 0,
+
+      "officials": {
+      "referee": "Rafael Rodrigo Klein",
+      "assistant1": "Maira Mastella Moreira",
+      "assistant2": "Fábulo Oliveira Diniz",
+      "assistant3": "Andressa Hartmann",
+      "var": "Rodrigo Brand da Silva",
+      "avar": "André da Silva Bittencourt",
+      "var_observer": "José Javel Silveira"
+      },
+
+      "lineup": [
+        { "player": "grando", "x": 50, "y": 11 },
+        { "player": "marcosrocha", "x": 85, "y": 30 },
+        { "player": "gustavo",   "x": 65, "y": 25 },
+        { "player": "wagner", "x": 35, "y": 25 },
+        { "player": "caiopaulista","x": 15, "y": 30 },
+        { "player": "thiaguinho", "x": 60, "y": 45},
+        { "player": "arthur", "x": 40, "y": 45},
+        { "player": "cristaldo", "x": 50, "y": 60},
+        { "player": "tete", "x": 80, "y":  70},
+        { "player": "amuzu", "x": 20, "y":  70},
+        { "player": "carlosvinicius", "x": 50, "y": 82}
+      ],
+
+      "bench": [
+        "grando", "edenilson", "dodi", "joaopedro", "noriega", "caiopaulista", "jefinho", "luiseduardo", "roger", "andrehenrique", "willian", "enamorado"
+      ]
+    },
+    
+    {
+      "id": "2026-01-21-gauchao-guarany",
+      "date": "2026-01-21",
+      "hour": "21:30",
+      "competition": "Gauchão",
+      "opponent": "Guarany de Bagé",
+      "formation": "4-2-3-1",
+      "stadium": "Arena do Grêmio",
+      "goals_for": 2,
+      "goals_against": 0,
+
+      "officials": {
+      "referee": "Rodrigo Brand da Silva",
+      "assistant1": "Luiz Paulo Duarte Rodrigues",
+      "assistant2": "Douglas Israel Paulo Vidarte",
+      "assistant3": "Nicolas Fernando das Almas Kummer",
+      "var": "Érico Andrade de Carvalho",
+      "avar": "Cássio Pires Dornelles",
+      "var_observer": "Francisco de Paula dos Santos Silva Neto"
+      },
+
+      "lineup": [
+        { "player": "weverton", "x": 50, "y": 11 },
+        { "player": "joaopedro", "x": 85, "y": 30 },
+        { "player": "luiseduardo",   "x": 65, "y": 25 },
+        { "player": "viery", "x": 35, "y": 25 },
+        { "player": "caiopaulista","x": 15, "y": 30 },
+        { "player": "edenilson", "x": 60, "y": 45},
+        { "player": "dodi", "x": 40, "y": 45},
+        { "player": "willian", "x": 50, "y": 60},
+        { "player": "roger", "x": 80, "y":  70},
+        { "player": "enamorado", "x": 20, "y":  70},
+        { "player": "andrehenrique", "x": 50, "y": 82}
+      ],
+
+      "bench": [
+        "grando", "wagner", "cuellar", "marcosrocha", "aravena", "noriega", "marlon", "mec", "tiaguinho", "jefinho", "riquelme", "carlosvinicius"
+      ]
+    },
+
+    {
+      "id": "2026-01-25-gauchao-inter",
+      "date": "2026-01-25",
+      "hour": "20:00",
+      "competition": "Gauchão",
+      "opponent": "Internacional",
+      "formation": "4-2-3-1",
+      "stadium": "Arena do Grêmio",
+      "goals_for": 2,
+      "goals_against": 4,
+
+      "officials": {
+      "referee": "Lucas Guimarães Rechatiko Horn",
+      "assistant1": "Tiago Augusto Kappes Diel",
+      "assistant2": "Michael Stanislau",
+      "assistant3": "Érico Andrade de Carvalho",
+      "assistant4": "Jeissyevan Freitag Gonçalves",
+      "var": "Jean Pierre Gonçalves Lima",
+      "avar": "José Eduardo Calza",
+      "var_observer": "Daniel Aloysius Soder"
+      },
+
+      "lineup": [
+        { "player": "weverton", "x": 50, "y": 11 },
+        { "player": "marcosrocha", "x": 85, "y": 30 },
+        { "player": "noriega",   "x": 65, "y": 25 },
+        { "player": "wagner", "x": 35, "y": 25 },
+        { "player": "marlon","x": 15, "y": 30 },
+        { "player": "arthur", "x": 60, "y": 45},
+        { "player": "thiaguinho", "x": 40, "y": 45},
+        { "player": "cristaldo", "x": 50, "y": 60},
+        { "player": "tete", "x": 80, "y":  70},
+        { "player": "amuzu", "x": 20, "y":  70},
+        { "player": "carlosvinicius", "x": 50, "y": 82}
+      ],
+
+      "bench": [
+        "grando", "edenilson", "dodi", "joaopedro", "mec", "caiopaulista", "viery", "roger", "gustavomartins", "andrehenrique", "willian", "enamorado"
+      ]
+    },
+
+    {
+      "id": "2026-01-28-brasileirao-fluminense",
+      "date": "2026-01-28",
+      "hour": "19:30",
+      "competition": "Brasileirão",
+      "opponent": "Fluminense",
+      "formation": "4-2-3-1",
+      "stadium": "Estádio do Maracanã",
+      "goals_for": 1,
+      "goals_against": 2,
+
+      "officials": {
+      "referee": "",
+      "assistant1": "",
+      "assistant2": "",
+      "assistant3": "",
+      "var": "",
+      "avar": "t",
+      "var_observer": ""
+      },
+
+      "lineup": [
+        { "player": "weverton", "x": 50, "y": 11 },
+        { "player": "joaopedro", "x": 85, "y": 30 },
+
+        { "player": "wagner", "x": 35, "y": 25 },
+        { "player": "marlon","x": 15, "y": 30 },
+        { "player": "arthur", "x": 60, "y": 45},
+        
+        
+        { "player": "tete", "x": 80, "y":  70},
+        { "player": "amuzu", "x": 20, "y":  70},
+        { "player": "carlosvinicius", "x": 50, "y": 82}
+      ],
+
+      "bench": [
+        
+      ]
+    },
+
+    {
+      "id": "2026-01-31-gauchao-juventude",
+      "date": "2026-01-31",
+      "hour": "null",
+      "competition": "Gauchão",
+      "opponent": "Juventude",
+      "formation": "4-2-3-1",
+      "stadium": "Estádio Alfredo Jaconi",
+      "goals_for": 1,
+      "goals_against": 1,
+
+      "officials": {
+      "referee": "Eduardo Fernandes Bastos",
+      "assistant1": "Jorge Eduardo Bernardi",
+      "assistant2": "Maurício Coelho Silva Penna",
+      "assistant3": "Tiago Pires Staduto",
+      "var": "Rodrigo Brand da Silva",
+      "avar": "André da Silva Bittencourt",
+      "var_observer": "Altemir Hausmann"
+      },
+
+      "lineup": [
+        { "player": "grando", "x": 50, "y": 11 },
+        { "player": "marcosrocha", "x": 85, "y": 30 },
+        { "player": "balbuena",   "x": 65, "y": 25 },
+        { "player": "viery", "x": 35, "y": 25 },
+        { "player": "caiopaulista","x": 15, "y": 30 },
+        { "player": "noriega", "x": 60, "y": 45},
+        { "player": "thiaguinho", "x": 40, "y": 45},
+        { "player": "willian", "x": 50, "y": 60},
+        { "player": "roger", "x": 80, "y":  70},
+        { "player": "pavon", "x": 20, "y":  70},
+        { "player": "andrehenrique", "x": 50, "y": 82}
+      ],
+
+      "bench": [
+        "weverton", "cuellar", "amuzu", "cristaldo", "monsalve", "aravena", "dodi", "marlon", "arthur", "mec", "luiseduardo", "carlosvinicius"
+      ]
+    },
+
+    {
+      "id": "2026-02-04-brasileirao-botafogo",
+      "date": "2026-02-04",
+      "hour": "null",
+      "competition": "Brasileirão",
+      "opponent": "Botafogo",
+      "formation": "4-2-3-1",
+      "stadium": "Arena do Grêmio",
+      "goals_for": 5,
+      "goals_against": 3,
+
+      "officials": {
+      "referee": "",
+      "assistant1": "",
+      "assistant2": "",
+      "assistant3": "",
+      "var": "",
+      "avar": "t",
+      "var_observer": ""
+      },
+
+      "lineup": [
+        { "player": "weverton", "x": 50, "y": 11 },
+        { "player": "joaopedro", "x": 85, "y": 30 },
+        { "player": "balbuena",   "x": 65, "y": 25 },
+        { "player": "wagner", "x": 35, "y": 25 },
+        { "player": "marlon","x": 15, "y": 30 },
+        { "player": "arthur", "x": 60, "y": 45},
+        { "player": "noriega", "x": 40, "y": 45},
+        { "player": "monsalve", "x": 50, "y": 60},
+        { "player": "tete", "x": 80, "y":  70},
+        { "player": "pavon", "x": 20, "y":  70},
+        { "player": "carlosvinicius", "x": 50, "y": 82}
+      ],
+
+      "bench": [
+        
+      ]
+    },
+
+    {
+      "id": "2026-02-08-gauchao-hovo-hamburgo",
+      "date": "2026-02-08",
+      "hour": "null",
+      "competition": "Gauchão",
+      "opponent": "Novo Hamburgo",
+      "formation": "4-2-3-1",
+      "stadium": "Arena do Grêmio",
+      "goals_for": 1,
+      "goals_against": 0,
+
+      "officials": {
+      "referee": "Rafael Rodrigo Klein",
+      "assistant1": "Rafael da Silva Alves",
+      "assistant2": "Estefani Adriati Estrela da Rosa",
+      "assistant3": "Jonathan Giovanella Vivian",
+      "var": "Daniel Nobre Bins",
+      "avar": "Cássio Pires Dornelles",
+      "var_observer": "Leandro Pedro Vuaden"
+      },
+
+      "lineup": [
+        { "player": "weverton", "x": 50, "y": 11 },
+        { "player": "marcosrocha", "x": 85, "y": 30 },
+        { "player": "gustavo",   "x": 65, "y": 25 },
+        { "player": "wagner", "x": 35, "y": 25 },
+        { "player": "caiopaulista","x": 15, "y": 30 },
+        { "player": "edenilson", "x": 60, "y": 45},
+        { "player": "noriega", "x": 40, "y": 45},
+        { "player": "willian", "x": 50, "y": 60},
+        { "player": "roger", "x": 80, "y":  70},
+        { "player": "amuzu", "x": 20, "y":  70},
+        { "player": "carlosvinicius", "x": 50, "y": 82}
+      ],
+
+      "bench": [
+        "grando", "kannemann", "cristaldo", "aravena", "dodi", "marlon", "mec", "tiaguinho", "jefinho", "viery", "andrehenrique", "enamorado"
+      ]
+    },
+
+    {
+      "id": "2026-02-11-brasileirao-sao-paulo",
+      "date": "2026-02-11",
+      "hour": "null",
+      "competition": "Brasileirão",
+      "opponent": "São Paulo",
+      "formation": "4-2-3-1",
+      "stadium": "Estádio do Morumbi",
+      "goals_for": 0,
+      "goals_against": 2,
+
+      "officials": {
+      "referee": "",
+      "assistant1": "",
+      "assistant2": "",
+      "assistant3": "",
+      "var": "",
+      "avar": "t",
+      "var_observer": ""
+      },
+
+      "lineup": [
+        { "player": "weverton", "x": 50, "y": 11 },
+        { "player": "joaopedro", "x": 85, "y": 30 },
+        { "player": "balbuena",   "x": 65, "y": 25 },
+        { "player": "wagner", "x": 35, "y": 25 },
+        { "player": "marlon", "x": 15, "y": 30 },
+        { "player": "noriega", "x": 60, "y": 45},
+        { "player": "arthur", "x": 40, "y": 45},
+        { "player": "edenilson", "x": 50, "y": 60},
+        { "player": "tete", "x": 80, "y":  70},
+        { "player": "amuzu", "x": 20, "y":  70},
+        { "player": "carlosvinicius", "x": 50, "y": 82}
+      ],
+
+      "bench": [
+        
+      ]
+    },
+
+    {
+      "id": "2026-02-15-gauchao-juventude",
+      "date": "2026-02-15",
+      "hour": "null",
+      "competition": "Gauchão",
+      "opponent": "Juventude",
+      "formation": "4-2-3-1",
+      "stadium": "Arena do Grêmio",
+      "goals_for": 1,
+      "goals_against": 1,
+
+      "officials": {
+      "referee": "Wagner Silveira Echevarria",
+      "assistant1": "Juarez de Mello Júnior",
+      "assistant2": "Otávio Legramanti",
+      "assistant3": "Elias da Silva Elyseu",
+      "assistant4": "Artur Avelino Birk Preissler",
+      "var": "Marcello Ignacio Domingues Neto",
+      "avar": "André da Silva Bittencourt",
+      "var_observer": "Leandro Pedro Vuaden",
+      "pitch_observer": "Altemir Hausmann"
+      },
+
+      "lineup": [
+        { "player": "weverton", "x": 50, "y": 11 },
+        { "player": "joaopedro", "x": 85, "y": 30 },
+        { "player": "balbuena",   "x": 65, "y": 25 },
+        { "player": "viery", "x": 35, "y": 25 },
+        { "player": "marlon","x": 15, "y": 30 },
+        { "player": "dodi", "x": 60, "y": 45},
+        { "player": "arthur", "x": 40, "y": 45},
+        { "player": "willian", "x": 50, "y": 60},
+        { "player": "tete", "x": 80, "y":  70},
+        { "player": "pavon", "x": 20, "y":  70},
+        { "player": "carlosvinicius", "x": 50, "y": 82}
+      ],
+
+      "bench": [
+        "grando", "kannemann", "cuellar", "cristaldo", "marcosrocha", "mec", "caiopaulista", "tiaguinho", "jefinho", "gustavomartins", "andrehenrique", "enamorado"
+      ]
+    },
+
+    {
+      "id": "2026-02-22-gauchao-juventude",
+      "date": "2026-02-22",
+      "hour": "null",
+      "competition": "Gauchão",
+      "opponent": "Juventude",
+      "formation": "4-2-3-1",
+      "stadium": "Estádio Alfredo Jaconi",
+      "goals_for": 1,
+      "goals_against": 1,
+
+      "officials": {
+      "referee": "Rafael Rodrigo Klein",
+      "assistant1": "Jorge Eduardo Bernardi",
+      "assistant2": "Fagner Bueno Cortes",
+      "assistant3": "Tiago Lemos Clasen",
+      "assistant4": "Rodrigo Dahmer",
+      "var": "Jean Pierre Gonçalves Lima",
+      "avar": "Lucio Beiersdorf Flor",
+      "var_observer": "José Javel Silveira",
+      "pitch_observer": "Daniel Aloysius Soder"
+      },
+
+      "lineup": [
+        { "player": "weverton", "x": 50, "y": 11 },
+        { "player": "joaopedro", "x": 85, "y": 30 },
+        { "player": "balbuena",   "x": 65, "y": 25 },
+        { "player": "viery", "x": 35, "y": 25 },
+        { "player": "marlon","x": 15, "y": 30 },
+        { "player": "dodi", "x": 68, "y": 52},
+        { "player": "noriega", "x": 50, "y": 42},
+        { "player": "arthur", "x": 32, "y": 52},
+        { "player": "pavon", "x": 80, "y":  70},
+        { "player": "amuzu", "x": 20, "y":  70},
+        { "player": "carlosvinicius", "x": 50, "y": 82}
+      ],
+
+      "bench": [
+        "grando", "wagner", "kannemann", "marcosrocha", "mec", "caiopaulista", "tiaguinho", "jefinho", "gustavomartins", "riquelme", "andrehenrique", "enamorado"
+      ]
+    },
+
+    {
+      "id": "2026-02-25-brasileirao-atletico-mg",
+      "date": "2026-02-25",
+      "hour": "21:30",
+      "competition": "Brasileirão",
+      "opponent": "Atlético MG",
+      "formation": "4-2-3-1",
+      "stadium": "Arena do Grêmio",
+      "goals_for": 2,
+      "goals_against": 1,
+
+      "officials": {
+      "referee": "",
+      "assistant1": "",
+      "assistant2": "",
+      "assistant3": "",
+      "var": "",
+      "avar": "t",
+      "var_observer": ""
+      },
+
+      "lineup": [
+        { "player": "weverton", "x": 50, "y": 11 },
+        { "player": "pavon", "x": 85, "y": 30 },
+        { "player": "gustavo",   "x": 65, "y": 25 },
+        { "player": "viery", "x": 35, "y": 25 },
+        { "player": "marlon","x": 15, "y": 30 },
+        { "player": "nardoni", "x": 60, "y": 45},
+        { "player": "noriega", "x": 40, "y": 45},
+        { "player": "mec", "x": 50, "y": 60},
+        { "player": "enamorado", "x": 80, "y":  70},
+        { "player": "amuzu", "x": 20, "y":  70},
+        { "player": "carlosvinicius", "x": 50, "y": 82}
+      ],
+
+      "bench": [
+        
+      ]
+    },
+
+    {
+      "id": "2026-03-01-gauchao-inter",
+      "date": "2026-03-01",
+      "hour": "18:00",
+      "competition": "Brasileirão",
+      "opponent": "Internacional",
+      "formation": "4-2-3-1",
+      "stadium": "Arena do Grêmio",
+      "goals_for": 3,
+      "goals_against": 0,
+
+      "officials": {
+      "referee": "Anderson Daronco",
+      "assistant1": "Rafael da Silva Alves",
+      "assistant2": "Michael Stanislau",
+      "assistant3": "Wagner Silveira Echevarria",
+      "assistant4": "Otávio Legramanti",
+      "var": "Daniel Nobre Bins",
+      "avar": "Fabrício Lima Baseggio",
+      "avar2": "Erico Andrade de Carvalho",
+      "var_observer": "Júlio César Espinoza de Freitas",
+      "pitch_observer": "José Javel Silveira"
+      },
+
+      "lineup": [
+        { "player": "weverton", "x": 50, "y": 11 },
+        { "player": "pavon", "x": 85, "y": 30 },
+        { "player": "gustavo",   "x": 65, "y": 25 },
+        { "player": "viery", "x": 35, "y": 25 },
+        { "player": "marlon","x": 15, "y": 30 },
+        { "player": "arthur", "x": 60, "y": 45},
+        { "player": "noriega", "x": 40, "y": 45},
+        { "player": "monsalve", "x": 50, "y": 60},
+        { "player": "enamorado", "x": 80, "y":  70},
+        { "player": "amuzu", "x": 20, "y":  70},
+        { "player": "carlosvinicius", "x": 50, "y": 82}
+      ],
+
+      "bench": [
+        "grando", "wagner", "kannemann", "willian", "marcosrocha", "dodi", "tete", "mec", "caiopaulista", "tiaguinho", "roger", "andrehenrique"
       ]
     }
   ]
