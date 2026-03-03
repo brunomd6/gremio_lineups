@@ -129,12 +129,30 @@ for match in matches:
         lines.append(r"\vspace{0.5cm}")
         lines.append(r"\begin{center}")
         lines.append(r"\begin{tabular}{ll}")
-        lines.append(r"\textbf{Referee:} & " + latex_escape(officials.get("referee", "-")) + r" \\")
-        lines.append(r"\textbf{Assistant 1:} & " + latex_escape(officials.get("assistant1", "-")) + r" \\")
-        lines.append(r"\textbf{Assistant 2:} & " + latex_escape(officials.get("assistant2", "-")) + r" \\")
-        lines.append(r"\textbf{VAR:} & " + latex_escape(officials.get("var", "-")) + r" \\")
-        lines.append(r"\end{tabular}")
-        lines.append(r"\end{center}")
+
+        label_map = {
+            "referee": "Árbitro",
+            "assistant1": "Assistente 1",
+            "assistant2": "Assistente 2",
+            "assistant3": "Quarto Árbitro",
+            "assistant4": "Quinto Árbitro",
+            "var": "VAR",
+            "avar": "AVAR",
+            "avar2": "AVAR 2",
+            "var_observer": "Observador VAR",
+            "pitch_observer": "Observador de Campo"
+        }
+
+        for key, label in label_map.items():
+            value = officials.get(key)
+            if value:   # Only print if present and not empty
+                lines.append(
+                    r"\textbf{" + label + r":} & "
+                    + latex_escape(value) + r" \\"
+                )
+
+    lines.append(r"\end{tabular}")
+    lines.append(r"\end{center}")
 
     bench_ids = match.get("bench", [])
 
