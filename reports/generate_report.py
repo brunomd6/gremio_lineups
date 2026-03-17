@@ -77,17 +77,48 @@ matches = season["matches"]
 
 lines.append(r"\begin{document}")
 
+round_names = {
+    "quarters": "Quartas de Final (Jogo Único)",
+    "semifinal_leg_1": "Semifinal (Ida)",
+    "semifinal_leg_2": "Semifinal (Volta)",
+    "final_leg_1": "Final (Ida)",
+    "final_leg_2": "Final (Volta)"
+}
+
 for match in matches:
 
+    match_id = match.get("id", "")
+
+    if not match_id:
+        continue
+
+    round_value = match.get("round", "Unknown Round")
+
+    try:
+        r = int(round_value)
+        if 1 <= r <= 38:
+            round_name = f"{r}ª Rodada"
+        else:
+            round_name = round_names.get(round_value, round_value)
+    except (ValueError, TypeError):
+        round_name = round_names.get(round_value, round_value)
+    
     competition = match.get("competition", "Unknown Competition")
     opponent = match.get("opponent", "Unknown Opponent")
     date = match.get("date", "Unknown Date")
+    goals_for = match.get("goals_for", "Unknown Goals For")
+    goals_against = match.get("goals_against", "Unkwnown Goals Against")
 
-    title = f"{competition} — {opponent} ({date})"
-    subtitle = f"{match['stadium']} · Formation {match['formation']}"
+
+
+
+    title = f"{date} - {competition} - {round_name}"
+    subtitle = f"Grêmio {goals_for} x {goals_against} {opponent}" 
+    # title = f"{competition} — {opponent} ({date})"
+    # subtitle = f"{match['stadium']} · Formation {match['formation']}"
 
     lines.append(rf"\section*{{{latex_escape(title)}}}")
-    lines.append(rf"\textit{{{latex_escape(subtitle)}}}")
+    lines.append(rf"\textbf{{{latex_escape(subtitle)}}}\\")
     lines.append(r"\vspace{0.5cm}")
 
     raw_jersey = match.get("jersey", "camisa/costas1.png")
@@ -95,6 +126,10 @@ for match in matches:
     lines.append(rf"\renewcommand{{\teamjersey}}{{{jersey_path.as_posix()}}}")
 
     lines.append(r"\begin{center}")
+
+    # INIT PITCH
+    lines.append(r"\begin{minipage}{0.68\textwidth}")
+    lines.append(r"\centering")
     lines.append(r"\begin{tikzpicture}")
 
     lines.append(
@@ -120,7 +155,39 @@ for match in matches:
         )
 
     lines.append(r"\end{scope}")
+    # END PITCH
+
+    # INIT BENCH
     lines.append(r"\end{tikzpicture}")
+    lines.append(r"\end{minipage}")
+    lines.append(r"\hfill")
+
+    lines.append(r"\begin{minipage}{0.25\textwidth}")
+    lines.append(r"\raggedright")
+
+    bench_ids = match.get("bench", [])
+
+    if bench_ids:
+        lines.append(r"\textbf{Bench}")
+        lines.append(r"\vspace{0.2cm}")
+        lines.append(r"\begin{tabular}{c l}")
+        lines.append(r"\renewcommand{\arraystretch}{1.3}")
+
+        for pid in bench_ids:
+            player = roster.get(pid)
+            if not player:
+                continue
+
+            name = latex_escape(player["nome"])
+            number = player["numero"] if player["numero"] else ""
+
+            lines.append(r"\includegraphics[width=0.8cm]{\teamjersey} & " + f"{number} {name} \\\\")
+
+        lines.append(r"\end{tabular}")
+
+    lines.append(r"\end{minipage}")
+    #END BENCH
+
     lines.append(r"\end{center}")
 
     officials = match.get("officials", {})
@@ -156,34 +223,6 @@ for match in matches:
 
     bench_ids = match.get("bench", [])
 
-    if bench_ids:
-        lines.append(r"\vspace{0.5cm}")
-        lines.append(r"\textbf{Bench:}")
-        lines.append(r"\vspace{0.2cm}")
-        lines.append(r"\begin{center}")
-        lines.append(r"\begin{tabular}{cccccc}")
-
-        row = []
-        for i, pid in enumerate(bench_ids):
-            player = roster.get(pid)
-            if not player:
-                continue
-
-            name = latex_escape(player["nome"])
-            number = player["numero"] if player["numero"] else ""
-
-            row.append(f"{number} {name}")
-
-            if len(row) == 6:
-                lines.append(" & ".join(row) + r" \\")
-                row = []
-
-        if row:
-            lines.append(" & ".join(row) + r" \\")
-
-        lines.append(r"\end{tabular}")
-        lines.append(r"\end{center}")
-
     lines.append(r"\newpage")   # 👈 one formation per page
 
 lines.append(r"\end{document}")
@@ -205,3 +244,19 @@ subprocess.run(
 )
 
 print("PDF generated successfully:", TEX_FILE.with_suffix(".pdf"))
+
+def render_bench(bench):
+    lines = []
+
+    lines.append(r"\textbf{Bench}")
+    lines.append(r"\vspace{0.2cm}")
+    lines.append(r"\begin{tabular}{rl}")
+
+    for p in bench:
+        number = p.get("number", "")
+        name = latex_escape(p.get("name", ""))
+        lines.append(f"{number} & {name} \\\\")
+
+    lines.append(r"\end{tabular}")
+
+    return lines
