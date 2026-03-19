@@ -1,0 +1,4 @@
+1. Fazer jogadores clicáveis pra ir direto pra seção que mostra os dados de cada jogador?
+2. Fazer cada item do índice ser clicável (por enquanto, só o número da página é clicável)
+3. Fazer uma capa
+4. Mostrar sequência de jogos antes de cada partida

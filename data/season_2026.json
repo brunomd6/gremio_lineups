@@ -9,7 +9,7 @@
     { "id": "volpi", "nome": "Volpi", "nome_completo": "Tiago Volpi", "numero": 1, "pos": "GK", "nacionalidade": "Brasil", "estado": "", "cidade": "", "nascimento": ""},
     { "id": "weverton", "nome": "Weverton", "nome_completo": "Weverton Pereira da Silva", "numero": 1, "pos": "GK", "nacionalidade": "Brasil", "estado": "AC", "cidade": "Rio Branco", "nascimento": "13/12/1987"},
     { "id": "thiagobeltrame", "nome": "Thiago Beltrame", "nome_completo": "Thiago Beltrame Stallbaum", "numero": null, "pos": "GK", "nacionalidade": "Brasil/Itália", "estado": "RS", "cidade": "Canoas", "nascimento": "02/07/2003"},
-    { "id": "gabrielmenegon", "nome": "Gabriel Menegon", "nome_completo": "Gabriel Menegon", "numero": null, "pos": "GK", "nacionalidade": "Brasil", "estado": "", "cidade": "", "nascimento": ""},
+    { "id": "gabrielmenegon", "nome": "Gabriel Menegon", "nome_completo": "Gabriel Otávio Menegon", "numero": null, "pos": "GK", "nacionalidade": "Brasil", "estado": "RS", "cidade": "Sapiranga", "nascimento": "14/10/2008"},
 
     { "id": "wagner", "nome": "Wagner L.", "nome_completo": "Wagner Leonardo Calvelo de Souza", "numero": 3, "pos": "CB", "nacionalidade": "Brasil", "estado": "SP", "cidade": "Praia Grande", "nascimento": "23/07/1999"},
     
@@ -41,7 +41,7 @@
     { "id": "cristaldo", "nome": "Cristaldo", "nome_completo": "Franco Cristaldo", "numero": 10, "pos": "AM", "nacionalidade": "Argentina/Paraguai", "estado": "", "cidade": "", "nascimento": ""},
     { "id": "monsalve", "nome": "Monsalve", "nome_completo": "Miguel Ángel Monsalve González", "numero": 11, "pos": "AM", "nacionalidade": "Colômbia", "estado": null, "cidade": "Medellín", "nascimento": "27/02/2004"},
     { "id": "riquelme", "nome": "Riquelme", "nome_completo": "Riquelme Freitas dos Santos", "numero": 65, "pos": "AM", "nacionalidade": "Brasil", "estado": "SP", "cidade": "São Paulo", "nascimento": "13/08/2006"},
-    { "id": "mec", "nome": "Gabriel Mec", "nome_completo": "Gabriel Mec", "numero": 37, "pos": "AM", "nacionalidade": "Brasil", "estado": "", "cidade": "", "nascimento": ""},
+    { "id": "mec", "nome": "Gabriel Mec", "nome_completo": "Gabriel Ferreira de Carvalho", "numero": 37, "pos": "AM", "nacionalidade": "Brasil", "estado": "RS", "cidade": "Campos dos Goytacazes", "nascimento": "11/04/2008"},
     { "id": "willian", "nome": "Willian", "nome_completo": "Willian Borges da Silva", "numero": 88, "pos": "AM", "nacionalidade": "Brasil", "estado": "SP", "cidade": "Ribeirão Pires", "nascimento": "09/08/1988"},
 
     { "id": "amuzu", "nome": "Amuzu", "nome_completo": "Francis Apelete Amuzu", "numero": 9, "pos": "LW", "nacionalidade": "Gana/Bélgica", "estado": null, "cidade": "Accra", "nascimento": "23/08/1999"},
@@ -50,7 +50,7 @@
 
     { "id": "pavon", "nome": "Pavón", "nome_completo": "Cristian David Pavon", "numero": 7, "pos": "RW", "nacionalidade": "Argentina/Itália", "estado": null, "cidade": "Anisacate", "nascimento": "21/01/1996"},
     { "id": "tete", "nome": "Tetê", "nome_completo": "Mateus Cardoso Lemos Martins", "numero": 21, "pos": "RW", "nacionalidade": "Brasil", "estado": "RS", "cidade": "Alvorada", "nascimento": "15/02/2000"},
-    { "id": "roger", "nome": "Roger", "nome_completo": "Roger", "numero": 47, "pos": "RW", "nacionalidade": "Brasil", "estado": "", "cidade": "", "nascimento": "" },
+    { "id": "roger", "nome": "Roger", "nome_completo": "Roger Dias Fernandes", "numero": 47, "pos": "RW", "nacionalidade": "Brasil", "estado": "RS", "cidade": "Santa Maria", "nascimento": "29/04/2008" },
 
     { "id": "carlosvinicius", "nome": "C. Vinícius", "nome_completo": "Carlos Vinícius Alves Morais", "numero": 95, "pos": "CF", "nacionalidade": "Brasil", "estado": "MA", "cidade": "Bom Jesus das Selvas", "nascimento": "25/03/1995"},
     { "id": "andrehenrique", "nome": "André H.", "nome_completo": "André Henrique da Silva Martins", "numero": 77, "pos": "CF", "nacionalidade": "Brasil", "estado": "BA", "cidade": "Guanambi", "nascimento": "17/12/2001"},

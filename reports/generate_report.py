@@ -46,12 +46,19 @@ lines.append(r"\usepackage{tikz}")
 lines.append(r"\usepackage{graphicx}")
 lines.append(r"\usepackage{tabularx}")
 lines.append(r"\usepackage{fontspec}")
+lines.append(r"\usepackage{makeidx}")
+lines.append(r"\usepackage{multicol}")
+lines.append(r"\usepackage[hidelinks]{hyperref}")
 
 lines.append(r"\graphicspath{{../assets/}}")
 lines.append(r"\setmainfont{Latin Modern Roman}")
 lines.append(r"\pagestyle{empty}")
 
+lines.append(r"\makeindex")
+
+lines.append(r"\renewcommand{\indexname}{Índice de Partidas}")
 lines.append(r"\newcommand{\teamjersey}{}")
+
 
 # Player macro
 lines.append(r"""
@@ -76,6 +83,9 @@ lines.append(r"""
 matches = season["matches"]
 
 lines.append(r"\begin{document}")
+
+lines.append(r"\printindex")
+lines.append(r"\newpage")
 
 round_names = {
     "quarters": "Quartas de Final (Jogo Único)",
@@ -110,15 +120,17 @@ for match in matches:
     goals_against = match.get("goals_against", "Unkwnown Goals Against")
 
 
-
-
     title = f"{date} - {competition} - {round_name}"
     subtitle = f"Grêmio {goals_for} x {goals_against} {opponent}" 
     # title = f"{competition} — {opponent} ({date})"
     # subtitle = f"{match['stadium']} · Formation {match['formation']}"
 
     lines.append(rf"\section*{{{latex_escape(title)}}}")
+    lines.append(r"\phantomsection")
+    entry = f"{date} - {round_name} - {opponent}"
+    lines.append(rf"\index{{{latex_escape(competition)}!{date}@\mbox{{{latex_escape(entry)}}}}}")    
     lines.append(rf"\textbf{{{latex_escape(subtitle)}}}\\")
+
     lines.append(r"\vspace{0.5cm}")
 
     raw_jersey = match.get("jersey", "camisa/costas1.png")
@@ -225,6 +237,7 @@ for match in matches:
 
     lines.append(r"\newpage")   # 👈 one formation per page
 
+
 lines.append(r"\end{document}")
 
 
@@ -260,3 +273,13 @@ def render_bench(bench):
     lines.append(r"\end{tabular}")
 
     return lines
+
+def latex_index_escape(text: str) -> str:
+    return (
+        text.replace("&", r"\&")
+            .replace("%", r"\%")
+            .replace("_", r"\_")
+            .replace("!", r"")     # remove hierarchy breaker
+            .replace("@", r"")     # special in index
+            .replace("|", r"")     # special in index
+    )

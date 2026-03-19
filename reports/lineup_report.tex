@@ -4,9 +4,14 @@
 \usepackage{graphicx}
 \usepackage{tabularx}
 \usepackage{fontspec}
+\usepackage{makeidx}
+\usepackage{multicol}
+\usepackage[hidelinks]{hyperref}
 \graphicspath{{../assets/}}
 \setmainfont{Latin Modern Roman}
 \pagestyle{empty}
+\makeindex
+\renewcommand{\indexname}{Índice de Partidas}
 \newcommand{\teamjersey}{}
 
 \newcommand{\player}[4]{%
@@ -27,7 +32,11 @@
 }
 
 \begin{document}
+\printindex
+\newpage
 \section*{2026-01-10 - Gauchão - 1ª Rodada}
+\phantomsection
+\index{Gauchão!2026-01-10@\mbox{2026-01-10 - 1ª Rodada - Avenida}}
 \textbf{Grêmio 4 x 0 Avenida}\\
 \vspace{0.5cm}
 \renewcommand{\teamjersey}{../assets/camisa/costas1.png}
@@ -87,6 +96,8 @@
 \end{center}
 \newpage
 \section*{2026-01-14 - Gauchão - 2ª Rodada}
+\phantomsection
+\index{Gauchão!2026-01-14@\mbox{2026-01-14 - 2ª Rodada - São José}}
 \textbf{Grêmio 0 x 1 São José}\\
 \vspace{0.5cm}
 \renewcommand{\teamjersey}{../assets/camisa/costas1.png}
@@ -145,6 +156,8 @@
 \end{center}
 \newpage
 \section*{2026-01-17 - Gauchão - 3ª Rodada}
+\phantomsection
+\index{Gauchão!2026-01-17@\mbox{2026-01-17 - 3ª Rodada - São Luiz}}
 \textbf{Grêmio 5 x 0 São Luiz}\\
 \vspace{0.5cm}
 \renewcommand{\teamjersey}{../assets/camisa/costas1.png}
@@ -204,6 +217,8 @@
 \end{center}
 \newpage
 \section*{2026-01-21 - Gauchão - 4ª Rodada}
+\phantomsection
+\index{Gauchão!2026-01-21@\mbox{2026-01-21 - 4ª Rodada - Guarany de Bagé}}
 \textbf{Grêmio 2 x 0 Guarany de Bagé}\\
 \vspace{0.5cm}
 \renewcommand{\teamjersey}{../assets/camisa/costas1.png}
@@ -262,6 +277,8 @@
 \end{center}
 \newpage
 \section*{2026-01-25 - Gauchão - 5ª Rodada}
+\phantomsection
+\index{Gauchão!2026-01-25@\mbox{2026-01-25 - 5ª Rodada - Internacional}}
 \textbf{Grêmio 2 x 4 Internacional}\\
 \vspace{0.5cm}
 \renewcommand{\teamjersey}{../assets/camisa/costas1.png}
@@ -321,6 +338,8 @@
 \end{center}
 \newpage
 \section*{2026-01-28 - Brasileirão - 1ª Rodada}
+\phantomsection
+\index{Brasileirão!2026-01-28@\mbox{2026-01-28 - 1ª Rodada - Fluminense}}
 \textbf{Grêmio 1 x 2 Fluminense}\\
 \vspace{0.5cm}
 \renewcommand{\teamjersey}{../assets/camisa/costas1.png}
@@ -357,6 +376,8 @@
 \end{center}
 \newpage
 \section*{2026-01-31 - Gauchão - 6ª Rodada}
+\phantomsection
+\index{Gauchão!2026-01-31@\mbox{2026-01-31 - 6ª Rodada - Juventude}}
 \textbf{Grêmio 1 x 1 Juventude}\\
 \vspace{0.5cm}
 \renewcommand{\teamjersey}{../assets/camisa/costas1.png}
@@ -416,6 +437,8 @@
 \end{center}
 \newpage
 \section*{2026-02-04 - Brasileirão - 2ª Rodada}
+\phantomsection
+\index{Brasileirão!2026-02-04@\mbox{2026-02-04 - 2ª Rodada - Botafogo}}
 \textbf{Grêmio 5 x 3 Botafogo}\\
 \vspace{0.5cm}
 \renewcommand{\teamjersey}{../assets/camisa/costas1.png}
@@ -452,6 +475,8 @@
 \end{center}
 \newpage
 \section*{2026-02-08 - Gauchão - Quartas de Final (Jogo Único)}
+\phantomsection
+\index{Gauchão!2026-02-08@\mbox{2026-02-08 - Quartas de Final (Jogo Único) - Novo Hamburgo}}
 \textbf{Grêmio 1 x 0 Novo Hamburgo}\\
 \vspace{0.5cm}
 \renewcommand{\teamjersey}{../assets/camisa/costas1.png}
@@ -510,6 +535,8 @@
 \end{center}
 \newpage
 \section*{2026-02-11 - Brasileirão - 3ª Rodada}
+\phantomsection
+\index{Brasileirão!2026-02-11@\mbox{2026-02-11 - 3ª Rodada - São Paulo}}
 \textbf{Grêmio 0 x 2 São Paulo}\\
 \vspace{0.5cm}
 \renewcommand{\teamjersey}{../assets/camisa/costas1.png}
@@ -546,6 +573,8 @@
 \end{center}
 \newpage
 \section*{2026-02-15 - Gauchão - Semifinal (Ida)}
+\phantomsection
+\index{Gauchão!2026-02-15@\mbox{2026-02-15 - Semifinal (Ida) - Juventude}}
 \textbf{Grêmio 1 x 1 Juventude}\\
 \vspace{0.5cm}
 \renewcommand{\teamjersey}{../assets/camisa/costas1.png}
@@ -605,6 +634,8 @@
 \end{center}
 \newpage
 \section*{2026-02-22 - Gauchão - Semifinal (Volta)}
+\phantomsection
+\index{Gauchão!2026-02-22@\mbox{2026-02-22 - Semifinal (Volta) - Juventude}}
 \textbf{Grêmio 1 x 1 Juventude}\\
 \vspace{0.5cm}
 \renewcommand{\teamjersey}{../assets/camisa/costas1.png}
@@ -664,6 +695,8 @@
 \end{center}
 \newpage
 \section*{2026-02-25 - Brasileirão - 4ª Rodada}
+\phantomsection
+\index{Brasileirão!2026-02-25@\mbox{2026-02-25 - 4ª Rodada - Atlético MG}}
 \textbf{Grêmio 2 x 1 Atlético MG}\\
 \vspace{0.5cm}
 \renewcommand{\teamjersey}{../assets/camisa/costas1.png}
@@ -699,6 +732,8 @@
 \end{center}
 \newpage
 \section*{2026-03-01 - Gauchão - Final (Ida)}
+\phantomsection
+\index{Gauchão!2026-03-01@\mbox{2026-03-01 - Final (Ida) - Internacional}}
 \textbf{Grêmio 3 x 0 Internacional}\\
 \vspace{0.5cm}
 \renewcommand{\teamjersey}{../assets/camisa/costas1.png}
@@ -760,6 +795,8 @@
 \end{center}
 \newpage
 \section*{2026-03-08 - Gauchão - Final (Volta)}
+\phantomsection
+\index{Gauchão!2026-03-08@\mbox{2026-03-08 - Final (Volta) - Internacional}}
 \textbf{Grêmio 1 x 1 Internacional}\\
 \vspace{0.5cm}
 \renewcommand{\teamjersey}{../assets/camisa/costas1.png}
@@ -821,6 +858,8 @@
 \end{center}
 \newpage
 \section*{2026-03-12 - Brasileirão - 5ª Rodada}
+\phantomsection
+\index{Brasileirão!2026-03-12@\mbox{2026-03-12 - 5ª Rodada - Bragantino}}
 \textbf{Grêmio 1 x 1 Bragantino}\\
 \vspace{0.5cm}
 \renewcommand{\teamjersey}{../assets/camisa/costas1.png}
@@ -879,6 +918,8 @@
 \end{center}
 \newpage
 \section*{2026-03-16 - Brasileirão - 6ª Rodada}
+\phantomsection
+\index{Brasileirão!2026-03-16@\mbox{2026-03-16 - 6ª Rodada - Chapecoense}}
 \textbf{Grêmio 1 x 1 Chapecoense}\\
 \vspace{0.5cm}
 \renewcommand{\teamjersey}{../assets/camisa/costas1.png}
