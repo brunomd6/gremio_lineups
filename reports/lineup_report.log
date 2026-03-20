@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2025/dev/Debian)  (format=lualatex 2026.1.20)  19 MAR 2026 14:46
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2025/dev/Debian)  (format=lualatex 2026.1.20)  20 MAR 2026 13:58
  restricted system commands enabled.
 **lineup_report.tex
 (./lineup_report.tex
@@ -830,7 +830,7 @@ Package hyperref Info: Link coloring OFF on input line 34.
 
 \openout5 = lineup_report.out
  (./lineup_report.ind
-Overfull \hbox (61.4596pt too wide) in paragraph at lines 26--28
+Overfull \hbox (61.4596pt too wide) in paragraph at lines 27--29
 []| []\TU/LatinModernRoman(0)/m/n/10.95 ,
  []
 
@@ -843,12 +843,12 @@ Overfull \hbox (61.4596pt too wide) in paragraph at lines 26--28
 
 
 ])
-<../assets/pitch/pitch.png, id=50, 1027.84pt x 1541.76pt>
+<../assets/pitch/pitch.png, id=52, 1027.84pt x 1541.76pt>
 File: ../assets/pitch/pitch.png Graphic file (type png)
 <use ../assets/pitch/pitch.png>
 Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 47.
 (luatex.def)             Requested size: 341.43306pt x 512.1465pt.
-<../assets/camisa/costas1.png, id=51, 501.875pt x 501.875pt>
+<../assets/camisa/costas1.png, id=53, 501.875pt x 501.875pt>
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 49.
@@ -1396,333 +1396,356 @@ File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 362.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 373.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 374.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 375.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 376.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 377.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 378.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 379.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 380.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 381.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 382.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 383.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+
+Overfull \hbox (0.83607pt too wide) in paragraph at lines 369--385
+[]  
+ []
+
 
 
 [8]
 File: ../assets/pitch/pitch.png Graphic file (type png)
 <use ../assets/pitch/pitch.png>
-Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 388.
+Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 410.
 (luatex.def)             Requested size: 341.43306pt x 512.1465pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 390.
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 391.
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 392.
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 393.
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 394.
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 395.
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 396.
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 397.
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 398.
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 399.
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 400.
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 411.
-(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 412.
-(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 413.
-(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 414.
-(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 415.
-(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 416.
-(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 417.
-(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 418.
-(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 419.
-(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 420.
-(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 421.
-(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 422.
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 433.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 434.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 435.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 436.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 437.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 438.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 439.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 440.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 441.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 442.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 443.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 444.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 
 
 [9]
 File: ../assets/pitch/pitch.png Graphic file (type png)
 <use ../assets/pitch/pitch.png>
-Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 449.
+Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 471.
 (luatex.def)             Requested size: 341.43306pt x 512.1465pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 451.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 473.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 452.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 474.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 453.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 475.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 454.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 476.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 455.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 477.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 456.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 478.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 457.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 479.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 458.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 480.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 459.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 481.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 460.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 482.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 461.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 483.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 494.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 495.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 496.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 497.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 498.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 499.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 500.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 501.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 502.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 503.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 504.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+
+Overfull \hbox (0.83607pt too wide) in paragraph at lines 490--506
+[]  
+ []
+
 
 
 [10]
 File: ../assets/pitch/pitch.png Graphic file (type png)
 <use ../assets/pitch/pitch.png>
-Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 487.
+Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 531.
 (luatex.def)             Requested size: 341.43306pt x 512.1465pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 489.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 533.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 490.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 534.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 491.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 535.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 492.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 536.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 493.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 537.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 494.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 538.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 495.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 539.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 496.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 540.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 497.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 541.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 498.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 542.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 499.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 543.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 510.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 554.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 511.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 555.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 512.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 556.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 513.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 557.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 514.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 558.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 515.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 559.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 516.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 560.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 517.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 561.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 518.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 562.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 519.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 563.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 520.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 564.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 
 
 [11]
 File: ../assets/pitch/pitch.png Graphic file (type png)
 <use ../assets/pitch/pitch.png>
-Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 547.
+Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 591.
 (luatex.def)             Requested size: 341.43306pt x 512.1465pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 549.
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 550.
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 551.
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 552.
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 553.
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 554.
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 555.
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 556.
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 557.
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 558.
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 559.
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-
-
-[12]
-File: ../assets/pitch/pitch.png Graphic file (type png)
-<use ../assets/pitch/pitch.png>
-Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 585.
-(luatex.def)             Requested size: 341.43306pt x 512.1465pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 587.
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 588.
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 589.
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 590.
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 591.
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 592.
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 593.
@@ -1745,28 +1768,28 @@ Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 597.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 608.
-(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 598.
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 609.
-(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 599.
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 610.
-(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 600.
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 611.
-(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 601.
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 612.
-(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 602.
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 613.
-(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 603.
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 614.
@@ -1783,36 +1806,42 @@ File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 617.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 618.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 619.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 620.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 621.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 622.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 623.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 
-Overfull \hbox (0.83607pt too wide) in paragraph at lines 604--619
+Overfull \hbox (0.83607pt too wide) in paragraph at lines 610--625
 []  
  []
 
 
 
-[13]
-
-[14]
+[12]
 File: ../assets/pitch/pitch.png Graphic file (type png)
 <use ../assets/pitch/pitch.png>
-Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 646.
+Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 650.
 (luatex.def)             Requested size: 341.43306pt x 512.1465pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 648.
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 649.
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 650.
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 651.
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 652.
@@ -1843,20 +1872,20 @@ Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 658.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 669.
-(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 659.
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 670.
-(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 660.
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 671.
-(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 661.
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 672.
-(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 662.
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 673.
@@ -1881,36 +1910,36 @@ File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 678.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 679.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 680.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 681.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 682.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 
-Overfull \hbox (0.83607pt too wide) in paragraph at lines 665--680
+Overfull \hbox (0.83607pt too wide) in paragraph at lines 669--684
 []  
  []
 
 
 
-[15]
+[13]
 
-[16]
+[14]
 File: ../assets/pitch/pitch.png Graphic file (type png)
 <use ../assets/pitch/pitch.png>
-Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 707.
+Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 711.
 (luatex.def)             Requested size: 341.43306pt x 512.1465pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 709.
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 710.
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 711.
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 712.
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 713.
@@ -1939,103 +1968,266 @@ File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 719.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 720.
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 721.
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 722.
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 723.
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 734.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 735.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 736.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 737.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 738.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 739.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 740.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 741.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 742.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 743.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+
+Overfull \hbox (0.83607pt too wide) in paragraph at lines 730--745
+[]  
+ []
+
+
+
+[15]
+
+[16]
+File: ../assets/pitch/pitch.png Graphic file (type png)
+<use ../assets/pitch/pitch.png>
+Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 772.
+(luatex.def)             Requested size: 341.43306pt x 512.1465pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 774.
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 775.
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 776.
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 777.
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 778.
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 779.
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 780.
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 781.
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 782.
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 783.
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 784.
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 795.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 796.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 797.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 798.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 799.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 800.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 801.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 802.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 803.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 804.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 805.
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+
+Overfull \hbox (0.83607pt too wide) in paragraph at lines 791--807
+[]  
+ []
+
 
 
 [17]
 File: ../assets/pitch/pitch.png Graphic file (type png)
 <use ../assets/pitch/pitch.png>
-Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 744.
+Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 832.
 (luatex.def)             Requested size: 341.43306pt x 512.1465pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 746.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 834.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 747.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 835.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 748.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 836.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 749.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 837.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 750.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 838.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 751.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 839.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 752.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 840.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 753.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 841.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 754.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 842.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 755.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 843.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 756.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 844.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 767.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 855.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 768.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 856.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 769.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 857.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 770.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 858.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 771.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 859.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 772.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 860.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 773.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 861.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 774.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 862.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 775.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 863.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 776.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 864.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 777.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 865.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 
-Overfull \hbox (0.83607pt too wide) in paragraph at lines 763--779
+Overfull \hbox (0.83607pt too wide) in paragraph at lines 851--867
 []  
  []
 
@@ -2046,98 +2238,98 @@ Overfull \hbox (0.83607pt too wide) in paragraph at lines 763--779
 [19]
 File: ../assets/pitch/pitch.png Graphic file (type png)
 <use ../assets/pitch/pitch.png>
-Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 807.
+Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 895.
 (luatex.def)             Requested size: 341.43306pt x 512.1465pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 809.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 897.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 810.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 898.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 811.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 899.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 812.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 900.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 813.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 901.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 814.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 902.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 815.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 903.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 816.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 904.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 817.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 905.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 818.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 906.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 819.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 907.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 830.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 918.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 831.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 919.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 832.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 920.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 833.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 921.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 834.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 922.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 835.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 923.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 836.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 924.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 837.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 925.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 838.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 926.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 839.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 927.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 840.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 928.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 
-Overfull \hbox (0.83607pt too wide) in paragraph at lines 826--842
+Overfull \hbox (0.83607pt too wide) in paragraph at lines 914--930
 []  
  []
 
@@ -2148,196 +2340,343 @@ Overfull \hbox (0.83607pt too wide) in paragraph at lines 826--842
 [21]
 File: ../assets/pitch/pitch.png Graphic file (type png)
 <use ../assets/pitch/pitch.png>
-Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 870.
+Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 958.
 (luatex.def)             Requested size: 341.43306pt x 512.1465pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 872.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 960.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 873.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 961.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 874.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 962.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 875.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 963.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 876.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 964.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 877.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 965.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 878.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 966.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 879.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 967.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 880.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 968.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 881.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 969.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 882.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 970.
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 893.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 981.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 894.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 982.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 895.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 983.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 896.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 984.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 897.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 985.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 898.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 986.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 899.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 987.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 900.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 988.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 901.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 989.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 902.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 990.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 
-Overfull \hbox (0.83607pt too wide) in paragraph at lines 889--904
+Overfull \hbox (0.83607pt too wide) in paragraph at lines 977--992
 []  
  []
 
 
 
 [22]
+File: ../assets/pitch/pitch.png Graphic file (type png)
+<use ../assets/pitch/pitch.png>
+Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 1017.
+(luatex.def)             Requested size: 341.43306pt x 512.1465pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1019.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1020.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1021.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1022.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1023.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1024.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1025.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1026.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1027.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1028.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1029.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1040.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1041.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1042.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1043.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1044.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1045.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1046.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1047.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1048.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1049.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1050.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+
+Overfull \hbox (0.83607pt too wide) in paragraph at lines 1036--1052
+[]  
+ []
+
+
 
 [23]
 File: ../assets/pitch/pitch.png Graphic file (type png)
 <use ../assets/pitch/pitch.png>
-Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 930.
+Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 1077.
 (luatex.def)             Requested size: 341.43306pt x 512.1465pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 932.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1079.
+
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 933.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1080.
+
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 934.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1081.
+
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 935.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1082.
+
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 936.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1083.
+
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 937.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1084.
+
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 938.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1085.
+
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 939.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1086.
+
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 940.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1087.
+
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 941.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1088.
+
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 942.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1089.
+
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 953.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1100.
+
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 954.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1101.
+
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 955.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1102.
+
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 956.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1103.
+
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 957.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1104.
+
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 958.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1105.
+
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 959.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1106.
+
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 960.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1107.
+
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 961.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1108.
+
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 962.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1109.
+
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 963.
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1110.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1111.
+
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 
-Overfull \hbox (0.83607pt too wide) in paragraph at lines 949--965
+Overfull \hbox (0.83607pt too wide) in paragraph at lines 1096--1113
 []  
  []
 
@@ -2353,12 +2692,12 @@ Package rerunfilecheck Info: File `lineup_report.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 23506 strings out of 475512
+ 23709 strings out of 475512
  100000,1144653 words of node,token memory allocated
  448 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 5 attribute, 55 glue_spec,
  5 attribute_list, 2 write nodes
-   avail lists: 2:2086,3:871,4:27,5:176,6:77,7:2946,8:1,9:1052,10:2,11:222
+   avail lists: 2:2086,3:871,4:27,5:176,6:81,7:3084,8:1,9:1052,10:2,11:231
  44899 multiletter control sequences out of 65536+600000
  45 fonts using 3981183 bytes
  102i,12n,101p,414b,922s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2366,10 +2705,10 @@ Here is how much of LuaTeX's memory you used:
 f/fonts/opentype/public/lm/lmroman10-bold.otf></usr/share/texmf/fonts/opentype/p
 ublic/lm/lmroman10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroma
 n12-bold.otf>
-Output written on lineup_report.pdf (24 pages, 3657638 bytes).
+Output written on lineup_report.pdf (24 pages, 3663037 bytes).
 
-PDF statistics: 198 PDF objects out of 1000 (max. 8388607)
- 155 compressed objects within 2 object streams
- 60 named destinations out of 1000 (max. 131072)
+PDF statistics: 201 PDF objects out of 1000 (max. 8388607)
+ 158 compressed objects within 2 object streams
+ 62 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 

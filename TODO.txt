@@ -2,3 +2,5 @@
 2. Fazer cada item do índice ser clicável (por enquanto, só o número da página é clicável)
 3. Fazer uma capa
 4. Mostrar sequência de jogos antes de cada partida
+5. Willian trocou de camisa pra número 10 (acho que contra a chape ou antes)
+

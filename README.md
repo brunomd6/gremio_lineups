@@ -18,6 +18,7 @@ http://localhost:8000/editor/index.html
 YYYY-MM-DD-competicao-adversario.yml
 
 
+"Veja os públicos da 6ª rodada do Campeonato Brasileiro"
 
 
 
@@ -29,6 +30,21 @@ Rodrigo Johann is a closeted homosexual.
 
 pylatex
 sphinx
+
+
+# Públicos
+
+
+## Brasileirão
+- https://ge.globo.com/gato-mestre/noticia/2026/01/29/veja-os-publicos-da-primeira-rodada-do-campeonato-brasileiro.ghtml
+- https://ge.globo.com/gato-mestre/noticia/2026/02/05/veja-os-publicos-da-segunda-rodada-do-campeonato-brasileiro.ghtml
+- https://ge.globo.com/gato-mestre/noticia/2026/02/12/veja-os-publicos-da-terceira-rodada-do-campeonato-brasileiro.ghtml
+- https://ge.globo.com/gato-mestre/noticia/2026/02/25/veja-os-publicos-da-4a-rodada-do-campeonato-brasileiro.ghtml
+- https://ge.globo.com/gato-mestre/noticia/2026/03/12/veja-os-publicos-da-5a-rodada-do-campeonato-brasileiro.ghtml
+- https://ge.globo.com/gato-mestre/noticia/2026/03/15/veja-os-publicos-da-6a-rodada-do-campeonato-brasileiro.ghtml
+- https://ge.globo.com/gato-mestre/noticia/2026/03/19/com-recorde-no-maracana-veja-os-publicos-da-7a-rodada-do-campeonato-brasileiro.ghtml
+
+
 
 
 
