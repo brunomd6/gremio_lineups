@@ -165,7 +165,11 @@
       "publico_total": null,
 
       "goals": [
-        { "team": "", "player": "", "minute": }
+        { "team": "gremio", "type": "contra", "player": "Thainler", "minute": 3},
+        { "team": "gremio", "type": "normal", "player": "carlosvinicius", "minute": 15},
+        { "team": "gremio", "type": "normal", "player": "carlosvinicius", "minute": 33},
+        { "team": "gremio", "type": "normal", "player": "amuzu", "minute": 54},
+        { "team": "gremio", "type": "normal", "player": "carlosvinicius", "minute": 65}
       ],
 
       "officials": {
@@ -212,9 +216,9 @@
       "publico_total": null,
 
       "goals": [
-        { "team": "", "player": "", "minute": }
+        { "team": "gremio", "type": "normal", "player": "carlosvinicius", "minute": 73},
+        { "team": "gremio", "type": "normal", "player": "edenilson", "minute": 83}
       ],
-
 
       "officials": {
       "referee": "Rodrigo Brand da Silva",
@@ -260,7 +264,12 @@
       "publico_total": null,
 
       "goals": [
-        { "team": "", "player": "", "minute": }
+        { "team": "gremio", "type": "normal", "player": "amuzu", "minute": 4},
+        { "team": "rival", "type": "contra", "player": "marcosrocha", "minute": 10},
+        { "team": "gremio", "type": "normal", "player": "edenilson", "minute": 20},
+        { "team": "rival", "type": "normal", "player": "Rafael Borré", "minute": 73},
+        { "team": "rival", "type": "normal", "player": "Rafael Borré", "minute": 75},
+        { "team": "rival", "type": "normal", "player": "Alexandro Bernabei", "minute": 82}
       ],
 
 
@@ -310,7 +319,9 @@
       "renda": 972325,
 
       "goals": [
-        { "team": "", "player": "", "minute": }
+        { "team": "rival", "player": "Nonato", "minute": 46},
+        { "team": "rival", "player": "Lucho Acosta", "minute": 59},
+        { "team": "gremio", "player": "carlosvinicius", "minute": 74}
       ],
 
       "officials": {
@@ -409,14 +420,14 @@
       "renda": 1384153,
 
       "goals": [
-        { "team": "away", "type": "normal", "player": "Arthur Cabral", "minute": 16},
-        { "team": "home", "type": "normal", "player": "carlosvinicius", "minute": 26},
-        { "team": "away", "type": "normal", "player": "Danilo", "minute": 35},
-        { "team": "home", "type": "normal", "player": "carlosvinicius", "minute": 50},
-        { "team": "home", "type": "penalty", "player": "carlosvinicius", "minute": 56},
-        { "team": "home", "type": "normal", "player": "tete", "minute": 59},
-        { "team": "home", "type": "normal", "player": "edenilson", "minute": 79},
-        { "team": "away", "type": "normal", "player": "Danilo", "minute": 85}
+        { "team": "rival", "type": "normal", "player": "Arthur Cabral", "minute": 16},
+        { "team": "gremio", "type": "normal", "player": "carlosvinicius", "minute": 26},
+        { "team": "rival", "type": "normal", "player": "Danilo", "minute": 35},
+        { "team": "gremio", "type": "normal", "player": "carlosvinicius", "minute": 50},
+        { "team": "gremio", "type": "penalty", "player": "carlosvinicius", "minute": 56},
+        { "team": "gremio", "type": "normal", "player": "tete", "minute": 59},
+        { "team": "gremio", "type": "normal", "player": "edenilson", "minute": 79},
+        { "team": "rival", "type": "normal", "player": "Danilo", "minute": 85}
       ],
 
       "officials": {
@@ -467,7 +478,7 @@
       "publico_total": null,
 
       "goals": [
-        { "team": "home", "type": "penalty", "player": "carlosvinicius", "minute": 10}
+        { "team": "gremio", "type": "penalty", "player": "carlosvinicius", "minute": 10}
       ],
 
 
@@ -516,8 +527,8 @@
       "renda": 863361,
 
       "goals": [
-        { "team": "away", "player": "Lucas Moura (P)", "minute": 24},
-        { "team": "away", "player": "Jonathan Calleri", "minute": 58}
+        { "team": "rival", "player": "Lucas Moura (P)", "minute": 24},
+        { "team": "rival", "player": "Jonathan Calleri", "minute": 58}
       ],
 
       "officials": {
@@ -568,8 +579,8 @@
       "publico_total": null,
 
       "goals": [
-        { "team": "home", "player": "tete", "minute": 39},
-        { "team": "away", "player": "Patryck Lanza", "minute": 56}
+        { "team": "gremio", "player": "tete", "minute": 39},
+        { "team": "rival", "player": "Patryck Lanza", "minute": 56}
       ],
 
       "officials": {
@@ -618,8 +629,8 @@
       "publico_total": null,
 
       "goals": [
-        { "team": "away", "player": "Gabriel Taliari (P)", "minute": 25},
-        { "team": "home", "player": "viery", "minute": 71}
+        { "team": "rival", "player": "Gabriel Taliari (P)", "minute": 25},
+        { "team": "gremio", "player": "viery", "minute": 71}
       ],
 
       "officials": {
@@ -669,9 +680,9 @@
       "renda": 1056911,
 
       "goals": [
-        { "team": "home", "player": "noriega", "minute": 50},
-        { "team": "away", "player": "Victor Hugo", "minute": 56},
-        { "team": "home", "player": "Marlon", "minute": 67}
+        { "team": "gremio", "player": "noriega", "minute": 50},
+        { "team": "rival", "player": "Victor Hugo", "minute": 56},
+        { "team": "gremio", "player": "Marlon", "minute": 67}
       ],
 
       "officials": {
@@ -722,9 +733,9 @@
       "publico_total": 50166,
 
       "goals": [
-        { "team": "home", "player": "enamorado", "minute": 39},
-        { "team": "home", "player": "amuzu", "minute": "39+1"},
-        { "team": "home", "player": "Victor Gabriel", "minute": 67}
+        { "team": "gremio", "player": "enamorado", "minute": 39},
+        { "team": "gremio", "player": "amuzu", "minute": "39+1"},
+        { "team": "gremio", "player": "Victor Gabriel", "minute": 67}
       ],
 
       "officials": {
@@ -884,8 +895,8 @@
       "comments": "Pênalti bisonho dado em cima do Bolasie. Arbitragem muito ruim.",
 
       "goals": [
-        { "team": "away", "player": "Walter Clar (P)", "minute": "27"},
-        { "team": "home", "player": "nardoni", "minute": "45+3"}
+        { "team": "rival", "player": "Walter Clar (P)", "minute": "27"},
+        { "team": "gremio", "player": "nardoni", "minute": "45+3"}
       ],
 
       "officials": {
@@ -940,8 +951,8 @@
 
       
       "goals": [
-        { "team": "home", "player": "Camutanga (Contra)", "minute": 26},
-        { "team": "home", "player": "amuzu", "minute": 53}
+        { "team": "gremio", "player": "Camutanga (Contra)", "minute": 26},
+        { "team": "gremio", "player": "amuzu", "minute": 53}
       ],
 
       "officials": {
@@ -994,9 +1005,9 @@
       "comments": "David (DVD) não fazia gol há 21 jogos.",
 
       "goals": [
-        { "team": "away", "player": "Thiago Mendes", "minute": 7},
-        { "team": "away", "player": "David", "minute": 34},
-        {"team": "home", "player": "carlosvinicius", "minute": 38}
+        { "team": "rival", "player": "Thiago Mendes", "minute": 7},
+        { "team": "rival", "player": "David", "minute": 34},
+        {"team": "gremio", "player": "carlosvinicius", "minute": 38}
       ],
 
       "officials": {
