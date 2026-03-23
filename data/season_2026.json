@@ -73,7 +73,7 @@
       "publico_total": null,
 
       "goals": [
-        { "team": "", "player": "", "minute": }
+        { "team": "", "player": "", "minute": null}
       ],
 
       "officials": {
@@ -119,7 +119,7 @@
       "publico_total": null,
 
       "goals": [
-        { "team": "", "player": "", "minute": }
+        { "team": "", "player": "", "minute": null}
       ],
 
       "officials": {
@@ -372,7 +372,7 @@
       "publico_total": null,
 
       "goals": [
-        { "team": "", "player": "", "minute": }
+        { "team": "", "player": "", "minute": null}
       ],
 
       "officials": {
@@ -787,7 +787,7 @@
       "comments": "Natanael foi expulso aos 14, quase quebrou o pé o Marlon numa tesoura. Jogo difícil, galo muito fechado. Golaço do Marlon!",
 
       "goals": [
-        { "team": "", "player": "", "minute": }
+        { "team": "", "player": "", "minute": null}
       ],
 
       "officials": {
@@ -838,7 +838,7 @@
       "renda": 1058814,
 
       "goals": [
-        { "team": "", "player": "", "minute": }
+        { "team": "", "player": "", "minute": null}
       ],
 
 
