@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2025/dev/Debian)  (format=lualatex 2026.1.20)  20 MAR 2026 13:58
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2025/dev/Debian)  (format=lualatex 2026.1.20)  23 MAR 2026 12:47
  restricted system commands enabled.
 **lineup_report.tex
 (./lineup_report.tex
@@ -830,7 +830,7 @@ Package hyperref Info: Link coloring OFF on input line 34.
 
 \openout5 = lineup_report.out
  (./lineup_report.ind
-Overfull \hbox (61.4596pt too wide) in paragraph at lines 27--29
+Overfull \hbox (61.4596pt too wide) in paragraph at lines 28--30
 []| []\TU/LatinModernRoman(0)/m/n/10.95 ,
  []
 
@@ -843,12 +843,12 @@ Overfull \hbox (61.4596pt too wide) in paragraph at lines 27--29
 
 
 ])
-<../assets/pitch/pitch.png, id=52, 1027.84pt x 1541.76pt>
+<../assets/pitch/pitch.png, id=54, 1027.84pt x 1541.76pt>
 File: ../assets/pitch/pitch.png Graphic file (type png)
 <use ../assets/pitch/pitch.png>
 Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 47.
 (luatex.def)             Requested size: 341.43306pt x 512.1465pt.
-<../assets/camisa/costas1.png, id=53, 501.875pt x 501.875pt>
+<../assets/camisa/costas1.png, id=55, 501.875pt x 501.875pt>
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 49.
@@ -2682,7 +2682,129 @@ Overfull \hbox (0.83607pt too wide) in paragraph at lines 1096--1113
 
 
 
-[24] (./lineup_report.aux)
+[24]
+File: ../assets/pitch/pitch.png Graphic file (type png)
+<use ../assets/pitch/pitch.png>
+Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 1138.
+(luatex.def)             Requested size: 341.43306pt x 512.1465pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1140.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1141.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1142.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1143.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1144.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1145.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1146.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1147.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1148.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1149.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1150.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1161.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1162.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1163.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1164.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1165.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1166.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1167.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1168.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1169.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1170.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 1171.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+
+Overfull \hbox (0.83607pt too wide) in paragraph at lines 1157--1173
+[]  
+ []
+
+
+
+[25] (./lineup_report.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -2692,12 +2814,12 @@ Package rerunfilecheck Info: File `lineup_report.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 23709 strings out of 475512
+ 23781 strings out of 475512
  100000,1144653 words of node,token memory allocated
  448 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 5 attribute, 55 glue_spec,
  5 attribute_list, 2 write nodes
-   avail lists: 2:2086,3:871,4:27,5:176,6:81,7:3084,8:1,9:1052,10:2,11:231
+   avail lists: 2:2086,3:871,4:27,5:178,6:85,7:3210,8:1,9:1052,10:2,11:234
  44899 multiletter control sequences out of 65536+600000
  45 fonts using 3981183 bytes
  102i,12n,101p,414b,922s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2705,10 +2827,10 @@ Here is how much of LuaTeX's memory you used:
 f/fonts/opentype/public/lm/lmroman10-bold.otf></usr/share/texmf/fonts/opentype/p
 ublic/lm/lmroman10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroma
 n12-bold.otf>
-Output written on lineup_report.pdf (24 pages, 3663037 bytes).
+Output written on lineup_report.pdf (25 pages, 3665619 bytes).
 
-PDF statistics: 201 PDF objects out of 1000 (max. 8388607)
- 158 compressed objects within 2 object streams
- 62 named destinations out of 1000 (max. 131072)
+PDF statistics: 209 PDF objects out of 1000 (max. 8388607)
+ 165 compressed objects within 2 object streams
+ 65 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 

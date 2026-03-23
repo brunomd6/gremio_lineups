@@ -72,6 +72,10 @@
       "publico pagante": null,
       "publico_total": null,
 
+      "goals": [
+        { "team": "", "player": "", "minute": }
+      ],
+
       "officials": {
       "referee": "Eduardo Fernandes Bastos",
       "assistant1": "Otavio Legramanti",
@@ -114,6 +118,10 @@
       "publico pagante": null,
       "publico_total": null,
 
+      "goals": [
+        { "team": "", "player": "", "minute": }
+      ],
+
       "officials": {
       "referee": "Elias da Silva Elyseu",
       "assistant1": "Michael Stanislau",
@@ -155,6 +163,10 @@
       "goals_against": 0,
       "publico pagante": null,
       "publico_total": null,
+
+      "goals": [
+        { "team": "", "player": "", "minute": }
+      ],
 
       "officials": {
       "referee": "Rafael Rodrigo Klein",
@@ -199,6 +211,10 @@
       "publico pagante": null,
       "publico_total": null,
 
+      "goals": [
+        { "team": "", "player": "", "minute": }
+      ],
+
 
       "officials": {
       "referee": "Rodrigo Brand da Silva",
@@ -242,6 +258,10 @@
       "goals_against": 4,
       "publico pagante": null,
       "publico_total": null,
+
+      "goals": [
+        { "team": "", "player": "", "minute": }
+      ],
 
 
       "officials": {
@@ -288,6 +308,10 @@
       "publico pagante": 20928,
       "publico_total": 22986,
       "renda": 972325,
+
+      "goals": [
+        { "team": "", "player": "", "minute": }
+      ],
 
       "officials": {
       "referee": "Davi De Oliveira Lacerda",
@@ -336,6 +360,9 @@
       "publico pagante": null,
       "publico_total": null,
 
+      "goals": [
+        { "team": "", "player": "", "minute": }
+      ],
 
       "officials": {
       "referee": "Eduardo Fernandes Bastos",
@@ -380,6 +407,17 @@
       "publico pagante": 18340,
       "publico_total": 18573,
       "renda": 1384153,
+
+      "goals": [
+        { "team": "away", "type": "normal", "player": "Arthur Cabral", "minute": 16},
+        { "team": "home", "type": "normal", "player": "carlosvinicius", "minute": 26},
+        { "team": "away", "type": "normal", "player": "Danilo", "minute": 35},
+        { "team": "home", "type": "normal", "player": "carlosvinicius", "minute": 50},
+        { "team": "home", "type": "penalty", "player": "carlosvinicius", "minute": 56},
+        { "team": "home", "type": "normal", "player": "tete", "minute": 59},
+        { "team": "home", "type": "normal", "player": "edenilson", "minute": 79},
+        { "team": "away", "type": "normal", "player": "Danilo", "minute": 85}
+      ],
 
       "officials": {
       "referee": "Felipe Fernandes de Lima",
@@ -428,6 +466,10 @@
       "publico pagante": null,
       "publico_total": null,
 
+      "goals": [
+        { "team": "home", "type": "penalty", "player": "carlosvinicius", "minute": 10}
+      ],
+
 
       "officials": {
       "referee": "Rafael Rodrigo Klein",
@@ -473,6 +515,10 @@
       "publico_total": 18491,
       "renda": 863361,
 
+      "goals": [
+        { "team": "away", "player": "Lucas Moura (P)", "minute": 24},
+        { "team": "away", "player": "Jonathan Calleri", "minute": 58}
+      ],
 
       "officials": {
       "referee": "Savio Pereira Sampaio",
@@ -521,6 +567,10 @@
       "publico pagante": null,
       "publico_total": null,
 
+      "goals": [
+        { "team": "home", "player": "tete", "minute": 39},
+        { "team": "away", "player": "Patryck Lanza", "minute": 56}
+      ],
 
       "officials": {
       "referee": "Wagner Silveira Echevarria",
@@ -567,6 +617,10 @@
       "publico pagante": null,
       "publico_total": null,
 
+      "goals": [
+        { "team": "away", "player": "Gabriel Taliari (P)", "minute": 25},
+        { "team": "home", "player": "viery", "minute": 71}
+      ],
 
       "officials": {
       "referee": "Rafael Rodrigo Klein",
@@ -613,6 +667,12 @@
       "publico pagante": 15437,
       "publico_total": 15714,
       "renda": 1056911,
+
+      "goals": [
+        { "team": "home", "player": "noriega", "minute": 50},
+        { "team": "away", "player": "Victor Hugo", "minute": 56},
+        { "team": "home", "player": "Marlon", "minute": 67}
+      ],
 
       "officials": {
       "referee": "Raphael Claus",
@@ -661,6 +721,11 @@
       "publico pagante": null,
       "publico_total": 50166,
 
+      "goals": [
+        { "team": "home", "player": "enamorado", "minute": 39},
+        { "team": "home", "player": "amuzu", "minute": "39+1"},
+        { "team": "home", "player": "Victor Gabriel", "minute": 67}
+      ],
 
       "officials": {
       "referee": "Anderson Daronco",
@@ -708,6 +773,11 @@
       "publico pagante": null,
       "publico_total": 41251,
 
+      "comments": "Natanael foi expulso aos 14, quase quebrou o pé o Marlon numa tesoura. Jogo difícil, galo muito fechado. Golaço do Marlon!",
+
+      "goals": [
+        { "team": "", "player": "", "minute": }
+      ],
 
       "officials": {
       "referee": "Rafael Rodrigo Klein",
@@ -756,6 +826,10 @@
       "publico_total": 19472,
       "renda": 1058814,
 
+      "goals": [
+        { "team": "", "player": "", "minute": }
+      ],
+
 
       "officials": {
       "referee": "Davi De Oliveira Lacerda",
@@ -770,6 +844,8 @@
       "var_observer": "Erich Bartolomeu Antas E Silva Bandeira",
       "quality_manager": "Carlos Henrique Tosta"
       },
+
+      "comments": "O Grêmio amassou no primeiro tempo e fez o gol cedo. Carlos Vinícius perdeu pelo menos 2 gols feitos (talvez 3).",
 
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11 },
@@ -804,6 +880,13 @@
       "publico pagante": 18029,
       "publico_total": 19307,
       "renda": 1261210,
+
+      "comments": "Pênalti bisonho dado em cima do Bolasie. Arbitragem muito ruim.",
+
+      "goals": [
+        { "team": "away", "player": "Walter Clar (P)", "minute": "27"},
+        { "team": "home", "player": "nardoni", "minute": "45+3"}
+      ],
 
       "officials": {
       "referee": "Bruno Pereira Vasconcellos",
@@ -853,6 +936,14 @@
       "publico_total": 20206,
       "renda": 1143163,
 
+      "comments": "O árbitro marcou um pênalti em cima do Carlos Vinícius (muito parecido com o pênalti dado no Bolasie na rodada anterior). O VAR recomendou revisão e o árbitro anulou a marcação.",
+
+      
+      "goals": [
+        { "team": "home", "player": "Camutanga (Contra)", "minute": 26},
+        { "team": "home", "player": "amuzu", "minute": 53}
+      ],
+
       "officials": {
       "referee": "Alex Gomes Stefano",
       "assistant1": "Luiz Claudio Regazone",
@@ -887,48 +978,56 @@
     },
 
     {
-      "id": "",
-      "date": "",
-      "hour": "",
-      "competition": "",
+      "id": "2026_03_22-brasileirao-vasco",
+      "date": "2026_03_22",
+      "hour": "16:00",
+      "competition": "Brasileirão",
       "round": 8,
-      "opponent": "",
+      "opponent": "Vasco",
       "formation": "",
-      "stadium": "",
-      "goals_for": null,
-      "goals_against": null,
+      "stadium": "Estádio São Januário",
+      "goals_for": 1,
+      "goals_against": 2,
       "publico pagante": null,
       "publico_total": null,
 
+      "comments": "David (DVD) não fazia gol há 21 jogos.",
+
+      "goals": [
+        { "team": "away", "player": "Thiago Mendes", "minute": 7},
+        { "team": "away", "player": "David", "minute": 34},
+        {"team": "home", "player": "carlosvinicius", "minute": 38}
+      ],
+
       "officials": {
-      "referee": "",
-      "assistant1": "",
-      "assistant2": "",
-      "quarto": "",
-      "inspetor": "",
-      "assessor": "",
-      "var": "",
-      "avar": "",
-      "avar2": "",
-      "var_observer": "",
-      "quality_manager": ""
+      "referee": "Davi De Oliveira Lacerda",
+      "assistant1": "Nailton Junior de Sousa Oliveira",
+      "assistant2": "Pedro Amorim de Freitas",
+      "quarto": "Luciano da Silva Miranda Filho",
+      "inspetor": "Italo Medeiros de Azevedo",
+      "assessor": "Renato Cardoso da Conceição",
+      "var": "Jose Claudio Rocha Filho",
+      "avar": "Fabrício Porfirio de Moura",
+      "avar2": "Paulo Roberto Alves Junior",
+      "var_observer": "Jailson Macedo de Freitas",
+      "quality_manager": "Maria Victoria Benetti Vargas"
       },
 
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11 },
         { "player": "pavon", "x": 85, "y": 30 },
-        { "player": "gustavo",   "x": 65, "y": 25 },
+        { "player": "balbuena",   "x": 65, "y": 25 },
         { "player": "viery", "x": 35, "y": 25 },
-        { "player": "marlon","x": 15, "y": 30 },
-        { "player": "arthur", "x": 60, "y": 45},
-        { "player": "noriega", "x": 40, "y": 45},
-        { "player": "monsalve", "x": 50, "y": 60},
-        { "player": "enamorado", "x": 80, "y":  70},
+        { "player": "caiopaulista","x": 15, "y": 30 },
+        { "player": "nardoni", "x": 60, "y": 45},
+        { "player": "perez", "x": 40, "y": 45},
+        { "player": "arthur", "x": 50, "y": 60},
+        { "player": "tete", "x": 80, "y":  70},
         { "player": "amuzu", "x": 20, "y":  70},
         { "player": "carlosvinicius", "x": 50, "y": 82}
       ],
 
-      "bench": []
+      "bench": ["grando", "kannemann", "gustavomartins", "willian", "monsalve", "marcosrocha", "noriega", "braithwaite", "mec", "pedrogabriel", "andrehenrique", "enamorado"]
     },
 
     {
