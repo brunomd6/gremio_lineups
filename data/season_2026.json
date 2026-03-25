@@ -375,6 +375,10 @@
         { "team": "", "player": "", "minute": null}
       ],
 
+      "stats:": [
+        
+      ],
+
       "officials": {
       "referee": "Eduardo Fernandes Bastos",
       "assistant1": "Jorge Eduardo Bernardi",

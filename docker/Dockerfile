@@ -10,11 +10,11 @@ RUN apt-get update && apt-get install -y \
     texlive-latex-extra \
     latexmk \
     && rm -rf /var/lib/apt/lists/* \
-    && luaotfload-tool -u
+    && luaotfload-tool -u \
 
 # Set workdir
 WORKDIR /app
 
-RUN pip install svgwrite pyyaml pylatex
+RUN pip install svgwrite pyyaml pylatex requests
 
 CMD ["python", "scripts/generator.py"]
