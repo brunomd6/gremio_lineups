@@ -1046,31 +1046,37 @@
     },
 
     {
-      "id": "",
-      "date": "",
-      "hour": "",
-      "competition": "",
+      "id": "2026_04_02-brasileirao-palmeiras",
+      "date": "2026_04_02",
+      "hour": "21:30",
+      "competition": "Brasileirão",
       "round": 9,
-      "opponent": "",
+      "opponent": "Palmeiras",
       "formation": "",
-      "stadium": "",
-      "goals_for": null,
-      "goals_against": null,
+      "stadium": "Arena Barueri",
+      "goals_for": 1,
+      "goals_against": 2,
       "publico pagante": null,
       "publico_total": null,
 
+      "goals": [
+        { "team": "rival", "player": "Marlon Freitas", "minute": 43},
+        { "team": "gremio", "player": "carlosvinicius", "minute": 53},
+        {"team": "rival", "player": "Marlon Freitas", "minute": 73}
+      ],
+
       "officials": {
-      "referee": "",
-      "assistant1": "",
-      "assistant2": "",
-      "quarto": "",
-      "inspetor": "",
-      "assessor": "",
-      "var": "",
-      "avar": "",
-      "avar2": "",
-      "var_observer": "",
-      "quality_manager": ""
+      "referee": "Bruno Arleu de Araujo",
+      "assistant1": "Rodrigo Figueiredo Henrique Correa",
+      "assistant2": "Thiago Henrique Neto Correa Farinha",
+      "quarto": "Lucas Coelho Santos",
+      "inspetor": "Marcio Eustaquio Sousa Santiago",
+      "assessor": "Cleidy Mary dos Santos Nunes Ribeiro",
+      "var": "Caio Max Augusto Vieira",
+      "avar": "Andrea Izaura Maffra Marcelino",
+      "avar2": "Dyorgines Jose Padovani de Andrade",
+      "var_observer": "Sergio Cristiano Nascimento",
+      "quality_manager": "Celso Barbosa de Oliveira"
       },
 
       "lineup": [
@@ -1078,16 +1084,16 @@
         { "player": "pavon", "x": 85, "y": 30 },
         { "player": "gustavo",   "x": 65, "y": 25 },
         { "player": "viery", "x": 35, "y": 25 },
-        { "player": "marlon","x": 15, "y": 30 },
-        { "player": "arthur", "x": 60, "y": 45},
+        { "player": "pedrogabriel","x": 15, "y": 30 },
+        { "player": "", "x": 60, "y": 45},
         { "player": "noriega", "x": 40, "y": 45},
         { "player": "monsalve", "x": 50, "y": 60},
-        { "player": "enamorado", "x": 80, "y":  70},
-        { "player": "amuzu", "x": 20, "y":  70},
+        { "player": "tete", "x": 80, "y":  70},
+        { "player": "enamorado", "x": 20, "y":  70},
         { "player": "carlosvinicius", "x": 50, "y": 82}
       ],
 
-      "bench": []
+      "bench": ["grando", "wagner", "kannemann", "amuzu", "marcosrocha", "dodi", "braithwaite", "mec", "tiaguinho", "roger", "zortea", "riquelme"]
     },
 
     {
