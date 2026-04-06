@@ -73,6 +73,7 @@
       "goals_against": 0,
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "goals": [
         { "team": "", "player": "", "minute": null}
@@ -119,6 +120,7 @@
       "goals_against": 1,
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "goals": [
         { "team": "", "player": "", "minute": null}
@@ -165,6 +167,7 @@
       "goals_against": 0,
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "goals": [
         { "team": "gremio", "type": "contra", "player": "Thainler", "minute": 3},
@@ -216,6 +219,7 @@
       "goals_against": 0,
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "goals": [
         { "team": "gremio", "type": "normal", "player": "carlosvinicius", "minute": 73},
@@ -264,6 +268,7 @@
       "goals_against": 4,
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "goals": [
         { "team": "gremio", "type": "normal", "player": "amuzu", "minute": 4},
@@ -372,6 +377,7 @@
       "goals_against": 1,
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "goals": [
         { "team": "", "player": "", "minute": null}
@@ -482,6 +488,7 @@
       "goals_against": 0,
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "goals": [
         { "team": "gremio", "type": "penalty", "player": "carlosvinicius", "minute": 10}
@@ -583,6 +590,7 @@
       "goals_against": 1,
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "goals": [
         { "team": "gremio", "player": "tete", "minute": 39},
@@ -633,6 +641,7 @@
       "goals_against": 1,
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "goals": [
         { "team": "rival", "player": "Gabriel Taliari (P)", "minute": 25},
@@ -1005,8 +1014,9 @@
       "stadium": "Estádio São Januário",
       "goals_for": 1,
       "goals_against": 2,
-      "publico pagante": null,
-      "publico_total": null,
+      "publico pagante": 19874,
+      "publico_total": 20650,
+      "renda": 1436156,
 
       "comments": "David (DVD) não fazia gol há 21 jogos.",
 
@@ -1058,8 +1068,9 @@
       "stadium": "Arena Barueri",
       "goals_for": 1,
       "goals_against": 2,
-      "publico pagante": null,
-      "publico_total": null,
+      "publico pagante": "não divulgado",
+      "publico_total": 13572,
+      "renda": 475973,
 
       "goals": [
         { "team": "rival", "player": "Marlon Freitas", "minute": 43},
@@ -1109,8 +1120,9 @@
       "stadium": "Arena do Grêmio",
       "goals_for": 0,
       "goals_against": 0,
-      "publico pagante": null,
-      "publico_total": null,
+      "publico pagante": 23251,
+      "publico_total": 23543,
+      "renda": 1291056,
 
       "officials": {
       "referee": "Edina Alves Batista",
@@ -1156,6 +1168,7 @@
       "goals_against": null,
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "officials": {
       "referee": "",
@@ -1201,6 +1214,7 @@
       "goals_against": null,
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "officials": {
       "referee": "",
@@ -1246,6 +1260,7 @@
       "goals_against": null,
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "officials": {
       "referee": "",
@@ -1291,6 +1306,7 @@
       "goals_against": null,
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "officials": {
       "referee": "",
@@ -1336,6 +1352,7 @@
       "goals_against": null,
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "officials": {
       "referee": "",
@@ -1381,6 +1398,7 @@
       "goals_against": null,
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "officials": {
       "referee": "",
@@ -1426,6 +1444,7 @@
       "goals_against": null,
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "officials": {
       "referee": "",
@@ -1471,6 +1490,7 @@
       "goals_against": null,
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "officials": {
       "referee": "",
@@ -1516,6 +1536,7 @@
       "goals_against": null,
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "officials": {
       "referee": "",
@@ -1561,6 +1582,7 @@
       "goals_against": null,
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "officials": {
       "referee": "",
@@ -1606,6 +1628,7 @@
       "goals_against": null,
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "officials": {
       "referee": "",
@@ -1651,6 +1674,7 @@
       "goals_against": null,
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "officials": {
       "referee": "",
@@ -1696,6 +1720,7 @@
       "goals_against": null,
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "officials": {
       "referee": "",
@@ -1741,6 +1766,7 @@
       "goals_against": null,
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "officials": {
       "referee": "",
@@ -1786,6 +1812,7 @@
       "goals_against": null,
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "officials": {
       "referee": "",
@@ -1831,6 +1858,7 @@
       "goals_against": null,
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "officials": {
       "referee": "",
@@ -1876,6 +1904,7 @@
       "goals_against": null,
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "officials": {
       "referee": "",
@@ -1921,6 +1950,7 @@
       "goals_against": null,
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "officials": {
       "referee": "",
@@ -1966,6 +1996,7 @@
       "goals_against": null,
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "officials": {
       "referee": "",
@@ -2011,6 +2042,7 @@
       "goals_against": null,
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "officials": {
       "referee": "",
@@ -2056,6 +2088,7 @@
       "goals_against": null,
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "officials": {
       "referee": "",
@@ -2101,6 +2134,7 @@
       "goals_against": null,
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "officials": {
       "referee": "",
@@ -2146,6 +2180,7 @@
       "goals_against": null,
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "officials": {
       "referee": "",
@@ -2191,6 +2226,7 @@
       "goals_against": null,
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "officials": {
       "referee": "",
@@ -2236,6 +2272,7 @@
       "goals_against": null,
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "officials": {
       "referee": "",
@@ -2281,6 +2318,7 @@
       "goals_against": null,
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "officials": {
       "referee": "",
@@ -2326,6 +2364,7 @@
       "goals_against": null,
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "officials": {
       "referee": "",
@@ -2371,6 +2410,7 @@
       "goals_against": null,
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "officials": {
       "referee": "",
@@ -2416,6 +2456,7 @@
       "goals_against": null,
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "officials": {
       "referee": "",
@@ -2461,6 +2502,7 @@
       "goals_against": null,
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "officials": {
       "referee": "",
@@ -2506,6 +2548,7 @@
       "goals_against": null,
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "officials": {
       "referee": "",
@@ -2551,6 +2594,7 @@
       "goals_against": null,
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "officials": {
       "referee": "",
@@ -2596,6 +2640,7 @@
       "goals_against": null,
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "officials": {
       "referee": "",
@@ -2641,6 +2686,7 @@
       "goals_against": null,
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "officials": {
       "referee": "",
@@ -2686,6 +2732,7 @@
       "goals_against": null,
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "officials": {
       "referee": "",
@@ -2732,6 +2779,7 @@
 
       "publico pagante": null,
       "publico_total": null,
+      "renda": null,
 
       "officials": {
       "referee": "",
