@@ -214,12 +214,16 @@ for match in matches:
             "assistant1": "Assistente 1",
             "assistant2": "Assistente 2",
             "assistant3": "Quarto Árbitro",
+            "quarto": "Quarto Árbitro",
             "assistant4": "Quinto Árbitro",
+            "inspetor": "Inspetor",
+            "assessor": "Assessor",
             "var": "VAR",
             "avar": "AVAR",
             "avar2": "AVAR 2",
             "var_observer": "Observador VAR",
-            "pitch_observer": "Observador de Campo"
+            "pitch_observer": "Observador de Campo",
+            "quality_observer": "Quality Observer"
         }
 
         for key, label in label_map.items():

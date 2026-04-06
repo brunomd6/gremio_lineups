@@ -34,7 +34,9 @@
     { "id": "thiaguinho", "nome": "Tiaguinho", "nome_completo": "Tiago", "numero": 39, "pos": "DM", "nacionalidade": "Brasil", "estado": "", "cidade": "", "nascimento": ""},
     { "id": "nardoni", "nome": "Nardoni", "nome_completo": "Juan Ignacio Martín Nardoni", "numero": 5, "pos": "DM", "nacionalidade": "Argentina", "estado": null, "cidade": "Nelson", "nascimento": "14/07/2002"},
     { "id": "perez", "nome": "Leo Perez", "nome_completo": "Leonel Ulises Pérez", "numero": 33, "pos": "DM", "nacionalidade": "Argentina", "estado": null, "cidade": "Rafael Castillo", "nascimento": "09/08/2004"},
-    { "id": "jefinho", "nome": "Jefinho", "nome_completo": "Jeferson Forneck", "numero": null, "pos": "DM", "nacionalidade": "Brasil", "estado": "", "cidade": "", "nascimento": ""},
+    { "id": "jefinho", "nome": "Jefinho", "nome_completo": "Jeferson Forneck", "numero": null, "pos": "DM", "nacionalidade": "Brasil", "estado": "RS", "cidade": "São Pedro da Serra", "nascimento": "14/12/2006"},
+    { "id": "zortea", "nome": "Zortea", "nome_completo": "Bernardo Schons Zortea", "numero": null, "pos": "DM", "nacionalidade": "Brasil", "estado": "SC", "cidade": "Pinhalzinho", "nascimento": "21/03/2027"},
+
 
     { "id": "edenilson", "nome": "Edenílson", "nome_completo": "Edenílson", "numero": 8, "pos": "CM", "nacionalidade": "Brasil", "estado": "", "cidade": "", "nascimento": ""},
 
@@ -1085,7 +1087,7 @@
         { "player": "gustavo",   "x": 65, "y": 25 },
         { "player": "viery", "x": 35, "y": 25 },
         { "player": "pedrogabriel","x": 15, "y": 30 },
-        { "player": "", "x": 60, "y": 45},
+        
         { "player": "noriega", "x": 40, "y": 45},
         { "player": "monsalve", "x": 50, "y": 60},
         { "player": "tete", "x": 80, "y":  70},
@@ -1097,12 +1099,57 @@
     },
 
     {
-      "id": "",
-      "date": "",
-      "hour": "",
-      "competition": "",
+      "id": "2026-04-05-brasileirao-remo",
+      "date": "2026-04-05",
+      "hour": "20:30",
+      "competition": "Brasileirão",
       "round": 10,
-      "opponent": "",
+      "opponent": "Remo",
+      "formation": "",
+      "stadium": "Arena do Grêmio",
+      "goals_for": 0,
+      "goals_against": 0,
+      "publico pagante": null,
+      "publico_total": null,
+
+      "officials": {
+      "referee": "Edina Alves Batista",
+      "assistant1": "Alex Ang Ribeiro",
+      "assistant2": "Schumacher Marques Gomes",
+      "quarto": "Yuri Elino Ferreira da Cruz",
+      "inspetor": "Roberto Perassi",
+      "assessor": "Simone Xavier de Paula E Silva",
+      "var": "Carlos Eduardo Nunes Braga",
+      "avar": "Diogo Carvalho Silva",
+      "avar2": "Tiago Nascimento dos Santos",
+      "var_observer": "Marrubson Melo Freitas",
+      "quality_manager": "Carlos Henrique Tosta"
+      },
+
+      "lineup": [
+        { "player": "weverton", "x": 50, "y": 11 },
+        { "player": "pavon", "x": 85, "y": 30 },
+        { "player": "gustavo",   "x": 65, "y": 25 },
+        { "player": "viery", "x": 35, "y": 25 },
+        { "player": "pedrogabriel","x": 15, "y": 30 },
+        { "player": "zortea", "x": 50, "y": 45},
+        { "player": "nardoni", "x": 65, "y": 55},
+        { "player": "monsalve", "x": 35, "y": 60},
+        { "player": "enamorado", "x": 80, "y":  70},
+        { "player": "amuzu", "x": 20, "y":  70},
+        { "player": "carlosvinicius", "x": 50, "y": 82}
+      ],
+
+      "bench": ["grando", "kannemann", "arthur", "marcosrocha", "dodi", "tete", "braithwaite", "mec", "caiopaulista", "jefinho", "luiseduardo", "roger"]
+    },
+
+    {
+      "id": "2026-04-08-sul-americana-montevideo-city-toque",
+      "date": "2026-04-08",
+      "hour": "",
+      "competition": "Copa Sul-Americana",
+      "round": 1,
+      "opponent": "Montevideo City Torque",
       "formation": "",
       "stadium": "",
       "goals_for": null,
@@ -1142,12 +1189,12 @@
     },
 
     {
-      "id": "",
-      "date": "",
+      "id": "2026-04-11-brasileirao-internacional",
+      "date": "2026-04-11",
       "hour": "",
       "competition": "",
       "round": 11,
-      "opponent": "",
+      "opponent": "Internacional",
       "formation": "",
       "stadium": "",
       "goals_for": null,
@@ -1187,12 +1234,57 @@
     },
 
     {
-      "id": "",
-      "date": "",
+      "id": "2026-04-14-sul-americana-deportivo-riestra",
+      "date": "2026-04-14",
+      "hour": "",
+      "competition": "Copa Sul-Americana",
+      "round": 2,
+      "opponent": "Deportivo Riestra",
+      "formation": "",
+      "stadium": "",
+      "goals_for": null,
+      "goals_against": null,
+      "publico pagante": null,
+      "publico_total": null,
+
+      "officials": {
+      "referee": "",
+      "assistant1": "",
+      "assistant2": "",
+      "quarto": "",
+      "inspetor": "",
+      "assessor": "",
+      "var": "",
+      "avar": "",
+      "avar2": "",
+      "var_observer": "",
+      "quality_manager": ""
+      },
+
+      "lineup": [
+        { "player": "weverton", "x": 50, "y": 11 },
+        { "player": "pavon", "x": 85, "y": 30 },
+        { "player": "gustavo",   "x": 65, "y": 25 },
+        { "player": "viery", "x": 35, "y": 25 },
+        { "player": "marlon","x": 15, "y": 30 },
+        { "player": "arthur", "x": 60, "y": 45},
+        { "player": "noriega", "x": 40, "y": 45},
+        { "player": "monsalve", "x": 50, "y": 60},
+        { "player": "enamorado", "x": 80, "y":  70},
+        { "player": "amuzu", "x": 20, "y":  70},
+        { "player": "carlosvinicius", "x": 50, "y": 82}
+      ],
+
+      "bench": []
+    },
+
+    {
+      "id": "2026-04-18-brasileirao-cruzeiro",
+      "date": "2026-04-18",
       "hour": "",
       "competition": "",
       "round": 12,
-      "opponent": "",
+      "opponent": "Cruzeiro",
       "formation": "",
       "stadium": "",
       "goals_for": null,
@@ -1232,12 +1324,57 @@
     },
 
     {
-      "id": "",
-      "date": "",
+      "id": "2026-04-21-copa-do-brasil-confiança",
+      "date": "2026-04-21",
+      "hour": "",
+      "competition": "Copa do Brasil",
+      "round": null,
+      "opponent": "Confiança",
+      "formation": "",
+      "stadium": "",
+      "goals_for": null,
+      "goals_against": null,
+      "publico pagante": null,
+      "publico_total": null,
+
+      "officials": {
+      "referee": "",
+      "assistant1": "",
+      "assistant2": "",
+      "quarto": "",
+      "inspetor": "",
+      "assessor": "",
+      "var": "",
+      "avar": "",
+      "avar2": "",
+      "var_observer": "",
+      "quality_manager": ""
+      },
+
+      "lineup": [
+        { "player": "weverton", "x": 50, "y": 11 },
+        { "player": "pavon", "x": 85, "y": 30 },
+        { "player": "gustavo",   "x": 65, "y": 25 },
+        { "player": "viery", "x": 35, "y": 25 },
+        { "player": "marlon","x": 15, "y": 30 },
+        { "player": "arthur", "x": 60, "y": 45},
+        { "player": "noriega", "x": 40, "y": 45},
+        { "player": "monsalve", "x": 50, "y": 60},
+        { "player": "enamorado", "x": 80, "y":  70},
+        { "player": "amuzu", "x": 20, "y":  70},
+        { "player": "carlosvinicius", "x": 50, "y": 82}
+      ],
+
+      "bench": []
+    },
+
+    {
+      "id": "2026-04-26-brasileirao-coritiba",
+      "date": "2026-04-26",
       "hour": "",
       "competition": "",
       "round": 13,
-      "opponent": "",
+      "opponent": "Coritiba",
       "formation": "",
       "stadium": "",
       "goals_for": null,
@@ -1277,12 +1414,57 @@
     },
 
     {
-      "id": "",
-      "date": "",
+      "id": "2026-04-29-sul-americana-palestino",
+      "date": "2026-04-29",
+      "hour": "",
+      "competition": "Copa Sul-Americana",
+      "round": 3,
+      "opponent": "Palestino",
+      "formation": "",
+      "stadium": "",
+      "goals_for": null,
+      "goals_against": null,
+      "publico pagante": null,
+      "publico_total": null,
+
+      "officials": {
+      "referee": "",
+      "assistant1": "",
+      "assistant2": "",
+      "quarto": "",
+      "inspetor": "",
+      "assessor": "",
+      "var": "",
+      "avar": "",
+      "avar2": "",
+      "var_observer": "",
+      "quality_manager": ""
+      },
+
+      "lineup": [
+        { "player": "weverton", "x": 50, "y": 11 },
+        { "player": "pavon", "x": 85, "y": 30 },
+        { "player": "gustavo",   "x": 65, "y": 25 },
+        { "player": "viery", "x": 35, "y": 25 },
+        { "player": "marlon","x": 15, "y": 30 },
+        { "player": "arthur", "x": 60, "y": 45},
+        { "player": "noriega", "x": 40, "y": 45},
+        { "player": "monsalve", "x": 50, "y": 60},
+        { "player": "enamorado", "x": 80, "y":  70},
+        { "player": "amuzu", "x": 20, "y":  70},
+        { "player": "carlosvinicius", "x": 50, "y": 82}
+      ],
+
+      "bench": []
+    },
+
+    {
+      "id": "2026-05-02-brasileirao-athletico",
+      "date": "2026-05-02",
       "hour": "",
       "competition": "",
       "round": 14,
-      "opponent": "",
+      "opponent": "Athletico Paranaense",
       "formation": "",
       "stadium": "",
       "goals_for": null,
@@ -1322,12 +1504,57 @@
     },
 
     {
-      "id": "",
-      "date": "",
+      "id": "2026-05-05-sul-americana-deportivo-riestra",
+      "date": "2026-05-05",
+      "hour": "",
+      "competition": "Copa Sul-Americana",
+      "round": 4,
+      "opponent": "Deportivo Riestra",
+      "formation": "",
+      "stadium": "",
+      "goals_for": null,
+      "goals_against": null,
+      "publico pagante": null,
+      "publico_total": null,
+
+      "officials": {
+      "referee": "",
+      "assistant1": "",
+      "assistant2": "",
+      "quarto": "",
+      "inspetor": "",
+      "assessor": "",
+      "var": "",
+      "avar": "",
+      "avar2": "",
+      "var_observer": "",
+      "quality_manager": ""
+      },
+
+      "lineup": [
+        { "player": "weverton", "x": 50, "y": 11 },
+        { "player": "pavon", "x": 85, "y": 30 },
+        { "player": "gustavo",   "x": 65, "y": 25 },
+        { "player": "viery", "x": 35, "y": 25 },
+        { "player": "marlon","x": 15, "y": 30 },
+        { "player": "arthur", "x": 60, "y": 45},
+        { "player": "noriega", "x": 40, "y": 45},
+        { "player": "monsalve", "x": 50, "y": 60},
+        { "player": "enamorado", "x": 80, "y":  70},
+        { "player": "amuzu", "x": 20, "y":  70},
+        { "player": "carlosvinicius", "x": 50, "y": 82}
+      ],
+
+      "bench": []
+    },
+
+    {
+      "id": "2026-05-10-brasileirao-flamengo",
+      "date": "2026-05-10",
       "hour": "",
       "competition": "",
       "round": 15,
-      "opponent": "",
+      "opponent": "Flamengo",
       "formation": "",
       "stadium": "",
       "goals_for": null,
@@ -1367,12 +1594,57 @@
     },
 
     {
-      "id": "",
-      "date": "",
+      "id": "2026-05-14-copa-do-brasil-confiança",
+      "date": "2026-05-14",
+      "hour": "",
+      "competition": "Copa do Brasil",
+      "round": null,
+      "opponent": "Confiança",
+      "formation": "",
+      "stadium": "",
+      "goals_for": null,
+      "goals_against": null,
+      "publico pagante": null,
+      "publico_total": null,
+
+      "officials": {
+      "referee": "",
+      "assistant1": "",
+      "assistant2": "",
+      "quarto": "",
+      "inspetor": "",
+      "assessor": "",
+      "var": "",
+      "avar": "",
+      "avar2": "",
+      "var_observer": "",
+      "quality_manager": ""
+      },
+
+      "lineup": [
+        { "player": "weverton", "x": 50, "y": 11 },
+        { "player": "pavon", "x": 85, "y": 30 },
+        { "player": "gustavo",   "x": 65, "y": 25 },
+        { "player": "viery", "x": 35, "y": 25 },
+        { "player": "marlon","x": 15, "y": 30 },
+        { "player": "arthur", "x": 60, "y": 45},
+        { "player": "noriega", "x": 40, "y": 45},
+        { "player": "monsalve", "x": 50, "y": 60},
+        { "player": "enamorado", "x": 80, "y":  70},
+        { "player": "amuzu", "x": 20, "y":  70},
+        { "player": "carlosvinicius", "x": 50, "y": 82}
+      ],
+
+      "bench": []
+    },
+
+    {
+      "id": "2026-05-17-brasileirao-bahia",
+      "date": "2026-05-17",
       "hour": "",
       "competition": "",
       "round": 16,
-      "opponent": "",
+      "opponent": "Bahia",
       "formation": "",
       "stadium": "",
       "goals_for": null,
@@ -1412,12 +1684,57 @@
     },
 
     {
-      "id": "",
-      "date": "",
+      "id": "2026-05-20-sul-americana-palestino",
+      "date": "2026-05-20",
+      "hour": "",
+      "competition": "Copa Sul-Americana",
+      "round": 5,
+      "opponent": "Palestino",
+      "formation": "",
+      "stadium": "",
+      "goals_for": null,
+      "goals_against": null,
+      "publico pagante": null,
+      "publico_total": null,
+
+      "officials": {
+      "referee": "",
+      "assistant1": "",
+      "assistant2": "",
+      "quarto": "",
+      "inspetor": "",
+      "assessor": "",
+      "var": "",
+      "avar": "",
+      "avar2": "",
+      "var_observer": "",
+      "quality_manager": ""
+      },
+
+      "lineup": [
+        { "player": "weverton", "x": 50, "y": 11 },
+        { "player": "pavon", "x": 85, "y": 30 },
+        { "player": "gustavo",   "x": 65, "y": 25 },
+        { "player": "viery", "x": 35, "y": 25 },
+        { "player": "marlon","x": 15, "y": 30 },
+        { "player": "arthur", "x": 60, "y": 45},
+        { "player": "noriega", "x": 40, "y": 45},
+        { "player": "monsalve", "x": 50, "y": 60},
+        { "player": "enamorado", "x": 80, "y":  70},
+        { "player": "amuzu", "x": 20, "y":  70},
+        { "player": "carlosvinicius", "x": 50, "y": 82}
+      ],
+
+      "bench": []
+    },
+
+    {
+      "id": "2026-05-23-brasileirao-santos",
+      "date": "2026-05-23",
       "hour": "",
       "competition": "",
       "round": 17,
-      "opponent": "",
+      "opponent": "Santos",
       "formation": "",
       "stadium": "",
       "goals_for": null,
@@ -1457,12 +1774,57 @@
     },
 
     {
-      "id": "",
-      "date": "",
+      "id": "2026-05-26-sul-americana-montevideo-city-torque",
+      "date": "2026-05-26",
+      "hour": "",
+      "competition": "Copa Sul-Americana",
+      "round": 6,
+      "opponent": "Montevideo City Torque",
+      "formation": "",
+      "stadium": "",
+      "goals_for": null,
+      "goals_against": null,
+      "publico pagante": null,
+      "publico_total": null,
+
+      "officials": {
+      "referee": "",
+      "assistant1": "",
+      "assistant2": "",
+      "quarto": "",
+      "inspetor": "",
+      "assessor": "",
+      "var": "",
+      "avar": "",
+      "avar2": "",
+      "var_observer": "",
+      "quality_manager": ""
+      },
+
+      "lineup": [
+        { "player": "weverton", "x": 50, "y": 11 },
+        { "player": "pavon", "x": 85, "y": 30 },
+        { "player": "gustavo",   "x": 65, "y": 25 },
+        { "player": "viery", "x": 35, "y": 25 },
+        { "player": "marlon","x": 15, "y": 30 },
+        { "player": "arthur", "x": 60, "y": 45},
+        { "player": "noriega", "x": 40, "y": 45},
+        { "player": "monsalve", "x": 50, "y": 60},
+        { "player": "enamorado", "x": 80, "y":  70},
+        { "player": "amuzu", "x": 20, "y":  70},
+        { "player": "carlosvinicius", "x": 50, "y": 82}
+      ],
+
+      "bench": []
+    },
+
+    {
+      "id": "2026-05-30-brasileirao-corinthians",
+      "date": "2026-05-30",
       "hour": "",
       "competition": "",
       "round": 18,
-      "opponent": "",
+      "opponent": "Corinthians",
       "formation": "",
       "stadium": "",
       "goals_for": null,
@@ -1502,12 +1864,12 @@
     },
 
     {
-      "id": "",
-      "date": "",
+      "id": "2026-07-22-brasileirao-mirassol",
+      "date": "2026-07-22",
       "hour": "",
       "competition": "",
       "round": 19,
-      "opponent": "",
+      "opponent": "Mirassol",
       "formation": "",
       "stadium": "",
       "goals_for": null,
