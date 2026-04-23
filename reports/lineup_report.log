@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2025/dev/Debian)  (format=lualatex 2026.3.25)  13 APR 2026 15:11
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2025/dev/Debian)  (format=lualatex 2026.3.25)  22 APR 2026 19:56
  restricted system commands enabled.
 **lineup_report.tex
 (./lineup_report.tex
@@ -4158,7 +4158,7 @@ Here is how much of LuaTeX's memory you used:
 f/fonts/opentype/public/lm/lmroman10-bold.otf></usr/share/texmf/fonts/opentype/p
 ublic/lm/lmroman10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroma
 n12-bold.otf>
-Output written on lineup_report.pdf (54 pages, 3704975 bytes).
+Output written on lineup_report.pdf (54 pages, 3705009 bytes).
 
 PDF statistics: 380 PDF objects out of 1000 (max. 8388607)
  305 compressed objects within 4 object streams
