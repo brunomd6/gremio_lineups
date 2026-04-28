@@ -1212,9 +1212,9 @@
       "stadium": "",
       "goals_for": null,
       "goals_against": null,
-      "publico pagante": null,
+      "publico pagante": 40562,
       "publico_total": null,
-      "renda": null,
+      "renda": 2319164,
 
       "officials": {
       "referee": "",
@@ -1302,11 +1302,11 @@
       "opponent": "Cruzeiro",
       "formation": "",
       "stadium": "",
-      "goals_for": null,
-      "goals_against": null,
-      "publico pagante": null,
-      "publico_total": null,
-      "renda": null,
+      "goals_for": 0,
+      "goals_against": 2,
+      "publico pagante": 25238,
+      "publico_total": 28279,
+      "renda": 1093900,
 
       "officials": {
       "referee": "",
@@ -1323,16 +1323,16 @@
       },
 
       "lineup": [
-        { "player": "weverton", "x": 50, "y": 11 },
-        { "player": "pavon", "x": 85, "y": 30 },
-        { "player": "gustavo",   "x": 65, "y": 25 },
-        { "player": "viery", "x": 35, "y": 25 },
-        { "player": "marlon","x": 15, "y": 30 },
-        { "player": "arthur", "x": 60, "y": 45},
-        { "player": "noriega", "x": 40, "y": 45},
-        { "player": "monsalve", "x": 50, "y": 60},
-        { "player": "enamorado", "x": 80, "y":  70},
-        { "player": "amuzu", "x": 20, "y":  70},
+        { "player": "", "x": 50, "y": 11 },
+        { "player": "", "x": 85, "y": 30 },
+        { "player": "",   "x": 65, "y": 25 },
+        { "player": "", "x": 35, "y": 25 },
+        { "player": "","x": 15, "y": 30 },
+        { "player": "", "x": 60, "y": 45},
+        { "player": "", "x": 40, "y": 45},
+        { "player": "", "x": 50, "y": 60},
+        { "player": "", "x": 80, "y":  70},
+        { "player": "", "x": 20, "y":  70},
         { "player": "carlosvinicius", "x": 50, "y": 82}
       ],
 
@@ -1396,9 +1396,9 @@
       "stadium": "Arena do Grêmio",
       "goals_for": 1,
       "goals_against": 0,
-      "publico pagante": null,
-      "publico_total": null,
-      "renda": null,
+      "publico pagante": 35164,
+      "publico_total": 35443,
+      "renda": 2013591,
 
       "officials": {
       "referee": "",
