@@ -6,9 +6,6 @@ Scanning input file lineup_report.idx....
 !! Input index error (file = lineup_report.idx, line = 25):
    -- Illegal null field.
 
-!! Input index error (file = lineup_report.idx, line = 27):
-   -- Illegal null field.
-
 !! Input index error (file = lineup_report.idx, line = 29):
    -- Illegal null field.
 
@@ -25,8 +22,8 @@ Scanning input file lineup_report.idx....
    -- Illegal null field.
 !! Input index error (file = lineup_report.idx, line = 38):
    -- Illegal null field.
-done (29 entries accepted, 9 rejected).
-Sorting entries....done (152 comparisons).
-Generating output file lineup_report.ind....done (59 lines written, 0 warnings).
+done (30 entries accepted, 8 rejected).
+Sorting entries....done (143 comparisons).
+Generating output file lineup_report.ind....done (60 lines written, 0 warnings).
 Output written in lineup_report.ind.
 Transcript written in lineup_report.ilg.
