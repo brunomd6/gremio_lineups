@@ -25,6 +25,8 @@
 
     { "id": "joaopedro", "nome": "João Pedro", "nome_completo": "João Pedro Maturano dos Santos", "numero": 18, "pos": "RB", "nacionalidade": "Brasil", "estado": "SP", "cidade": "Presidente Bernardes", "nascimento": "15/11/1996"},
     { "id": "marcosrocha", "nome": "Marcos Rocha", "nome_completo": "Marcos Luís Rocha Aquino", "numero": 14, "pos": "RB", "nacionalidade": "Brasil", "estado": "MG", "cidade": "Sete Lagoas", "nascimento": "11/12/1988"},
+    { "id": "vitorramon", "nome": "Vitor Ramon", "nome_completo": "Vitor Ramon Ribeiro de Oliveira", "numero": 32, "pos": "RB", "nacionalidade": "Brasil", "estado": "", "cidade": "", "nascimento": ""},
+    
 
     { "id": "noriega", "nome": "Noriega", "nome_completo": "Erick Carlos Noriega Loret de Mola", "numero": 19, "pos": "DM", "nacionalidade": "Japão/Peru", "estado": null, "cidade": "Nagoya", "nascimento": "22/10/2001"},
     { "id": "villasanti", "nome": "Villasanti", "nome_completo": "Mathías Adalberto Villasanti Rolón", "numero": 20, "pos": "DM", "nacionalidade": "Paraguai", "estado": null, "cidade": "Caacupé", "nascimento": "24/01/1997"},
@@ -1021,8 +1023,8 @@
       "comments": "David (DVD) não fazia gol há 21 jogos.",
 
       "goals": [
-        { "team": "rival", "player": "Thiago Mendes", "minute": 7},
-        { "team": "rival", "player": "David", "minute": 34},
+        {"team": "rival", "player": "Thiago Mendes", "minute": 7},
+        {"team": "rival", "player": "David", "minute": 34},
         {"team": "gremio", "player": "carlosvinicius", "minute": 38}
       ],
 
@@ -1175,7 +1177,7 @@
       "renda": null,
 
       "goals": [
-        
+        {"team": "rival", "player": "Eduardo Agüero", "half": 2, "minute": 4}
       ],
 
       "officials": {
@@ -1206,7 +1208,7 @@
         { "player": "braithwaite", "x": 50, "y": 82}
       ],
 
-      "bench": []
+      "bench": ["grando", "wagner", "nardoni", "amuzu", "monsalve", "vitorramon", "mec", "tiaguinho", "luiseduardo", "roger", "pedrogabriel", "andrehenrique"]
     },
 
     {
@@ -1275,7 +1277,7 @@
       "renda": null,
 
       "goals": [
-        
+        {"team": "gremio", "player": "amuzu", "half": 2, "minute": 42}
       ],
 
       "officials": {
@@ -1306,7 +1308,7 @@
         { "player": "braithwaite", "x": 50, "y": 82}
       ],
 
-      "bench": []
+      "bench": ["grando", "wagner", "kannemann", "arthur", "amuzu", "monsalve", "marcosrocha", "perez", "caiopaulista", "caiopaulista", "carlosvinicius", "enamorado"]
     },
 
     {
@@ -1475,6 +1477,16 @@
         
       ],
 
+      "cards": [
+        {"team": "gremio", "player": "perez", "card": "yellow", "half": 1, "minute": 4},
+        {"team": "rival", "player": "Enzo Roco", "card": "yellow", "half": 1, "minute": 15},
+        {"team": "gremio", "player": "dodi", "card": "yellow", "half": 1, "minute": 28},
+        {"team": "rival", "player": "Sebastián Gallegos", "card": "yellow", "half": 1, "minute": 31},
+        {"team": "rival", "player": "Ronnie Fernández", "card": "yellow", "half": 2, "minute": 34},
+        {"team": "rival", "player": "Fernando Meza", "card": "red", "half": 2, "minute": 42},
+        {"team": "gremio", "player": "carlosvinicius", "card": "yellow", "half": 2, "minute": 44}
+      ],
+
       "officials": {
       "referee": "",
       "assistant1": "",
@@ -1503,7 +1515,7 @@
         { "player": "carlosvinicius", "x": 50, "y": 82}
       ],
 
-      "bench": []
+      "bench": ["grando", "balbuena", "wagner", "kannemann", "arthur", "marcosrocha", "noriega", "braithwaite", "pedrogabriel", "riquelme", "andrehenrique", "enamorado"]
     },
 
     {
@@ -1568,7 +1580,16 @@
       "renda": null,
 
       "goals": [
-        
+        {"team": "gremio", "player": "carlosvinicius", "half": 1, "minute": 30},
+        {"team": "gremio", "player": "amuzu", "half": 2, "minute": 14},
+        {"team": "gremio", "player": "braithwaite", "half": 2, "minute": 28}
+      ],
+
+      "cards": [
+        {"team": "gremio", "player": "wagner", "card": "yellow", "half": 1, "minute": 6},
+        {"team": "gremio", "player": "viery", "card": "yellow", "half": 1, "minute": 43},
+        {"team": "rival", "player": "Cristian Paz", "card": "yellow", "half": 2, "minute": 21},
+        {"team": "rival", "player": "Facundo Miño", "card": "yellow", "half": 2, "minute": 27 }
       ],
 
       "officials": {
@@ -1599,7 +1620,7 @@
         { "player": "carlosvinicius", "x": 50, "y": 82}
       ],
 
-      "bench": []
+      "bench": ["grando", "balbuena", "kannemann", "marcosrocha", "noriega", "tete", "braithwaite", "caiopaulista", "tiaguinho", "riquelme", "andrehenrique", "enamorado"]
     },
 
     {
@@ -1618,21 +1639,21 @@
       "renda": 2169784,
 
       "goals": [
-        
+        { "team": "rival", "player": "Carrascal", "half": 2, "minute": 22}
       ],
 
       "officials": {
-      "referee": "",
-      "assistant1": "",
-      "assistant2": "",
-      "quarto": "",
-      "inspetor": "",
-      "assessor": "",
-      "var": "",
-      "avar": "",
-      "avar2": "",
-      "var_observer": "",
-      "quality_manager": ""
+      "referee": "Davi De Oliveira Lacerda",
+      "assistant1": "Bruno Raphael Pires",
+      "assistant2": "Pedro Amorim de Freitas",
+      "quarto": "Kleber Ariel Gonçalves Silva",
+      "inspetor": "Italo Medeiros de Azevedo",
+      "assessor": "Kleber Lucio Gil",
+      "var": "Marco Aurelio Augusto Fazekas Ferreira",
+      "avar": "Helen Aparecida Gonçalves Silva Araujo",
+      "avar2": "Dyorgines Jose Padovani de Andrade",
+      "var_observer": "Claudio Jose de Oliveira Soares",
+      "quality_manager": "Joel Tolentino Damata Junior"
       },
 
       "lineup": [
@@ -1668,21 +1689,22 @@
       "renda": null,
 
       "goals": [
-        
+        { "team": "gremio", "player": "braithwaite", "half": 1, "minute": 13},
+        { "team": "gremio", "player": "braithwaite", "half": 2, "minute": 13},
+        { "team": "gremio", "player": "willian", "half": 2, "minute": 25}
       ],
 
       "officials": {
-      "referee": "",
-      "assistant1": "",
-      "assistant2": "",
-      "quarto": "",
-      "inspetor": "",
-      "assessor": "",
-      "var": "",
-      "avar": "",
-      "avar2": "",
-      "var_observer": "",
-      "quality_manager": ""
+      "referee": "Lucas Paulo Torezin",
+      "assistant1": "Eduardo Gonçalves da Cruz",
+      "assistant2": "Andrey Luiz de Freitas",
+      "quarto": "Arthur Fernandes Azevedo",
+      "assessor": "Carlos Augusto Nogueira Júnior",
+      "var": "Caio Max Augusto Vieira",
+      "avar": "Flavio Gomes Barroca",
+      "avar2": "Thiago Luis Scarascati",
+      "var_observer": "Sergio Cristiano Nascimento",
+      "quality_manager": "Alcides Zawaski Pazetto"
       },
 
       "lineup": [
@@ -1770,6 +1792,16 @@
       "goals": [
         { "team": "gremio", "player": "braithwaite", "minute": 3},
         { "team": "gremio", "player": "pavon", "minute": 67}
+      ],
+
+      "cards": [
+        {"team": "rival", "player": "Ronnie Fernández", "card": "yellow", "half": 1, "minute": 3},
+        {"team": "rival", "player": "Julián Fernández", "card": "yellow", "half": 1, "minute": 38},
+        {"team": "gremio", "player": "perez", "card": "yellow", "half": 1, "minute": 44},
+        {"team": "rival", "player": "Ian Garguez", "card": "yellow", "half": 2, "minute": 10},
+        {"team": "rival", "player": "Bryan Carrasco", "card": "yellow", "half": 2, "minute": 13},
+        {"team": "gremio", "player": "viery", "card": "yellow", "half": 2, "minute": 17},
+        {"team": "gremio", "player": "riquelme", "card": "yellow", "half": 2, "minute": 44}
       ],
 
       "officials": {

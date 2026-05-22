@@ -34,6 +34,7 @@ sphinx
 
 # Públicos
 
+## Gauchão
 
 ## Brasileirão
 - https://ge.globo.com/gato-mestre/noticia/2026/01/29/veja-os-publicos-da-primeira-rodada-do-campeonato-brasileiro.ghtml
@@ -53,5 +54,7 @@ sphinx
 - https://ge.globo.com/gato-mestre/noticia/2026/05/10/veja-os-publicos-da-15a-rodada-do-campeonato-brasileiro.ghtml
 - https://ge.globo.com/gato-mestre/noticia/2026/05/17/veja-os-publicos-da-16a-rodada-do-campeonato-brasileiro.ghtml
 
+## Sul-Americana
 
+## Copa do Brasil
 
