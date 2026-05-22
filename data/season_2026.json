@@ -17,7 +17,7 @@
     { "id": "balbuena", "nome": "Balbuena", "nome_completo": "Fabián Cornelio Balbuena González", "numero": 13, "pos": "CB", "nacionalidade": "Paraguai", "estado": null, "cidade": "Ciudad del Este", "nascimento": "23/08/1991"},
     { "id": "kannemann", "nome": "Kannemann", "nome_completo": "Walter Kannemann", "numero": 4, "pos": "CB", "nacionalidade": "Argentina/Itália", "estado": null, "cidade": "Concepción del Uruguay", "nascimento": "14/03/1991"},
     { "id": "viery", "nome": "Viery", "nome_completo": "Viery Fernandes Santos Lopes", "numero": 44, "pos": "CB", "nacionalidade": "Brasil", "estado": "MG", "cidade": "Ubá", "nascimento": "02/01/2005"},
-    { "id": "luiseduardo", "nome": "Luís Eduardo", "nome_completo": "Luís Eduardo", "numero": null, "pos": "CB", "nacionalidade": "Brasil", "estado": "", "cidade": "", "nascimento": ""},
+    { "id": "luiseduardo", "nome": "Luís Eduardo", "nome_completo": "Luís Eduardo", "numero": 43, "pos": "CB", "nacionalidade": "Brasil", "estado": "", "cidade": "", "nascimento": ""},
 
     { "id": "marlon", "nome": "Marlon", "nome_completo": "Marlon Rodrigues Xavier", "numero": 23, "pos": "LB", "nacionalidade": "Brasil", "estado": "PR", "cidade": "Cascavel", "nascimento": "15/05/1997"},
     { "id": "caiopaulista", "nome": "Caio Paulista", "nome_completo": "Caio Fernando de Oliveira", "numero": 38, "pos": "LB", "nacionalidade": "Brasil", "estado": "SP", "cidade": "São Paulo", "nascimento": "11/05/1998"},
@@ -1229,17 +1229,17 @@
       ],
 
       "officials": {
-      "referee": "",
-      "assistant1": "",
-      "assistant2": "",
-      "quarto": "",
-      "inspetor": "",
-      "assessor": "",
-      "var": "",
-      "avar": "",
-      "avar2": "",
-      "var_observer": "",
-      "quality_manager": ""
+      "referee": "Bruno Arleu de Araujo",
+      "assistant1": "Rodrigo Figueiredo Henrique Correa",
+      "assistant2": "Thiago Henrique Neto Correa Farinha",
+      "quarto": "Jose Mendonca da Silva Junior",
+      "inspetor": "Antonio Pereira da Silva",
+      "assessor": "Ana Karina Marques Valentin",
+      "var": "Rodolpho Toski Marques",
+      "avar": "Fabrício Porfirio de Moura",
+      "avar2": "Vinicius Gonçalves Dias Araujo",
+      "var_observer": "Marcos Andre Gomes da Penha",
+      "quality_manager": "Larissa Ramos Monteiro"
       },
 
       "lineup": [
@@ -1256,7 +1256,7 @@
         { "player": "carlosvinicius", "x": 50, "y": 82}
       ],
 
-      "bench": []
+      "bench": ["grando", "balbuena", "kannemann", "monsalve", "marcosrocha", "dodi", "braithwaite", "perez", "mec", "caiopaulista", "roger", "enamorado"]
     },
 
     {
@@ -1324,6 +1324,11 @@
       "publico_total": 28279,
       "renda": 1093900,
 
+      "goals": [
+        { "team": "rival", "player": "braithwaite", "minute": 6, "half": 2},
+        { "team": "rival", "player": "pavon", "minute": 21, "half": 21}
+      ],
+
       "officials": {
       "referee": "",
       "assistant1": "",
@@ -1375,17 +1380,17 @@
       ],
 
       "officials": {
-      "referee": "",
-      "assistant1": "",
-      "assistant2": "",
-      "quarto": "",
-      "inspetor": "",
-      "assessor": "",
-      "var": "",
-      "avar": "",
-      "avar2": "",
-      "var_observer": "",
-      "quality_manager": ""
+      "referee": "Raphael Claus",
+      "assistant1": "Alex Ang Ribeiro",
+      "assistant2": "Luiz Alberto Andrini Nogueira",
+      "quarto": "Emerson Ricardo De Almeida Andrade",
+      "inspetor": "Marcelo Carvalho Van Gasse",
+      "assessor": "Kleber Lucio Gil",
+      "var": "Thiago Duarte Peixoto",
+      "avar": "Fabio Rogerio Baesteiro",
+      "avar2": "Jose Ricardo Vasconcellos Laranjeira",
+      "var_observer": "Rodrigo Pereira Joia",
+      "quality_manager": "Paulo Roberto da Rocha Camello"
       },
 
       "lineup": [
@@ -1605,12 +1610,12 @@
       "round": 15,
       "opponent": "Flamengo",
       "formation": "",
-      "stadium": "",
-      "goals_for": null,
-      "goals_against": null,
-      "publico pagante": null,
-      "publico_total": null,
-      "renda": null,
+      "stadium": "Arena do Grêmio",
+      "goals_for": 0,
+      "goals_against": 1,
+      "publico pagante": 30617,
+      "publico_total": 30891,
+      "renda": 2169784,
 
       "goals": [
         
@@ -1705,12 +1710,12 @@
       "round": 16,
       "opponent": "Bahia",
       "formation": "",
-      "stadium": "",
-      "goals_for": null,
-      "goals_against": null,
-      "publico pagante": null,
-      "publico_total": null,
-      "renda": null,
+      "stadium": "Casa de Apostas Arena Fonte Nova",
+      "goals_for": 1,
+      "goals_against": 1,
+      "publico pagante": 26800,
+      "publico_total": 26927,
+      "renda": 771759,
 
       "goals": [
         

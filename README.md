@@ -50,6 +50,8 @@ sphinx
 - https://ge.globo.com/gato-mestre/noticia/2026/04/19/veja-os-publicos-da-12a-rodada-do-campeonato-brasileiro.ghtml
 - https://ge.globo.com/gato-mestre/noticia/2026/04/26/veja-os-publicos-da-13a-rodada-do-campeonato-brasileiro.ghtml
 - https://ge.globo.com/gato-mestre/noticia/2026/05/03/veja-os-publicos-da-14a-rodada-do-campeonato-brasileiro.ghtml
+- https://ge.globo.com/gato-mestre/noticia/2026/05/10/veja-os-publicos-da-15a-rodada-do-campeonato-brasileiro.ghtml
+- https://ge.globo.com/gato-mestre/noticia/2026/05/17/veja-os-publicos-da-16a-rodada-do-campeonato-brasileiro.ghtml
 
 
 
