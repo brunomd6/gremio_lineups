@@ -1075,7 +1075,7 @@
       "goals": [
         { "team": "rival", "player": "Marlon Freitas", "minute": 43},
         { "team": "gremio", "player": "carlosvinicius", "minute": 53},
-        {"team": "rival", "player": "Marlon Freitas", "minute": 73}
+        { "team": "rival", "player": "Marlon Freitas", "minute": 73}
       ],
 
       "officials": {
@@ -1124,6 +1124,10 @@
       "publico_total": 23543,
       "renda": 1291056,
 
+      "goals": [
+        
+      ],
+
       "officials": {
       "referee": "Edina Alves Batista",
       "assistant1": "Alex Ang Ribeiro",
@@ -1169,6 +1173,10 @@
       "publico pagante": null,
       "publico_total": null,
       "renda": null,
+
+      "goals": [
+        
+      ],
 
       "officials": {
       "referee": "",
@@ -1216,6 +1224,10 @@
       "publico_total": null,
       "renda": 2319164,
 
+      "goals": [
+        
+      ],
+
       "officials": {
       "referee": "",
       "assistant1": "",
@@ -1261,6 +1273,10 @@
       "publico pagante": null,
       "publico_total": null,
       "renda": null,
+
+      "goals": [
+        
+      ],
 
       "officials": {
       "referee": "",
@@ -1354,6 +1370,10 @@
       "publico_total": null,
       "renda": null,
 
+      "goals": [
+        
+      ],
+
       "officials": {
       "referee": "",
       "assistant1": "",
@@ -1445,6 +1465,10 @@
       "publico pagante": null,
       "publico_total": null,
       "renda": null,
+
+      "goals": [
+        
+      ],
 
       "officials": {
       "referee": "",
@@ -1538,6 +1562,10 @@
       "publico_total": null,
       "renda": null,
 
+      "goals": [
+        
+      ],
+
       "officials": {
       "referee": "",
       "assistant1": "",
@@ -1583,6 +1611,10 @@
       "publico pagante": null,
       "publico_total": null,
       "renda": null,
+
+      "goals": [
+        
+      ],
 
       "officials": {
       "referee": "",
@@ -1630,6 +1662,10 @@
       "publico_total": null,
       "renda": null,
 
+      "goals": [
+        
+      ],
+
       "officials": {
       "referee": "",
       "assistant1": "",
@@ -1676,6 +1712,10 @@
       "publico_total": null,
       "renda": null,
 
+      "goals": [
+        
+      ],
+
       "officials": {
       "referee": "",
       "assistant1": "",
@@ -1692,15 +1732,15 @@
 
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
-        { "player": "pavon", "x": 85, "y": 30},
-        { "player": "gustavo",   "x": 65, "y": 25},
-        { "player": "viery", "x": 35, "y": 25},
-        { "player": "marlon","x": 15, "y": 30},
-        { "player": "arthur", "x": 60, "y": 45},
-        { "player": "noriega", "x": 40, "y": 45},
-        { "player": "monsalve", "x": 50, "y": 60},
-        { "player": "enamorado", "x": 80, "y":  70},
-        { "player": "amuzu", "x": 20, "y":  70},
+        { "player": "marcosrocha", "x": 85, "y": 40},
+        { "player": "luiseduardo",   "x": 68, "y": 35},
+        { "player": "wagner", "x": 50, "y": 30},
+        { "player": "viery","x": 32, "y": 35},
+        { "player": "pedrogabriel", "x": 15, "y": 40},
+        { "player": "noriega", "x": 60, "y": 49},
+        { "player": "perez", "x": 40, "y": 49},
+        { "player": "willian", "x": 75, "y": 65},
+        { "player": "enamorado", "x": 25, "y": 65},
         { "player": "carlosvinicius", "x": 50, "y": 82}
       ],
 
@@ -1722,6 +1762,11 @@
       "publico_total": null,
       "renda": null,
 
+      "goals": [
+        { "team": "gremio", "player": "braithwaite", "minute": 3},
+        { "team": "gremio", "player": "pavon", "minute": 67}
+      ],
+
       "officials": {
       "referee": "",
       "assistant1": "",
@@ -1739,15 +1784,15 @@
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "pavon", "x": 85, "y": 30},
-        { "player": "gustavo",   "x": 65, "y": 25},
+        { "player": "luiseduardo",   "x": 65, "y": 25},
         { "player": "viery", "x": 35, "y": 25},
-        { "player": "marlon","x": 15, "y": 30},
-        { "player": "arthur", "x": 60, "y": 45},
-        { "player": "noriega", "x": 40, "y": 45},
-        { "player": "monsalve", "x": 50, "y": 60},
+        { "player": "pedrogabriel","x": 15, "y": 30},
+        { "player": "noriega", "x": 60, "y": 45},
+        { "player": "perez", "x": 40, "y": 45},
+        { "player": "mec", "x": 50, "y": 60},
         { "player": "enamorado", "x": 80, "y":  70},
         { "player": "amuzu", "x": 20, "y":  70},
-        { "player": "carlosvinicius", "x": 50, "y": 82}
+        { "player": "braithwaite", "x": 50, "y": 82}
       ],
 
       "bench": []
@@ -1767,6 +1812,10 @@
       "publico pagante": null,
       "publico_total": null,
       "renda": null,
+
+      "goals": [
+        
+      ],
 
       "officials": {
       "referee": "",
@@ -1814,6 +1863,10 @@
       "publico_total": null,
       "renda": null,
 
+      "goals": [
+        
+      ],
+
       "officials": {
       "referee": "",
       "assistant1": "",
@@ -1859,6 +1912,10 @@
       "publico pagante": null,
       "publico_total": null,
       "renda": null,
+
+      "goals": [
+        
+      ],
 
       "officials": {
       "referee": "",
@@ -1906,6 +1963,10 @@
       "publico_total": null,
       "renda": null,
 
+      "goals": [
+        
+      ],
+
       "officials": {
       "referee": "",
       "assistant1": "",
@@ -1951,6 +2012,10 @@
       "publico pagante": null,
       "publico_total": null,
       "renda": null,
+
+      "goals": [
+        
+      ],
 
       "officials": {
       "referee": "",
@@ -1998,6 +2063,10 @@
       "publico_total": null,
       "renda": null,
 
+      "goals": [
+        
+      ],
+
       "officials": {
       "referee": "",
       "assistant1": "",
@@ -2043,6 +2112,10 @@
       "publico pagante": null,
       "publico_total": null,
       "renda": null,
+
+      "goals": [
+        
+      ],
 
       "officials": {
       "referee": "",
@@ -2090,6 +2163,10 @@
       "publico_total": null,
       "renda": null,
 
+      "goals": [
+        
+      ],
+
       "officials": {
       "referee": "",
       "assistant1": "",
@@ -2135,6 +2212,10 @@
       "publico pagante": null,
       "publico_total": null,
       "renda": null,
+
+      "goals": [
+        
+      ],
 
       "officials": {
       "referee": "",
@@ -2182,6 +2263,10 @@
       "publico_total": null,
       "renda": null,
 
+      "goals": [
+        
+      ],
+
       "officials": {
       "referee": "",
       "assistant1": "",
@@ -2227,6 +2312,10 @@
       "publico pagante": null,
       "publico_total": null,
       "renda": null,
+
+      "goals": [
+        
+      ],
 
       "officials": {
       "referee": "",
@@ -2274,6 +2363,10 @@
       "publico_total": null,
       "renda": null,
 
+      "goals": [
+        
+      ],
+
       "officials": {
       "referee": "",
       "assistant1": "",
@@ -2319,6 +2412,10 @@
       "publico pagante": null,
       "publico_total": null,
       "renda": null,
+
+      "goals": [
+        
+      ],
 
       "officials": {
       "referee": "",
@@ -2366,6 +2463,10 @@
       "publico_total": null,
       "renda": null,
 
+      "goals": [
+        
+      ],
+
       "officials": {
       "referee": "",
       "assistant1": "",
@@ -2411,6 +2512,10 @@
       "publico pagante": null,
       "publico_total": null,
       "renda": null,
+
+      "goals": [
+        
+      ],
 
       "officials": {
       "referee": "",
@@ -2458,6 +2563,10 @@
       "publico_total": null,
       "renda": null,
 
+      "goals": [
+        
+      ],
+
       "officials": {
       "referee": "",
       "assistant1": "",
@@ -2503,6 +2612,10 @@
       "publico pagante": null,
       "publico_total": null,
       "renda": null,
+
+      "goals": [
+        
+      ],
 
       "officials": {
       "referee": "",
@@ -2550,6 +2663,10 @@
       "publico_total": null,
       "renda": null,
 
+      "goals": [
+        
+      ],
+
       "officials": {
       "referee": "",
       "assistant1": "",
@@ -2595,6 +2712,10 @@
       "publico pagante": null,
       "publico_total": null,
       "renda": null,
+
+      "goals": [
+        
+      ],
 
       "officials": {
       "referee": "",
@@ -2642,6 +2763,10 @@
       "publico_total": null,
       "renda": null,
 
+      "goals": [
+        
+      ],
+
       "officials": {
       "referee": "",
       "assistant1": "",
@@ -2687,6 +2812,10 @@
       "publico pagante": null,
       "publico_total": null,
       "renda": null,
+
+      "goals": [
+        
+      ],
 
       "officials": {
       "referee": "",
@@ -2734,6 +2863,10 @@
       "publico_total": null,
       "renda": null,
 
+      "goals": [
+        
+      ],
+
       "officials": {
       "referee": "",
       "assistant1": "",
@@ -2780,6 +2913,10 @@
       "publico pagante": null,
       "publico_total": null,
       "renda": null,
+
+      "goals": [
+        
+      ],
 
       "officials": {
       "referee": "",

@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1778594960.063 "lineup_report.tex" "lineup_report.pdf" "lineup_report" 1778594984.06339 0
+["lualatex"] 1779381298.80592 "lineup_report.tex" "lineup_report.pdf" "lineup_report" 1779381321.7064 0
   "../assets/camisa/costas1.png" 1767360787.14513 239204 e269b314b5cab0e1cd8613d566b13e77 ""
   "../assets/pitch/pitch.png" 1767361083.47038 3421966 7324b40e7a7f8eefc3c21e0df2dc89a0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1136768653 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
@@ -188,22 +188,22 @@
   "/usr/share/texmf/fonts/opentype/public/lm/lmroman12-bold.otf" 1255129361 110496 b9c8767d4cc3bf3f4b21f676bf89aa78 ""
   "/usr/share/texmf/fonts/opentype/public/lm/lmroman9-regular.otf" 1255129361 112680 8bab1cbacdfe2fe22ce627aaf5174f5d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1774451075 5306818 1fa401c76333135f70f9b590f03b90db ""
-  "/var/lib/texmf/luatex-cache/generic/fonts/otl/lmroman10-bold.luc" 1778594937.52934 128392 a35fb79f5edcf146c8804feef4eb2aa9 ""
-  "/var/lib/texmf/luatex-cache/generic/fonts/otl/lmroman10-bolditalic.luc" 1778594938.06934 136473 1a0a82e397964ae482c6170e1c204219 ""
-  "/var/lib/texmf/luatex-cache/generic/fonts/otl/lmroman10-italic.luc" 1778594938.14534 136294 4f055f33af84f24acb313f0df23dfd77 ""
-  "/var/lib/texmf/luatex-cache/generic/fonts/otl/lmroman10-regular.luc" 1778594936.44135 127309 4c98d2f049c54f1fa860da8f2be1c9ce ""
-  "/var/lib/texmf/luatex-cache/generic/fonts/otl/lmroman12-bold.luc" 1778594938.49734 128281 3110848148fd4869f4da3dc903d2ad9e ""
-  "/var/lib/texmf/luatex-cache/generic/fonts/otl/lmroman17-regular.luc" 1778594938.41734 128903 8d9ae7dcabfdd2aaa460b77e196097f6 ""
-  "/var/lib/texmf/luatex-cache/generic/fonts/otl/lmroman6-regular.luc" 1778594939.22134 128498 f855340cf564d03b38efe576def52e4d ""
-  "/var/lib/texmf/luatex-cache/generic/fonts/otl/lmroman8-regular.luc" 1778594939.14534 128128 fb42d0777a796d2af9251e93a2e43041 ""
-  "/var/lib/texmf/luatex-cache/generic/fonts/otl/lmroman9-regular.luc" 1778594938.79334 127942 d86c5f8ac0a86a000b44e7954321c6d1 ""
-  "/var/lib/texmf/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1778594939.15334 2399 e0dbac8da60deccfd888730b9ff3db72 ""
+  "/var/lib/texmf/luatex-cache/generic/fonts/otl/lmroman10-bold.luc" 1779381278.92935 128392 a35fb79f5edcf146c8804feef4eb2aa9 ""
+  "/var/lib/texmf/luatex-cache/generic/fonts/otl/lmroman10-bolditalic.luc" 1779381279.41334 136473 1a0a82e397964ae482c6170e1c204219 ""
+  "/var/lib/texmf/luatex-cache/generic/fonts/otl/lmroman10-italic.luc" 1779381279.52934 136294 4f055f33af84f24acb313f0df23dfd77 ""
+  "/var/lib/texmf/luatex-cache/generic/fonts/otl/lmroman10-regular.luc" 1779381277.93737 127309 4c98d2f049c54f1fa860da8f2be1c9ce ""
+  "/var/lib/texmf/luatex-cache/generic/fonts/otl/lmroman12-bold.luc" 1779381279.89733 128281 3110848148fd4869f4da3dc903d2ad9e ""
+  "/var/lib/texmf/luatex-cache/generic/fonts/otl/lmroman17-regular.luc" 1779381279.83733 128903 8d9ae7dcabfdd2aaa460b77e196097f6 ""
+  "/var/lib/texmf/luatex-cache/generic/fonts/otl/lmroman6-regular.luc" 1779381280.58132 128498 f855340cf564d03b38efe576def52e4d ""
+  "/var/lib/texmf/luatex-cache/generic/fonts/otl/lmroman8-regular.luc" 1779381280.48132 128128 fb42d0777a796d2af9251e93a2e43041 ""
+  "/var/lib/texmf/luatex-cache/generic/fonts/otl/lmroman9-regular.luc" 1779381280.15333 127942 d86c5f8ac0a86a000b44e7954321c6d1 ""
+  "/var/lib/texmf/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1779381280.49332 2399 e0dbac8da60deccfd888730b9ff3db72 ""
   "/var/lib/texmf/luatex-cache/generic/names/luaotfload-names.luc.gz" 1774451136.87384 369214 e7cc453af6d1a7a862b00a6870d61af4 ""
   "/var/lib/texmf/web2c/luahbtex/lualatex.fmt" 1774451115 5713938 342e6501501c22d3678437d22f0e5a1b ""
-  "lineup_report.aux" 1778594982.73221 163 0f2066d17161d05c00cbf5a03ead5a7d "lualatex"
-  "lineup_report.ind" 1778071939.52788 2448 020259c459493a64bfc4e4a45326239d "makeindex lineup_report.idx"
-  "lineup_report.out" 1778594962.7221 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
-  "lineup_report.tex" 1778594935.18995 67023 43cc20ab5e63f2f87bd60655d16760e9 ""
+  "lineup_report.aux" 1779381320.14799 163 0f2066d17161d05c00cbf5a03ead5a7d "lualatex"
+  "lineup_report.ind" 1779380457.77782 2448 020259c459493a64bfc4e4a45326239d "makeindex lineup_report.idx"
+  "lineup_report.out" 1779381301.60845 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
+  "lineup_report.tex" 1779381276.61299 67069 ea79c6f4c8f9e6e6bfb9ddb834e45ba6 ""
   (generated)
   "lineup_report.aux"
   "lineup_report.idx"
@@ -211,8 +211,8 @@
   "lineup_report.out"
   "lineup_report.pdf"
   (rewritten before read)
-["makeindex lineup_report.idx"] 1778071939.4316 "lineup_report.idx" "lineup_report.ind" "lineup_report" 1778594984.05308 0
-  "lineup_report.idx" 1778594982.75089 3573 698716e2fbdc0a1ac411c28603139d80 "lualatex"
+["makeindex lineup_report.idx"] 1779380457.70582 "lineup_report.idx" "lineup_report.ind" "lineup_report" 1779381321.69633 0
+  "lineup_report.idx" 1779381320.16195 3573 698716e2fbdc0a1ac411c28603139d80 "lualatex"
   (generated)
   "lineup_report.ilg"
   "lineup_report.ind"
