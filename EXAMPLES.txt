@@ -1,0 +1,55 @@
+    {
+      "id": "2026-04-08-sul-americana-montevideo-city-toque",
+      "date": "",
+      "hour": "",
+      "competition": "",
+      "round": ,
+      "opponent": "",
+      "formation": "",
+      "stadium": "",
+      "goals_for": null,
+      "goals_against": null,
+      "publico pagante": null,
+      "publico_total": null,
+      "renda": null,
+
+      "goals": [
+        {"team": "gremio", "player": "", "half": , "minute": },
+        {"team": "rival", "player": "", "half": , "minute": }
+      ],
+
+      "cards": [
+        {"team": "gremio", "player": "", "card": "", "half": , "minute": },
+        {"team": "rival", "player": "", "card": "", "half": , "minute": }
+      ],
+
+      "officials": {
+      "referee": "",
+      "assistant1": "",
+      "assistant2": "",
+      "quarto": "",
+      "inspetor": "",
+      "assessor": "",
+      "var": "",
+      "avar": "",
+      "avar2": "",
+      "var_observer": "",
+      "quality_manager": ""
+      },
+
+      "lineup": [
+        { "player": "", "x": 50, "y": 11},
+        { "player": "", "x": 85, "y": 30},
+        { "player": "", "x": 65, "y": 25},
+        { "player": "", "x": 35, "y": 25},
+        { "player": "","x": 15, "y": 30},
+        { "player": "", "x": 50, "y": 45},
+        { "player": "", "x": 35, "y": 55},
+        { "player": "", "x": 60, "y": 60},
+        { "player": "", "x": 85, "y":  70},
+        { "player": "", "x": 15, "y":  70},
+        { "player": "", "x": 50, "y": 82}
+      ],
+
+      "bench": ["", "", "", "", "", "", "", "", "", "", "", ""]
+    },

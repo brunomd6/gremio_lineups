@@ -33,7 +33,7 @@
     { "id": "arthur", "nome": "Arthur", "nome_completo": "Arthur Henrique Ramos de Oliveira Melo", "numero": 29, "pos": "DM", "nacionalidade": "Brasil", "estado": "GO", "cidade": "Goiânia", "nascimento": "12/08/1996"},
     { "id": "cuellar", "nome": "Cuéllar", "nome_completo": "Gustavo Cuéllar", "numero": 6, "pos": "DM", "nacionalidade": "Equador", "estado": "", "cidade": "", "nascimento": ""},
     { "id": "dodi", "nome": "Dodi", "nome_completo": "Douglas Moreira Fagundes", "numero": 17, "pos": "DM", "nacionalidade": "Brasil", "estado": "PR", "cidade": "Santo Antônio do Sudoeste", "nascimento": "17/04/1996"},
-    { "id": "thiaguinho", "nome": "Tiaguinho", "nome_completo": "Tiago", "numero": 39, "pos": "DM", "nacionalidade": "Brasil", "estado": "", "cidade": "", "nascimento": ""},
+    { "id": "tiaguinho", "nome": "Tiaguinho", "nome_completo": "Tiago", "numero": 39, "pos": "DM", "nacionalidade": "Brasil", "estado": "", "cidade": "", "nascimento": ""},
     { "id": "nardoni", "nome": "Nardoni", "nome_completo": "Juan Ignacio Martín Nardoni", "numero": 5, "pos": "DM", "nacionalidade": "Argentina", "estado": null, "cidade": "Nelson", "nascimento": "14/07/2002"},
     { "id": "perez", "nome": "Leo Perez", "nome_completo": "Leonel Ulises Pérez", "numero": 33, "pos": "DM", "nacionalidade": "Argentina", "estado": null, "cidade": "Rafael Castillo", "nascimento": "09/08/2004"},
     { "id": "jefinho", "nome": "Jefinho", "nome_completo": "Jeferson Forneck", "numero": null, "pos": "DM", "nacionalidade": "Brasil", "estado": "RS", "cidade": "São Pedro da Serra", "nascimento": "14/12/2006"},
@@ -98,7 +98,7 @@
         { "player": "wagner", "x": 35, "y": 25},
         { "player": "marlon","x": 15, "y": 30},
         { "player": "arthur", "x": 60, "y": 45},
-        { "player": "thiaguinho", "x": 40, "y": 45},
+        { "player": "tiaguinho", "x": 40, "y": 45},
         { "player": "cristaldo", "x": 50, "y": 60},
         { "player": "roger", "x": 80, "y":  70},
         { "player": "amuzu", "x": 20, "y":  70},
@@ -195,7 +195,7 @@
         { "player": "gustavo",   "x": 65, "y": 25},
         { "player": "wagner", "x": 35, "y": 25},
         { "player": "caiopaulista","x": 15, "y": 30},
-        { "player": "thiaguinho", "x": 60, "y": 45},
+        { "player": "tiaguinho", "x": 60, "y": 45},
         { "player": "arthur", "x": 40, "y": 45},
         { "player": "cristaldo", "x": 50, "y": 60},
         { "player": "tete", "x": 80, "y":  70},
@@ -300,7 +300,7 @@
         { "player": "wagner", "x": 35, "y": 25},
         { "player": "marlon","x": 15, "y": 30},
         { "player": "arthur", "x": 60, "y": 45},
-        { "player": "thiaguinho", "x": 40, "y": 45},
+        { "player": "tiaguinho", "x": 40, "y": 45},
         { "player": "cristaldo", "x": 50, "y": 60},
         { "player": "tete", "x": 80, "y":  70},
         { "player": "amuzu", "x": 20, "y":  70},
@@ -406,7 +406,7 @@
         { "player": "viery", "x": 35, "y": 25},
         { "player": "caiopaulista","x": 15, "y": 30},
         { "player": "noriega", "x": 60, "y": 45},
-        { "player": "thiaguinho", "x": 40, "y": 45},
+        { "player": "tiaguinho", "x": 40, "y": 45},
         { "player": "willian", "x": 50, "y": 60},
         { "player": "roger", "x": 80, "y":  70},
         { "player": "pavon", "x": 20, "y":  70},
@@ -1180,11 +1180,18 @@
         {"team": "rival", "player": "Eduardo Agüero", "half": 2, "minute": 4}
       ],
 
+      "cards": [
+        {"team": "rival", "player": "Pablo Siles", "card": "yellow", "half": 1, "minute": 32},
+        {"team": "gremio", "player": "marcosrocha", "card": "yellow", "half": 2, "minute": 41},
+        {"team": "rival", "player": "Diogo Guzmán", "card": "", "half": 2, "minute": 47},
+        {"team": "gremio", "player": "kannemann", "card": "yellow", "half": 2, "minute": 50}      
+      ],
+
       "officials": {
-      "referee": "",
-      "assistant1": "",
-      "assistant2": "",
-      "quarto": "",
+      "referee": "Augusto Aragon",
+      "assistant1": "Cristhian Lescano",
+      "assistant2": "Ricardo Baren",
+      "quarto": "Bryan Loyaza",
       "inspetor": "",
       "assessor": "",
       "var": "",
@@ -1270,8 +1277,8 @@
       "opponent": "Deportivo Riestra",
       "formation": "",
       "stadium": "",
-      "goals_for": null,
-      "goals_against": null,
+      "goals_for": 1,
+      "goals_against": 0,
       "publico pagante": null,
       "publico_total": null,
       "renda": null,
@@ -1280,11 +1287,21 @@
         {"team": "gremio", "player": "amuzu", "half": 2, "minute": 42}
       ],
 
+      "cards": [
+        {"team": "gremio", "player": "nardoni", "card": "red", "half": 2, "minute": 2},
+        {"team": "gremio", "player": "monsalve", "card": "yellow", "half": 2, "minute": 37},
+        {"team": "gremio", "player": "carlosvinicius", "card": "yellow", "half": 2, "minute": 44},
+        {"team": "gremio", "player": "Alejo Dramisino", "card": "yellow", "half": 2, "minute": 47},
+        {"team": "gremio", "player": "enamorado", "card": "yellow", "half": 2, "minute": 51},
+        {"team": "gremio", "player": "Nicólas Watson", "card": "yellow", "half": 2, "minute": 52},
+        {"team": "gremio", "player": "grando", "card": "yellow", "half": 2, "minute": 53}
+      ],
+
       "officials": {
-      "referee": "",
-      "assistant1": "",
-      "assistant2": "",
-      "quarto": "",
+      "referee": "Gery Vargas",
+      "assistant1": "José Antelo",
+      "assistant2": "Edward Saavedra Vargas",
+      "quarto": "Christian Aleman",
       "inspetor": "",
       "assessor": "",
       "var": "",
@@ -1488,10 +1505,10 @@
       ],
 
       "officials": {
-      "referee": "",
-      "assistant1": "",
-      "assistant2": "",
-      "quarto": "",
+      "referee": "Guillermo Guerrero",
+      "assistant1": "Edison Vasquez",
+      "assistant2": "Andres Tola",
+      "quarto": "Oswaldo Contreras",
       "inspetor": "",
       "assessor": "",
       "var": "",
@@ -1593,10 +1610,10 @@
       ],
 
       "officials": {
-      "referee": "",
-      "assistant1": "",
-      "assistant2": "",
-      "quarto": "",
+      "referee": "Mario Díaz de Vivar",
+      "assistant1": "Eduardo Cardozo",
+      "assistant2": "Milcíades Saldívar",
+      "quarto": "Blas Romero",
       "inspetor": "",
       "assessor": "",
       "var": "",
@@ -1783,8 +1800,8 @@
       "opponent": "Palestino",
       "formation": "",
       "stadium": "",
-      "goals_for": null,
-      "goals_against": null,
+      "goals_for": 2,
+      "goals_against": 0,
       "publico pagante": null,
       "publico_total": null,
       "renda": null,
@@ -1805,10 +1822,10 @@
       ],
 
       "officials": {
-      "referee": "",
-      "assistant1": "",
-      "assistant2": "",
-      "quarto": "",
+      "referee": "Carlos Benítez",
+      "assistant1": "Roberto Cañete",
+      "assistant2": "José Villagra",
+      "quarto": "Derlis Benítez",
       "inspetor": "",
       "assessor": "",
       "var": "",
@@ -1851,38 +1868,42 @@
       "renda": null,
 
       "goals": [
-        
+        { "team": "rival", "player": "Gabriel Barbosa", "half": 1, "minute": 32},
+        { "team": "gremio", "player": "carlosvinicius", "half": 1, "minute": 3},
+        { "team": "rival", "player": "Gabriel Barbosa", "half": 2, "minute": 9},
+        { "team": "gremio", "player": "carlosvinicius", "half": 2, "minute": 13},
+        { "team": "gremio", "player": "tete", "half": 2, "minute": 18}
       ],
 
       "officials": {
-      "referee": "",
-      "assistant1": "",
-      "assistant2": "",
-      "quarto": "",
-      "inspetor": "",
-      "assessor": "",
-      "var": "",
-      "avar": "",
-      "avar2": "",
-      "var_observer": "",
-      "quality_manager": ""
+      "referee": "Bruno Arleu de Araujo",
+      "assistant1": "Guilherme Dias Camilo",
+      "assistant2": "Thiago Henrique Neto Correa Farinha",
+      "quarto": "Andre Luiz Skettino Policarpo Bento",
+      "inspetor": "Fabricio Vilarinho da Silva",
+      "assessor": "Adriano de Carvalho",
+      "var": "Rafael Traci",
+      "avar": "Ivan Carlos Bohn",
+      "avar2": "Elmo Alves Resende Cunha",
+      "var_observer": "Sergio Cristiano Nascimento",
+      "quality_manager": "Maria Victoria Benetti Vargas"
       },
 
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "pavon", "x": 85, "y": 30},
-        { "player": "gustavo",   "x": 65, "y": 25},
+        { "player": "luiseduardo",   "x": 65, "y": 25},
         { "player": "viery", "x": 35, "y": 25},
-        { "player": "marlon","x": 15, "y": 30},
-        { "player": "arthur", "x": 60, "y": 45},
-        { "player": "noriega", "x": 40, "y": 45},
-        { "player": "monsalve", "x": 50, "y": 60},
+        { "player": "pedrogabriel","x": 15, "y": 30},
+        { "player": "noriega", "x": 60, "y": 45},
+        { "player": "perez", "x": 40, "y": 45},
+        { "player": "braithwaite", "x": 50, "y": 60},
         { "player": "enamorado", "x": 80, "y":  70},
         { "player": "amuzu", "x": 20, "y":  70},
         { "player": "carlosvinicius", "x": 50, "y": 82}
       ],
 
-      "bench": []
+      "bench": ["thiagobeltrame", "wagner", "kannemann", "arthur", "monsalve", "marcosrocha", "dodi", "villasanti", "tete", "vitorramon", "tiaguinho", "riquelme"]
     },
 
     {
@@ -1901,14 +1922,17 @@
       "renda": null,
 
       "goals": [
-        
+        { "team": "rival", "player": "Salomón Rodríguez", "half": 1, "minute": 37},
+        { "team": "gremio", "player": "mec", "half": 2, "minute": 2},
+        { "team": "rival", "player": "Franco Pizzichillo", "half": 2, "minute": 38},
+        { "team": "gremio", "player": "carlosvinicius", "half": 2, "minute": 44}
       ],
 
       "officials": {
-      "referee": "",
-      "assistant1": "",
-      "assistant2": "",
-      "quarto": "",
+      "referee": "Jesús Valenzuela",
+      "assistant1": "Jorge Urrego Martínez",
+      "assistant2": "Lubin Torrealba",
+      "quarto": "Emikar Calderas",
       "inspetor": "",
       "assessor": "",
       "var": "",
@@ -1921,18 +1945,18 @@
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "pavon", "x": 85, "y": 30},
-        { "player": "gustavo",   "x": 65, "y": 25},
+        { "player": "luiseduardo",   "x": 65, "y": 25},
         { "player": "viery", "x": 35, "y": 25},
-        { "player": "marlon","x": 15, "y": 30},
-        { "player": "arthur", "x": 60, "y": 45},
-        { "player": "noriega", "x": 40, "y": 45},
-        { "player": "monsalve", "x": 50, "y": 60},
-        { "player": "enamorado", "x": 80, "y":  70},
+        { "player": "pedrogabriel","x": 15, "y": 30},
+        { "player": "tiaguinho", "x": 60, "y": 45},
+        { "player": "perez", "x": 40, "y": 45},
+        { "player": "braithwaite", "x": 50, "y": 60},
+        { "player": "tete", "x": 80, "y":  70},
         { "player": "amuzu", "x": 20, "y":  70},
         { "player": "carlosvinicius", "x": 50, "y": 82}
       ],
 
-      "bench": []
+      "bench": ["thiagobeltrame", "wagner", "kannemann", "arthur", "willian", "marcosrocha", "dodi", "noriega", "mec", "caiopaulista", "andrehenrique", "enamorado"]
     },
 
     {
