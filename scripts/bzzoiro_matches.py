@@ -1,5 +1,6 @@
 import requests
 import time
+import json
 
 BASE_URL = "https://sports.bzzoiro.com/api"
 
@@ -7,80 +8,65 @@ headers = {
     "Authorization": "Token 910c6099f543922e97dc43c1c70080f4994f2103"
 }
 
-LEAGUE_ID = 9
-SEASON = 2026
+TEAM_ID = 154
+
+# ----------------------------------------
+# get all matches
+# ----------------------------------------
 
 res = requests.get(
-    f"{BASE_URL}/events",
+    f"{BASE_URL}/events/",
     headers=headers,
     params={
+        "team_id": TEAM_ID,
         "date_from": "2026-01-01",
-        "date_to": "2026-12-31",
-        "league": 9,
-        "team": "Grêmio"
+        "date_to": "2026-12-31"
     }
 )
 
 data = res.json()
+
 matches = data["results"]
 
-print(res.status_code)
-print(res.text[:500])
+print(f"Found {len(matches)} matches")
 
-TEAM_ID = 154
+# ----------------------------------------
+# fetch details
+# ----------------------------------------
 
-gremio_matches = [
-    m for m in matches
-    if m["home_team_obj"]["id"] == TEAM_ID
-    or m["away_team_obj"]["id"] == TEAM_ID
-]
+full_dataset = []
 
-
-
-detailed_matches = []
-
-for m in gremio_matches:
+for m in matches:
     match_id = m["id"]
-    date = m["event_date"][:10]
+
+    print(f"Fetching {match_id}")
 
     res = requests.get(
         f"{BASE_URL}/events/{match_id}/",
-        headers=headers,
-        params={
-            "date_from": date,
-            "date_to": date
-        }
+        headers=headers
     )
 
+    print("STATUS:", res.status_code)
+
     if res.status_code != 200:
-        print(f"Failed for ID {match_id}: {res.status_code}")
         continue
 
-    if "application/json" not in res.headers.get("Content-Type", ""):
-        print(f"Non-JSON response for ID {match_id}")
-        continue
+    detailed = res.json()
 
-    data = res.json()
-    detailed_matches.append(data)
+    full_dataset.append(detailed)
 
-    print(f"✔ Retrieved match {match_id}")
+    time.sleep(0.3)
 
-    time.sleep(0.3)  # avoid rate limit
+# ----------------------------------------
+# save everything
+# ----------------------------------------
 
-for m in detailed_matches:
-    date = m["event_date"][:10]
-    home = m["home_team"]
-    away = m["away_team"]
-    hs = m["home_score"]
-    as_ = m["away_score"]
-    round_ = m["round_number"]
+with open("./data/gremio_2026_detailed.json", "w", encoding="utf-8") as f:
+    json.dump(
+        full_dataset,
+        f,
+        indent=2,
+        ensure_ascii=False
+    )
 
-    score = f"{hs}-{as_}" if hs is not None else "vs"
-
-    print(f"{date} | R{round_:02d} | {home} {score} {away}")
-
-    import json
-
-for m in detailed_matches:
-    print(json.dumps(m, indent=2))
-    break  # just first match
+print("Saved to gremio_2026_detailed.json")

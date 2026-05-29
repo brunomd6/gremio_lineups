@@ -7,6 +7,10 @@
 `docker run --rm -v "${PWD}:/app" -w /app/reports gremio-formacao python generate_report.py`
 `docker run --rm -v "${PWD}:/app" -w /app/reports gremio-formacao latexmk -C`
 
+## Running Bzzoiro
+
+`docker run --rm -v "${PWD}:/app" -w /app/scripts gremio-formacao python bzzoiro.py`
+
 ## Running Server
 
 `python -m http.server`

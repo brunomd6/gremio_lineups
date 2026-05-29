@@ -1222,7 +1222,7 @@
       "id": "2026-04-11-brasileirao-internacional",
       "date": "2026-04-11",
       "hour": "",
-      "competition": "",
+      "competition": "Brasileirão",
       "round": 11,
       "opponent": "Internacional",
       "formation": "",
@@ -1332,7 +1332,7 @@
       "id": "2026-04-18-brasileirao-cruzeiro",
       "date": "2026-04-18",
       "hour": "",
-      "competition": "",
+      "competition": "Brasileirão",
       "round": 12,
       "opponent": "Cruzeiro",
       "formation": "",
@@ -1539,7 +1539,7 @@
       "id": "2026-05-02-brasileirao-athletico",
       "date": "2026-05-02",
       "hour": "",
-      "competition": "",
+      "competition": "Brasileirão",
       "round": 14,
       "opponent": "Athletico Paranaense",
       "formation": "",
@@ -1644,7 +1644,7 @@
       "id": "2026-05-10-brasileirao-flamengo",
       "date": "2026-05-10",
       "hour": "",
-      "competition": "",
+      "competition": "Brasileirão",
       "round": 15,
       "opponent": "Flamengo",
       "formation": "",
@@ -1745,7 +1745,7 @@
       "id": "2026-05-17-brasileirao-bahia",
       "date": "2026-05-17",
       "hour": "",
-      "competition": "",
+      "competition": "Brasileirão",
       "round": 16,
       "opponent": "Bahia",
       "formation": "",
@@ -1856,7 +1856,7 @@
       "id": "2026-05-23-brasileirao-santos",
       "date": "2026-05-23",
       "hour": "",
-      "competition": "",
+      "competition": "Brasileirão",
       "round": 17,
       "opponent": "Santos",
       "formation": "",
@@ -1963,7 +1963,7 @@
       "id": "2026-05-30-brasileirao-corinthians",
       "date": "2026-05-30",
       "hour": "",
-      "competition": "",
+      "competition": "Brasileirão",
       "round": 18,
       "opponent": "Corinthians",
       "formation": "",
@@ -1993,17 +1993,17 @@
       },
 
       "lineup": [
-        { "player": "weverton", "x": 50, "y": 11},
-        { "player": "pavon", "x": 85, "y": 30},
-        { "player": "gustavo",   "x": 65, "y": 25},
-        { "player": "viery", "x": 35, "y": 25},
-        { "player": "marlon","x": 15, "y": 30},
-        { "player": "arthur", "x": 60, "y": 45},
-        { "player": "noriega", "x": 40, "y": 45},
-        { "player": "monsalve", "x": 50, "y": 60},
-        { "player": "enamorado", "x": 80, "y":  70},
-        { "player": "amuzu", "x": 20, "y":  70},
-        { "player": "carlosvinicius", "x": 50, "y": 82}
+        { "player": "grando", "x": 50, "y": 11},
+        { "player": "grando", "x": 85, "y": 30},
+        { "player": "grando",   "x": 65, "y": 25},
+        { "player": "grando", "x": 35, "y": 25},
+        { "player": "grando","x": 15, "y": 30},
+        { "player": "grando", "x": 60, "y": 45},
+        { "player": "grando", "x": 40, "y": 45},
+        { "player": "grando", "x": 50, "y": 60},
+        { "player": "grando", "x": 80, "y":  70},
+        { "player": "grando", "x": 20, "y":  70},
+        { "player": "grando", "x": 50, "y": 82}
       ],
 
       "bench": []
@@ -2013,7 +2013,7 @@
       "id": "2026-07-22-brasileirao-mirassol",
       "date": "2026-07-22",
       "hour": "",
-      "competition": "",
+      "competition": "Brasileirão",
       "round": 19,
       "opponent": "Mirassol",
       "formation": "",
@@ -2043,17 +2043,17 @@
       },
 
       "lineup": [
-        { "player": "weverton", "x": 50, "y": 11},
-        { "player": "pavon", "x": 85, "y": 30},
-        { "player": "gustavo",   "x": 65, "y": 25},
-        { "player": "viery", "x": 35, "y": 25},
-        { "player": "marlon","x": 15, "y": 30},
-        { "player": "arthur", "x": 60, "y": 45},
-        { "player": "noriega", "x": 40, "y": 45},
-        { "player": "monsalve", "x": 50, "y": 60},
-        { "player": "enamorado", "x": 80, "y":  70},
-        { "player": "amuzu", "x": 20, "y":  70},
-        { "player": "carlosvinicius", "x": 50, "y": 82}
+        { "player": "grando", "x": 50, "y": 11},
+        { "player": "grando", "x": 85, "y": 30},
+        { "player": "grando",   "x": 65, "y": 25},
+        { "player": "grando", "x": 35, "y": 25},
+        { "player": "grando","x": 15, "y": 30},
+        { "player": "grando", "x": 60, "y": 45},
+        { "player": "grando", "x": 40, "y": 45},
+        { "player": "grando", "x": 50, "y": 60},
+        { "player": "grando", "x": 80, "y":  70},
+        { "player": "grando", "x": 20, "y":  70},
+        { "player": "grando", "x": 50, "y": 82}
       ],
 
       "bench": []
@@ -2063,7 +2063,7 @@
       "id": "",
       "date": "",
       "hour": "",
-      "competition": "",
+      "competition": "Brasileirão",
       "round": 20,
       "opponent": "",
       "formation": "",
@@ -2093,17 +2093,17 @@
       },
 
       "lineup": [
-        { "player": "weverton", "x": 50, "y": 11},
-        { "player": "pavon", "x": 85, "y": 30},
-        { "player": "gustavo",   "x": 65, "y": 25},
-        { "player": "viery", "x": 35, "y": 25},
-        { "player": "marlon","x": 15, "y": 30},
-        { "player": "arthur", "x": 60, "y": 45},
-        { "player": "noriega", "x": 40, "y": 45},
-        { "player": "monsalve", "x": 50, "y": 60},
-        { "player": "enamorado", "x": 80, "y":  70},
-        { "player": "amuzu", "x": 20, "y":  70},
-        { "player": "carlosvinicius", "x": 50, "y": 82}
+        { "player": "grando", "x": 50, "y": 11},
+        { "player": "grando", "x": 85, "y": 30},
+        { "player": "grando",   "x": 65, "y": 25},
+        { "player": "grando", "x": 35, "y": 25},
+        { "player": "grando","x": 15, "y": 30},
+        { "player": "grando", "x": 60, "y": 45},
+        { "player": "grando", "x": 40, "y": 45},
+        { "player": "grando", "x": 50, "y": 60},
+        { "player": "grando", "x": 80, "y":  70},
+        { "player": "grando", "x": 20, "y":  70},
+        { "player": "grando", "x": 50, "y": 82}
       ],
 
       "bench": []
@@ -2113,7 +2113,7 @@
       "id": "",
       "date": "",
       "hour": "",
-      "competition": "",
+      "competition": "Brasileirão",
       "round": 21,
       "opponent": "",
       "formation": "",
@@ -2143,17 +2143,17 @@
       },
 
       "lineup": [
-        { "player": "weverton", "x": 50, "y": 11},
-        { "player": "pavon", "x": 85, "y": 30},
-        { "player": "gustavo",   "x": 65, "y": 25},
-        { "player": "viery", "x": 35, "y": 25},
-        { "player": "marlon","x": 15, "y": 30},
-        { "player": "arthur", "x": 60, "y": 45},
-        { "player": "noriega", "x": 40, "y": 45},
-        { "player": "monsalve", "x": 50, "y": 60},
-        { "player": "enamorado", "x": 80, "y":  70},
-        { "player": "amuzu", "x": 20, "y":  70},
-        { "player": "carlosvinicius", "x": 50, "y": 82}
+        { "player": "grando", "x": 50, "y": 11},
+        { "player": "grando", "x": 85, "y": 30},
+        { "player": "grando",   "x": 65, "y": 25},
+        { "player": "grando", "x": 35, "y": 25},
+        { "player": "grando","x": 15, "y": 30},
+        { "player": "grando", "x": 60, "y": 45},
+        { "player": "grando", "x": 40, "y": 45},
+        { "player": "grando", "x": 50, "y": 60},
+        { "player": "grando", "x": 80, "y":  70},
+        { "player": "grando", "x": 20, "y":  70},
+        { "player": "grando", "x": 50, "y": 82}
       ],
 
       "bench": []
@@ -2163,7 +2163,7 @@
       "id": "",
       "date": "",
       "hour": "",
-      "competition": "",
+      "competition": "Brasileirão",
       "round": 22,
       "opponent": "",
       "formation": "",
@@ -2193,17 +2193,17 @@
       },
 
       "lineup": [
-        { "player": "weverton", "x": 50, "y": 11},
-        { "player": "pavon", "x": 85, "y": 30},
-        { "player": "gustavo",   "x": 65, "y": 25},
-        { "player": "viery", "x": 35, "y": 25},
-        { "player": "marlon","x": 15, "y": 30},
-        { "player": "arthur", "x": 60, "y": 45},
-        { "player": "noriega", "x": 40, "y": 45},
-        { "player": "monsalve", "x": 50, "y": 60},
-        { "player": "enamorado", "x": 80, "y":  70},
-        { "player": "amuzu", "x": 20, "y":  70},
-        { "player": "carlosvinicius", "x": 50, "y": 82}
+        { "player": "grando", "x": 50, "y": 11},
+        { "player": "grando", "x": 85, "y": 30},
+        { "player": "grando",   "x": 65, "y": 25},
+        { "player": "grando", "x": 35, "y": 25},
+        { "player": "grando","x": 15, "y": 30},
+        { "player": "grando", "x": 60, "y": 45},
+        { "player": "grando", "x": 40, "y": 45},
+        { "player": "grando", "x": 50, "y": 60},
+        { "player": "grando", "x": 80, "y":  70},
+        { "player": "grando", "x": 20, "y":  70},
+        { "player": "grando", "x": 50, "y": 82}
       ],
 
       "bench": []
@@ -2213,7 +2213,7 @@
       "id": "",
       "date": "",
       "hour": "",
-      "competition": "",
+      "competition": "Brasileirão",
       "round": 23,
       "opponent": "",
       "formation": "",
@@ -2243,17 +2243,17 @@
       },
 
       "lineup": [
-        { "player": "weverton", "x": 50, "y": 11},
-        { "player": "pavon", "x": 85, "y": 30},
-        { "player": "gustavo",   "x": 65, "y": 25},
-        { "player": "viery", "x": 35, "y": 25},
-        { "player": "marlon","x": 15, "y": 30},
-        { "player": "arthur", "x": 60, "y": 45},
-        { "player": "noriega", "x": 40, "y": 45},
-        { "player": "monsalve", "x": 50, "y": 60},
-        { "player": "enamorado", "x": 80, "y":  70},
-        { "player": "amuzu", "x": 20, "y":  70},
-        { "player": "carlosvinicius", "x": 50, "y": 82}
+        { "player": "grando", "x": 50, "y": 11},
+        { "player": "grando", "x": 85, "y": 30},
+        { "player": "grando",   "x": 65, "y": 25},
+        { "player": "grando", "x": 35, "y": 25},
+        { "player": "grando","x": 15, "y": 30},
+        { "player": "grando", "x": 60, "y": 45},
+        { "player": "grando", "x": 40, "y": 45},
+        { "player": "grando", "x": 50, "y": 60},
+        { "player": "grando", "x": 80, "y":  70},
+        { "player": "grando", "x": 20, "y":  70},
+        { "player": "grando", "x": 50, "y": 82}
       ],
 
       "bench": []
@@ -2263,7 +2263,7 @@
       "id": "",
       "date": "",
       "hour": "",
-      "competition": "",
+      "competition": "Brasileirão",
       "round": 24,
       "opponent": "",
       "formation": "",
@@ -2293,17 +2293,17 @@
       },
 
       "lineup": [
-        { "player": "weverton", "x": 50, "y": 11},
-        { "player": "pavon", "x": 85, "y": 30},
-        { "player": "gustavo",   "x": 65, "y": 25},
-        { "player": "viery", "x": 35, "y": 25},
-        { "player": "marlon","x": 15, "y": 30},
-        { "player": "arthur", "x": 60, "y": 45},
-        { "player": "noriega", "x": 40, "y": 45},
-        { "player": "monsalve", "x": 50, "y": 60},
-        { "player": "enamorado", "x": 80, "y":  70},
-        { "player": "amuzu", "x": 20, "y":  70},
-        { "player": "carlosvinicius", "x": 50, "y": 82}
+        { "player": "grando", "x": 50, "y": 11},
+        { "player": "grando", "x": 85, "y": 30},
+        { "player": "grando",   "x": 65, "y": 25},
+        { "player": "grando", "x": 35, "y": 25},
+        { "player": "grando","x": 15, "y": 30},
+        { "player": "grando", "x": 60, "y": 45},
+        { "player": "grando", "x": 40, "y": 45},
+        { "player": "grando", "x": 50, "y": 60},
+        { "player": "grando", "x": 80, "y":  70},
+        { "player": "grando", "x": 20, "y":  70},
+        { "player": "grando", "x": 50, "y": 82}
       ],
 
       "bench": []
@@ -2313,7 +2313,7 @@
       "id": "",
       "date": "",
       "hour": "",
-      "competition": "",
+      "competition": "Brasileirão",
       "round": 25,
       "opponent": "",
       "formation": "",
@@ -2343,17 +2343,17 @@
       },
 
       "lineup": [
-        { "player": "weverton", "x": 50, "y": 11},
-        { "player": "pavon", "x": 85, "y": 30},
-        { "player": "gustavo",   "x": 65, "y": 25},
-        { "player": "viery", "x": 35, "y": 25},
-        { "player": "marlon","x": 15, "y": 30},
-        { "player": "arthur", "x": 60, "y": 45},
-        { "player": "noriega", "x": 40, "y": 45},
-        { "player": "monsalve", "x": 50, "y": 60},
-        { "player": "enamorado", "x": 80, "y":  70},
-        { "player": "amuzu", "x": 20, "y":  70},
-        { "player": "carlosvinicius", "x": 50, "y": 82}
+        { "player": "grando", "x": 50, "y": 11},
+        { "player": "grando", "x": 85, "y": 30},
+        { "player": "grando",   "x": 65, "y": 25},
+        { "player": "grando", "x": 35, "y": 25},
+        { "player": "grando","x": 15, "y": 30},
+        { "player": "grando", "x": 60, "y": 45},
+        { "player": "grando", "x": 40, "y": 45},
+        { "player": "grando", "x": 50, "y": 60},
+        { "player": "grando", "x": 80, "y":  70},
+        { "player": "grando", "x": 20, "y":  70},
+        { "player": "grando", "x": 50, "y": 82}
       ],
 
       "bench": []
@@ -2363,7 +2363,7 @@
       "id": "",
       "date": "",
       "hour": "",
-      "competition": "",
+      "competition": "Brasileirão",
       "round": 26,
       "opponent": "",
       "formation": "",
@@ -2393,17 +2393,17 @@
       },
 
       "lineup": [
-        { "player": "weverton", "x": 50, "y": 11},
-        { "player": "pavon", "x": 85, "y": 30},
-        { "player": "gustavo",   "x": 65, "y": 25},
-        { "player": "viery", "x": 35, "y": 25},
-        { "player": "marlon","x": 15, "y": 30},
-        { "player": "arthur", "x": 60, "y": 45},
-        { "player": "noriega", "x": 40, "y": 45},
-        { "player": "monsalve", "x": 50, "y": 60},
-        { "player": "enamorado", "x": 80, "y":  70},
-        { "player": "amuzu", "x": 20, "y":  70},
-        { "player": "carlosvinicius", "x": 50, "y": 82}
+        { "player": "grando", "x": 50, "y": 11},
+        { "player": "grando", "x": 85, "y": 30},
+        { "player": "grando",   "x": 65, "y": 25},
+        { "player": "grando", "x": 35, "y": 25},
+        { "player": "grando","x": 15, "y": 30},
+        { "player": "grando", "x": 60, "y": 45},
+        { "player": "grando", "x": 40, "y": 45},
+        { "player": "grando", "x": 50, "y": 60},
+        { "player": "grando", "x": 80, "y":  70},
+        { "player": "grando", "x": 20, "y":  70},
+        { "player": "grando", "x": 50, "y": 82}
       ],
 
       "bench": []
@@ -2413,7 +2413,7 @@
       "id": "",
       "date": "",
       "hour": "",
-      "competition": "",
+      "competition": "Brasileirão",
       "round": 27,
       "opponent": "",
       "formation": "",
@@ -2443,17 +2443,17 @@
       },
 
       "lineup": [
-        { "player": "weverton", "x": 50, "y": 11},
-        { "player": "pavon", "x": 85, "y": 30},
-        { "player": "gustavo",   "x": 65, "y": 25},
-        { "player": "viery", "x": 35, "y": 25},
-        { "player": "marlon","x": 15, "y": 30},
-        { "player": "arthur", "x": 60, "y": 45},
-        { "player": "noriega", "x": 40, "y": 45},
-        { "player": "monsalve", "x": 50, "y": 60},
-        { "player": "enamorado", "x": 80, "y":  70},
-        { "player": "amuzu", "x": 20, "y":  70},
-        { "player": "carlosvinicius", "x": 50, "y": 82}
+        { "player": "grando", "x": 50, "y": 11},
+        { "player": "grando", "x": 85, "y": 30},
+        { "player": "grando",   "x": 65, "y": 25},
+        { "player": "grando", "x": 35, "y": 25},
+        { "player": "grando","x": 15, "y": 30},
+        { "player": "grando", "x": 60, "y": 45},
+        { "player": "grando", "x": 40, "y": 45},
+        { "player": "grando", "x": 50, "y": 60},
+        { "player": "grando", "x": 80, "y":  70},
+        { "player": "grando", "x": 20, "y":  70},
+        { "player": "grando", "x": 50, "y": 82}
       ],
 
       "bench": []
@@ -2463,7 +2463,7 @@
       "id": "",
       "date": "",
       "hour": "",
-      "competition": "",
+      "competition": "Brasileirão",
       "round": 28,
       "opponent": "",
       "formation": "",
@@ -2493,17 +2493,17 @@
       },
 
       "lineup": [
-        { "player": "weverton", "x": 50, "y": 11},
-        { "player": "pavon", "x": 85, "y": 30},
-        { "player": "gustavo",   "x": 65, "y": 25},
-        { "player": "viery", "x": 35, "y": 25},
-        { "player": "marlon","x": 15, "y": 30},
-        { "player": "arthur", "x": 60, "y": 45},
-        { "player": "noriega", "x": 40, "y": 45},
-        { "player": "monsalve", "x": 50, "y": 60},
-        { "player": "enamorado", "x": 80, "y":  70},
-        { "player": "amuzu", "x": 20, "y":  70},
-        { "player": "carlosvinicius", "x": 50, "y": 82}
+        { "player": "grando", "x": 50, "y": 11},
+        { "player": "grando", "x": 85, "y": 30},
+        { "player": "grando",   "x": 65, "y": 25},
+        { "player": "grando", "x": 35, "y": 25},
+        { "player": "grando","x": 15, "y": 30},
+        { "player": "grando", "x": 60, "y": 45},
+        { "player": "grando", "x": 40, "y": 45},
+        { "player": "grando", "x": 50, "y": 60},
+        { "player": "grando", "x": 80, "y":  70},
+        { "player": "grando", "x": 20, "y":  70},
+        { "player": "grando", "x": 50, "y": 82}
       ],
 
       "bench": []
@@ -2513,7 +2513,7 @@
       "id": "",
       "date": "",
       "hour": "",
-      "competition": "",
+      "competition": "Brasileirão",
       "round": 29,
       "opponent": "",
       "formation": "",
@@ -2543,17 +2543,17 @@
       },
 
       "lineup": [
-        { "player": "weverton", "x": 50, "y": 11},
-        { "player": "pavon", "x": 85, "y": 30},
-        { "player": "gustavo",   "x": 65, "y": 25},
-        { "player": "viery", "x": 35, "y": 25},
-        { "player": "marlon","x": 15, "y": 30},
-        { "player": "arthur", "x": 60, "y": 45},
-        { "player": "noriega", "x": 40, "y": 45},
-        { "player": "monsalve", "x": 50, "y": 60},
-        { "player": "enamorado", "x": 80, "y":  70},
-        { "player": "amuzu", "x": 20, "y":  70},
-        { "player": "carlosvinicius", "x": 50, "y": 82}
+        { "player": "grando", "x": 50, "y": 11},
+        { "player": "grando", "x": 85, "y": 30},
+        { "player": "grando",   "x": 65, "y": 25},
+        { "player": "grando", "x": 35, "y": 25},
+        { "player": "grando","x": 15, "y": 30},
+        { "player": "grando", "x": 60, "y": 45},
+        { "player": "grando", "x": 40, "y": 45},
+        { "player": "grando", "x": 50, "y": 60},
+        { "player": "grando", "x": 80, "y":  70},
+        { "player": "grando", "x": 20, "y":  70},
+        { "player": "grando", "x": 50, "y": 82}
       ],
 
       "bench": []
@@ -2563,7 +2563,7 @@
       "id": "",
       "date": "",
       "hour": "",
-      "competition": "",
+      "competition": "Brasileirão",
       "round": 30,
       "opponent": "",
       "formation": "",
@@ -2593,17 +2593,17 @@
       },
 
       "lineup": [
-        { "player": "weverton", "x": 50, "y": 11},
-        { "player": "pavon", "x": 85, "y": 30},
-        { "player": "gustavo",   "x": 65, "y": 25},
-        { "player": "viery", "x": 35, "y": 25},
-        { "player": "marlon","x": 15, "y": 30},
-        { "player": "arthur", "x": 60, "y": 45},
-        { "player": "noriega", "x": 40, "y": 45},
-        { "player": "monsalve", "x": 50, "y": 60},
-        { "player": "enamorado", "x": 80, "y":  70},
-        { "player": "amuzu", "x": 20, "y":  70},
-        { "player": "carlosvinicius", "x": 50, "y": 82}
+        { "player": "grando", "x": 50, "y": 11},
+        { "player": "grando", "x": 85, "y": 30},
+        { "player": "grando",   "x": 65, "y": 25},
+        { "player": "grando", "x": 35, "y": 25},
+        { "player": "grando","x": 15, "y": 30},
+        { "player": "grando", "x": 60, "y": 45},
+        { "player": "grando", "x": 40, "y": 45},
+        { "player": "grando", "x": 50, "y": 60},
+        { "player": "grando", "x": 80, "y":  70},
+        { "player": "grando", "x": 20, "y":  70},
+        { "player": "grando", "x": 50, "y": 82}
       ],
 
       "bench": []
@@ -2613,7 +2613,7 @@
       "id": "",
       "date": "",
       "hour": "",
-      "competition": "",
+      "competition": "Brasileirão",
       "round": 31,
       "opponent": "",
       "formation": "",
@@ -2643,17 +2643,17 @@
       },
 
       "lineup": [
-        { "player": "weverton", "x": 50, "y": 11},
-        { "player": "pavon", "x": 85, "y": 30},
-        { "player": "gustavo",   "x": 65, "y": 25},
-        { "player": "viery", "x": 35, "y": 25},
-        { "player": "marlon","x": 15, "y": 30},
-        { "player": "arthur", "x": 60, "y": 45},
-        { "player": "noriega", "x": 40, "y": 45},
-        { "player": "monsalve", "x": 50, "y": 60},
-        { "player": "enamorado", "x": 80, "y":  70},
-        { "player": "amuzu", "x": 20, "y":  70},
-        { "player": "carlosvinicius", "x": 50, "y": 82}
+        { "player": "grando", "x": 50, "y": 11},
+        { "player": "grando", "x": 85, "y": 30},
+        { "player": "grando",   "x": 65, "y": 25},
+        { "player": "grando", "x": 35, "y": 25},
+        { "player": "grando","x": 15, "y": 30},
+        { "player": "grando", "x": 60, "y": 45},
+        { "player": "grando", "x": 40, "y": 45},
+        { "player": "grando", "x": 50, "y": 60},
+        { "player": "grando", "x": 80, "y":  70},
+        { "player": "grando", "x": 20, "y":  70},
+        { "player": "grando", "x": 50, "y": 82}
       ],
 
       "bench": []
@@ -2663,7 +2663,7 @@
       "id": "",
       "date": "",
       "hour": "",
-      "competition": "",
+      "competition": "Brasileirão",
       "round": 32,
       "opponent": "",
       "formation": "",
@@ -2693,17 +2693,17 @@
       },
 
       "lineup": [
-        { "player": "weverton", "x": 50, "y": 11},
-        { "player": "pavon", "x": 85, "y": 30},
-        { "player": "gustavo",   "x": 65, "y": 25},
-        { "player": "viery", "x": 35, "y": 25},
-        { "player": "marlon","x": 15, "y": 30},
-        { "player": "arthur", "x": 60, "y": 45},
-        { "player": "noriega", "x": 40, "y": 45},
-        { "player": "monsalve", "x": 50, "y": 60},
-        { "player": "enamorado", "x": 80, "y":  70},
-        { "player": "amuzu", "x": 20, "y":  70},
-        { "player": "carlosvinicius", "x": 50, "y": 82}
+        { "player": "grando", "x": 50, "y": 11},
+        { "player": "grando", "x": 85, "y": 30},
+        { "player": "grando",   "x": 65, "y": 25},
+        { "player": "grando", "x": 35, "y": 25},
+        { "player": "grando","x": 15, "y": 30},
+        { "player": "grando", "x": 60, "y": 45},
+        { "player": "grando", "x": 40, "y": 45},
+        { "player": "grando", "x": 50, "y": 60},
+        { "player": "grando", "x": 80, "y":  70},
+        { "player": "grando", "x": 20, "y":  70},
+        { "player": "grando", "x": 50, "y": 82}
       ],
 
       "bench": []
@@ -2713,7 +2713,7 @@
       "id": "",
       "date": "",
       "hour": "",
-      "competition": "",
+      "competition": "Brasileirão",
       "round": 33,
       "opponent": "",
       "formation": "",
@@ -2743,17 +2743,17 @@
       },
 
       "lineup": [
-        { "player": "weverton", "x": 50, "y": 11},
-        { "player": "pavon", "x": 85, "y": 30},
-        { "player": "gustavo",   "x": 65, "y": 25},
-        { "player": "viery", "x": 35, "y": 25},
-        { "player": "marlon","x": 15, "y": 30},
-        { "player": "arthur", "x": 60, "y": 45},
-        { "player": "noriega", "x": 40, "y": 45},
-        { "player": "monsalve", "x": 50, "y": 60},
-        { "player": "enamorado", "x": 80, "y":  70},
-        { "player": "amuzu", "x": 20, "y":  70},
-        { "player": "carlosvinicius", "x": 50, "y": 82}
+        { "player": "grando", "x": 50, "y": 11},
+        { "player": "grando", "x": 85, "y": 30},
+        { "player": "grando",   "x": 65, "y": 25},
+        { "player": "grando", "x": 35, "y": 25},
+        { "player": "grando","x": 15, "y": 30},
+        { "player": "grando", "x": 60, "y": 45},
+        { "player": "grando", "x": 40, "y": 45},
+        { "player": "grando", "x": 50, "y": 60},
+        { "player": "grando", "x": 80, "y":  70},
+        { "player": "grando", "x": 20, "y":  70},
+        { "player": "grando", "x": 50, "y": 82}
       ],
 
       "bench": []
@@ -2763,7 +2763,7 @@
       "id": "",
       "date": "",
       "hour": "",
-      "competition": "",
+      "competition": "Brasileirão",
       "round": 34,
       "opponent": "",
       "formation": "",
@@ -2793,17 +2793,17 @@
       },
 
       "lineup": [
-        { "player": "weverton", "x": 50, "y": 11},
-        { "player": "pavon", "x": 85, "y": 30},
-        { "player": "gustavo",   "x": 65, "y": 25},
-        { "player": "viery", "x": 35, "y": 25},
-        { "player": "marlon","x": 15, "y": 30},
-        { "player": "arthur", "x": 60, "y": 45},
-        { "player": "noriega", "x": 40, "y": 45},
-        { "player": "monsalve", "x": 50, "y": 60},
-        { "player": "enamorado", "x": 80, "y":  70},
-        { "player": "amuzu", "x": 20, "y":  70},
-        { "player": "carlosvinicius", "x": 50, "y": 82}
+        { "player": "grando", "x": 50, "y": 11},
+        { "player": "grando", "x": 85, "y": 30},
+        { "player": "grando",   "x": 65, "y": 25},
+        { "player": "grando", "x": 35, "y": 25},
+        { "player": "grando","x": 15, "y": 30},
+        { "player": "grando", "x": 60, "y": 45},
+        { "player": "grando", "x": 40, "y": 45},
+        { "player": "grando", "x": 50, "y": 60},
+        { "player": "grando", "x": 80, "y":  70},
+        { "player": "grando", "x": 20, "y":  70},
+        { "player": "grando", "x": 50, "y": 82}
       ],
 
       "bench": []
@@ -2813,7 +2813,7 @@
       "id": "",
       "date": "",
       "hour": "",
-      "competition": "",
+      "competition": "Brasileirão",
       "round": 35,
       "opponent": "",
       "formation": "",
@@ -2843,17 +2843,17 @@
       },
 
       "lineup": [
-        { "player": "weverton", "x": 50, "y": 11},
-        { "player": "pavon", "x": 85, "y": 30},
-        { "player": "gustavo",   "x": 65, "y": 25},
-        { "player": "viery", "x": 35, "y": 25},
-        { "player": "marlon","x": 15, "y": 30},
-        { "player": "arthur", "x": 60, "y": 45},
-        { "player": "noriega", "x": 40, "y": 45},
-        { "player": "monsalve", "x": 50, "y": 60},
-        { "player": "enamorado", "x": 80, "y":  70},
-        { "player": "amuzu", "x": 20, "y":  70},
-        { "player": "carlosvinicius", "x": 50, "y": 82}
+        { "player": "grando", "x": 50, "y": 11},
+        { "player": "grando", "x": 85, "y": 30},
+        { "player": "grando",   "x": 65, "y": 25},
+        { "player": "grando", "x": 35, "y": 25},
+        { "player": "grando","x": 15, "y": 30},
+        { "player": "grando", "x": 60, "y": 45},
+        { "player": "grando", "x": 40, "y": 45},
+        { "player": "grando", "x": 50, "y": 60},
+        { "player": "grando", "x": 80, "y":  70},
+        { "player": "grando", "x": 20, "y":  70},
+        { "player": "grando", "x": 50, "y": 82}
       ],
 
       "bench": []
@@ -2863,7 +2863,7 @@
       "id": "",
       "date": "",
       "hour": "",
-      "competition": "",
+      "competition": "Brasileirão",
       "round": 36,
       "opponent": "",
       "formation": "",
@@ -2893,17 +2893,17 @@
       },
 
       "lineup": [
-        { "player": "weverton", "x": 50, "y": 11},
-        { "player": "pavon", "x": 85, "y": 30},
-        { "player": "gustavo",   "x": 65, "y": 25},
-        { "player": "viery", "x": 35, "y": 25},
-        { "player": "marlon","x": 15, "y": 30},
-        { "player": "arthur", "x": 60, "y": 45},
-        { "player": "noriega", "x": 40, "y": 45},
-        { "player": "monsalve", "x": 50, "y": 60},
-        { "player": "enamorado", "x": 80, "y":  70},
-        { "player": "amuzu", "x": 20, "y":  70},
-        { "player": "carlosvinicius", "x": 50, "y": 82}
+        { "player": "grando", "x": 50, "y": 11},
+        { "player": "grando", "x": 85, "y": 30},
+        { "player": "grando",   "x": 65, "y": 25},
+        { "player": "grando", "x": 35, "y": 25},
+        { "player": "grando","x": 15, "y": 30},
+        { "player": "grando", "x": 60, "y": 45},
+        { "player": "grando", "x": 40, "y": 45},
+        { "player": "grando", "x": 50, "y": 60},
+        { "player": "grando", "x": 80, "y":  70},
+        { "player": "grando", "x": 20, "y":  70},
+        { "player": "grando", "x": 50, "y": 82}
       ],
 
       "bench": []
@@ -2913,7 +2913,7 @@
       "id": "",
       "date": "",
       "hour": "",
-      "competition": "",
+      "competition": "Brasileirão",
       "round": 37,
       "opponent": "",
       "formation": "",
@@ -2943,17 +2943,17 @@
       },
 
       "lineup": [
-        { "player": "weverton", "x": 50, "y": 11},
-        { "player": "pavon", "x": 85, "y": 30},
-        { "player": "gustavo",   "x": 65, "y": 25},
-        { "player": "viery", "x": 35, "y": 25},
-        { "player": "marlon","x": 15, "y": 30},
-        { "player": "arthur", "x": 60, "y": 45},
-        { "player": "noriega", "x": 40, "y": 45},
-        { "player": "monsalve", "x": 50, "y": 60},
-        { "player": "enamorado", "x": 80, "y":  70},
-        { "player": "amuzu", "x": 20, "y":  70},
-        { "player": "carlosvinicius", "x": 50, "y": 82}
+        { "player": "grando", "x": 50, "y": 11},
+        { "player": "grando", "x": 85, "y": 30},
+        { "player": "grando",   "x": 65, "y": 25},
+        { "player": "grando", "x": 35, "y": 25},
+        { "player": "grando","x": 15, "y": 30},
+        { "player": "grando", "x": 60, "y": 45},
+        { "player": "grando", "x": 40, "y": 45},
+        { "player": "grando", "x": 50, "y": 60},
+        { "player": "grando", "x": 80, "y":  70},
+        { "player": "grando", "x": 20, "y":  70},
+        { "player": "grando", "x": 50, "y": 82}
       ],
 
       "bench": []
@@ -2963,7 +2963,7 @@
       "id": "",
       "date": "",
       "hour": "",
-      "competition": "",
+      "competition": "Brasileirão",
       "round": 38,
       "opponent": "",
       "formation": "",
@@ -2994,17 +2994,17 @@
       },
 
       "lineup": [
-        { "player": "weverton", "x": 50, "y": 11},
-        { "player": "pavon", "x": 85, "y": 30},
-        { "player": "gustavo",   "x": 65, "y": 25},
-        { "player": "viery", "x": 35, "y": 25},
-        { "player": "marlon","x": 15, "y": 30},
-        { "player": "arthur", "x": 60, "y": 45},
-        { "player": "noriega", "x": 40, "y": 45},
-        { "player": "monsalve", "x": 50, "y": 60},
-        { "player": "enamorado", "x": 80, "y":  70},
-        { "player": "amuzu", "x": 20, "y":  70},
-        { "player": "carlosvinicius", "x": 50, "y": 82}
+        { "player": "grando", "x": 50, "y": 11},
+        { "player": "grando", "x": 85, "y": 30},
+        { "player": "grando",   "x": 65, "y": 25},
+        { "player": "grando", "x": 35, "y": 25},
+        { "player": "grando","x": 15, "y": 30},
+        { "player": "grando", "x": 60, "y": 45},
+        { "player": "grando", "x": 40, "y": 45},
+        { "player": "grando", "x": 50, "y": 60},
+        { "player": "grando", "x": 80, "y":  70},
+        { "player": "grando", "x": 20, "y":  70},
+        { "player": "grando", "x": 50, "y": 82}
       ],
 
       "bench": []
