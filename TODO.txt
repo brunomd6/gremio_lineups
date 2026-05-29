@@ -3,6 +3,11 @@
 3. Fazer uma capa
 4. Mostrar sequência de jogos antes de cada partida
 5. Willian trocou de camisa pra número 10 (acho que contra a chape ou antes)
+6. Adicionar técnico
+7. Adicionar escalação rival
+8. Adicionar posse de bola
+9. Adicionar jogadores lesionados
+10. Adicionar histórico de partidas contra rival
 
 
 
