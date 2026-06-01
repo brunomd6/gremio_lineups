@@ -1,4 +1,52 @@
+from pathlib import Path
 from helpers.latex import latex_escape
+
+def render_roster_grid(roster):
+
+    lines = []
+
+    cols = 3
+
+    for i, player in enumerate(roster):
+
+        lines.extend(render_player_card(player))
+
+        if (i + 1) % cols == 0:
+            lines.append(r"\vspace{0.5cm}")
+            lines.append("")
+        else:
+            lines.append(r"\hfill")
+
+    return lines
+
+def render_player_card(player):
+
+    lines = []
+
+    player_id = player.get("id", "")
+
+    nome = latex_escape(player.get("nome", ""))
+    numero = player.get("numero", "")
+    pos = latex_escape(player.get("pos", ""))
+
+    image_path = Path("../assets/players") / f"{player_id}.png"
+
+    lines.append(r"\begin{minipage}[t]{0.30\textwidth}")
+    lines.append(r"\centering")
+
+    if image_path.exists():
+        lines.append(
+            rf"\includegraphics[width=3cm]{{{image_path.as_posix()}}}\\"
+        )
+
+    lines.append(rf"\textbf{{{nome}}}\\")
+    lines.append(rf"#{numero} --- {pos}\\")
+
+    lines.append(r"\vspace{0.2cm}")
+
+    lines.append(r"\end{minipage}")
+
+    return lines
 
 def render_latex_preamble():
 
@@ -32,6 +80,27 @@ def render_latex_preamble():
     lines.extend(render_player_macro())
 
     return lines
+
+def get_jersey_path(match):
+
+    raw_jersey = match.get(
+        "jersey",
+        "camisa/costas1.png"
+    )
+
+    return (
+        Path("../assets")
+        / raw_jersey.lstrip("/").replace("\\", "/")
+    )
+
+
+def render_team_jersey_command(match):
+
+    jersey_path = get_jersey_path(match)
+
+    return [
+        rf"\renewcommand{{\teamjersey}}{{{jersey_path.as_posix()}}}"
+    ]
 
 def render_match_header(match, round_name):
 
@@ -92,6 +161,13 @@ def render_bzz_match_info(bzz):
     if actual_away_xg is not None:
         lines.append(
             rf"Away XG: {latex_escape(actual_away_xg)}\\"
+        )
+
+    
+
+    lines.append(
+            rf"\textbf{{{latex_escape(label)}:}} & "
+            rf"{latex_escape(value)} \\"
         )
 
     return lines

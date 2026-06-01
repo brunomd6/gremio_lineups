@@ -11,6 +11,8 @@ from helpers.matches import (
 )
 
 from helpers.render import (
+    render_team_jersey_command,
+    render_roster_grid,
     render_latex_preamble,
     render_match_header,
     render_officials_table, 
@@ -54,12 +56,16 @@ lines = []
 
 lines.extend(render_latex_preamble())
 
-matches = season["matches"]
-
 lines.append(r"\begin{document}")
 
 lines.append(r"\printindex")
 lines.append(r"\newpage")
+
+lines.append(r"\section*{Elenco}")
+lines.extend(render_roster_grid(season["roster"]))
+lines.append(r"\newpage")
+
+matches = season["matches"]
 
 for match in matches:
 
@@ -76,9 +82,7 @@ for match in matches:
 
     lines.append(r"\vspace{0.5cm}")
 
-    raw_jersey = match.get("jersey", "camisa/costas1.png")
-    jersey_path = Path("../assets") / raw_jersey.lstrip("/").replace("\\", "/")
-    lines.append(rf"\renewcommand{{\teamjersey}}{{{jersey_path.as_posix()}}}")
+    lines.extend(render_team_jersey_command(match))
 
     lines.append(r"\begin{center}")
 
@@ -123,6 +127,7 @@ for match in matches:
     lines.extend(render_officials_table(officials))
 
     lines.append(r"\newpage")   # 👈 one formation per page
+
 
 
 lines.append(r"\end{document}")

@@ -314,6 +314,7 @@
 
     {
       "id": "2026-01-28-brasileirao-fluminense",
+      "bzzoiro_id": 6997,
       "date": "2026-01-28",
       "hour": "19:30",
       "competition": "Brasileirão",
@@ -420,6 +421,7 @@
 
     {
       "id": "2026-02-04-brasileirao-botafogo",
+      "bzzoiro_id": 7008,
       "date": "2026-02-04",
       "hour": "null",
       "competition": "Brasileirão",
@@ -528,6 +530,7 @@
 
     {
       "id": "2026-02-11-brasileirao-sao-paulo",
+      "bzzoiro_id": 7018,
       "date": "2026-02-11",
       "hour": "null",
       "competition": "Brasileirão",
@@ -683,6 +686,7 @@
 
     {
       "id": "2026-02-25-brasileirao-atletico-mg",
+      "bzzoiro_id": 7031,
       "date": "2026-02-25",
       "hour": "21:30",
       "competition": "Brasileirão",
@@ -841,6 +845,7 @@
 
     {
       "id": "2026-03-12-brasileirao-bragantino",
+      "bzzoiro_id": 7043,
       "date": "2026-03-12",
       "hour": "21:30",
       "competition": "Brasileirão",
@@ -896,6 +901,7 @@
 
     {
       "id": "2026-03-16-brasileirao-chapecoense",
+      "bzzoiro_id": 7053,
       "date": "2026-03-16",
       "hour": "20:00",
       "competition": "Brasileirão",
@@ -951,6 +957,7 @@
 
     {
       "id": "2026-03-19-brasileirao-vitoria",
+      "bzzoiro_id": 7061,
       "date": "2026-03-19",
       "hour": "19:00",
       "competition": "Brasileirão",
@@ -1007,6 +1014,7 @@
 
     {
       "id": "2026_03_22-brasileirao-vasco",
+      "bzzoiro_id": 7070,
       "date": "2026_03_22",
       "hour": "16:00",
       "competition": "Brasileirão",
@@ -1061,6 +1069,7 @@
 
     {
       "id": "2026_04_02-brasileirao-palmeiras",
+      "bzzoiro_id": 7081,
       "date": "2026_04_02",
       "hour": "21:30",
       "competition": "Brasileirão",
@@ -1113,6 +1122,7 @@
 
     {
       "id": "2026-04-05-brasileirao-remo",
+      "bzzoiro_id": 7090,
       "date": "2026-04-05",
       "hour": "20:30",
       "competition": "Brasileirão",
@@ -1163,6 +1173,7 @@
 
     {
       "id": "2026-04-08-sul-americana-montevideo-city-toque",
+      "bzzoiro_id": 9259,
       "date": "2026-04-08",
       "hour": "21:30",
       "competition": "Copa Sul-Americana",
@@ -1220,6 +1231,7 @@
 
     {
       "id": "2026-04-11-brasileirao-internacional",
+      "bzzoiro_id": 7099,
       "date": "2026-04-11",
       "hour": "",
       "competition": "Brasileirão",
@@ -1270,6 +1282,7 @@
 
     {
       "id": "2026-04-14-sul-americana-deportivo-riestra",
+      "bzzoiro_id": 9267,
       "date": "2026-04-14",
       "hour": "",
       "competition": "Copa Sul-Americana",
@@ -1330,6 +1343,7 @@
 
     {
       "id": "2026-04-18-brasileirao-cruzeiro",
+      "bzzoiro_id": 7106,
       "date": "2026-04-18",
       "hour": "",
       "competition": "Brasileirão",
@@ -1381,6 +1395,7 @@
 
     {
       "id": "2026-04-21-copa-do-brasil-confiança",
+      "bzzoiro_id": 9584,
       "date": "2026-04-21",
       "hour": "",
       "competition": "Copa do Brasil",
@@ -1431,6 +1446,7 @@
 
     {
       "id": "2026-04-26-brasileirao-coritiba",
+      "bzzoiro_id": 7120,
       "date": "2026-04-26",
       "hour": "16:00",
       "competition": "Brasileirão",
@@ -1477,6 +1493,7 @@
 
     {
       "id": "2026-04-29-sul-americana-palestino",
+      "bzzoiro_id": 9292,
       "date": "2026-04-29",
       "hour": "",
       "competition": "Copa Sul-Americana",
@@ -1537,6 +1554,7 @@
 
     {
       "id": "2026-05-02-brasileirao-athletico",
+      "bzzoiro_id": 7124,
       "date": "2026-05-02",
       "hour": "",
       "competition": "Brasileirão",
@@ -1583,6 +1601,7 @@
 
     {
       "id": "2026-05-05-sul-americana-deportivo-riestra",
+      "bzzoiro_id": 9300,
       "date": "2026-05-05",
       "hour": "",
       "competition": "Copa Sul-Americana",
@@ -1642,6 +1661,7 @@
 
     {
       "id": "2026-05-10-brasileirao-flamengo",
+      "bzzoiro_id": 7139,
       "date": "2026-05-10",
       "hour": "",
       "competition": "Brasileirão",
@@ -1692,6 +1712,7 @@
 
     {
       "id": "2026-05-14-copa-do-brasil-confiança",
+      "bzzoiro_id": 9609,
       "date": "2026-05-14",
       "hour": "",
       "competition": "Copa do Brasil",
@@ -1743,6 +1764,7 @@
 
     {
       "id": "2026-05-17-brasileirao-bahia",
+      "bzzoiro_id": 7146,
       "date": "2026-05-17",
       "hour": "",
       "competition": "Brasileirão",
@@ -1793,6 +1815,7 @@
 
     {
       "id": "2026-05-20-sul-americana-palestino",
+      "bzzoiro_id": 9323,
       "date": "2026-05-20",
       "hour": "",
       "competition": "Copa Sul-Americana",
@@ -1854,6 +1877,7 @@
 
     {
       "id": "2026-05-23-brasileirao-santos",
+      "bzzoiro_id": 7158,
       "date": "2026-05-23",
       "hour": "",
       "competition": "Brasileirão",
@@ -1908,6 +1932,7 @@
 
     {
       "id": "2026-05-26-sul-americana-montevideo-city-torque",
+      "bzzoiro_id": 9332,
       "date": "2026-05-26",
       "hour": "",
       "competition": "Copa Sul-Americana",
@@ -1961,6 +1986,7 @@
 
     {
       "id": "2026-05-30-brasileirao-corinthians",
+      "bzzoiro_id": 7168,
       "date": "2026-05-30",
       "hour": "",
       "competition": "Brasileirão",
@@ -2011,6 +2037,7 @@
 
     {
       "id": "2026-07-22-brasileirao-mirassol",
+      "bzzoiro_id": 7181,
       "date": "2026-07-22",
       "hour": "",
       "competition": "Brasileirão",
@@ -2061,6 +2088,7 @@
 
     {
       "id": "",
+      "bzzoiro_id": 7188,
       "date": "",
       "hour": "",
       "competition": "Brasileirão",
@@ -2111,6 +2139,7 @@
 
     {
       "id": "",
+      "bzzoiro_id": 7195,
       "date": "",
       "hour": "",
       "competition": "Brasileirão",
@@ -2161,6 +2190,7 @@
 
     {
       "id": "",
+      "bzzoiro_id": 7209,
       "date": "",
       "hour": "",
       "competition": "Brasileirão",
@@ -2211,6 +2241,7 @@
 
     {
       "id": "",
+      "bzzoiro_id": 7215,
       "date": "",
       "hour": "",
       "competition": "Brasileirão",
@@ -2261,6 +2292,7 @@
 
     {
       "id": "",
+      "bzzoiro_id": 7231,
       "date": "",
       "hour": "",
       "competition": "Brasileirão",
@@ -2311,6 +2343,7 @@
 
     {
       "id": "",
+      "bzzoiro_id": 7239,
       "date": "",
       "hour": "",
       "competition": "Brasileirão",
