@@ -850,7 +850,7 @@
       "hour": "21:30",
       "competition": "Brasileirão",
       "round": 5,
-      "opponent": "Bragantino",
+      "opponent": "Red Bull Bragantino",
       "formation": "",
       "stadium": "Arena do Grêmio",
       "goals_for": 1,
@@ -2089,11 +2089,11 @@
     {
       "id": "",
       "bzzoiro_id": 7188,
-      "date": "",
+      "date": "2026-07-26",
       "hour": "",
       "competition": "Brasileirão",
       "round": 20,
-      "opponent": "",
+      "opponent": "Fluminense",
       "formation": "",
       "stadium": "",
       "goals_for": null,
@@ -2140,11 +2140,113 @@
     {
       "id": "",
       "bzzoiro_id": 7195,
-      "date": "",
+      "date": "2026-07-29",
       "hour": "",
       "competition": "Brasileirão",
       "round": 21,
-      "opponent": "",
+      "opponent": "Botafogo",
+      "formation": "",
+      "stadium": "",
+      "goals_for": null,
+      "goals_against": null,
+      "publico pagante": null,
+      "publico_total": null,
+      "renda": null,
+
+      "goals": [
+        
+      ],
+
+      "officials": {
+      "referee": "",
+      "assistant1": "",
+      "assistant2": "",
+      "quarto": "",
+      "inspetor": "",
+      "assessor": "",
+      "var": "",
+      "avar": "",
+      "avar2": "",
+      "var_observer": "",
+      "quality_manager": ""
+      },
+
+      "lineup": [
+        { "player": "grando", "x": 50, "y": 11},
+        { "player": "grando", "x": 85, "y": 30},
+        { "player": "grando",   "x": 65, "y": 25},
+        { "player": "grando", "x": 35, "y": 25},
+        { "player": "grando","x": 15, "y": 30},
+        { "player": "grando", "x": 60, "y": 45},
+        { "player": "grando", "x": 40, "y": 45},
+        { "player": "grando", "x": 50, "y": 60},
+        { "player": "grando", "x": 80, "y":  70},
+        { "player": "grando", "x": 20, "y":  70},
+        { "player": "grando", "x": 50, "y": 82}
+      ],
+
+      "bench": []
+    },
+
+    {
+      "id": "",
+      "bzzoiro_id": 207933,
+      "date": "2026-08-02",
+      "hour": "",
+      "competition": "Copa do Brasil",
+      "round": "Oitavas de Final",
+      "opponent": "Mirassol",
+      "formation": "",
+      "stadium": "",
+      "goals_for": null,
+      "goals_against": null,
+      "publico pagante": null,
+      "publico_total": null,
+      "renda": null,
+
+      "goals": [
+        
+      ],
+
+      "officials": {
+      "referee": "",
+      "assistant1": "",
+      "assistant2": "",
+      "quarto": "",
+      "inspetor": "",
+      "assessor": "",
+      "var": "",
+      "avar": "",
+      "avar2": "",
+      "var_observer": "",
+      "quality_manager": ""
+      },
+
+      "lineup": [
+        { "player": "grando", "x": 50, "y": 11},
+        { "player": "grando", "x": 85, "y": 30},
+        { "player": "grando",   "x": 65, "y": 25},
+        { "player": "grando", "x": 35, "y": 25},
+        { "player": "grando","x": 15, "y": 30},
+        { "player": "grando", "x": 60, "y": 45},
+        { "player": "grando", "x": 40, "y": 45},
+        { "player": "grando", "x": 50, "y": 60},
+        { "player": "grando", "x": 80, "y":  70},
+        { "player": "grando", "x": 20, "y":  70},
+        { "player": "grando", "x": 50, "y": 82}
+      ],
+
+      "bench": []
+    },
+
+    {
+      "id": "",
+      "bzzoiro_id": 207941,
+      "date": "2026-08-06",
+      "hour": "",
+      "competition": "Copa do Brasil",
+      "round": "Oitavas de Final",
+      "opponent": "Mirassol",
       "formation": "",
       "stadium": "",
       "goals_for": null,
@@ -2191,11 +2293,11 @@
     {
       "id": "",
       "bzzoiro_id": 7209,
-      "date": "",
+      "date": "2026-08-09",
       "hour": "",
       "competition": "Brasileirão",
       "round": 22,
-      "opponent": "",
+      "opponent": "São Paulo",
       "formation": "",
       "stadium": "",
       "goals_for": null,
@@ -2242,11 +2344,11 @@
     {
       "id": "",
       "bzzoiro_id": 7215,
-      "date": "",
+      "date": "2026-08-16",
       "hour": "",
       "competition": "Brasileirão",
       "round": 23,
-      "opponent": "",
+      "opponent": "Atlético MG",
       "formation": "",
       "stadium": "",
       "goals_for": null,
@@ -2293,11 +2395,11 @@
     {
       "id": "",
       "bzzoiro_id": 7231,
-      "date": "",
+      "date": "2026-08-23",
       "hour": "",
       "competition": "Brasileirão",
       "round": 24,
-      "opponent": "",
+      "opponent": "Red Bull Bragantino",
       "formation": "",
       "stadium": "",
       "goals_for": null,
@@ -2348,7 +2450,7 @@
       "hour": "",
       "competition": "Brasileirão",
       "round": 25,
-      "opponent": "",
+      "opponent": "Chapecoense",
       "formation": "",
       "stadium": "",
       "goals_for": null,
@@ -2394,11 +2496,12 @@
 
     {
       "id": "",
+      "bzzoiro_id": 7253,
       "date": "",
       "hour": "",
       "competition": "Brasileirão",
       "round": 26,
-      "opponent": "",
+      "opponent": "Vitória",
       "formation": "",
       "stadium": "",
       "goals_for": null,
@@ -2444,11 +2547,12 @@
 
     {
       "id": "",
+      "bzzoiro_id": 7260,
       "date": "",
       "hour": "",
       "competition": "Brasileirão",
       "round": 27,
-      "opponent": "",
+      "opponent": "Vasco",
       "formation": "",
       "stadium": "",
       "goals_for": null,
@@ -2494,11 +2598,12 @@
 
     {
       "id": "",
+      "bzzoiro_id": 7268,
       "date": "",
       "hour": "",
       "competition": "Brasileirão",
       "round": 28,
-      "opponent": "",
+      "opponent": "Palmeiras",
       "formation": "",
       "stadium": "",
       "goals_for": null,
@@ -2544,6 +2649,7 @@
 
     {
       "id": "",
+      "bzzoiro_id": 7281,
       "date": "",
       "hour": "",
       "competition": "Brasileirão",
@@ -2594,6 +2700,7 @@
 
     {
       "id": "",
+      "bzzoiro_id": 7289,
       "date": "",
       "hour": "",
       "competition": "Brasileirão",
@@ -2644,11 +2751,12 @@
 
     {
       "id": "",
+      "bzzoiro_id": 7300,
       "date": "",
       "hour": "",
       "competition": "Brasileirão",
       "round": 31,
-      "opponent": "",
+      "opponent": "Cruzeiro",
       "formation": "",
       "stadium": "",
       "goals_for": null,
@@ -2694,11 +2802,12 @@
 
     {
       "id": "",
+      "bzzoiro_id": 7305,
       "date": "",
       "hour": "",
       "competition": "Brasileirão",
       "round": 32,
-      "opponent": "",
+      "opponent": "Coritiba",
       "formation": "",
       "stadium": "",
       "goals_for": null,
@@ -2744,11 +2853,12 @@
 
     {
       "id": "",
+      "bzzoiro_id": 7319,
       "date": "",
       "hour": "",
       "competition": "Brasileirão",
       "round": 33,
-      "opponent": "",
+      "opponent": "Athletico Paranaense",
       "formation": "",
       "stadium": "",
       "goals_for": null,
@@ -2794,11 +2904,12 @@
 
     {
       "id": "",
+      "bzzoiro_id": 7328,
       "date": "",
       "hour": "",
       "competition": "Brasileirão",
       "round": 34,
-      "opponent": "",
+      "opponent": "Flamengo",
       "formation": "",
       "stadium": "",
       "goals_for": null,
@@ -2844,11 +2955,12 @@
 
     {
       "id": "",
+      "bzzoiro_id": 7338,
       "date": "",
       "hour": "",
       "competition": "Brasileirão",
       "round": 35,
-      "opponent": "",
+      "opponent": "Bahia",
       "formation": "",
       "stadium": "",
       "goals_for": null,
@@ -2894,11 +3006,12 @@
 
     {
       "id": "",
+      "bzzoiro_id": 7353,
       "date": "",
       "hour": "",
       "competition": "Brasileirão",
       "round": 36,
-      "opponent": "",
+      "opponent": "Santos",
       "formation": "",
       "stadium": "",
       "goals_for": null,
@@ -2944,11 +3057,12 @@
 
     {
       "id": "",
+      "bzzoiro_id": 7357,
       "date": "",
       "hour": "",
       "competition": "Brasileirão",
       "round": 37,
-      "opponent": "",
+      "opponent": "Corinthians",
       "formation": "",
       "stadium": "",
       "goals_for": null,
@@ -2994,11 +3108,12 @@
 
     {
       "id": "",
+      "bzzoiro_id": 7368,
       "date": "",
       "hour": "",
       "competition": "Brasileirão",
       "round": 38,
-      "opponent": "",
+      "opponent": "Mirassol",
       "formation": "",
       "stadium": "",
       "goals_for": null,
