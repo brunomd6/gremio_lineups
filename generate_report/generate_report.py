@@ -77,9 +77,6 @@ for match in matches:
     round_name = get_round_name(match.get("round"))
     lines.extend(render_match_header(match, round_name))
 
-    bzz = find_bzz_match(match, bzz_matches)
-    lines.extend(render_bzz_match_info(bzz))
-
     lines.append(r"\vspace{0.5cm}")
 
     lines.extend(render_team_jersey_command(match))
@@ -87,8 +84,8 @@ for match in matches:
     lines.append(r"\begin{center}")
 
     # INIT PITCH
-    lines.append(r"\begin{minipage}{0.6\textwidth}")
-    lines.append(r"\centering")
+    lines.append(r"\begin{minipage}{0.4\textwidth}")
+    lines.append(r"\raggedright")
     lines.append(r"\begin{tikzpicture}")
 
     lines.append(
@@ -114,16 +111,32 @@ for match in matches:
     lines.append(r"\raggedright")
 
     bench_ids = match.get("bench", [])
-
     lines.extend(render_bench_table(bench_ids, roster))
 
     lines.append(r"\end{minipage}")
+    lines.append(r"\hfill")
+
+    lines.append(r"\begin{minipage}{0.35\textwidth}")
+    lines.append(r"\raggedright")
+
+    lines.append(r"\end{minipage}")
+
     #END BENCH
 
     lines.append(r"\end{center}")
 
+    lines.append(r"\vspace{0.5cm}")
+    lines.append(r"\begin{minipage}{0.65\textwidth}")
+
     officials = match.get("officials", {})
     lines.extend(render_officials_table(officials))
+
+    lines.append(r"\end{minipage}")
+
+    lines.append(r"\begin{minipage}{0.3\textwidth}")
+    bzz = find_bzz_match(match, bzz_matches)
+    lines.extend(render_bzz_match_info(bzz))
+    lines.append(r"\end{minipage}")
 
     lines.append(r"\newpage")   # 👈 one formation per page
 

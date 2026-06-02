@@ -150,7 +150,7 @@ def render_bzz_match_info(bzz):
             rf"Estádio: {latex_escape(stadium)}\\"
         )
 
-    lines.append(r"\begin{tabular}{lll}")
+    lines.append(r"\begin{tabular}{rcl}")
 
     home_goals = bzz.get("home_score")
     away_goals = bzz.get("away_score")
@@ -274,9 +274,8 @@ def render_officials_table(officials):
 
     lines = []
 
-    lines.append(r"\vspace{0.5cm}")
     lines.append(r"\begin{center}")
-    lines.append(r"\begin{tabular}{ll}")
+    lines.append(r"\begin{tabular}{rl}")
 
     label_map = {
         "referee": "Árbitro",

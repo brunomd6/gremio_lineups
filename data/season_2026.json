@@ -20,12 +20,12 @@
     { "id": "luiseduardo", "nome": "Luís Eduardo", "nome_completo": "Luís Eduardo", "numero": 43, "pos": "CB", "nacionalidade": "Brasil", "estado": "", "cidade": "", "nascimento": ""},
 
     { "id": "marlon", "nome": "Marlon", "nome_completo": "Marlon Rodrigues Xavier", "numero": 23, "pos": "LB", "nacionalidade": "Brasil", "estado": "PR", "cidade": "Cascavel", "nascimento": "15/05/1997"},
-    { "id": "caiopaulista", "nome": "Caio Paulista", "nome_completo": "Caio Fernando de Oliveira", "numero": 38, "pos": "LB", "nacionalidade": "Brasil", "estado": "SP", "cidade": "São Paulo", "nascimento": "11/05/1998"},
-    { "id": "pedrogabriel", "nome": "Pedro Gabriel", "nome_completo": "Pedro Gabriel Crisostomo Pinheiro", "numero": 54, "pos": "LB", "nacionalidade": "Brasil", "estado": "CE", "cidade": "Fortaleza", "nascimento": "06/06/2007"},
+    { "id": "caiopaulista", "nome": "Caio P.", "nome_completo": "Caio Fernando de Oliveira", "numero": 38, "pos": "LB", "nacionalidade": "Brasil", "estado": "SP", "cidade": "São Paulo", "nascimento": "11/05/1998"},
+    { "id": "pedrogabriel", "nome": "P. Gabriel", "nome_completo": "Pedro Gabriel Crisostomo Pinheiro", "numero": 54, "pos": "LB", "nacionalidade": "Brasil", "estado": "CE", "cidade": "Fortaleza", "nascimento": "06/06/2007"},
 
     { "id": "joaopedro", "nome": "João Pedro", "nome_completo": "João Pedro Maturano dos Santos", "numero": 18, "pos": "RB", "nacionalidade": "Brasil", "estado": "SP", "cidade": "Presidente Bernardes", "nascimento": "15/11/1996"},
-    { "id": "marcosrocha", "nome": "Marcos Rocha", "nome_completo": "Marcos Luís Rocha Aquino", "numero": 14, "pos": "RB", "nacionalidade": "Brasil", "estado": "MG", "cidade": "Sete Lagoas", "nascimento": "11/12/1988"},
-    { "id": "vitorramon", "nome": "Vitor Ramon", "nome_completo": "Vitor Ramon Ribeiro de Oliveira", "numero": 32, "pos": "RB", "nacionalidade": "Brasil", "estado": "", "cidade": "", "nascimento": ""},
+    { "id": "marcosrocha", "nome": "M. Rocha", "nome_completo": "Marcos Luís Rocha Aquino", "numero": 14, "pos": "RB", "nacionalidade": "Brasil", "estado": "MG", "cidade": "Sete Lagoas", "nascimento": "11/12/1988"},
+    { "id": "vitorramon", "nome": "V. Ramon", "nome_completo": "Vitor Ramon Ribeiro de Oliveira", "numero": 32, "pos": "RB", "nacionalidade": "Brasil", "estado": "", "cidade": "", "nascimento": ""},
     
 
     { "id": "noriega", "nome": "Noriega", "nome_completo": "Erick Carlos Noriega Loret de Mola", "numero": 19, "pos": "DM", "nacionalidade": "Japão/Peru", "estado": null, "cidade": "Nagoya", "nascimento": "22/10/2001"},
@@ -1338,7 +1338,7 @@
         { "player": "braithwaite", "x": 50, "y": 82}
       ],
 
-      "bench": ["grando", "wagner", "kannemann", "arthur", "amuzu", "monsalve", "marcosrocha", "perez", "caiopaulista", "caiopaulista", "carlosvinicius", "enamorado"]
+      "bench": ["grando", "wagner", "kannemann", "arthur", "amuzu", "monsalve", "marcosrocha", "perez", "caiopaulista", "carlosvinicius", "enamorado"]
     },
 
     {
