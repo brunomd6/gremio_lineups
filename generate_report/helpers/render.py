@@ -26,7 +26,7 @@ def render_player_card(player):
     player_id = player.get("id", "")
 
     nome = latex_escape(player.get("nome", ""))
-    numero = player.get("numero", "")
+    numero = player.get("numero")
     pos = latex_escape(player.get("pos", ""))
 
     image_path = Path("../assets/players") / f"{player_id}.png"
@@ -40,10 +40,11 @@ def render_player_card(player):
         )
 
     lines.append(rf"\textbf{{{nome}}}\\")
-    lines.append(rf"#{numero} --- {pos}\\")
+
+    details = pos if numero is None else f"#{numero} --- {pos}"
+    lines.append(latex_escape(details) + r"\\")
 
     lines.append(r"\vspace{0.2cm}")
-
     lines.append(r"\end{minipage}")
 
     return lines
@@ -149,26 +150,76 @@ def render_bzz_match_info(bzz):
             rf"Estádio: {latex_escape(stadium)}\\"
         )
 
-    actual_home_xg = bzz.get("actual_home_xg")
+    lines.append(r"\begin{tabular}{lll}")
 
-    if actual_home_xg is not None:
+    home_goals = bzz.get("home_score")
+    away_goals = bzz.get("away_score")
+    if home_goals is not None and away_goals is not None:
         lines.append(
-            rf"Home XG: {latex_escape(actual_home_xg)}\\"
+            rf"{latex_escape(home_goals)} & "
+            rf"{latex_escape("Gols")} & "
+            rf"{latex_escape(away_goals)} \\"
         )
 
-    actual_away_xg = bzz.get("actual_away_xg")
-
-    if actual_away_xg is not None:
+    home_xg = bzz.get("actual_home_xg")
+    away_xg = bzz.get("actual_away_xg")
+    if home_xg is not None and away_xg is not None:
         lines.append(
-            rf"Away XG: {latex_escape(actual_away_xg)}\\"
+            rf"{latex_escape(home_xg)} & "
+            rf"{latex_escape("XG")} & "
+            rf"{latex_escape(away_xg)} \\"
+        )
+
+    live_stats = bzz.get("live_stats") or {}
+    home_stats = live_stats.get("home") or {}
+    away_stats = live_stats.get("away") or {}
+
+    home_passes = home_stats.get("passes")
+    away_passes = away_stats.get("passes")
+
+    if home_passes is not None and away_passes is not None:
+        lines.append(
+            rf"{latex_escape(home_passes)} & "
+            rf"{latex_escape("Passes")} & "
+            rf"{latex_escape(away_passes)} \\"
+        )
+
+    home_offsides = home_stats.get("offsides")
+    away_offsides = away_stats.get("offsides")
+
+    if home_offsides is not None and away_offsides is not None:
+        lines.append(
+            rf"{latex_escape(home_offsides)} & "
+            rf"{latex_escape("Impedimentos")} & "
+            rf"{latex_escape(away_offsides)} \\"
+        )
+
+    home_possession = home_stats.get("ball_possession")
+    away_possession = away_stats.get("ball_possession")
+
+    if home_possession is not None and away_possession is not None:
+        lines.append(
+            rf"{latex_escape(home_possession)} & "
+            rf"{latex_escape("Posse")} & "
+            rf"{latex_escape(away_possession)} \\"
+        )
+
+    home_saves = home_stats.get("goalkeeper_saves")
+    away_saves = away_stats.get("goalkeeper_saves")
+
+    if home_saves is not None and away_saves is not None:
+        lines.append(
+            rf"{latex_escape(home_saves)} & "
+            rf"{latex_escape("Defesas")} & "
+            rf"{latex_escape(away_saves)} \\"
         )
 
     
 
-    lines.append(
-            rf"\textbf{{{latex_escape(label)}:}} & "
-            rf"{latex_escape(value)} \\"
-        )
+
+    lines.append(r"\end{tabular}")
+
+    
 
     return lines
 

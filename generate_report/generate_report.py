@@ -102,7 +102,6 @@ for match in matches:
 
     lines.extend(render_players(match.get("lineup"), roster))
     
-
     lines.append(r"\end{scope}")
     # END PITCH
 
