@@ -5,6 +5,7 @@
 `docker run --rm -it gremio-formacao bash`
 
 `docker run --rm -v "${PWD}:/app" -w /app/generate_report gremio-formacao python generate_report.py`
+
 `docker run --rm -v "${PWD}:/app" -w /app/generate_report gremio-formacao latexmk -C`
 
 ## Running Bzzoiro
