@@ -18,6 +18,7 @@
     { "id": "kannemann", "nome": "Kannemann", "nome_completo": "Walter Kannemann", "numero": 4, "pos": "CB", "nacionalidade": "Argentina/Itália", "estado": null, "cidade": "Concepción del Uruguay", "nascimento": "14/03/1991"},
     { "id": "viery", "nome": "Viery", "nome_completo": "Viery Fernandes Santos Lopes", "numero": 44, "pos": "CB", "nacionalidade": "Brasil", "estado": "MG", "cidade": "Ubá", "nascimento": "02/01/2005"},
     { "id": "luiseduardo", "nome": "Luís Eduardo", "nome_completo": "Luís Eduardo", "numero": 43, "pos": "CB", "nacionalidade": "Brasil", "estado": "", "cidade": "", "nascimento": ""},
+    { "id": "wallace", "nome": "Wallace", "nome_completo": "Wallace Gomes da Silva Santos", "numero": 82, "pos": "CB", "nacionalidade": "Brasil", "estado": "RJ", "cidade": "Rio de Janeiro", "nascimento": "06/12/2004"},
 
     { "id": "marlon", "nome": "Marlon", "nome_completo": "Marlon Rodrigues Xavier", "numero": 23, "pos": "LB", "nacionalidade": "Brasil", "estado": "PR", "cidade": "Cascavel", "nascimento": "15/05/1997"},
     { "id": "caiopaulista", "nome": "Caio P.", "nome_completo": "Caio Fernando de Oliveira", "numero": 38, "pos": "LB", "nacionalidade": "Brasil", "estado": "SP", "cidade": "São Paulo", "nascimento": "11/05/1998"},
@@ -26,7 +27,7 @@
     { "id": "joaopedro", "nome": "João Pedro", "nome_completo": "João Pedro Maturano dos Santos", "numero": 18, "pos": "RB", "nacionalidade": "Brasil", "estado": "SP", "cidade": "Presidente Bernardes", "nascimento": "15/11/1996"},
     { "id": "marcosrocha", "nome": "M. Rocha", "nome_completo": "Marcos Luís Rocha Aquino", "numero": 14, "pos": "RB", "nacionalidade": "Brasil", "estado": "MG", "cidade": "Sete Lagoas", "nascimento": "11/12/1988"},
     { "id": "vitorramon", "nome": "V. Ramon", "nome_completo": "Vitor Ramon Ribeiro de Oliveira", "numero": 32, "pos": "RB", "nacionalidade": "Brasil", "estado": "", "cidade": "", "nascimento": ""},
-    
+    { "id": "diegocaito", "nome": "D. Caito", "nome_completo": "Diego Caito Barcellos Oliveira dos Santos", "numero": 27, "pos": "RB", "nacionalidade": "Brasil", "estado": "São Paulo", "cidade": "São Paulo", "nascimento": "07/06/2004"},
 
     { "id": "noriega", "nome": "Noriega", "nome_completo": "Erick Carlos Noriega Loret de Mola", "numero": 19, "pos": "DM", "nacionalidade": "Japão/Peru", "estado": null, "cidade": "Nagoya", "nascimento": "22/10/2001"},
     { "id": "villasanti", "nome": "Villasanti", "nome_completo": "Mathías Adalberto Villasanti Rolón", "numero": 20, "pos": "DM", "nacionalidade": "Paraguai", "estado": null, "cidade": "Caacupé", "nascimento": "24/01/1997"},
@@ -38,8 +39,9 @@
     { "id": "perez", "nome": "Leo Perez", "nome_completo": "Leonel Ulises Pérez", "numero": 33, "pos": "DM", "nacionalidade": "Argentina", "estado": null, "cidade": "Rafael Castillo", "nascimento": "09/08/2004"},
     { "id": "jefinho", "nome": "Jefinho", "nome_completo": "Jeferson Forneck", "numero": null, "pos": "DM", "nacionalidade": "Brasil", "estado": "RS", "cidade": "São Pedro da Serra", "nascimento": "14/12/2006"},
     { "id": "zortea", "nome": "Zortea", "nome_completo": "Bernardo Schons Zortea", "numero": null, "pos": "DM", "nacionalidade": "Brasil", "estado": "SC", "cidade": "Pinhalzinho", "nascimento": "21/03/2027"},
+    { "id": "danilobarbosa", "nome": "Danilo B.", "nome_completo": "Danilo Barbosa da Silva", "numero": 15, "pos": "DM", "nacionalidade": "Brasil", "estado": "Bahia", "cidade": "Simões Filho", "nascimento": "28/02/1996"},
 
-
+    { "id": "krovinovic", "nome": "Krovinović", "nome_completo": "Filip Krovinović", "numero": 10, "pos": "CM", "nacionalidade": "Croácia", "estado": null, "cidade": "Zagreb", "nascimento": "29/08/1995"},
     { "id": "edenilson", "nome": "Edenílson", "nome_completo": "Edenílson", "numero": 8, "pos": "CM", "nacionalidade": "Brasil", "estado": "", "cidade": "", "nascimento": ""},
 
     { "id": "cristaldo", "nome": "Cristaldo", "nome_completo": "Franco Cristaldo", "numero": 10, "pos": "AM", "nacionalidade": "Argentina/Paraguai", "estado": "", "cidade": "", "nascimento": ""},
@@ -51,6 +53,7 @@
     { "id": "amuzu", "nome": "Amuzu", "nome_completo": "Francis Apelete Amuzu", "numero": 9, "pos": "LW", "nacionalidade": "Gana/Bélgica", "estado": null, "cidade": "Accra", "nascimento": "23/08/1999"},
     { "id": "aravena", "nome": "Aravena", "nome_completo": "Alexander Aravena", "numero": 16, "pos": "LW", "nacionalidade": "chile", "estado": "", "cidade": "", "nascimento": ""},
     { "id": "enamorado", "nome": "Enamorado", "nome_completo": "José David Enamorado Gómez", "numero": 99, "pos": "LW", "nacionalidade": "Colômbia", "estado": null, "cidade": "Soledad", "nascimento": "13/01/1999"},
+    { "id": "jovanecabral", "nome": "Jovane Cabral", "nome_completo": "Jovane Eduardo Borges Cabral", "numero": 77, "pos": "LW", "nacionalidade": "Cabo Verde", "estado": null, "cidade": "Assomada", "nascimento": "14/06/1998"},
 
     { "id": "pavon", "nome": "Pavón", "nome_completo": "Cristian David Pavon", "numero": 7, "pos": "RW", "nacionalidade": "Argentina/Itália", "estado": null, "cidade": "Anisacate", "nascimento": "21/01/1996"},
     { "id": "tete", "nome": "Tetê", "nome_completo": "Mateus Cardoso Lemos Martins", "numero": 21, "pos": "RW", "nacionalidade": "Brasil", "estado": "RS", "cidade": "Alvorada", "nascimento": "15/02/2000"},
@@ -58,7 +61,8 @@
 
     { "id": "carlosvinicius", "nome": "C. Vinícius", "nome_completo": "Carlos Vinícius Alves Morais", "numero": 95, "pos": "CF", "nacionalidade": "Brasil", "estado": "MA", "cidade": "Bom Jesus das Selvas", "nascimento": "25/03/1995"},
     { "id": "andrehenrique", "nome": "André H.", "nome_completo": "André Henrique da Silva Martins", "numero": 77, "pos": "CF", "nacionalidade": "Brasil", "estado": "BA", "cidade": "Guanambi", "nascimento": "17/12/2001"},
-    { "id": "braithwaite", "nome": "Braithwaite", "nome_completo": "Martin Christensen Braithwaite", "numero": 22, "pos": "CF", "nacionalidade": "Dinamarca/Guiana", "estado": null, "cidade": "Esbjerg", "nascimento": "05/06/1991"}   
+    { "id": "braithwaite", "nome": "Braithwaite", "nome_completo": "Martin Christensen Braithwaite", "numero": 22, "pos": "CF", "nacionalidade": "Dinamarca/Guiana", "estado": null, "cidade": "Esbjerg", "nascimento": "05/06/1991"},
+    { "id": "matheusnascimento", "nome": "M. Nascimento", "nome_completo": "Matheus Nascimento de Paula", "numero": 30, "pos": "CF", "nacionalidade": "Brasil", "estado": "RJ", "cidade": "Niterói", "nascimento": "03/03/2004"} 
   ],
 
   "matches": [
@@ -2079,8 +2083,8 @@
         { "player": "nardoni", "x": 40, "y": 45},
         { "player": "mec", "x": 50, "y": 60},
         { "player": "tete", "x": 80, "y":  70},
-        { "player": "carlosvinicius", "x": 20, "y":  70},
-        { "player": "amuzu", "x": 50, "y": 82}
+        { "player": "amuzu", "x": 20, "y":  70},
+        { "player": "carlosvinicius", "x": 50, "y": 82}
       ],
 
       "bench": ["grando", "wagner", "willian", "monsalve", "marcosrocha", "dodi", "noriega", "tete", "braithwaite", "perez", "luiseduardo", "pedrogabriel", "riquelme"]
@@ -2126,12 +2130,12 @@
         { "player": "gustavo",   "x": 65, "y": 25},
         { "player": "kannemann", "x": 35, "y": 25},
         { "player": "marlon","x": 15, "y": 30},
-        { "player": "villasanti", "x": 70, "y": 55},
+        { "player": "nardoni", "x": 70, "y": 55},
         { "player": "noriega", "x": 50, "y": 40},
-        { "player": "nardoni", "x": 30, "y": 55},
+        { "player": "villasanti", "x": 30, "y": 55},
         { "player": "tete", "x": 80, "y":  70},
-        { "player": "carlosvinicius", "x": 20, "y":  70},
-        { "player": "amuzu", "x": 50, "y": 82}
+        { "player": "amuzu", "x": 20, "y":  70},
+        { "player": "carlosvinicius", "x": 50, "y": 82}
       ],
 
       "bench": []
@@ -2189,7 +2193,7 @@
     },
 
     {
-      "id": "",
+      "id": "2026-08-02-copa-do-brasil-mirassol",
       "bzzoiro_id": 207933,
       "date": "2026-08-02",
       "hour": "",
@@ -2197,15 +2201,16 @@
       "round": "Oitavas de Final",
       "opponent": "Mirassol",
       "formation": "",
-      "stadium": "",
-      "goals_for": null,
-      "goals_against": null,
+      "stadium": "Estádio Municipal José Maria de Campos Maia (Maião)",
+      "goals_for": 1,
+      "goals_against": 1,
       "publico pagante": null,
       "publico_total": null,
       "renda": null,
 
       "goals": [
-        
+        { "team": "rival", "player": "Bruno Santos", "half": 1, "minute": 19},
+        { "team": "gremio", "player": "amuzu", "half": 2, "minute": 6}
       ],
 
       "officials": {
@@ -2223,22 +2228,22 @@
       },
 
       "lineup": [
-        { "player": "grando", "x": 50, "y": 11},
-        { "player": "grando", "x": 85, "y": 30},
-        { "player": "grando",   "x": 65, "y": 25},
-        { "player": "grando", "x": 35, "y": 25},
-        { "player": "grando","x": 15, "y": 30},
-        { "player": "grando", "x": 60, "y": 45},
-        { "player": "grando", "x": 40, "y": 45},
-        { "player": "grando", "x": 50, "y": 60},
-        { "player": "grando", "x": 80, "y":  70},
-        { "player": "grando", "x": 20, "y":  70},
-        { "player": "grando", "x": 50, "y": 82}
+        { "player": "weverton", "x": 50, "y": 11},
+        { "player": "diegocaito", "x": 85, "y": 30},
+        { "player": "gustavo", "x": 65, "y": 25},
+        { "player": "wallace", "x": 35, "y": 25},
+        { "player": "marlon","x": 15, "y": 30},
+        { "player": "nardoni", "x": 70, "y": 55},
+        { "player": "noriega", "x": 50, "y": 40},
+        { "player": "villasanti", "x": 30, "y": 55},
+        { "player": "tete", "x": 80, "y":  70},
+        { "player": "carlosvinicius", "x": 20, "y":  70},
+        { "player": "amuzu", "x": 50, "y": 82}
       ],
 
-      "bench": []
+      "bench": ["wagner", "pavon", "grando", "dodi", "braithwaite", "perez", "mec", "matheusnascimento", "luiseduardo", "pedrogabriel", "jovane", "enamorado"]
     },
-
+      
     {
       "id": "",
       "bzzoiro_id": 207941,
