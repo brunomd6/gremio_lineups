@@ -5,12 +5,13 @@
 `docker run --rm -it gremio-formacao bash`
 
 `docker run --rm -v "${PWD}:/app" -w /app/generate_report gremio-formacao python generate_report.py`
+`compile_formation`
 
 `docker run --rm -v "${PWD}:/app" -w /app/generate_report gremio-formacao latexmk -C`
 
 ## Running Bzzoiro
 
-`docker run --rm -v "${PWD}:/app" -w /app/scripts gremio-formacao python bzzoiro.py`
+`docker run --rm -v "${PWD}:/app" -w /app/scripts gremio-formacao python bzzoiro_matches.py`
 
 ## Running Server
 
@@ -58,6 +59,15 @@ sphinx
 - https://ge.globo.com/gato-mestre/noticia/2026/05/03/veja-os-publicos-da-14a-rodada-do-campeonato-brasileiro.ghtml
 - https://ge.globo.com/gato-mestre/noticia/2026/05/10/veja-os-publicos-da-15a-rodada-do-campeonato-brasileiro.ghtml
 - https://ge.globo.com/gato-mestre/noticia/2026/05/17/veja-os-publicos-da-16a-rodada-do-campeonato-brasileiro.ghtml
+- https://ge.globo.com/gato-mestre/noticia/2026/05/24/veja-os-publicos-da-17a-rodada-do-campeonato-brasileiro.ghtml
+- https://ge.globo.com/gato-mestre/noticia/2026/05/31/veja-os-publicos-da-18a-rodada-do-campeonato-brasileiro.ghtml
+- https://ge.globo.com/gato-mestre/noticia/2026/07/23/veja-os-publicos-da-19a-rodada-do-campeonato-brasileiro.ghtml
+- https://ge.globo.com/gato-mestre/noticia/2026/07/26/veja-os-publicos-da-20a-rodada-do-campeonato-brasileiro.ghtml
+
+- https://ge.globo.com/gato-mestre/noticia/2026/08/09/flamengo-x-vitoria-tem-o-maior-publico-da-22a-rodada-do-brasileirao-veja-a-lista.ghtml
+- https://ge.globo.com/gato-mestre/noticia/2026/08/16/sao-paulo-x-coritiba-tem-o-maior-publico-da-23a-rodada-do-brasileirao-veja-a-lista.ghtml
+- https://ge.globo.com/gato-mestre/noticia/2026/08/23/palmeiras-2-x-1-vasco-tem-o-maior-publico-da-24a-rodada-do-brasileirao-veja-a-lista.ghtml
+- https://ge.globo.com/gato-mestre/noticia/2026/08/31/veja-os-publicos-da-25a-rodada-do-campeonato-brasileiro.ghtml
 
 ## Sul-Americana
 

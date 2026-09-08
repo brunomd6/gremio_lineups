@@ -61,7 +61,7 @@ for m in matches:
 # save everything
 # ----------------------------------------
 
-with open("./data/gremio_2026_detailed.json", "w", encoding="utf-8") as f:
+with open("../data/bzzoiro_gremio_2026_detailed.json", "w", encoding="utf-8") as f:
     json.dump(
         full_dataset,
         f,
@@ -69,4 +69,4 @@ with open("./data/gremio_2026_detailed.json", "w", encoding="utf-8") as f:
         ensure_ascii=False
     )
 
-print("Saved to gremio_2026_detailed.json")
+print("Saved to bzzoiro_gremio_2026_detailed.json")
