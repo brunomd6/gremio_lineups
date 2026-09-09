@@ -11,9 +11,9 @@
     { "id": "thiagobeltrame", "nome": "Thiago Beltrame", "nome_completo": "Thiago Beltrame Stallbaum", "numero": null, "pos": "GK", "nacionalidade": "Brasil/Itália", "estado": "RS", "cidade": "Canoas", "nascimento": "02/07/2003"},
     { "id": "gabrielmenegon", "nome": "Gabriel Menegon", "nome_completo": "Gabriel Otávio Menegon", "numero": null, "pos": "GK", "nacionalidade": "Brasil", "estado": "RS", "cidade": "Sapiranga", "nascimento": "14/10/2008"},
 
-    { "id": "wagner", "nome": "Wagner L.", "nome_completo": "Wagner Leonardo Calvelo de Souza", "numero": 3, "pos": "CB", "nacionalidade": "Brasil", "estado": "SP", "cidade": "Praia Grande", "nascimento": "23/07/1999"},
+    { "id": "wagnerleonardo", "nome": "Wagner L.", "nome_completo": "Wagner Leonardo Calvelo de Souza", "numero": 3, "pos": "CB", "nacionalidade": "Brasil", "estado": "SP", "cidade": "Praia Grande", "nascimento": "23/07/1999"},
     
-    { "id": "gustavo", "nome": "G. Martins", "nome_completo": "Gustavo Martins de Souza Santos", "numero": 53, "pos": "CB", "nacionalidade": "Brasil", "estado": "RJ", "cidade": "Niterói", "nascimento": "11/08/2002"},
+    { "id": "gustavomartins", "nome": "G. Martins", "nome_completo": "Gustavo Martins de Souza Santos", "numero": 53, "pos": "CB", "nacionalidade": "Brasil", "estado": "RJ", "cidade": "Niterói", "nascimento": "11/08/2002"},
     { "id": "balbuena", "nome": "Balbuena", "nome_completo": "Fabián Cornelio Balbuena González", "numero": 13, "pos": "CB", "nacionalidade": "Paraguai", "estado": null, "cidade": "Ciudad del Este", "nascimento": "23/08/1991"},
     { "id": "kannemann", "nome": "Kannemann", "nome_completo": "Walter Kannemann", "numero": 4, "pos": "CB", "nacionalidade": "Argentina/Itália", "estado": null, "cidade": "Concepción del Uruguay", "nascimento": "14/03/1991"},
     { "id": "viery", "nome": "Viery", "nome_completo": "Viery Fernandes Santos Lopes", "numero": 44, "pos": "CB", "nacionalidade": "Brasil", "estado": "MG", "cidade": "Ubá", "nascimento": "02/01/2005"},
@@ -36,7 +36,7 @@
     { "id": "dodi", "nome": "Dodi", "nome_completo": "Douglas Moreira Fagundes", "numero": 17, "pos": "DM", "nacionalidade": "Brasil", "estado": "PR", "cidade": "Santo Antônio do Sudoeste", "nascimento": "17/04/1996"},
     { "id": "tiaguinho", "nome": "Tiaguinho", "nome_completo": "Tiago", "numero": 39, "pos": "DM", "nacionalidade": "Brasil", "estado": "", "cidade": "", "nascimento": ""},
     { "id": "nardoni", "nome": "Nardoni", "nome_completo": "Juan Ignacio Martín Nardoni", "numero": 5, "pos": "DM", "nacionalidade": "Argentina", "estado": null, "cidade": "Nelson", "nascimento": "14/07/2002"},
-    { "id": "perez", "nome": "Leo Perez", "nome_completo": "Leonel Ulises Pérez", "numero": 33, "pos": "DM", "nacionalidade": "Argentina", "estado": null, "cidade": "Rafael Castillo", "nascimento": "09/08/2004"},
+    { "id": "leoperez", "nome": "Leo Perez", "nome_completo": "Leonel Ulises Pérez", "numero": 33, "pos": "DM", "nacionalidade": "Argentina", "estado": null, "cidade": "Rafael Castillo", "nascimento": "09/08/2004"},
     { "id": "jefinho", "nome": "Jefinho", "nome_completo": "Jeferson Forneck", "numero": null, "pos": "DM", "nacionalidade": "Brasil", "estado": "RS", "cidade": "São Pedro da Serra", "nascimento": "14/12/2006"},
     { "id": "zortea", "nome": "Zortea", "nome_completo": "Bernardo Schons Zortea", "numero": null, "pos": "DM", "nacionalidade": "Brasil", "estado": "SC", "cidade": "Pinhalzinho", "nascimento": "21/03/2027"},
     { "id": "danilobarbosa", "nome": "Danilo B.", "nome_completo": "Danilo Barbosa da Silva", "numero": 15, "pos": "DM", "nacionalidade": "Brasil", "estado": "Bahia", "cidade": "Simões Filho", "nascimento": "28/02/1996"},
@@ -47,7 +47,7 @@
     { "id": "cristaldo", "nome": "Cristaldo", "nome_completo": "Franco Cristaldo", "numero": 10, "pos": "AM", "nacionalidade": "Argentina/Paraguai", "estado": "", "cidade": "", "nascimento": ""},
     { "id": "monsalve", "nome": "Monsalve", "nome_completo": "Miguel Ángel Monsalve González", "numero": 11, "pos": "AM", "nacionalidade": "Colômbia", "estado": null, "cidade": "Medellín", "nascimento": "27/02/2004"},
     { "id": "riquelme", "nome": "Riquelme", "nome_completo": "Riquelme Freitas dos Santos", "numero": 65, "pos": "AM", "nacionalidade": "Brasil", "estado": "SP", "cidade": "São Paulo", "nascimento": "13/08/2006"},
-    { "id": "mec", "nome": "Gabriel Mec", "nome_completo": "Gabriel Ferreira de Carvalho", "numero": 37, "pos": "AM", "nacionalidade": "Brasil", "estado": "RS", "cidade": "Campos dos Goytacazes", "nascimento": "11/04/2008"},
+    { "id": "gabrielmec", "nome": "Gabriel Mec", "nome_completo": "Gabriel Ferreira de Carvalho", "numero": 37, "pos": "AM", "nacionalidade": "Brasil", "estado": "RS", "cidade": "Campos dos Goytacazes", "nascimento": "11/04/2008"},
     { "id": "willian", "nome": "Willian", "nome_completo": "Willian Borges da Silva", "numero": 88, "pos": "AM", "nacionalidade": "Brasil", "estado": "SP", "cidade": "Ribeirão Pires", "nascimento": "09/08/1988"},
 
     { "id": "amuzu", "nome": "Amuzu", "nome_completo": "Francis Apelete Amuzu", "numero": 9, "pos": "LW", "nacionalidade": "Gana/Bélgica", "estado": null, "cidade": "Accra", "nascimento": "23/08/1999"},
@@ -98,8 +98,8 @@
       "lineup": [
         { "player": "grando", "x": 50, "y": 11},
         { "player": "marcosrocha", "x": 85, "y": 30},
-        { "player": "gustavo",   "x": 65, "y": 25},
-        { "player": "wagner", "x": 35, "y": 25},
+        { "player": "gustavomartins",   "x": 65, "y": 25},
+        { "player": "wagnerleonardo", "x": 35, "y": 25},
         { "player": "marlon","x": 15, "y": 30},
         { "player": "arthur", "x": 60, "y": 45},
         { "player": "tiaguinho", "x": 40, "y": 45},
@@ -152,12 +152,12 @@
         { "player": "dodi", "x": 40, "y": 45},
         { "player": "willian", "x": 50, "y": 60},
         { "player": "aravena", "x": 80, "y": 75},
-        { "player": "mec", "x": 20, "y": 75},
+        { "player": "gabrielmec", "x": 20, "y": 75},
         { "player": "andrehenrique", "x": 50, "y": 82}
       ],
 
       "bench": [
-        "grando", "wagner", "edenilson", "amuzu", "cristaldo", "marcosrocha", "caiopaulista", "tiaguinho", "jefinho", "luiseduardo", "roger", "carlosvinicius"
+        "grando", "wagnerleonardo", "edenilson", "amuzu", "cristaldo", "marcosrocha", "caiopaulista", "tiaguinho", "jefinho", "luiseduardo", "roger", "carlosvinicius"
       ]
     },
 
@@ -196,8 +196,8 @@
       "lineup": [
         { "player": "grando", "x": 50, "y": 11},
         { "player": "marcosrocha", "x": 85, "y": 30},
-        { "player": "gustavo",   "x": 65, "y": 25},
-        { "player": "wagner", "x": 35, "y": 25},
+        { "player": "gustavomartins",   "x": 65, "y": 25},
+        { "player": "wagnerleonardo", "x": 35, "y": 25},
         { "player": "caiopaulista","x": 15, "y": 30},
         { "player": "tiaguinho", "x": 60, "y": 45},
         { "player": "arthur", "x": 40, "y": 45},
@@ -257,7 +257,7 @@
       ],
 
       "bench": [
-        "grando", "wagner", "cuellar", "marcosrocha", "aravena", "noriega", "marlon", "mec", "tiaguinho", "jefinho", "riquelme", "carlosvinicius"
+        "grando", "wagnerleonardo", "cuellar", "marcosrocha", "aravena", "noriega", "marlon", "gabrielmec", "tiaguinho", "jefinho", "riquelme", "carlosvinicius"
       ]
     },
 
@@ -301,7 +301,7 @@
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "marcosrocha", "x": 85, "y": 30},
         { "player": "noriega",   "x": 65, "y": 25},
-        { "player": "wagner", "x": 35, "y": 25},
+        { "player": "wagnerleonardo", "x": 35, "y": 25},
         { "player": "marlon","x": 15, "y": 30},
         { "player": "arthur", "x": 60, "y": 45},
         { "player": "tiaguinho", "x": 40, "y": 45},
@@ -312,7 +312,7 @@
       ],
 
       "bench": [
-        "grando", "edenilson", "dodi", "joaopedro", "mec", "caiopaulista", "viery", "roger", "gustavomartins", "andrehenrique", "willian", "enamorado"
+        "grando", "edenilson", "dodi", "joaopedro", "gabrielmec", "caiopaulista", "viery", "roger", "gustavomartins", "andrehenrique", "willian", "enamorado"
       ]
     },
 
@@ -355,8 +355,8 @@
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "joaopedro", "x": 85, "y": 30},
-        { "player": "gustavo",   "x": 65, "y": 25},
-        { "player": "wagner", "x": 35, "y": 25},
+        { "player": "gustavomartins",   "x": 65, "y": 25},
+        { "player": "wagnerleonardo", "x": 35, "y": 25},
         { "player": "marlon","x": 15, "y": 30},
         { "player": "arthur", "x": 60, "y": 45},
         { "player": "dodi", "x": 40, "y": 45},
@@ -419,7 +419,7 @@
       ],
 
       "bench": [
-        "weverton", "cuellar", "amuzu", "cristaldo", "monsalve", "aravena", "dodi", "marlon", "arthur", "mec", "luiseduardo", "carlosvinicius"
+        "weverton", "cuellar", "amuzu", "cristaldo", "monsalve", "aravena", "dodi", "marlon", "arthur", "gabrielmec", "luiseduardo", "carlosvinicius"
       ]
     },
 
@@ -468,7 +468,7 @@
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "joaopedro", "x": 85, "y": 30},
         { "player": "balbuena",   "x": 65, "y": 25},
-        { "player": "wagner", "x": 35, "y": 25},
+        { "player": "wagnerleonardo", "x": 35, "y": 25},
         { "player": "marlon","x": 15, "y": 30},
         { "player": "arthur", "x": 60, "y": 45},
         { "player": "noriega", "x": 40, "y": 45},
@@ -516,8 +516,8 @@
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "marcosrocha", "x": 85, "y": 30},
-        { "player": "gustavo",   "x": 65, "y": 25},
-        { "player": "wagner", "x": 35, "y": 25},
+        { "player": "gustavomartins",   "x": 65, "y": 25},
+        { "player": "wagnerleonardo", "x": 35, "y": 25},
         { "player": "caiopaulista","x": 15, "y": 30},
         { "player": "edenilson", "x": 60, "y": 45},
         { "player": "noriega", "x": 40, "y": 45},
@@ -528,7 +528,7 @@
       ],
 
       "bench": [
-        "grando", "kannemann", "cristaldo", "aravena", "dodi", "marlon", "mec", "tiaguinho", "jefinho", "viery", "andrehenrique", "enamorado"
+        "grando", "kannemann", "cristaldo", "aravena", "dodi", "marlon", "gabrielmec", "tiaguinho", "jefinho", "viery", "andrehenrique", "enamorado"
       ]
     },
 
@@ -571,7 +571,7 @@
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "joaopedro", "x": 85, "y": 30},
         { "player": "balbuena",   "x": 65, "y": 25},
-        { "player": "wagner", "x": 35, "y": 25},
+        { "player": "wagnerleonardo", "x": 35, "y": 25},
         { "player": "marlon", "x": 15, "y": 30},
         { "player": "noriega", "x": 60, "y": 45},
         { "player": "arthur", "x": 40, "y": 45},
@@ -582,7 +582,7 @@
       ],
 
       "bench": [
-        "grando", "kannemann", "pavon", "marcosrocha", "dodi", "mec", "caiopaulista", "tiaguinho", "gustavomartins", "andrehenrique", "willian", "enamorado"
+        "grando", "kannemann", "pavon", "marcosrocha", "dodi", "gabrielmec", "caiopaulista", "tiaguinho", "gustavomartins", "andrehenrique", "willian", "enamorado"
       ]
     },
 
@@ -633,7 +633,7 @@
       ],
 
       "bench": [
-        "grando", "kannemann", "cuellar", "cristaldo", "marcosrocha", "mec", "caiopaulista", "tiaguinho", "jefinho", "gustavomartins", "andrehenrique", "enamorado"
+        "grando", "kannemann", "cuellar", "cristaldo", "marcosrocha", "gabrielmec", "caiopaulista", "tiaguinho", "jefinho", "gustavomartins", "andrehenrique", "enamorado"
       ]
     },
 
@@ -684,7 +684,7 @@
       ],
 
       "bench": [
-        "grando", "wagner", "kannemann", "marcosrocha", "mec", "caiopaulista", "tiaguinho", "jefinho", "gustavomartins", "riquelme", "andrehenrique", "enamorado"
+        "grando", "wagnerleonardo", "kannemann", "marcosrocha", "gabrielmec", "caiopaulista", "tiaguinho", "jefinho", "gustavomartins", "riquelme", "andrehenrique", "enamorado"
       ]
     },
 
@@ -727,12 +727,12 @@
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "pavon", "x": 85, "y": 30},
-        { "player": "gustavo",   "x": 65, "y": 25},
+        { "player": "gustavomartins",   "x": 65, "y": 25},
         { "player": "viery", "x": 35, "y": 25},
         { "player": "marlon","x": 15, "y": 30},
         { "player": "nardoni", "x": 60, "y": 45},
         { "player": "noriega", "x": 40, "y": 45},
-        { "player": "mec", "x": 50, "y": 60},
+        { "player": "gabrielmec", "x": 50, "y": 60},
         { "player": "enamorado", "x": 80, "y": 70},
         { "player": "amuzu", "x": 20, "y": 70},
         { "player": "carlosvinicius", "x": 50, "y": 82}
@@ -779,7 +779,7 @@
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "pavon", "x": 85, "y": 30},
-        { "player": "gustavo",   "x": 65, "y": 25},
+        { "player": "gustavomartins",   "x": 65, "y": 25},
         { "player": "viery", "x": 35, "y": 25},
         { "player": "marlon","x": 15, "y": 30},
         { "player": "arthur", "x": 60, "y": 45},
@@ -791,7 +791,7 @@
       ],
 
       "bench": [
-        "grando", "wagner", "kannemann", "marcosrocha", "caiopaulista", "willian", "dodi", "tiaguinho", "roger", "tete", "mec", "andrehenrique"
+        "grando", "wagnerleonardo", "kannemann", "marcosrocha", "caiopaulista", "willian", "dodi", "tiaguinho", "roger", "tete", "gabrielmec", "andrehenrique"
       ]
     },
 
@@ -831,7 +831,7 @@
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "pavon", "x": 85, "y": 30},
-        { "player": "gustavo",   "x": 65, "y": 25},
+        { "player": "gustavomartins",   "x": 65, "y": 25},
         { "player": "viery", "x": 35, "y": 25},
         { "player": "marlon","x": 15, "y": 30},
         { "player": "arthur", "x": 35, "y": 50},
@@ -843,7 +843,7 @@
       ],
 
       "bench": [
-        "grando", "wagner", "kannemann", "marcosrocha", "caiopaulista", "willian", "dodi", "tiaguinho", "roger", "tete", "mec", "andrehenrique"
+        "grando", "wagnerleonardo", "kannemann", "marcosrocha", "caiopaulista", "willian", "dodi", "tiaguinho", "roger", "tete", "gabrielmec", "andrehenrique"
       ]
     },
 
@@ -887,19 +887,19 @@
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "pavon", "x": 85, "y": 30},
-        { "player": "gustavo",   "x": 65, "y": 25},
+        { "player": "gustavomartins",   "x": 65, "y": 25},
         { "player": "viery", "x": 35, "y": 25},
         { "player": "marlon","x": 15, "y": 30},
         { "player": "nardoni", "x": 35, "y": 50},
         { "player": "noriega", "x": 50, "y": 45},
         { "player": "monsalve", "x": 65, "y": 50},
         { "player": "enamorado", "x": 80, "y": 70},
-        { "player": "mec", "x": 20, "y": 70},
+        { "player": "gabrielmec", "x": 20, "y": 70},
         { "player": "carlosvinicius", "x": 50, "y": 82}
       ],
 
       "bench": [
-        "grando", "thiagobeltrame", "balbuena", "marcosrocha", "caiopaulista", "dodi", "perez", "tiaguinho", "roger", "riquelme", "andrehenrique"
+        "grando", "thiagobeltrame", "balbuena", "marcosrocha", "caiopaulista", "dodi", "leoperez", "tiaguinho", "roger", "riquelme", "andrehenrique"
       ]
     },
 
@@ -955,7 +955,7 @@
       ],
 
       "bench": [
-        "grando", "wagner", "kannemann", "willian", "marcosrocha", "dodi", "perez", "mec", "tiaguinho", "pedrogabriel", "andrehenrique", "enamorado"
+        "grando", "wagnerleonardo", "kannemann", "willian", "marcosrocha", "dodi", "leoperez", "gabrielmec", "tiaguinho", "pedrogabriel", "andrehenrique", "enamorado"
       ]
     },
 
@@ -1004,7 +1004,7 @@
         { "player": "viery", "x": 35, "y": 25},
         { "player": "marlon","x": 15, "y": 30},
         { "player": "nardoni", "x": 60, "y": 45},
-        { "player": "perez", "x": 40, "y": 45},
+        { "player": "leoperez", "x": 40, "y": 45},
         { "player": "willian", "x": 50, "y": 60},
         { "player": "enamorado", "x": 80, "y": 70},
         { "player": "amuzu", "x": 20, "y": 70},
@@ -1012,7 +1012,7 @@
       ],
 
       "bench": [
-        "grando", "wagner", "kannemann", "monsalve", "marcosrocha", "dodi", "noriega", "tete", "braithwaite", "mec", "caiopaulista", "andrehenrique"
+        "grando", "wagnerleonardo", "kannemann", "monsalve", "marcosrocha", "dodi", "noriega", "tete", "braithwaite", "gabrielmec", "caiopaulista", "andrehenrique"
       ]
     },
 
@@ -1061,14 +1061,14 @@
         { "player": "viery", "x": 35, "y": 25},
         { "player": "caiopaulista","x": 15, "y": 30},
         { "player": "nardoni", "x": 60, "y": 45},
-        { "player": "perez", "x": 40, "y": 45},
+        { "player": "leoperez", "x": 40, "y": 45},
         { "player": "arthur", "x": 50, "y": 60},
         { "player": "tete", "x": 80, "y": 70},
         { "player": "amuzu", "x": 20, "y": 70},
         { "player": "carlosvinicius", "x": 50, "y": 82}
       ],
 
-      "bench": ["grando", "kannemann", "gustavomartins", "willian", "monsalve", "marcosrocha", "noriega", "braithwaite", "mec", "pedrogabriel", "andrehenrique", "enamorado"]
+      "bench": ["grando", "kannemann", "gustavomartins", "willian", "monsalve", "marcosrocha", "noriega", "braithwaite", "gabrielmec", "pedrogabriel", "andrehenrique", "enamorado"]
     },
 
     {
@@ -1110,7 +1110,7 @@
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "pavon", "x": 85, "y": 30},
-        { "player": "gustavo",   "x": 65, "y": 25},
+        { "player": "gustavomartins",   "x": 65, "y": 25},
         { "player": "viery", "x": 35, "y": 25},
         { "player": "pedrogabriel","x": 15, "y": 30},
         
@@ -1121,7 +1121,7 @@
         { "player": "carlosvinicius", "x": 50, "y": 82}
       ],
 
-      "bench": ["grando", "wagner", "kannemann", "amuzu", "marcosrocha", "dodi", "braithwaite", "mec", "tiaguinho", "roger", "zortea", "riquelme"]
+      "bench": ["grando", "wagnerleonardo", "kannemann", "amuzu", "marcosrocha", "dodi", "braithwaite", "gabrielmec", "tiaguinho", "roger", "zortea", "riquelme"]
     },
 
     {
@@ -1161,7 +1161,7 @@
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "pavon", "x": 85, "y": 30},
-        { "player": "gustavo",   "x": 65, "y": 25},
+        { "player": "gustavomartins",   "x": 65, "y": 25},
         { "player": "viery", "x": 35, "y": 25},
         { "player": "pedrogabriel","x": 15, "y": 30},
         { "player": "zortea", "x": 50, "y": 45},
@@ -1172,7 +1172,7 @@
         { "player": "carlosvinicius", "x": 50, "y": 82}
       ],
 
-      "bench": ["grando", "kannemann", "arthur", "marcosrocha", "dodi", "tete", "braithwaite", "mec", "caiopaulista", "jefinho", "luiseduardo", "roger"]
+      "bench": ["grando", "kannemann", "arthur", "marcosrocha", "dodi", "tete", "braithwaite", "gabrielmec", "caiopaulista", "jefinho", "luiseduardo", "roger"]
     },
 
     {
@@ -1230,7 +1230,7 @@
         { "player": "braithwaite", "x": 50, "y": 82}
       ],
 
-      "bench": ["grando", "wagner", "nardoni", "amuzu", "monsalve", "vitorramon", "mec", "tiaguinho", "luiseduardo", "roger", "pedrogabriel", "andrehenrique"]
+      "bench": ["grando", "wagnerleonardo", "nardoni", "amuzu", "monsalve", "vitorramon", "gabrielmec", "tiaguinho", "luiseduardo", "roger", "pedrogabriel", "andrehenrique"]
     },
 
     {
@@ -1270,7 +1270,7 @@
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "pavon", "x": 85, "y": 30},
-        { "player": "gustavo",   "x": 65, "y": 25},
+        { "player": "gustavomartins",   "x": 65, "y": 25},
         { "player": "viery", "x": 35, "y": 25},
         { "player": "pedrogabriel","x": 15, "y": 30},
         { "player": "arthur", "x": 40, "y": 45},
@@ -1281,7 +1281,7 @@
         { "player": "carlosvinicius", "x": 50, "y": 82}
       ],
 
-      "bench": ["grando", "balbuena", "kannemann", "monsalve", "marcosrocha", "dodi", "braithwaite", "perez", "mec", "caiopaulista", "roger", "enamorado"]
+      "bench": ["grando", "balbuena", "kannemann", "monsalve", "marcosrocha", "dodi", "braithwaite", "leoperez", "gabrielmec", "caiopaulista", "roger", "enamorado"]
     },
 
     {
@@ -1338,11 +1338,11 @@
         { "player": "noriega", "x": 40, "y": 45},
         { "player": "dodi", "x": 50, "y": 55},
         { "player": "tete", "x": 80, "y": 70},
-        { "player": "mec", "x": 20, "y": 70},
+        { "player": "gabrielmec", "x": 20, "y": 70},
         { "player": "braithwaite", "x": 50, "y": 82}
       ],
 
-      "bench": ["grando", "wagner", "kannemann", "arthur", "amuzu", "monsalve", "marcosrocha", "perez", "caiopaulista", "carlosvinicius", "enamorado"]
+      "bench": ["grando", "wagnerleonardo", "kannemann", "arthur", "amuzu", "monsalve", "marcosrocha", "leoperez", "caiopaulista", "carlosvinicius", "enamorado"]
     },
 
     {
@@ -1434,12 +1434,12 @@
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "pavon", "x": 85, "y": 30},
-        { "player": "gustavo",   "x": 65, "y": 25},
+        { "player": "gustavomartins",   "x": 65, "y": 25},
         { "player": "viery", "x": 35, "y": 25},
         { "player": "pedrogabriel","x": 15, "y": 30},
         { "player": "nardoni", "x": 60, "y": 45},
         { "player": "arthur", "x": 40, "y": 45},
-        { "player": "mec", "x": 50, "y": 60},
+        { "player": "gabrielmec", "x": 50, "y": 60},
         { "player": "enamorado", "x": 80, "y": 70},
         { "player": "amuzu", "x": 20, "y": 70},
         { "player": "carlosvinicius", "x": 50, "y": 82}
@@ -1481,12 +1481,12 @@
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "pavon", "x": 85, "y": 30},
-        { "player": "wagner",   "x": 65, "y": 25},
+        { "player": "wagnerleonardo",   "x": 65, "y": 25},
         { "player": "viery", "x": 35, "y": 25},
         { "player": "pedrogabriel","x": 15, "y": 30},
         { "player": "arthur", "x": 60, "y": 45},
-        { "player": "perez", "x": 40, "y": 45},
-        { "player": "mec", "x": 50, "y": 60},
+        { "player": "leoperez", "x": 40, "y": 45},
+        { "player": "gabrielmec", "x": 50, "y": 60},
         { "player": "enamorado", "x": 80, "y": 70},
         { "player": "amuzu", "x": 20, "y": 70},
         { "player": "carlosvinicius", "x": 50, "y": 82}
@@ -1516,7 +1516,7 @@
       ],
 
       "cards": [
-        {"team": "gremio", "player": "perez", "card": "yellow", "half": 1, "minute": 4},
+        {"team": "gremio", "player": "leoperez", "card": "yellow", "half": 1, "minute": 4},
         {"team": "rival", "player": "Enzo Roco", "card": "yellow", "half": 1, "minute": 15},
         {"team": "gremio", "player": "dodi", "card": "yellow", "half": 1, "minute": 28},
         {"team": "rival", "player": "Sebastián Gallegos", "card": "yellow", "half": 1, "minute": 31},
@@ -1542,18 +1542,18 @@
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "pavon", "x": 85, "y": 30},
-        { "player": "gustavo",   "x": 65, "y": 25},
+        { "player": "gustavomartins",   "x": 65, "y": 25},
         { "player": "viery", "x": 35, "y": 25},
         { "player": "caiopaulista","x": 15, "y": 30},
         { "player": "arthur", "x": 60, "y": 45},
-        { "player": "perez", "x": 40, "y": 45},
+        { "player": "leoperez", "x": 40, "y": 45},
         { "player": "grando", "x": 50, "y": 60},
         { "player": "grando", "x": 80, "y": 70},
         { "player": "grando", "x": 20, "y": 70},
         { "player": "carlosvinicius", "x": 50, "y": 82}
       ],
 
-      "bench": ["grando", "balbuena", "wagner", "kannemann", "arthur", "marcosrocha", "noriega", "braithwaite", "pedrogabriel", "riquelme", "andrehenrique", "enamorado"]
+      "bench": ["grando", "balbuena", "wagnerleonardo", "kannemann", "arthur", "marcosrocha", "noriega", "braithwaite", "pedrogabriel", "riquelme", "andrehenrique", "enamorado"]
     },
 
     {
@@ -1589,7 +1589,7 @@
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "pavon", "x": 85, "y": 30},
-        { "player": "gustavo",   "x": 65, "y": 25},
+        { "player": "gustavomartins",   "x": 65, "y": 25},
         { "player": "viery", "x": 35, "y": 25},
         { "player": "marlon","x": 15, "y": 30},
         { "player": "arthur", "x": 60, "y": 45},
@@ -1626,7 +1626,7 @@
       ],
 
       "cards": [
-        {"team": "gremio", "player": "wagner", "card": "yellow", "half": 1, "minute": 6},
+        {"team": "gremio", "player": "wagnerleonardo", "card": "yellow", "half": 1, "minute": 6},
         {"team": "gremio", "player": "viery", "card": "yellow", "half": 1, "minute": 43},
         {"team": "rival", "player": "Cristian Paz", "card": "yellow", "half": 2, "minute": 21},
         {"team": "rival", "player": "Facundo Miño", "card": "yellow", "half": 2, "minute": 27 }
@@ -1649,13 +1649,13 @@
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "pavon", "x": 85, "y": 40},
-        { "player": "gustavo",   "x": 68, "y": 35},
-        { "player": "wagner", "x": 50, "y": 30},
+        { "player": "gustavomartins",   "x": 68, "y": 35},
+        { "player": "wagnerleonardo", "x": 50, "y": 30},
         { "player": "viery","x": 32, "y": 35},
         { "player": "pedrogabriel", "x": 15, "y": 40},
-        { "player": "perez", "x": 55, "y": 45},
+        { "player": "leoperez", "x": 55, "y": 45},
         { "player": "willian", "x": 45, "y": 58},
-        { "player": "mec", "x": 75, "y": 65},
+        { "player": "gabrielmec", "x": 75, "y": 65},
         { "player": "amuzu", "x": 25, "y": 65},
         { "player": "carlosvinicius", "x": 50, "y": 82}
       ],
@@ -1701,12 +1701,12 @@
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "pavon", "x": 85, "y": 40},
         { "player": "balbuena",   "x": 68, "y": 35},
-        { "player": "gustavo", "x": 50, "y": 30},
+        { "player": "gustavomartins", "x": 50, "y": 30},
         { "player": "viery","x": 32, "y": 35},
         { "player": "pedrogabriel", "x": 15, "y": 40},
-        { "player": "perez", "x": 40, "y": 49},
+        { "player": "leoperez", "x": 40, "y": 49},
         { "player": "noriega", "x": 60, "y": 49},
-        { "player": "mec", "x": 75, "y": 65},
+        { "player": "gabrielmec", "x": 75, "y": 65},
         { "player": "amuzu", "x": 25, "y": 65},
         { "player": "carlosvinicius", "x": 50, "y": 82}
       ],
@@ -1752,7 +1752,7 @@
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "pavon", "x": 85, "y": 30},
-        { "player": "gustavo",   "x": 65, "y": 25},
+        { "player": "gustavomartins",   "x": 65, "y": 25},
         { "player": "viery", "x": 35, "y": 25},
         { "player": "marlon","x": 15, "y": 30},
         { "player": "arthur", "x": 60, "y": 45},
@@ -1804,11 +1804,11 @@
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "marcosrocha", "x": 85, "y": 40},
         { "player": "luiseduardo",   "x": 68, "y": 35},
-        { "player": "wagner", "x": 50, "y": 30},
+        { "player": "wagnerleonardo", "x": 50, "y": 30},
         { "player": "viery","x": 32, "y": 35},
         { "player": "pedrogabriel", "x": 15, "y": 40},
         { "player": "noriega", "x": 60, "y": 49},
-        { "player": "perez", "x": 40, "y": 49},
+        { "player": "leoperez", "x": 40, "y": 49},
         { "player": "willian", "x": 75, "y": 65},
         { "player": "enamorado", "x": 25, "y": 65},
         { "player": "carlosvinicius", "x": 50, "y": 82}
@@ -1841,7 +1841,7 @@
       "cards": [
         {"team": "rival", "player": "Ronnie Fernández", "card": "yellow", "half": 1, "minute": 3},
         {"team": "rival", "player": "Julián Fernández", "card": "yellow", "half": 1, "minute": 38},
-        {"team": "gremio", "player": "perez", "card": "yellow", "half": 1, "minute": 44},
+        {"team": "gremio", "player": "leoperez", "card": "yellow", "half": 1, "minute": 44},
         {"team": "rival", "player": "Ian Garguez", "card": "yellow", "half": 2, "minute": 10},
         {"team": "rival", "player": "Bryan Carrasco", "card": "yellow", "half": 2, "minute": 13},
         {"team": "gremio", "player": "viery", "card": "yellow", "half": 2, "minute": 17},
@@ -1869,8 +1869,8 @@
         { "player": "viery", "x": 35, "y": 25},
         { "player": "pedrogabriel","x": 15, "y": 30},
         { "player": "noriega", "x": 60, "y": 45},
-        { "player": "perez", "x": 40, "y": 45},
-        { "player": "mec", "x": 50, "y": 60},
+        { "player": "leoperez", "x": 40, "y": 45},
+        { "player": "gabrielmec", "x": 50, "y": 60},
         { "player": "enamorado", "x": 80, "y": 70},
         { "player": "amuzu", "x": 20, "y": 70},
         { "player": "braithwaite", "x": 50, "y": 82}
@@ -1924,14 +1924,14 @@
         { "player": "viery", "x": 35, "y": 25},
         { "player": "pedrogabriel","x": 15, "y": 30},
         { "player": "noriega", "x": 60, "y": 45},
-        { "player": "perez", "x": 40, "y": 45},
+        { "player": "leoperez", "x": 40, "y": 45},
         { "player": "braithwaite", "x": 50, "y": 60},
         { "player": "enamorado", "x": 80, "y": 70},
         { "player": "amuzu", "x": 20, "y": 70},
         { "player": "carlosvinicius", "x": 50, "y": 82}
       ],
 
-      "bench": ["thiagobeltrame", "wagner", "kannemann", "arthur", "monsalve", "marcosrocha", "dodi", "villasanti", "tete", "vitorramon", "tiaguinho", "riquelme"]
+      "bench": ["thiagobeltrame", "wagnerleonardo", "kannemann", "arthur", "monsalve", "marcosrocha", "dodi", "villasanti", "tete", "vitorramon", "tiaguinho", "riquelme"]
     },
 
     {
@@ -1952,7 +1952,7 @@
 
       "goals": [
         { "team": "rival", "player": "Salomón Rodríguez", "half": 1, "minute": 37},
-        { "team": "gremio", "player": "mec", "half": 2, "minute": 2},
+        { "team": "gremio", "player": "gabrielmec", "half": 2, "minute": 2},
         { "team": "rival", "player": "Franco Pizzichillo", "half": 2, "minute": 38},
         { "team": "gremio", "player": "carlosvinicius", "half": 2, "minute": 44}
       ],
@@ -1978,14 +1978,14 @@
         { "player": "viery", "x": 35, "y": 25},
         { "player": "pedrogabriel","x": 15, "y": 30},
         { "player": "tiaguinho", "x": 60, "y": 45},
-        { "player": "perez", "x": 40, "y": 45},
+        { "player": "leoperez", "x": 40, "y": 45},
         { "player": "braithwaite", "x": 50, "y": 60},
         { "player": "tete", "x": 80, "y": 70},
         { "player": "amuzu", "x": 20, "y": 70},
         { "player": "carlosvinicius", "x": 50, "y": 82}
       ],
 
-      "bench": ["thiagobeltrame", "wagner", "kannemann", "arthur", "willian", "marcosrocha", "dodi", "noriega", "mec", "caiopaulista", "andrehenrique", "enamorado"]
+      "bench": ["thiagobeltrame", "wagnerleonardo", "kannemann", "arthur", "willian", "marcosrocha", "dodi", "noriega", "gabrielmec", "caiopaulista", "andrehenrique", "enamorado"]
     },
 
     {
@@ -2005,38 +2005,41 @@
       "renda": 2611781,
 
       "goals": [
-        
+        { "team": "gremio", "player": "gabrielmec", "half": 1, "minute": 8},
+        { "team": "rival", "player": "André Luiz", "half": 1, "minute": 47},
+        { "team": "rival", "player": "André", "half": 2, "minute": 20},
+        { "team": "rival", "player": "Kaio Lima", "half": 2, "minute": 22}
       ],
 
       "officials": {
-      "referee": "",
-      "assistant1": "",
-      "assistant2": "",
-      "quarto": "",
-      "inspetor": "",
-      "assessor": "",
-      "var": "",
-      "avar": "",
-      "avar2": "",
-      "var_observer": "",
-      "quality_manager": ""
+      "referee": "Lucas Paulo Torezin",
+      "assistant1": "Luanderson Lima dos Santos",
+      "assistant2": "Andrey Luiz de Freitas",
+      "quarto": "Yuri Elino Ferreira da Cruz",
+      "inspetor": "Antonio Pereira da Silva",
+      "assessor": "Janette Mara Arcanjo",
+      "var": "Marco Aurelio Augusto Fazekas Ferreira",
+      "avar": "Diego Carvalho Silva",
+      "avar2": "Dyorgines Jose Padovani de Andrade",
+      "var_observer": "Pericles Bassols Pegado Cortez",
+      "quality_manager": "Larissa Ramos Monteiro"
       },
 
       "lineup": [
-        { "player": "grando", "x": 50, "y": 11},
-        { "player": "grando", "x": 85, "y": 30},
-        { "player": "grando", "x": 65, "y": 25},
-        { "player": "grando", "x": 35, "y": 25},
-        { "player": "grando", "x": 15, "y": 30},
-        { "player": "nardoni", "x": 70, "y": 55},
-        { "player": "noriega", "x": 50, "y": 40},
-        { "player": "villasanti", "x": 30, "y": 55},
-        { "player": "grando", "x": 80, "y": 70},
-        { "player": "grando", "x": 20, "y": 70},
-        { "player": "grando", "x": 50, "y": 82}
+        { "player": "thiagobeltrame", "x": 50, "y": 11},
+        { "player": "marcosrocha", "x": 85, "y": 30},
+        { "player": "wagnerleonardo", "x": 65, "y": 25},
+        { "player": "viery", "x": 35, "y": 25},
+        { "player": "pedrogabriel", "x": 15, "y": 30},
+        { "player": "leoperez", "x": 70, "y": 40},
+        { "player": "arthur", "x": 30, "y": 40},
+        { "player": "braithwaite", "x": 50, "y": 55},
+        { "player": "tete", "x": 80, "y": 70},
+        { "player": "carlosvinicius", "x": 20, "y": 70},
+        { "player": "gabrielmec", "x": 50, "y": 82}
       ],
 
-      "bench": []
+      "bench": ["gabrielmenegon", "kannemann", "amuzu", "willian", "dodi", "joaopedro", "noriega", "villasanti", "caiopaulista", "tiaguinho", "andrehenrique", "enamorado"]
     },
 
     {
@@ -2060,34 +2063,33 @@
       ],
 
       "officials": {
-      "referee": "",
-      "assistant1": "",
-      "assistant2": "",
-      "quarto": "",
-      "inspetor": "",
-      "assessor": "",
-      "var": "",
-      "avar": "",
-      "avar2": "",
-      "var_observer": "",
-      "quality_manager": ""
+      "referee": "Bruno Arleu de Araujo",
+      "assistant1": "Carlos Henrique Alves de Lima Filho",
+      "assistant2": "Thayse Marques Fonseca",
+      "quarto": "Marcos Mateus de Soisa",
+      "assessor": "Vayran da Silva Rosa",
+      "var": "Paulo Renato Moreira da Silva Coelho",
+      "avar": "Helen Aparecida Gonçalves Silva Araujo",
+      "avar2": "Rodrigo Carvalhaes de Miranda",
+      "var_observer": "Sergio Cristiano Nascimento",
+      "quality_manager": "Maria Victoria Benetti Vargas"
       },
 
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "pavon", "x": 85, "y": 30},
-        { "player": "gustavo",   "x": 65, "y": 25},
+        { "player": "gustavomartins",   "x": 65, "y": 25},
         { "player": "kannemann", "x": 35, "y": 25},
         { "player": "caiopaulista","x": 15, "y": 30},
         { "player": "villasanti", "x": 60, "y": 45},
         { "player": "nardoni", "x": 40, "y": 45},
-        { "player": "mec", "x": 50, "y": 60},
+        { "player": "gabrielmec", "x": 50, "y": 60},
         { "player": "tete", "x": 80, "y": 70},
         { "player": "amuzu", "x": 20, "y": 70},
         { "player": "carlosvinicius", "x": 50, "y": 82}
       ],
 
-      "bench": ["grando", "wagner", "willian", "monsalve", "marcosrocha", "dodi", "noriega", "tete", "braithwaite", "perez", "luiseduardo", "pedrogabriel", "riquelme"]
+      "bench": ["grando", "wagnerleonardo", "willian", "monsalve", "marcosrocha", "dodi", "noriega", "tete", "braithwaite", "leoperez", "luiseduardo", "pedrogabriel", "riquelme"]
     },
 
     {
@@ -2112,22 +2114,21 @@
 
       "officials": {
       "referee": "Edina Alves Batista",
-      "assistant1": "",
-      "assistant2": "",
-      "quarto": "",
-      "inspetor": "",
-      "assessor": "",
-      "var": "",
-      "avar": "",
-      "avar2": "",
-      "var_observer": "",
-      "quality_manager": ""
+      "assistant1": "Neuza Ines Back",
+      "assistant2": "Brigida Cirilo Ferreira",
+      "quarto": "Bruno Pereira Vasconcelos",
+      "assessor": "Aldeilma Luzia da Silva",
+      "var": "Rodrigo Guarizo Ferreira do Amaral",
+      "avar": "Fabricio Porfirio de Moura",
+      "avar2": "Eduardo Tomaz de Aquino Valadao",
+      "var_observer": "Marcio Eustaquio Sousa Santiago",
+      "quality_manager": "Bernardo Campos Martins"
       },
 
       "lineup": [
         { "player": "grando", "x": 50, "y": 11},
         { "player": "pavon", "x": 85, "y": 30},
-        { "player": "gustavo",   "x": 65, "y": 25},
+        { "player": "gustavomartins",   "x": 65, "y": 25},
         { "player": "kannemann", "x": 35, "y": 25},
         { "player": "marlon","x": 15, "y": 30},
         { "player": "nardoni", "x": 70, "y": 55},
@@ -2230,7 +2231,7 @@
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "diegocaito", "x": 85, "y": 30},
-        { "player": "gustavo", "x": 65, "y": 25},
+        { "player": "gustavomartins", "x": 65, "y": 25},
         { "player": "wallace", "x": 35, "y": 25},
         { "player": "marlon","x": 15, "y": 30},
         { "player": "nardoni", "x": 70, "y": 55},
@@ -2241,7 +2242,7 @@
         { "player": "amuzu", "x": 50, "y": 82}
       ],
 
-      "bench": ["wagner", "pavon", "grando", "dodi", "braithwaite", "perez", "mec", "matheusnascimento", "luiseduardo", "pedrogabriel", "jovane", "enamorado"]
+      "bench": ["wagnerleonardo", "pavon", "grando", "dodi", "braithwaite", "leoperez", "gabrielmec", "matheusnascimento", "luiseduardo", "pedrogabriel", "jovane", "enamorado"]
     },
       
     {
@@ -2316,17 +2317,16 @@
       ],
 
       "officials": {
-      "referee": "",
-      "assistant1": "",
-      "assistant2": "",
-      "quarto": "",
-      "inspetor": "",
-      "assessor": "",
-      "var": "",
-      "avar": "",
-      "avar2": "",
-      "var_observer": "",
-      "quality_manager": ""
+      "referee": "Andre Luiz Skettino Policarpo Bento",
+      "assistant1": "Bruno Raphael Pires",
+      "assistant2": "Guilherme Dias Camilo",
+      "quarto": "Alisson Sidnei Furtado",
+      "assessor": "Antonio Pereira da Silva",
+      "var": "Heber Roberto Lopes",
+      "avar": "Helton Nunes",
+      "avar2": "Leonardo Rotondo Pinto",
+      "var_observer": "Pericles Bassols Pegado Cortez",
+      "quality_manager": "Mikael Silva de Araujo"
       },
 
       "lineup": [
@@ -2367,17 +2367,16 @@
       ],
 
       "officials": {
-      "referee": "",
-      "assistant1": "",
-      "assistant2": "",
-      "quarto": "",
-      "inspetor": "",
-      "assessor": "",
-      "var": "",
-      "avar": "",
-      "avar2": "",
-      "var_observer": "",
-      "quality_manager": ""
+      "referee": "Bruno Arleu de Araujo",
+      "assistant1": "Rodrigo Figueiredo Henrique Correa",
+      "assistant2": "Thiago Henrique Neto Correa Farinha",
+      "quarto": "Paulo Roberto Alves Junior",
+      "assessor": "Silvia Regina de Oliveira",
+      "var": "Thiago Duarte Peixoto",
+      "avar": "Vitor Carmona Metestaine",
+      "avar2": "Adriano de Assis Miranda",
+      "var_observer": "Marcelo Carvalho Van Gasse",
+      "quality_manager": "Bernardo Campos Martins"
       },
 
       "lineup": [
@@ -2418,24 +2417,23 @@
       ],
 
       "officials": {
-      "referee": "",
-      "assistant1": "",
-      "assistant2": "",
-      "quarto": "",
-      "inspetor": "",
-      "assessor": "",
-      "var": "",
-      "avar": "",
-      "avar2": "",
-      "var_observer": "",
-      "quality_manager": ""
+      "referee": "Felipe Fernandes de Lima",
+      "assistant1": "Guilherme Dias Camilo",
+      "assistant2": "Henrique Neu Ribeiro",
+      "quarto": "Tarcisio Nascimento Matos",
+      "assessor": "Aldeilma Luzia da Silva",
+      "var": "Rodolpho Toski Marques",
+      "avar": "Helen Aparecida Gonçalves Silva Araujo",
+      "avar2": "Thiago do Carmo Brasil",
+      "var_observer": "Claudio Jose de Oliveira Soares",
+      "quality_manager": "Lucio Ipojucan Ribeiro da Silva de Mattos"
       },
 
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "diegocaito", "x": 85, "y": 30},
         { "player": "wallace",   "x": 65, "y": 25},
-        { "player": "wagner", "x": 35, "y": 25},
+        { "player": "wagnerleonardo", "x": 35, "y": 25},
         { "player": "marlon","x": 15, "y": 30},
         { "player": "nardoni", "x": 70, "y": 55},
         { "player": "noriega", "x": 50, "y": 40},
@@ -2520,23 +2518,22 @@
       ],
 
       "officials": {
-      "referee": "",
-      "assistant1": "",
-      "assistant2": "",
-      "quarto": "",
-      "inspetor": "",
-      "assessor": "",
-      "var": "",
-      "avar": "",
-      "avar2": "",
-      "var_observer": "",
-      "quality_manager": ""
+      "referee": "Rodrigo Jose Pereira de Lima",
+      "assistant1": "Nailton Junior de Sousa Oliveira",
+      "assistant2": "Karla renata Cavalcanti De Santana",
+      "quarto": "Rafael Carlos Salgueiro Lima",
+      "assessor": "Anderson Carlos Gonçalves",
+      "var": "Rodrigo Carvalhaes de Miranda",
+      "avar": "Michael Correia",
+      "avar2": "Marcio Henrique de Gois",
+      "var_observer": "Raimundo Nonato Lopo De Abreu",
+      "quality_manager": "Tatiana Pacheco Lima Guedes"
       },
 
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "pavon", "x": 85, "y": 30},
-        { "player": "gustavo",   "x": 65, "y": 25},
+        { "player": "gustavomartins",   "x": 65, "y": 25},
         { "player": "wallace", "x": 35, "y": 25},
         { "player": "marlon","x": 15, "y": 30},
         { "player": "villasanti", "x": 70, "y": 55},
@@ -2602,7 +2599,7 @@
     },
 
     {
-      "id": "",
+      "id": "07-09-2026-brasileirao-vitoria",
       "bzzoiro_id": 7253,
       "date": "",
       "hour": "",
@@ -2613,40 +2610,39 @@
       "stadium": "",
       "goals_for": null,
       "goals_against": null,
-      "publico pagante": null,
-      "publico_total": null,
-      "renda": null,
+      "publico pagante": 8885,
+      "publico_total": 8934,
+      "renda": 215031,
 
       "goals": [
         
       ],
 
       "officials": {
-      "referee": "",
-      "assistant1": "",
-      "assistant2": "",
-      "quarto": "",
-      "inspetor": "",
-      "assessor": "",
-      "var": "",
-      "avar": "",
-      "avar2": "",
-      "var_observer": "",
-      "quality_manager": ""
+      "referee": "Savio Pereira Sampaio",
+      "assistant1": "Rafael Trombeta",
+      "assistant2": "Andrey Luiz de Freitas",
+      "quarto": "Daniel Alejandro Hidalgo Blanco",
+      "assessor": "Silvia Regina de Oliveira",
+      "var": "Ilbert Estevam da Silva",
+      "avar": "Fabricio Porfirio de Moura",
+      "avar2": "Lucas Paulo Torezin",
+      "var_observer": "Ricardo Marques Ribeiro",
+      "quality_manager": "Maria Victoria Benetti Vargas"
       },
 
       "lineup": [
-        { "player": "grando", "x": 50, "y": 11},
-        { "player": "grando", "x": 85, "y": 30},
-        { "player": "grando",   "x": 65, "y": 25},
-        { "player": "grando", "x": 35, "y": 25},
-        { "player": "grando","x": 15, "y": 30},
-        { "player": "grando", "x": 60, "y": 45},
-        { "player": "grando", "x": 40, "y": 45},
-        { "player": "grando", "x": 50, "y": 60},
-        { "player": "grando", "x": 80, "y": 70},
-        { "player": "grando", "x": 20, "y": 70},
-        { "player": "grando", "x": 50, "y": 82}
+        { "player": "weverton", "x": 50, "y": 11},
+        { "player": "diegocaito", "x": 85, "y": 30},
+        { "player": "gustavomartins",   "x": 65, "y": 25},
+        { "player": "wallace", "x": 35, "y": 25},
+        { "player": "pedrogabriel","x": 15, "y": 30},
+        { "player": "villasanti", "x": 70, "y": 55},
+        { "player": "noriega", "x": 50, "y": 40},
+        { "player": "krovinovic", "x": 30, "y": 55},
+        { "player": "tete", "x": 80, "y": 70},
+        { "player": "carlosvinicius", "x": 20, "y": 70},
+        { "player": "pavon", "x": 50, "y": 82}
       ],
 
       "bench": []
