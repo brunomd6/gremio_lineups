@@ -8,8 +8,8 @@
     { "id": "grando", "nome": "G. Grando", "nome_completo": "Gabriel Hamester Grando", "numero": 12, "pos": "GK", "nacionalidade": "Brasil", "estado": "SC", "cidade": "Chapecó", "nascimento": "29/03/2000"},
     { "id": "volpi", "nome": "Volpi", "nome_completo": "Tiago Volpi", "numero": 1, "pos": "GK", "nacionalidade": "Brasil", "estado": "", "cidade": "", "nascimento": ""},
     { "id": "weverton", "nome": "Weverton", "nome_completo": "Weverton Pereira da Silva", "numero": 1, "pos": "GK", "nacionalidade": "Brasil", "estado": "AC", "cidade": "Rio Branco", "nascimento": "13/12/1987"},
-    { "id": "thiagobeltrame", "nome": "Thiago Beltrame", "nome_completo": "Thiago Beltrame Stallbaum", "numero": null, "pos": "GK", "nacionalidade": "Brasil/Itália", "estado": "RS", "cidade": "Canoas", "nascimento": "02/07/2003"},
-    { "id": "gabrielmenegon", "nome": "Gabriel Menegon", "nome_completo": "Gabriel Otávio Menegon", "numero": null, "pos": "GK", "nacionalidade": "Brasil", "estado": "RS", "cidade": "Sapiranga", "nascimento": "14/10/2008"},
+    { "id": "thiagobeltrame", "nome": "Thiago Beltrame", "nome_completo": "Thiago Beltrame Stallbaum", "numero": 24, "pos": "GK", "nacionalidade": "Brasil/Itália", "estado": "RS", "cidade": "Canoas", "nascimento": "02/07/2003"},
+    { "id": "gabrielmenegon", "nome": "Gabriel Menegon", "nome_completo": "Gabriel Otávio Menegon", "numero": 31, "pos": "GK", "nacionalidade": "Brasil", "estado": "RS", "cidade": "Sapiranga", "nascimento": "14/10/2008"},
 
     { "id": "wagnerleonardo", "nome": "Wagner L.", "nome_completo": "Wagner Leonardo Calvelo de Souza", "numero": 3, "pos": "CB", "nacionalidade": "Brasil", "estado": "SP", "cidade": "Praia Grande", "nascimento": "23/07/1999"},
     
@@ -37,8 +37,8 @@
     { "id": "tiaguinho", "nome": "Tiaguinho", "nome_completo": "Tiago", "numero": 39, "pos": "DM", "nacionalidade": "Brasil", "estado": "", "cidade": "", "nascimento": ""},
     { "id": "nardoni", "nome": "Nardoni", "nome_completo": "Juan Ignacio Martín Nardoni", "numero": 5, "pos": "DM", "nacionalidade": "Argentina", "estado": null, "cidade": "Nelson", "nascimento": "14/07/2002"},
     { "id": "leoperez", "nome": "Leo Perez", "nome_completo": "Leonel Ulises Pérez", "numero": 33, "pos": "DM", "nacionalidade": "Argentina", "estado": null, "cidade": "Rafael Castillo", "nascimento": "09/08/2004"},
-    { "id": "jefinho", "nome": "Jefinho", "nome_completo": "Jeferson Forneck", "numero": null, "pos": "DM", "nacionalidade": "Brasil", "estado": "RS", "cidade": "São Pedro da Serra", "nascimento": "14/12/2006"},
-    { "id": "zortea", "nome": "Zortea", "nome_completo": "Bernardo Schons Zortea", "numero": null, "pos": "DM", "nacionalidade": "Brasil", "estado": "SC", "cidade": "Pinhalzinho", "nascimento": "21/03/2027"},
+    { "id": "jefinho", "nome": "Jefinho", "nome_completo": "Jeferson Forneck", "numero": 40, "pos": "DM", "nacionalidade": "Brasil", "estado": "RS", "cidade": "São Pedro da Serra", "nascimento": "14/12/2006"},
+    { "id": "zortea", "nome": "Zortea", "nome_completo": "Bernardo Schons Zortea", "numero": 50, "pos": "DM", "nacionalidade": "Brasil", "estado": "SC", "cidade": "Pinhalzinho", "nascimento": "21/03/2027"},
     { "id": "danilobarbosa", "nome": "Danilo B.", "nome_completo": "Danilo Barbosa da Silva", "numero": 15, "pos": "DM", "nacionalidade": "Brasil", "estado": "Bahia", "cidade": "Simões Filho", "nascimento": "28/02/1996"},
 
     { "id": "krovinovic", "nome": "Krovinović", "nome_completo": "Filip Krovinović", "numero": 10, "pos": "CM", "nacionalidade": "Croácia", "estado": null, "cidade": "Zagreb", "nascimento": "29/08/1995"},
@@ -1394,7 +1394,7 @@
         { "player": "carlosvinicius", "x": 50, "y": 82}
       ],
 
-      "bench": []
+      "bench": ["grando", "balbuena", "monsalve", "marcosrocha", "dodi", "tete", "braithwaite", "leoperez", "gabrielmec", "caiopaulista", "tiaguinho", "luiseduardo"]
     },
 
     {
@@ -1492,7 +1492,7 @@
         { "player": "carlosvinicius", "x": 50, "y": 82}
       ],
 
-      "bench": []
+      "bench": ["grando", "balbuena", "kannemann", "nardoni", "marcosrocha", "noriega", "tete", "braithwaite", "caiopaulista", "roger", "andrehenrique"]
     },
 
     {
@@ -1600,7 +1600,7 @@
         { "player": "carlosvinicius", "x": 50, "y": 82}
       ],
 
-      "bench": []
+      "bench": ["grando", "kannemann", "willian", "marcosrocha", "dodi", "noriega", "tete", "caiopaulista", "luiseduardo", "zortea", "riquelme", "andrehenrique"]
     },
 
     {
@@ -1711,7 +1711,7 @@
         { "player": "carlosvinicius", "x": 50, "y": 82}
       ],
 
-      "bench": []
+      "bench": ["thiagobeltrame", "wagnerleonardo", "kannemann", "willian", "marcosrocha", "dodi", "tete", "braithwaite", "caiopaulista", "tiaguinho", "andrehenrique", "enamorado"]
     },
 
     {
@@ -1814,7 +1814,7 @@
         { "player": "carlosvinicius", "x": 50, "y": 82}
       ],
 
-      "bench": []
+      "bench": ["thiagobeltrame", "kannemann", "amuzu", "monsalve", "tete", "braithwaite", "vitorramon", "gabrielmec", "caiopaulista", "tiaguinho", "zortea", "andrehenrique"]
     },
 
     {
@@ -2139,7 +2139,7 @@
         { "player": "carlosvinicius", "x": 50, "y": 82}
       ],
 
-      "bench": []
+      "bench": ["thiagobeltrame", "wagnerleonardo", "dodi", "braithwaite", "diegocaito", "matheusnascimento", "gabrielmec", "luiseduardo", "pedrogabriel", "riquelme", "jovane", "enamorado"]
     },
 
     {
@@ -2343,7 +2343,7 @@
         { "player": "grando", "x": 50, "y": 82}
       ],
 
-      "bench": []
+      "bench": ["grando", "wagnerleonardo", "kannemann", "amuzu", "marcosrocha", "dodi", "braithwaite", "matheusnascimento", "leoperez", "gabrielmec", "caiopaulista", "enamorado"]
     },
 
     {
@@ -2393,7 +2393,7 @@
         { "player": "grando", "x": 50, "y": 82}
       ],
 
-      "bench": []
+      "bench": ["grando", "wagnerleonardo", "kannemann", "krovinovic", "marcosrocha", "tete", "braithwaite", "gabrielmec", "caiopaulista", "zortea", "jovane", "enamorado"]
     },
 
     {
@@ -2443,7 +2443,7 @@
         { "player": "braithwaite", "x": 50, "y": 82}
       ],
 
-      "bench": []
+      "bench": ["grando", "balbuena", "pavon", "marcosrocha", "danilobarbosa", "matheusnascimento", "gabrielmec", "luiseduardo", "pedrogabriel", "jovane", "carlosvinicius", "enamorado"]
     },
 
     {
@@ -2544,7 +2544,7 @@
         { "player": "braithwaite", "x": 50, "y": 82}
       ],
 
-      "bench": []
+      "bench": ["grando", "wagnerleonardo", "kannemann", "tete", "joaopedro", "matheusnascimento", "jefinho", "zortea", "pedrogabriel", "riquelme", "carlosvinicius"]
     },
 
         {
@@ -2645,7 +2645,7 @@
         { "player": "pavon", "x": 50, "y": 82}
       ],
 
-      "bench": []
+      "bench": ["grando", "balbuena", "wagnerleonardo", "nardoni", "danilobarbosa", "joaopedro", "braithwaite", "matheusnascimento", "caiopaulista", "zortea", "riquelme", "enamorado"]
     },
 
     {
