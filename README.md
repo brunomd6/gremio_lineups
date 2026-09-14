@@ -72,6 +72,7 @@ sphinx
 - https://ge.globo.com/gato-mestre/noticia/2026/08/23/palmeiras-2-x-1-vasco-tem-o-maior-publico-da-24a-rodada-do-brasileirao-veja-a-lista.ghtml
 - https://ge.globo.com/gato-mestre/noticia/2026/08/31/veja-os-publicos-da-25a-rodada-do-campeonato-brasileiro.ghtml
 - https://ge.globo.com/gato-mestre/noticia/2026/09/06/remo-0-x-1-flamengo-tem-o-maior-publico-da-26a-rodada-do-brasileirao-veja-a-lista.ghtml
+- https://ge.globo.com/gato-mestre/noticia/2026/09/13/flamengo-x-corinthians-tem-o-maior-publico-da-27a-rodada-do-brasileirao-veja-a-lista.ghtml
 
 ## Sul-Americana
 

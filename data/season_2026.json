@@ -2649,9 +2649,9 @@
     },
 
     {
-      "id": "",
+      "id": "12-09-2026-brasileirao-vasco-casa",
       "bzzoiro_id": 7260,
-      "date": "",
+      "date": "12-09-2026",
       "hour": "",
       "competition": "Brasileirão",
       "round": 27,
@@ -2660,43 +2660,44 @@
       "stadium": "",
       "goals_for": null,
       "goals_against": null,
-      "publico pagante": null,
-      "publico_total": null,
-      "renda": null,
+      "publico pagante": 34023,
+      "publico_total": 34297,
+      "renda": 2032487,
 
       "goals": [
-        
+        { "team": "gremio", "player": "villasanti", "half": 1, "minute": 39},
+        { "team": "rival", "player": "Thiago Mendes", "half": 2, "minute": 30},
+        { "team": "rival", "player": "Facundo Colidio", "half": 2, "minute": 33}
       ],
 
       "officials": {
-      "referee": "",
-      "assistant1": "",
-      "assistant2": "",
-      "quarto": "",
-      "inspetor": "",
-      "assessor": "",
-      "var": "",
-      "avar": "",
-      "avar2": "",
-      "var_observer": "",
-      "quality_manager": ""
+      "referee": "Raphael Claus",
+      "assistant1": "Danilo Ricardo Simon Manis",
+      "assistant2": "Alex dos Santos",
+      "quarto": "Arthur Gomes Rabelo",
+      "assessor": "Marrubson Melo Freitas",
+      "var": "Marcio Henrique de Gois",
+      "avar": "Helen Aparecida Gonçalves Silva Araujo",
+      "avar2": "Vinicius Gonçalves Dias Araujo",
+      "var_observer": "Italo Medeiros de Azevedo",
+      "quality_manager": "Arnaldo Jasson Araujo Santos"
       },
 
       "lineup": [
-        { "player": "grando", "x": 50, "y": 11},
-        { "player": "grando", "x": 85, "y": 30},
-        { "player": "grando",   "x": 65, "y": 25},
-        { "player": "grando", "x": 35, "y": 25},
-        { "player": "grando","x": 15, "y": 30},
-        { "player": "grando", "x": 60, "y": 45},
-        { "player": "grando", "x": 40, "y": 45},
-        { "player": "grando", "x": 50, "y": 60},
-        { "player": "grando", "x": 80, "y": 70},
-        { "player": "grando", "x": 20, "y": 70},
-        { "player": "grando", "x": 50, "y": 82}
+        { "player": "weverton", "x": 50, "y": 11},
+        { "player": "caito", "x": 85, "y": 30},
+        { "player": "wallace",   "x": 65, "y": 25},
+        { "player": "kannemann", "x": 35, "y": 25},
+        { "player": "pedrogabriel","x": 15, "y": 30},
+        { "player": "villasanti", "x": 70, "y": 55},
+        { "player": "noriega", "x": 50, "y": 40},
+        { "player": "krovinovic", "x": 30, "y": 55},
+        { "player": "tete", "x": 80, "y": 70},
+        { "player": "carlosvinicius", "x": 20, "y": 70},
+        { "player": "jovane", "x": 50, "y": 82}
       ],
 
-      "bench": []
+      "bench": ["grando", "wagnerleonardo", "nardoni", "gustavomartins", "marcosrocha", "danilobarbosa", "joaopedro", "braithwaite", "matheusnascimento", "zortea", "riquelme", "enamorado"]
     },
 
     {

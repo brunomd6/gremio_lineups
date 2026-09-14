@@ -2,8 +2,8 @@ This is makeindex, version 2.17 [TeX Live 2025/dev] (kpathsea + Thai support).
 Scanning input file lineup_report.idx....
 !! Input index error (file = lineup_report.idx, line = 46):
    -- Illegal null field.
-done (45 entries accepted, 1 rejected).
-Sorting entries....done (254 comparisons).
-Generating output file lineup_report.ind....done (85 lines written, 0 warnings).
+done (46 entries accepted, 1 rejected).
+Sorting entries....done (264 comparisons).
+Generating output file lineup_report.ind....done (86 lines written, 0 warnings).
 Output written in lineup_report.ind.
 Transcript written in lineup_report.ilg.
