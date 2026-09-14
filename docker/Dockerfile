@@ -9,8 +9,9 @@ RUN apt-get update && apt-get install -y \
     texlive-fonts-extra \
     texlive-latex-extra \
     latexmk \
+    inkscape \
     && rm -rf /var/lib/apt/lists/* \
-    && luaotfload-tool -u \
+    && luaotfload-tool -u
 
 # Set workdir
 WORKDIR /app

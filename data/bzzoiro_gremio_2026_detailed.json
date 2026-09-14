@@ -28533,7 +28533,7 @@
     "league": {
       "id": 9,
       "name": "Brasileirão Serie A",
-      "country": "Brazil",
+      "country": "Brazil", 
       "is_women": false,
       "current_season": {
         "id": 28,

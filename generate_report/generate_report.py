@@ -70,12 +70,13 @@ matches = season["matches"]
 for match in matches:
 
     match_id = match.get("id", "")
+    bzz = find_bzz_match(match, bzz_matches)
 
     if not match_id:
         continue
 
     round_name = get_round_name(match.get("round"))
-    lines.extend(render_match_header(match, round_name))
+    lines.extend(render_match_header(match, round_name, bzz))
 
     lines.append(r"\vspace{0.5cm}")
 
@@ -134,7 +135,7 @@ for match in matches:
     lines.append(r"\end{minipage}")
 
     lines.append(r"\begin{minipage}{0.3\textwidth}")
-    bzz = find_bzz_match(match, bzz_matches)
+    
     lines.extend(render_bzz_match_info(bzz))
     lines.append(r"\end{minipage}")
 
@@ -150,6 +151,7 @@ subprocess.run(
     [
         "latexmk",
         "-lualatex",
+        "-shell-escape",
         "-interaction=nonstopmode",
         str(TEX_FILE),
     ],

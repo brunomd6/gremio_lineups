@@ -1,6 +1,7 @@
 from pathlib import Path
 from helpers.latex import latex_escape
 
+
 def render_roster_grid(roster):
 
     lines = []
@@ -58,6 +59,7 @@ def render_latex_preamble():
     lines.append(r"\usepackage[margin=1.5cm]{geometry}")
     lines.append(r"\usepackage{tikz}")
     lines.append(r"\usepackage{graphicx}")
+    lines.append(r"\usepackage{svg}")
     lines.append(r"\usepackage{tabularx}")
     lines.append(r"\usepackage{fontspec}")
     lines.append(r"\usepackage{makeidx}")
@@ -103,38 +105,95 @@ def render_team_jersey_command(match):
         rf"\renewcommand{{\teamjersey}}{{{jersey_path.as_posix()}}}"
     ]
 
-def render_match_header(match, round_name):
+def render_match_header(match, round_name, bzz):
+
+    if not bzz:
+        return []
 
     lines = []
 
-    competition = match.get("competition", "Unknown Competition")
-    opponent = match.get("opponent", "Unknown Opponent")
-    date = match.get("date", "Unknown Date")
-
-    goals_for = match.get("goals_for", "?")
-    goals_against = match.get("goals_against", "?")
+    competition = latex_escape(match.get("competition", "Unknown Competition"))
+    date = latex_escape(match.get("date", "Unknown Date"))
+    round_name = latex_escape(round_name)
 
     title = f"{date} - {competition} - {round_name}"
-    subtitle = f"Grêmio {goals_for} x {goals_against} {opponent}"
 
     lines.append(
-        rf"\section*{{{latex_escape(title)}}}"
+        rf"\section*{{{title}}}"
     )
 
     lines.append(r"\phantomsection")
 
-    entry = f"{date} - {round_name} - {opponent}"
+    home_team_raw = bzz.get("home_team", "Unknown Team")
+    away_team_raw = bzz.get("away_team", "Unknown Team")
+
+    home_team = latex_escape(home_team_raw)
+    away_team = latex_escape(away_team_raw)
+
+    home_score = bzz.get("home_score")
+    away_score = bzz.get("away_score")
+
+    home_crest = crest_path(home_team_raw)
+    away_crest = crest_path(away_team_raw)
+
+    if home_score is None or away_score is None:
+        subtitle = (
+            rf"\includesvg[height=1.2em]{{{home_crest}}}"
+            rf"{home_team} x {away_team}"
+            rf"\includesvg[height=1.2em]{{{away_crest}}}"
+        )
+    else:
+        subtitle = (
+            rf"\includesvg[height=1.2em]{{{home_crest}}}"
+            rf"{home_team} {home_score} x {away_score} {away_team}"
+            rf"\includesvg[height=1.2em]{{{away_crest}}}"
+        )
 
     lines.append(
-        rf"\index{{{latex_escape(competition)}!"
-        rf"{date}@\mbox{{{latex_escape(entry)}}}}}"
-    )
-
-    lines.append(
-        rf"\textbf{{{latex_escape(subtitle)}}}\\"
+        rf"\textbf{{{subtitle}}}\\"
     )
 
     return lines
+
+def crest_path(team_name: str) -> str:
+    CRESTS_DIR = Path("escudos")
+
+    crest_files = {
+        "Fluminense": "fluminense",
+        "Botafogo": "botafogo",
+        "São Paulo": "sao_paulo",
+        "Atlético Mineiro": "atletico_mg",
+        "Red Bull Bragantino": "bragantino",
+        "Chapecoense": "chapecoense",
+        "Vitória": "vitoria",
+        "Palmeiras": "palmeiras",
+        "Remo": "remo",
+        "Montevideo City Torque": "montevideo_city_torque",
+        "Internacional": "internacional",
+        "Deportivo Riestra": "deportivo_riestra",
+        "Cruzeiro": "cruzeiro",
+        "Confiança": "confianca",
+        "Coritiba": "coritiba",
+        "Palestino": "palestino",
+        "Athletico": "athletico",
+        "Flamengo": "flamengo",
+        "Bahia": "bahia",
+        "Santos": "santos",
+        "Grêmio": "gremio",
+        "Vasco da Gama": "vasco",
+        "Corinthians": "corinthians",
+        "Cascavel": "cascavel",
+        "Mirassol": "mirassol",
+        "Bolívar": "bolivar",
+        "Juventude": "juventude",
+    }
+
+    filename = crest_files.get(team_name)
+
+    if filename is None:
+        raise ValueError(f"No crest configured for team: {team_name}")
+
+    return (CRESTS_DIR / filename).as_posix()   
 
 def render_bzz_match_info(bzz):
 
