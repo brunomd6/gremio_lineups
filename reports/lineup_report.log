@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2025/dev/Debian)  (format=lualatex 2026.9.14)  14 SEP 2026 17:31
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2025/dev/Debian)  (format=lualatex 2026.9.14)  13 OCT 2026 13:35
  system commands enabled.
 **/app/reports/lineup_report.tex
 (/app/reports/lineup_report.tex
@@ -816,7 +816,6 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-("|'inkscape' -V ")
 
 Package fontspec Info: 
 (fontspec)             Adjusting the maths setup (use [no-math] to avoid
@@ -883,12 +882,12 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 35.
 Package hyperref Info: Link coloring OFF on input line 35.
+
+(./lineup_report.out) (./lineup_report.out)
 \@outlinefile=\write5
 
 \openout5 = lineup_report.out
-
-No file lineup_report.ind.
-
+ (./lineup_report.ind)
 
 [1
 
@@ -4176,14 +4175,6 @@ Package luatex.def Info: ./svg-inkscape/gremio_svg-tex.pdf , page1 used on inpu
 t line 56.
 (luatex.def)             Requested size: 13.13995pt x 13.13866pt.
 )
-Package svg Info: Calling Inkscape on input line 2215.
-runsystem(inkscape "../assets/escudos/confianca.svg" -D --export-latex --export-
-filename="confianca_svg-tex.pdf")...executed.
-runsystem(mkdir -p "./svg-inkscape/")...executed.
-runsystem(mv "confianca_svg-tex.pdf" "./svg-inkscape/confianca_svg-tex.pdf")...e
-xecuted.
-runsystem(mv "confianca_svg-tex.pdf_tex" "./svg-inkscape/confianca_svg-tex.pdf_t
-ex")...executed.
 Package svg Info: Last page of `./svg-inkscape/confianca_svg-tex.pdf' is 1 on i
 nput line 2215.
 
@@ -4556,20 +4547,21 @@ Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 2388.
 
 
 [30<./svg-inkscape/palestino_svg-tex.pdf>]
+Package svg Info: Last page of `./svg-inkscape/athletico_svg-tex.pdf' is 1 on i
+nput line 2421.
 
-! Package svg Error: File `athletico.svg' is missing.
+(./svg-inkscape/athletico_svg-tex.pdf_tex
+<./svg-inkscape/athletico_svg-tex.pdf, id=227, page=1, 223.73589pt x 301.125pt>
 
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2421 ...\includesvg[height=1.2em]{escudos/gremio}}
-                                                  \\
-There's no file `athletico.svg'
-in folder `escudos/'.
-
+File: ./svg-inkscape/athletico_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/athletico_svg-tex.pdf, page 1>
+Package luatex.def Info: ./svg-inkscape/athletico_svg-tex.pdf , page1 used on i
+nput line 56.
+(luatex.def)             Requested size: 9.76334pt x 13.1365pt.
+)
 Package svg Info: Last page of `./svg-inkscape/gremio_svg-tex.pdf' is 1 on inpu
 t line 2421.
+
 (./svg-inkscape/gremio_svg-tex.pdf_tex
 File: ./svg-inkscape/gremio_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/gremio_svg-tex.pdf, page 1>
@@ -4703,10 +4695,11 @@ Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 2462.
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 
 
-[31]
+[31<./svg-inkscape/athletico_svg-tex.pdf>]
 Package svg Info: Last page of `./svg-inkscape/deportivo_riestra_svg-tex.pdf' i
 s 1 on input line 2491.
- (./svg-inkscape/deportivo_riestra_svg-tex.pdf_tex
+
+(./svg-inkscape/deportivo_riestra_svg-tex.pdf_tex
 File: ./svg-inkscape/deportivo_riestra_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/deportivo_riestra_svg-tex.pdf, page 1>
 Package luatex.def Info: ./svg-inkscape/deportivo_riestra_svg-tex.pdf , page1 u
@@ -4863,7 +4856,7 @@ Package svg Info: Last page of `./svg-inkscape/flamengo_svg-tex.pdf' is 1 on in
 put line 2565.
 
 (./svg-inkscape/flamengo_svg-tex.pdf_tex
-<./svg-inkscape/flamengo_svg-tex.pdf, id=244, page=1, 303.38344pt x 376.40625pt
+<./svg-inkscape/flamengo_svg-tex.pdf, id=246, page=1, 303.38344pt x 376.40625pt
 >
 File: ./svg-inkscape/flamengo_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/flamengo_svg-tex.pdf, page 1>
@@ -5093,7 +5086,7 @@ Overfull \hbox (44.50333pt too wide) in paragraph at lines 2665--2666
 Package svg Info: Last page of `./svg-inkscape/bahia_svg-tex.pdf' is 1 on input
  line 2706.
  (./svg-inkscape/bahia_svg-tex.pdf_tex
-<./svg-inkscape/bahia_svg-tex.pdf, id=260, page=1, 132.19388pt x 132.34444pt>
+<./svg-inkscape/bahia_svg-tex.pdf, id=262, page=1, 132.19388pt x 132.34444pt>
 File: ./svg-inkscape/bahia_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/bahia_svg-tex.pdf, page 1>
 Package luatex.def Info: ./svg-inkscape/bahia_svg-tex.pdf , page1 used on input
@@ -5341,7 +5334,7 @@ Package svg Info: Last page of `./svg-inkscape/santos_svg-tex.pdf' is 1 on inpu
 t line 2832.
 
 (./svg-inkscape/santos_svg-tex.pdf_tex
-<./svg-inkscape/santos_svg-tex.pdf, id=278, page=1, 435.84521pt x 427.069pt>
+<./svg-inkscape/santos_svg-tex.pdf, id=280, page=1, 435.84521pt x 427.069pt>
 File: ./svg-inkscape/santos_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/santos_svg-tex.pdf, page 1>
 Package luatex.def Info: ./svg-inkscape/santos_svg-tex.pdf , page1 used on inpu
@@ -5644,7 +5637,7 @@ Package svg Info: Last page of `./svg-inkscape/corinthians_svg-tex.pdf' is 1 on
  input line 2986.
 
 (./svg-inkscape/corinthians_svg-tex.pdf_tex
-<./svg-inkscape/corinthians_svg-tex.pdf, id=295, page=1, 352.16568pt x 445.2133
+<./svg-inkscape/corinthians_svg-tex.pdf, id=297, page=1, 352.16568pt x 445.2133
 3pt>
 File: ./svg-inkscape/corinthians_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/corinthians_svg-tex.pdf, page 1>
@@ -5788,7 +5781,7 @@ Package svg Info: Last page of `./svg-inkscape/mirassol_svg-tex.pdf' is 1 on in
 put line 3066.
 
 (./svg-inkscape/mirassol_svg-tex.pdf_tex
-<./svg-inkscape/mirassol_svg-tex.pdf, id=303, page=1, 374.82533pt x 367.22192pt
+<./svg-inkscape/mirassol_svg-tex.pdf, id=305, page=1, 374.82533pt x 367.22192pt
 >
 File: ./svg-inkscape/mirassol_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/mirassol_svg-tex.pdf, page 1>
@@ -6077,8 +6070,13 @@ File: ../assets/camisa/costas1.png Graphic file (type png)
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3186.
 
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3187.
 
-Overfull \hbox (13.54901pt too wide) in paragraph at lines 3172--3188
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+
+Overfull \hbox (13.54901pt too wide) in paragraph at lines 3172--3189
 []  
  []
 
@@ -6086,7 +6084,7 @@ Overfull \hbox (13.54901pt too wide) in paragraph at lines 3172--3188
 
 [41]
 Package svg Info: Last page of `./svg-inkscape/mirassol_svg-tex.pdf' is 1 on in
-put line 3224.
+put line 3225.
  (./svg-inkscape/mirassol_svg-tex.pdf_tex
 File: ./svg-inkscape/mirassol_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/mirassol_svg-tex.pdf, page 1>
@@ -6095,7 +6093,7 @@ put line 56.
 (luatex.def)             Requested size: 13.41322pt x 13.13985pt.
 )
 Package svg Info: Last page of `./svg-inkscape/gremio_svg-tex.pdf' is 1 on inpu
-t line 3224.
+t line 3225.
 
 (./svg-inkscape/gremio_svg-tex.pdf_tex
 File: ./svg-inkscape/gremio_svg-tex.pdf Graphic file (type pdf)
@@ -6106,13 +6104,8 @@ t line 56.
 )
 File: ../assets/pitch/pitch.png Graphic file (type png)
 <use ../assets/pitch/pitch.png>
-Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 3231.
+Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 3232.
 (luatex.def)             Requested size: 256.0748pt x 384.09811pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3233.
-
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3234.
@@ -6163,16 +6156,16 @@ File: ../assets/camisa/costas1.png Graphic file (type png)
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3243.
 
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3244.
 
-Overfull \hbox (44.50333pt too wide) in paragraph at lines 3245--3246
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+
+Overfull \hbox (44.50333pt too wide) in paragraph at lines 3246--3247
 [][]  
  []
 
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3254.
-
-(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3255.
@@ -6223,8 +6216,18 @@ File: ../assets/camisa/costas1.png Graphic file (type png)
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3264.
 
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3265.
 
-Overfull \hbox (4.90945pt too wide) in paragraph at lines 3250--3266
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3266.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+
+Overfull \hbox (4.90945pt too wide) in paragraph at lines 3251--3268
 []  
  []
 
@@ -6232,7 +6235,7 @@ Overfull \hbox (4.90945pt too wide) in paragraph at lines 3250--3266
 
 [42]
 Package svg Info: Last page of `./svg-inkscape/gremio_svg-tex.pdf' is 1 on inpu
-t line 3293.
+t line 3295.
  (./svg-inkscape/gremio_svg-tex.pdf_tex
 File: ./svg-inkscape/gremio_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/gremio_svg-tex.pdf, page 1>
@@ -6241,7 +6244,7 @@ t line 56.
 (luatex.def)             Requested size: 13.13995pt x 13.13866pt.
 )
 Package svg Info: Last page of `./svg-inkscape/mirassol_svg-tex.pdf' is 1 on in
-put line 3293.
+put line 3295.
 
 (./svg-inkscape/mirassol_svg-tex.pdf_tex
 File: ./svg-inkscape/mirassol_svg-tex.pdf Graphic file (type pdf)
@@ -6252,18 +6255,8 @@ put line 56.
 )
 File: ../assets/pitch/pitch.png Graphic file (type png)
 <use ../assets/pitch/pitch.png>
-Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 3300.
+Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 3302.
 (luatex.def)             Requested size: 256.0748pt x 384.09811pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3302.
-
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3303.
-
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3304.
@@ -6309,8 +6302,18 @@ File: ../assets/camisa/costas1.png Graphic file (type png)
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3312.
 
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3313.
 
-Overfull \hbox (44.50333pt too wide) in paragraph at lines 3314--3315
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3314.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+
+Overfull \hbox (44.50333pt too wide) in paragraph at lines 3316--3317
 [][]  
  []
 
@@ -6318,7 +6321,7 @@ Overfull \hbox (44.50333pt too wide) in paragraph at lines 3314--3315
 
 [43]
 Package svg Info: Last page of `./svg-inkscape/bragantino_svg-tex.pdf' is 1 on 
-input line 3346.
+input line 3348.
  (./svg-inkscape/bragantino_svg-tex.pdf_tex
 File: ./svg-inkscape/bragantino_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/bragantino_svg-tex.pdf, page 1>
@@ -6327,7 +6330,7 @@ input line 56.
 (luatex.def)             Requested size: 16.27977pt x 13.13843pt.
 )
 Package svg Info: Last page of `./svg-inkscape/gremio_svg-tex.pdf' is 1 on inpu
-t line 3346.
+t line 3348.
 
 (./svg-inkscape/gremio_svg-tex.pdf_tex
 File: ./svg-inkscape/gremio_svg-tex.pdf Graphic file (type pdf)
@@ -6338,18 +6341,8 @@ t line 56.
 )
 File: ../assets/pitch/pitch.png Graphic file (type png)
 <use ../assets/pitch/pitch.png>
-Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 3353.
+Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 3355.
 (luatex.def)             Requested size: 256.0748pt x 384.09811pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3355.
-
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3356.
-
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3357.
@@ -6395,21 +6388,21 @@ File: ../assets/camisa/costas1.png Graphic file (type png)
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3365.
 
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3366.
 
-Overfull \hbox (44.50333pt too wide) in paragraph at lines 3367--3368
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3367.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+
+Overfull \hbox (44.50333pt too wide) in paragraph at lines 3369--3370
 [][]  
  []
 
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3376.
-
-(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3377.
-
-(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3378.
@@ -6455,8 +6448,23 @@ File: ../assets/camisa/costas1.png Graphic file (type png)
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3386.
 
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3387.
 
-Overfull \hbox (4.90945pt too wide) in paragraph at lines 3372--3388
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3388.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3389.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+
+Overfull \hbox (4.90945pt too wide) in paragraph at lines 3374--3391
 []  
  []
 
@@ -6464,7 +6472,7 @@ Overfull \hbox (4.90945pt too wide) in paragraph at lines 3372--3388
 
 [44]
 Package svg Info: Last page of `./svg-inkscape/gremio_svg-tex.pdf' is 1 on inpu
-t line 3424.
+t line 3427.
  (./svg-inkscape/gremio_svg-tex.pdf_tex
 File: ./svg-inkscape/gremio_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/gremio_svg-tex.pdf, page 1>
@@ -6473,7 +6481,7 @@ t line 56.
 (luatex.def)             Requested size: 13.13995pt x 13.13866pt.
 )
 Package svg Info: Last page of `./svg-inkscape/mirassol_svg-tex.pdf' is 1 on in
-put line 3424.
+put line 3427.
 
 (./svg-inkscape/mirassol_svg-tex.pdf_tex
 File: ./svg-inkscape/mirassol_svg-tex.pdf Graphic file (type pdf)
@@ -6484,23 +6492,8 @@ put line 56.
 )
 File: ../assets/pitch/pitch.png Graphic file (type png)
 <use ../assets/pitch/pitch.png>
-Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 3431.
+Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 3434.
 (luatex.def)             Requested size: 256.0748pt x 384.09811pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3433.
-
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3434.
-
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3435.
-
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3436.
@@ -6541,8 +6534,23 @@ File: ../assets/camisa/costas1.png Graphic file (type png)
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3443.
 
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3444.
 
-Overfull \hbox (44.50333pt too wide) in paragraph at lines 3445--3446
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3445.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3446.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+
+Overfull \hbox (44.50333pt too wide) in paragraph at lines 3448--3449
 [][]  
  []
 
@@ -6550,7 +6558,7 @@ Overfull \hbox (44.50333pt too wide) in paragraph at lines 3445--3446
 
 [45]
 Package svg Info: Last page of `./svg-inkscape/gremio_svg-tex.pdf' is 1 on inpu
-t line 3478.
+t line 3481.
  (./svg-inkscape/gremio_svg-tex.pdf_tex
 File: ./svg-inkscape/gremio_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/gremio_svg-tex.pdf, page 1>
@@ -6559,7 +6567,7 @@ t line 56.
 (luatex.def)             Requested size: 13.13995pt x 13.13866pt.
 )
 Package svg Info: Last page of `./svg-inkscape/chapecoense_svg-tex.pdf' is 1 on
- input line 3478.
+ input line 3481.
 
 (./svg-inkscape/chapecoense_svg-tex.pdf_tex
 File: ./svg-inkscape/chapecoense_svg-tex.pdf Graphic file (type pdf)
@@ -6570,23 +6578,8 @@ Package luatex.def Info: ./svg-inkscape/chapecoense_svg-tex.pdf , page1 used on
 )
 File: ../assets/pitch/pitch.png Graphic file (type png)
 <use ../assets/pitch/pitch.png>
-Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 3485.
+Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 3488.
 (luatex.def)             Requested size: 256.0748pt x 384.09811pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3487.
-
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3488.
-
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3489.
-
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3490.
@@ -6627,26 +6620,26 @@ File: ../assets/camisa/costas1.png Graphic file (type png)
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3497.
 
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3498.
 
-Overfull \hbox (44.50333pt too wide) in paragraph at lines 3499--3500
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3499.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3500.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+
+Overfull \hbox (44.50333pt too wide) in paragraph at lines 3502--3503
 [][]  
  []
 
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3508.
-
-(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3509.
-
-(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3510.
-
-(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3511.
@@ -6687,8 +6680,23 @@ File: ../assets/camisa/costas1.png Graphic file (type png)
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3518.
 
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3519.
 
-Overfull \hbox (4.90945pt too wide) in paragraph at lines 3504--3520
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3520.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3521.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+
+Overfull \hbox (4.90945pt too wide) in paragraph at lines 3507--3523
 []  
  []
 
@@ -6696,7 +6704,7 @@ Overfull \hbox (4.90945pt too wide) in paragraph at lines 3504--3520
 
 [46]
 Package svg Info: Last page of `./svg-inkscape/gremio_svg-tex.pdf' is 1 on inpu
-t line 3555.
+t line 3558.
  (./svg-inkscape/gremio_svg-tex.pdf_tex
 File: ./svg-inkscape/gremio_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/gremio_svg-tex.pdf, page 1>
@@ -6705,7 +6713,7 @@ t line 56.
 (luatex.def)             Requested size: 13.13995pt x 13.13866pt.
 )
 Package svg Info: Last page of `./svg-inkscape/mirassol_svg-tex.pdf' is 1 on in
-put line 3555.
+put line 3558.
 
 (./svg-inkscape/mirassol_svg-tex.pdf_tex
 File: ./svg-inkscape/mirassol_svg-tex.pdf Graphic file (type pdf)
@@ -6716,23 +6724,8 @@ put line 56.
 )
 File: ../assets/pitch/pitch.png Graphic file (type png)
 <use ../assets/pitch/pitch.png>
-Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 3562.
+Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 3565.
 (luatex.def)             Requested size: 256.0748pt x 384.09811pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3564.
-
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3565.
-
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3566.
-
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3567.
@@ -6773,8 +6766,23 @@ File: ../assets/camisa/costas1.png Graphic file (type png)
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3574.
 
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3575.
 
-Overfull \hbox (44.50333pt too wide) in paragraph at lines 3576--3577
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3576.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3577.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+
+Overfull \hbox (44.50333pt too wide) in paragraph at lines 3579--3580
 [][]  
  []
 
@@ -6782,7 +6790,7 @@ Overfull \hbox (44.50333pt too wide) in paragraph at lines 3576--3577
 
 [47]
 Package svg Info: Last page of `./svg-inkscape/vitoria_svg-tex.pdf' is 1 on inp
-ut line 3609.
+ut line 3612.
  (./svg-inkscape/vitoria_svg-tex.pdf_tex
 File: ./svg-inkscape/vitoria_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/vitoria_svg-tex.pdf, page 1>
@@ -6791,7 +6799,7 @@ ut line 56.
 (luatex.def)             Requested size: 11.46097pt x 13.1359pt.
 )
 Package svg Info: Last page of `./svg-inkscape/gremio_svg-tex.pdf' is 1 on inpu
-t line 3609.
+t line 3612.
 
 (./svg-inkscape/gremio_svg-tex.pdf_tex
 File: ./svg-inkscape/gremio_svg-tex.pdf Graphic file (type pdf)
@@ -6802,23 +6810,8 @@ t line 56.
 )
 File: ../assets/pitch/pitch.png Graphic file (type png)
 <use ../assets/pitch/pitch.png>
-Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 3616.
+Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 3619.
 (luatex.def)             Requested size: 256.0748pt x 384.09811pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3618.
-
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3619.
-
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3620.
-
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3621.
@@ -6859,26 +6852,26 @@ File: ../assets/camisa/costas1.png Graphic file (type png)
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3628.
 
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3629.
 
-Overfull \hbox (44.50333pt too wide) in paragraph at lines 3630--3631
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3630.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3631.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+
+Overfull \hbox (44.50333pt too wide) in paragraph at lines 3633--3634
 [][]  
  []
 
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3639.
-
-(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3640.
-
-(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3641.
-
-(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3642.
@@ -6924,8 +6917,23 @@ File: ../assets/camisa/costas1.png Graphic file (type png)
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3650.
 
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3651.
 
-Overfull \hbox (4.90945pt too wide) in paragraph at lines 3635--3652
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3652.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3653.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+
+Overfull \hbox (4.90945pt too wide) in paragraph at lines 3638--3655
 []  
  []
 
@@ -6933,7 +6941,7 @@ Overfull \hbox (4.90945pt too wide) in paragraph at lines 3635--3652
 
 [48]
 Package svg Info: Last page of `./svg-inkscape/gremio_svg-tex.pdf' is 1 on inpu
-t line 3688.
+t line 3691.
  (./svg-inkscape/gremio_svg-tex.pdf_tex
 File: ./svg-inkscape/gremio_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/gremio_svg-tex.pdf, page 1>
@@ -6942,7 +6950,7 @@ t line 56.
 (luatex.def)             Requested size: 13.13995pt x 13.13866pt.
 )
 Package svg Info: Last page of `./svg-inkscape/vasco_svg-tex.pdf' is 1 on input
- line 3688.
+ line 3691.
 
 (./svg-inkscape/vasco_svg-tex.pdf_tex
 File: ./svg-inkscape/vasco_svg-tex.pdf Graphic file (type pdf)
@@ -6953,23 +6961,8 @@ Package luatex.def Info: ./svg-inkscape/vasco_svg-tex.pdf , page1 used on input
 )
 File: ../assets/pitch/pitch.png Graphic file (type png)
 <use ../assets/pitch/pitch.png>
-Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 3695.
+Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 3698.
 (luatex.def)             Requested size: 256.0748pt x 384.09811pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3697.
-
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3698.
-
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3699.
-
-(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3700.
@@ -7000,36 +6993,36 @@ File: ../assets/camisa/costas1.png Graphic file (type png)
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3705.
 
 (luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3706.
 
-Overfull \hbox (44.50333pt too wide) in paragraph at lines 3707--3708
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3707.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3708.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3709.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3710.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+
+Overfull \hbox (44.50333pt too wide) in paragraph at lines 3712--3713
 [][]  
  []
 
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3716.
-
-(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3717.
-
-(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3718.
-
-(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3719.
-
-(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
-File: ../assets/camisa/costas1.png Graphic file (type png)
-<use ../assets/camisa/costas1.png>
-Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3720.
-
-(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
 File: ../assets/camisa/costas1.png Graphic file (type png)
 <use ../assets/camisa/costas1.png>
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3721.
@@ -7065,47 +7058,544 @@ File: ../assets/camisa/costas1.png Graphic file (type png)
 Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3727.
 
 (luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3728.
 
-Overfull \hbox (4.90945pt too wide) in paragraph at lines 3712--3729
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3729.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3730.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3731.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3732.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+
+Overfull \hbox (4.90945pt too wide) in paragraph at lines 3717--3734
 []  
  []
 
 
 
-[49] (./lineup_report.aux)
+[49]
+Package svg Info: Last page of `./svg-inkscape/botafogo_svg-tex.pdf' is 1 on in
+put line 3770.
+ (./svg-inkscape/botafogo_svg-tex.pdf_tex
+File: ./svg-inkscape/botafogo_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/botafogo_svg-tex.pdf, page 1>
+Package luatex.def Info: ./svg-inkscape/botafogo_svg-tex.pdf , page1 used on in
+put line 56.
+(luatex.def)             Requested size: 11.41364pt x 13.1362pt.
+)
+Package svg Info: Last page of `./svg-inkscape/gremio_svg-tex.pdf' is 1 on inpu
+t line 3770.
+
+(./svg-inkscape/gremio_svg-tex.pdf_tex
+File: ./svg-inkscape/gremio_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/gremio_svg-tex.pdf, page 1>
+Package luatex.def Info: ./svg-inkscape/gremio_svg-tex.pdf , page1 used on inpu
+t line 56.
+(luatex.def)             Requested size: 13.13995pt x 13.13866pt.
+)
+File: ../assets/pitch/pitch.png Graphic file (type png)
+<use ../assets/pitch/pitch.png>
+Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 3777.
+(luatex.def)             Requested size: 256.0748pt x 384.09811pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3779.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3780.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3781.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3782.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3783.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3784.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3785.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3786.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3787.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3788.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3789.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+
+Overfull \hbox (44.50333pt too wide) in paragraph at lines 3791--3792
+[][]  
+ []
+
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3800.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3801.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3802.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3803.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3804.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3805.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3806.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3807.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3808.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3809.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3810.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3811.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+
+Overfull \hbox (14.7097pt too wide) in paragraph at lines 3796--3813
+[]  
+ []
+
+
+
+[50]
+Package svg Info: Last page of `./svg-inkscape/gremio_svg-tex.pdf' is 1 on inpu
+t line 3843.
+ (./svg-inkscape/gremio_svg-tex.pdf_tex
+File: ./svg-inkscape/gremio_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/gremio_svg-tex.pdf, page 1>
+Package luatex.def Info: ./svg-inkscape/gremio_svg-tex.pdf , page1 used on inpu
+t line 56.
+(luatex.def)             Requested size: 13.13995pt x 13.13866pt.
+)
+Package svg Info: Last page of `./svg-inkscape/palmeiras_svg-tex.pdf' is 1 on i
+nput line 3843.
+
+(./svg-inkscape/palmeiras_svg-tex.pdf_tex
+File: ./svg-inkscape/palmeiras_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/palmeiras_svg-tex.pdf, page 1>
+Package luatex.def Info: ./svg-inkscape/palmeiras_svg-tex.pdf , page1 used on i
+nput line 56.
+(luatex.def)             Requested size: 13.13995pt x 13.13783pt.
+)
+File: ../assets/pitch/pitch.png Graphic file (type png)
+<use ../assets/pitch/pitch.png>
+Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 3850.
+(luatex.def)             Requested size: 256.0748pt x 384.09811pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3852.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3853.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3854.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3855.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3856.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3857.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3858.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3859.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3860.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3861.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3862.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+
+Overfull \hbox (44.50333pt too wide) in paragraph at lines 3864--3865
+[][]  
+ []
+
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3873.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3874.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3875.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3876.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3877.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3878.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3879.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3880.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3881.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3882.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3883.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3884.
+
+(luatex.def)             Requested size: 22.76228pt x 22.75952pt.
+
+Overfull \hbox (4.90945pt too wide) in paragraph at lines 3869--3886
+[]  
+ []
+
+
+
+[51]
+Package svg Info: Last page of `./svg-inkscape/remo_svg-tex.pdf' is 1 on input 
+line 3922.
+ (./svg-inkscape/remo_svg-tex.pdf_tex
+File: ./svg-inkscape/remo_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/remo_svg-tex.pdf, page 1>
+Package luatex.def Info: ./svg-inkscape/remo_svg-tex.pdf , page1 used on input 
+line 56.
+(luatex.def)             Requested size: 11.61935pt x 13.1388pt.
+)
+Package svg Info: Last page of `./svg-inkscape/gremio_svg-tex.pdf' is 1 on inpu
+t line 3922.
+
+(./svg-inkscape/gremio_svg-tex.pdf_tex
+File: ./svg-inkscape/gremio_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/gremio_svg-tex.pdf, page 1>
+Package luatex.def Info: ./svg-inkscape/gremio_svg-tex.pdf , page1 used on inpu
+t line 56.
+(luatex.def)             Requested size: 13.13995pt x 13.13866pt.
+)
+File: ../assets/pitch/pitch.png Graphic file (type png)
+<use ../assets/pitch/pitch.png>
+Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 3929.
+(luatex.def)             Requested size: 256.0748pt x 384.09811pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3931.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3932.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3933.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3934.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3935.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3936.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3937.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3938.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3939.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3940.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3941.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+
+Overfull \hbox (44.50333pt too wide) in paragraph at lines 3943--3944
+[][]  
+ []
+
+
+
+[52]
+Package svg Info: Last page of `./svg-inkscape/gremio_svg-tex.pdf' is 1 on inpu
+t line 3975.
+ (./svg-inkscape/gremio_svg-tex.pdf_tex
+File: ./svg-inkscape/gremio_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/gremio_svg-tex.pdf, page 1>
+Package luatex.def Info: ./svg-inkscape/gremio_svg-tex.pdf , page1 used on inpu
+t line 56.
+(luatex.def)             Requested size: 13.13995pt x 13.13866pt.
+)
+Package svg Info: Last page of `./svg-inkscape/internacional_svg-tex.pdf' is 2 
+on input line 3975.
+
+(./svg-inkscape/internacional_svg-tex.pdf_tex
+File: ./svg-inkscape/internacional_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/internacional_svg-tex.pdf, page 1>
+Package luatex.def Info: ./svg-inkscape/internacional_svg-tex.pdf , page1 used 
+on input line 56.
+(luatex.def)             Requested size: 43.17783pt x 13.13768pt.
+File: ./svg-inkscape/internacional_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/internacional_svg-tex.pdf, page 2>
+Package luatex.def Info: ./svg-inkscape/internacional_svg-tex.pdf , page2 used 
+on input line 61.
+(luatex.def)             Requested size: 43.17783pt x 13.13768pt.
+)
+File: ../assets/pitch/pitch.png Graphic file (type png)
+<use ../assets/pitch/pitch.png>
+Package luatex.def Info: ../assets/pitch/pitch.png  used on input line 3982.
+(luatex.def)             Requested size: 256.0748pt x 384.09811pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3984.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3985.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3986.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3987.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3988.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3989.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3990.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3991.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3992.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3993.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+File: ../assets/camisa/costas1.png Graphic file (type png)
+<use ../assets/camisa/costas1.png>
+Package luatex.def Info: ../assets/camisa/costas1.png  used on input line 3994.
+
+(luatex.def)             Requested size: 34.14322pt x 34.1393pt.
+
+Overfull \hbox (44.50333pt too wide) in paragraph at lines 3996--3997
+[][]  
+ []
+
+
+
+[53] (./lineup_report.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-Package rerunfilecheck Warning: File `lineup_report.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `lineup_report.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `lineup_report.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 )
 
 Here is how much of LuaTeX's memory you used:
- 27717 strings out of 475512
+ 28069 strings out of 475512
  100000,1373583 words of node,token memory allocated
  448 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 5 attribute, 55 glue_spec,
  5 attribute_list, 2 write nodes
    avail lists: 2:2362,3:913,4:40,5:285,6:325,7:5003,8:1,9:1314,10:3,11:128
- 46243 multiletter control sequences out of 65536+600000
+ 46254 multiletter control sequences out of 65536+600000
  45 fonts using 3981183 bytes
  102i,14n,101p,427b,920s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/opentype/public/lm/lmroman9-regular.otf></usr/share/texm
 f/fonts/opentype/public/lm/lmroman10-regular.otf></usr/share/texmf/fonts/opentyp
 e/public/lm/lmroman10-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmroma
 n12-bold.otf>
-Output written on lineup_report.pdf (49 pages, 3945492 bytes).
+Output written on lineup_report.pdf (53 pages, 3957437 bytes).
 
-PDF statistics: 418 PDF objects out of 1000 (max. 8388607)
- 254 compressed objects within 3 object streams
- 123 named destinations out of 1000 (max. 131072)
+PDF statistics: 454 PDF objects out of 1000 (max. 8388607)
+ 276 compressed objects within 3 object streams
+ 135 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 
