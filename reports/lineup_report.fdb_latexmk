@@ -1,8 +1,8 @@
 # Fdb version 4
-["lualatex"] 1793106683.74429 "/app/reports/lineup_report.tex" "lineup_report.pdf" "lineup_report" 1793106747.9045 0
+["lualatex"] 1793367031.43292 "/app/reports/lineup_report.tex" "lineup_report.pdf" "lineup_report" 1793367087.34736 0
   "../assets/camisa/costas1.png" 1767360787.14513 239204 e269b314b5cab0e1cd8613d566b13e77 ""
   "../assets/pitch/pitch.png" 1767361083.47038 3421966 7324b40e7a7f8eefc3c21e0df2dc89a0 ""
-  "/app/reports/lineup_report.tex" 1793106682.70289 130472 aeefbb39244cf45099b9136fcba37596 ""
+  "/app/reports/lineup_report.tex" 1793367030.47269 134917 3acee604524e8f834f5c658947a3091f ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1136768653 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
@@ -198,10 +198,10 @@
   "/usr/share/texmf/fonts/opentype/public/lm/lmroman9-regular.otf" 1255129361 112680 8bab1cbacdfe2fe22ce627aaf5174f5d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1789404764 5306818 1fa401c76333135f70f9b590f03b90db ""
   "/var/lib/texmf/web2c/luahbtex/lualatex.fmt" 1789404779 5712659 ac02c578b3bb8344f4fdb3da7ab99adc ""
-  "lineup_report.aux" 1793106744.73498 252 abf9a4b767912e20126d887aeebae571 "lualatex"
+  "lineup_report.aux" 1793367085.12824 252 b29e8a1228f3bad19c5ed6174b50c351 "lualatex"
   "lineup_report.ind" 1789669503.0509 0 d41d8cd98f00b204e9800998ecf8427e "makeindex lineup_report.idx"
-  "lineup_report.out" 1793106689.63796 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
-  "lineup_report.tex" 1793106682.70289 130472 aeefbb39244cf45099b9136fcba37596 ""
+  "lineup_report.out" 1793367036.37294 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
+  "lineup_report.tex" 1793367030.47269 134917 3acee604524e8f834f5c658947a3091f ""
   "svg-inkscape/athletico_svg-tex.pdf" 1789669537.15403 2038 27b72a0dff86dc391d835c10a1a6e4c5 ""
   "svg-inkscape/athletico_svg-tex.pdf_tex" 1789669537.15996 2088 0ec36e4d337e3e7861375703c00dad79 ""
   "svg-inkscape/atletico_mg_svg-tex.pdf" 1789406596.14889 4305 4923ac3e6dbb2ee974fac1a76314a6b2 ""
@@ -257,8 +257,8 @@
   "lineup_report.out"
   "lineup_report.pdf"
   (rewritten before read)
-["makeindex lineup_report.idx"] 1789669502.89831 "lineup_report.idx" "lineup_report.ind" "lineup_report" 1793106747.89756 0
-  "lineup_report.idx" 1793106689.40751 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
+["makeindex lineup_report.idx"] 1789669502.89831 "lineup_report.idx" "lineup_report.ind" "lineup_report" 1793367087.3418 0
+  "lineup_report.idx" 1793367036.15764 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
   (generated)
   "lineup_report.ilg"
   "lineup_report.ind"

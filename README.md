@@ -12,7 +12,7 @@
 
 ## Running Bzzoiro
 
-`docker run --rm -v "${PWD}:/app" -w /app/scripts gremio-formacao python bzzoiro_matches.py`
+``
 
 `run_bzzoiro`
 
