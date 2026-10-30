@@ -96,6 +96,7 @@
       "var_observer": "Daniel Aloysius Soder"
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "grando", "x": 50, "y": 11},
         { "player": "marcosrocha", "x": 85, "y": 30},
@@ -143,6 +144,7 @@
       "var_observer": "Julio Cesar Rodrigues dos Santos"
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "volpi", "x": 50, "y": 11},
         { "player": "joaopedro", "x": 85, "y": 30},
@@ -194,6 +196,7 @@
       "var_observer": "José Javel Silveira"
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "grando", "x": 50, "y": 11},
         { "player": "marcosrocha", "x": 85, "y": 30},
@@ -243,6 +246,7 @@
       "var_observer": "Francisco de Paula dos Santos Silva Neto"
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "joaopedro", "x": 85, "y": 30},
@@ -298,6 +302,7 @@
       "var_observer": "Daniel Aloysius Soder"
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "marcosrocha", "x": 85, "y": 30},
@@ -353,6 +358,7 @@
       "quality_manager": "Bernardo Campos Martins"
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "joaopedro", "x": 85, "y": 30},
@@ -405,6 +411,7 @@
       "var_observer": "Altemir Hausmann"
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "grando", "x": 50, "y": 11},
         { "player": "marcosrocha", "x": 85, "y": 30},
@@ -465,6 +472,7 @@
       "quality_manager": "Maria Victoria Benetti Vargas"
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "joaopedro", "x": 85, "y": 30},
@@ -514,6 +522,7 @@
       "var_observer": "Leandro Pedro Vuaden"
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "marcosrocha", "x": 85, "y": 30},
@@ -568,6 +577,7 @@
       "quality_manager": "Nayara Pereira dos Santos"
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "joaopedro", "x": 85, "y": 30},
@@ -619,6 +629,7 @@
       "pitch_observer": "Altemir Hausmann"
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "joaopedro", "x": 85, "y": 30},
@@ -670,6 +681,7 @@
       "pitch_observer": "Daniel Aloysius Soder"
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "joaopedro", "x": 85, "y": 30},
@@ -725,6 +737,7 @@
       "quality_manager": "Nayara Pereira dos Santos"
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "pavon", "x": 85, "y": 30},
@@ -777,6 +790,7 @@
       "pitch_observer": "José Javel Silveira"
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "pavon", "x": 85, "y": 30},
@@ -829,6 +843,7 @@
       "pitch_observer": "Altemir Hausmann"
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "pavon", "x": 85, "y": 30},
@@ -885,6 +900,7 @@
 
       "comments": "O Grêmio amassou no primeiro tempo e fez o gol cedo. Carlos Vinícius perdeu pelo menos 2 gols feitos (talvez 3).",
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "pavon", "x": 85, "y": 30},
@@ -941,6 +957,7 @@
       "quality_manager": "Bernardo Campos Martins"
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "pavon", "x": 85, "y": 30},
@@ -998,6 +1015,7 @@
       "quality_manager": "Mikael Silva de Araujo"
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "pavon", "x": 85, "y": 30},
@@ -1055,6 +1073,7 @@
       "quality_manager": "Maria Victoria Benetti Vargas"
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "pavon", "x": 85, "y": 30},
@@ -1108,6 +1127,7 @@
       "quality_manager": "Celso Barbosa de Oliveira"
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "pavon", "x": 85, "y": 30},
@@ -1159,6 +1179,7 @@
       "quality_manager": "Carlos Henrique Tosta"
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "pavon", "x": 85, "y": 30},
@@ -1217,6 +1238,7 @@
       "quality_manager": ""
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "marcosrocha", "x": 85, "y": 30},
@@ -1268,6 +1290,7 @@
       "quality_manager": "Larissa Ramos Monteiro"
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "pavon", "x": 85, "y": 30},
@@ -1329,6 +1352,7 @@
       "quality_manager": ""
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "pavon", "x": 85, "y": 30},
@@ -1381,6 +1405,7 @@
       "quality_manager": ""
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "grando", "x": 85, "y": 30},
@@ -1432,6 +1457,7 @@
       "quality_manager": "Paulo Roberto da Rocha Camello"
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "pavon", "x": 85, "y": 30},
@@ -1479,6 +1505,7 @@
       "quality_manager": ""
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "pavon", "x": 85, "y": 30},
@@ -1540,6 +1567,7 @@
       "quality_manager": ""
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "pavon", "x": 85, "y": 30},
@@ -1587,6 +1615,7 @@
       "quality_manager": ""
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "pavon", "x": 85, "y": 30},
@@ -1647,6 +1676,7 @@
       "quality_manager": ""
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "pavon", "x": 85, "y": 40},
@@ -1698,6 +1728,7 @@
       "quality_manager": "Joel Tolentino Damata Junior"
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "pavon", "x": 85, "y": 40},
@@ -1750,6 +1781,7 @@
       "quality_manager": "Alcides Zawaski Pazetto"
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "pavon", "x": 85, "y": 30},
@@ -1801,6 +1833,7 @@
       "quality_manager": ""
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "marcosrocha", "x": 85, "y": 40},
@@ -1863,6 +1896,7 @@
       "quality_manager": ""
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "pavon", "x": 85, "y": 30},
@@ -1918,6 +1952,7 @@
       "quality_manager": "Maria Victoria Benetti Vargas"
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "pavon", "x": 85, "y": 30},
@@ -1972,6 +2007,7 @@
       "quality_manager": ""
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "pavon", "x": 85, "y": 30},
@@ -2026,6 +2062,7 @@
       "quality_manager": "Larissa Ramos Monteiro"
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "thiagobeltrame", "x": 50, "y": 11},
         { "player": "marcosrocha", "x": 85, "y": 30},
@@ -2076,6 +2113,7 @@
       "quality_manager": "Maria Victoria Benetti Vargas"
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "pavon", "x": 85, "y": 30},
@@ -2126,6 +2164,7 @@
       "quality_manager": "Bernardo Campos Martins"
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "grando", "x": 50, "y": 11},
         { "player": "pavon", "x": 85, "y": 30},
@@ -2178,6 +2217,7 @@
       "quality_manager": ""
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "diegocaito", "x": 85, "y": 30},
@@ -2229,6 +2269,7 @@
       "quality_manager": ""
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "grando", "x": 50, "y": 11},
         { "player": "grando", "x": 85, "y": 30},
@@ -2279,6 +2320,7 @@
       "quality_manager": "Mikael Silva de Araujo"
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "grando", "x": 50, "y": 11},
         { "player": "grando", "x": 85, "y": 30},
@@ -2329,6 +2371,7 @@
       "quality_manager": "Bernardo Campos Martins"
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "grando", "x": 50, "y": 11},
         { "player": "grando", "x": 85, "y": 30},
@@ -2379,6 +2422,7 @@
       "quality_manager": "Lucio Ipojucan Ribeiro da Silva de Mattos"
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "diegocaito", "x": 85, "y": 30},
@@ -2430,6 +2474,7 @@
       "quality_manager": ""
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "diegocaito", "x": 85, "y": 30},
@@ -2480,6 +2525,7 @@
       "quality_manager": "Tatiana Pacheco Lima Guedes"
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "pavon", "x": 85, "y": 30},
@@ -2531,6 +2577,7 @@
       "quality_manager": ""
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "diegocaito", "x": 85, "y": 30},
@@ -2581,6 +2628,7 @@
       "quality_manager": "Maria Victoria Benetti Vargas"
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "diegocaito", "x": 85, "y": 30},
@@ -2633,6 +2681,7 @@
       "quality_manager": "Arnaldo Jasson Araujo Santos"
       },
 
+      "coach": "luiscastro",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "diegocaito", "x": 85, "y": 30},
@@ -2687,6 +2736,7 @@
       "quality_manager": "Mikael Silva de Araujo"
       },
 
+      "coach": "felipao",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "diegocaito", "x": 85, "y": 30},
@@ -2737,6 +2787,7 @@
       "quality_manager": "Tatiana Pacheco Lima Guedes"
       },
 
+      "coach": "renato",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "joaopedro", "x": 85, "y": 35},
@@ -2788,6 +2839,7 @@
       "quality_manager": ""
       },
 
+      "coach": "renato",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "joaopedro", "x": 85, "y": 30},
@@ -2839,6 +2891,7 @@
       "quality_manager": ""
       },
 
+      "coach": "renato",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "diegocaito", "x": 85, "y": 30},
@@ -2894,6 +2947,7 @@
       "quality_manager": "Tatiana Pacheco Lima Guedes"
       },
 
+      "coach": "renato",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "diegocaito", "x": 85, "y": 30},
@@ -2944,6 +2998,7 @@
       "quality_manager": "Paulo Roberto da Rocha Camello"
       },
 
+      "coach": "renato",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "diegocaito", "x": 85, "y": 40},
@@ -2995,6 +3050,7 @@
       "quality_manager": "Nayara Pereira dos Santos"
       },
 
+      "coach": "renato",
       "lineup": [
         { "player": "weverton", "x": 50, "y": 11},
         { "player": "joaopedro", "x": 85, "y": 40},
@@ -3046,6 +3102,7 @@
       "quality_manager": ""
       },
 
+      "coach": "renato",
       "lineup": [
         { "player": "grando", "x": 50, "y": 11},
         { "player": "grando", "x": 85, "y": 30},
@@ -3097,6 +3154,7 @@
       "quality_manager": ""
       },
 
+      "coach": "renato",
       "lineup": [
         { "player": "grando", "x": 50, "y": 11},
         { "player": "grando", "x": 85, "y": 30},
@@ -3148,6 +3206,7 @@
       "quality_manager": ""
       },
 
+      "coach": "renato",
       "lineup": [
         { "player": "grando", "x": 50, "y": 11},
         { "player": "grando", "x": 85, "y": 30},
@@ -3199,6 +3258,7 @@
       "quality_manager": ""
       },
 
+      "coach": "renato",
       "lineup": [
         { "player": "grando", "x": 50, "y": 11},
         { "player": "grando", "x": 85, "y": 30},
@@ -3251,6 +3311,7 @@
       "quality_manager": ""
       },
 
+      "coach": "renato",
       "lineup": [
         { "player": "grando", "x": 50, "y": 11},
         { "player": "grando", "x": 85, "y": 30},
