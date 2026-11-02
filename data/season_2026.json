@@ -2817,9 +2817,9 @@
       "stadium": "",
       "goals_for": null,
       "goals_against": null,
-      "publico pagante": null,
-      "publico_total": null,
-      "renda": null,
+      "publico pagante": 13927,
+      "publico_total": 17944,
+      "renda": 537800,
 
       "goals": [
         
@@ -2869,9 +2869,9 @@
       "stadium": "",
       "goals_for": null,
       "goals_against": null,
-      "publico pagante": null,
-      "publico_total": null,
-      "renda": null,
+      "publico pagante": 53134,
+      "publico_total": 53528,
+      "renda": 4111606,
 
       "goals": [
         
@@ -2921,9 +2921,9 @@
       "stadium": "",
       "goals_for": null,
       "goals_against": null,
-      "publico pagante": null,
-      "publico_total": null,
-      "renda": null,
+      "publico pagante": 31256,
+      "publico_total": 31546,
+      "renda": 1645566,
 
       "goals": [
         { "team": "gremio", "player": "carlosvinicius", "half": 1, "minute": 16},
@@ -2977,9 +2977,9 @@
       "stadium": "",
       "goals_for": null,
       "goals_against": null,
-      "publico pagante": null,
-      "publico_total": null,
-      "renda": null,
+      "publico pagante": 30759,
+      "publico_total": 30882,
+      "renda": 1253309,
 
       "goals": [
         { "team": "gremio", "player": "braithwaite", "half": 2, "minute": 46}
@@ -3028,9 +3028,9 @@
       "stadium": "",
       "goals_for": null,
       "goals_against": null,
-      "publico pagante": null,
-      "publico_total": null,
-      "renda": null,
+      "publico pagante": 34769,
+      "publico_total": 35025,
+      "renda": 1527423,
 
       "goals": [
         { "team": "gremio", "player": "marlon", "half": 1, "minute": 39},

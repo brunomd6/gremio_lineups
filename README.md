@@ -12,7 +12,7 @@
 
 ## Running Bzzoiro
 
-``
+`docker run --rm -v "${PWD}:/app" -w /app/scripts gremio-formacao python bzzoiro_matches.py`
 
 `run_bzzoiro`
 
@@ -73,7 +73,12 @@ sphinx
 - https://ge.globo.com/gato-mestre/noticia/2026/08/31/veja-os-publicos-da-25a-rodada-do-campeonato-brasileiro.ghtml
 - https://ge.globo.com/gato-mestre/noticia/2026/09/06/remo-0-x-1-flamengo-tem-o-maior-publico-da-26a-rodada-do-brasileirao-veja-a-lista.ghtml
 - https://ge.globo.com/gato-mestre/noticia/2026/09/13/flamengo-x-corinthians-tem-o-maior-publico-da-27a-rodada-do-brasileirao-veja-a-lista.ghtml
-- https://ge.globo.com/gato-mestre/noticia/2026/09/20/flamengo-2-x-1-bragantino-tem-o-maior-publico-da-28a-rodada-do-brasileirao-veja-a-lista.ghtml
+- https://ge.globo.com/gato-mestre/noticia/2026/09/20/flamengo-2-x-1-bragantino-tem-o-maior-publico-da-28a-rodada-do-brasileirao-veja-a-lista.ghtml'
+- https://ge.globo.com/gato-mestre/noticia/2026/10/08/internacional-2-x-1-corinthians-tem-o-maior-publico-da-29a-rodada-do-brasileiro-veja-a-lista.ghtml
+- https://ge.globo.com/gato-mestre/noticia/2026/10/11/flamengo-1-x-0-fluminense-tem-o-maior-publico-da-30a-rodada-do-brasileiro-veja-a-lista.ghtml
+- https://ge.globo.com/gato-mestre/noticia/2026/10/18/bahia-0-x-3-flamengo-tem-o-maior-publico-da-31a-rodada-do-brasileiro-veja-a-lista.ghtml
+- https://ge.globo.com/gato-mestre/noticia/2026/10/26/flamengo-x-atletico-mg-tem-o-maior-publico-da-32a-rodada-do-brasileiro-veja-a-lista.ghtml
+- https://ge.globo.com/gato-mestre/noticia/2026/10/30/corinthians-2-x-0-mirassol-tem-o-maior-publico-da-33a-rodada-do-brasileiro-veja-a-lista.ghtml
 
 ## Sul-Americana
 
