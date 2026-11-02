@@ -3068,6 +3068,58 @@
       "bench": ["grando", "wagnerleonardo", "krovinovic", "tete", "marcosrocha", "dodi", "braithwaite", "matheusnascimento", "caiopaulista", "joaoborne", "zortea", "pedrogabriel"]
     },
 
+        {
+      "id": "2026-11-01-copa-do-brasil-ida-atletico-mg",
+      "bzzoiro_id": ,
+      "date": "2026-11-01",
+      "hour": "18:30",
+      "competition": "Copa do Brasil",
+      "round": null,
+      "opponent": "Confiança",
+      "formation": "",
+      "stadium": "",
+      "goals_for": null,
+      "goals_against": null,
+      "publico pagante": null,
+      "publico_total": null,
+      "renda": null,
+
+      "goals": [
+        { "team": "gremio", "player": "carlosvinicius", "half": 1, "minute": 10},
+        { "team": "gremio", "player": "noriega", "half": 2, "minute": 1}
+      ],
+
+      "officials": {
+      "referee": "Davi De Oliveira Lacerda",
+      "assistant1": "Rodrigo Figueiredo Henrique Correa",
+      "assistant2": "Bruno Boschilia",
+      "quarto": "Fernando Antonio Mendes de Salles Nascimento Filho",
+      "assessor": "Sergio Cristiano Nascimento",
+      "var": "Pablo Ramon Golcalves Pinheiro",
+      "avar": "Flavio Gomes Barroca",
+      "avar2": "Gilberto Rodrigues Castro Junior",
+      "var_observer": "Ednilson Corona",
+      "quality_manager": "Mikael Silva de Araujo"
+      },
+
+      "coach": "renato",
+      "lineup": [
+        { "player": "weverton", "x": 50, "y": 11},
+        { "player": "joaopedro", "x": 85, "y": 40},
+        { "player": "gustavomartins", "x": 68, "y": 35},
+        { "player": "balbuena", "x": 50, "y": 30},
+        { "player": "wallace","x": 32, "y": 35},
+        { "player": "marlon", "x": 15, "y": 40},
+        { "player": "villasanti", "x": 65, "y": 52},
+        { "player": "noriega", "x": 35, "y": 52},
+        { "player": "enamorado", "x": 80, "y": 70},
+        { "player": "carlosvinicius", "x": 50, "y": 82},
+        { "player": "amuzu", "x": 20, "y": 70}
+      ],
+
+      "bench": ["grando", "wagnerleonardo", "kannemann", "krovinovic", "tete", "marcosrocha", "dodi", "braithwaite", "matheusnascimento", "caiopaulista", "zortea", "pedrogabriel"]
+    },
+
     {
       "id": "",
       "bzzoiro_id": 7328,
